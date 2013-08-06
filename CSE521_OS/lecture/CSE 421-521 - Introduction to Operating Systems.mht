@@ -1,0 +1,2998 @@
+From: "Saved by Windows Internet Explorer 9"
+Subject: CSE 421/521 - Introduction to Operating Systems
+Date: Fri, 28 Dec 2012 11:39:47 +0800
+MIME-Version: 1.0
+Content-Type: text/html;
+	charset="Windows-1252"
+Content-Transfer-Encoding: quoted-printable
+Content-Location: http://www.cse.buffalo.edu/faculty/tkosar/cse421-521/
+X-MimeOLE: Produced By Microsoft MimeOLE V6.1.7601.17609
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<HTML xmlns=3D"http://www.w3.org/TR/REC-html40" xmlns:v =3D=20
+"urn:schemas-microsoft-com:vml" xmlns:o =3D=20
+"urn:schemas-microsoft-com:office:office" xmlns:w =3D=20
+"urn:schemas-microsoft-com:office:word" xmlns:m =3D=20
+"http://schemas.microsoft.com/office/2004/12/omml" xmlns:css =3D=20
+"http://macVmlSchemaUri"><HEAD><TITLE>CSE 421/521 - Introduction to =
+Operating Systems</TITLE>
+<META name=3DTitle content=3D"CSE 421/521 - Introduction to Operating =
+Systems">
+<META name=3DKeywords content=3D"">
+<META content=3D"text/html; charset=3Dwindows-1252" =
+http-equiv=3DContent-Type>
+<META name=3DProgId content=3DWord.Document>
+<META name=3DGENERATOR content=3D"MSHTML 9.00.8112.16457">
+<META name=3DOriginator content=3D"Microsoft Word 14"><LINK =
+rel=3DFile-List=20
+href=3D"index_files/filelist.xml"><!--[if gte mso 9]><xml>=0A=
+ <o:DocumentProperties>=0A=
+  <o:Author>Tevfik Kosar</o:Author>=0A=
+  <o:Template>Normal</o:Template>=0A=
+  <o:LastAuthor>Tevfik Kosar</o:LastAuthor>=0A=
+  <o:Revision>53</o:Revision>=0A=
+  <o:TotalTime>203</o:TotalTime>=0A=
+  <o:Created>2012-08-27T05:43:00Z</o:Created>=0A=
+  <o:LastSaved>2012-09-25T01:47:00Z</o:LastSaved>=0A=
+  <o:Pages>2</o:Pages>=0A=
+  <o:Words>753</o:Words>=0A=
+  <o:Characters>4295</o:Characters>=0A=
+  <o:Company>LSU</o:Company>=0A=
+  <o:Lines>35</o:Lines>=0A=
+  <o:Paragraphs>10</o:Paragraphs>=0A=
+  <o:CharactersWithSpaces>5038</o:CharactersWithSpaces>=0A=
+  <o:Version>14.0</o:Version>=0A=
+ </o:DocumentProperties>=0A=
+ <o:OfficeDocumentSettings>=0A=
+  <o:AllowPNG/>=0A=
+ </o:OfficeDocumentSettings>=0A=
+</xml><![endif]--><LINK=20
+rel=3DthemeData href=3D"index_files/themedata.xml"><!--[if gte mso =
+9]><xml>=0A=
+ <w:WordDocument>=0A=
+  <w:Zoom>150</w:Zoom>=0A=
+  <w:SpellingState>Clean</w:SpellingState>=0A=
+  <w:GrammarState>Clean</w:GrammarState>=0A=
+  <w:TrackMoves>false</w:TrackMoves>=0A=
+  <w:TrackFormatting/>=0A=
+  =
+<w:DisplayHorizontalDrawingGridEvery>0</w:DisplayHorizontalDrawingGridEve=
+ry>=0A=
+  =
+<w:DisplayVerticalDrawingGridEvery>0</w:DisplayVerticalDrawingGridEvery>=0A=
+  <w:UseMarginsForDrawingGridOrigin/>=0A=
+  <w:ValidateAgainstSchemas/>=0A=
+  <w:SaveIfXMLInvalid>false</w:SaveIfXMLInvalid>=0A=
+  <w:IgnoreMixedContent>false</w:IgnoreMixedContent>=0A=
+  <w:AlwaysShowPlaceholderText>false</w:AlwaysShowPlaceholderText>=0A=
+  <w:DoNotPromoteQF/>=0A=
+  <w:LidThemeOther>EN-US</w:LidThemeOther>=0A=
+  <w:LidThemeAsian>JA</w:LidThemeAsian>=0A=
+  <w:LidThemeComplexScript>X-NONE</w:LidThemeComplexScript>=0A=
+  <w:Compatibility>=0A=
+   <w:BreakWrappedTables/>=0A=
+   <w:SnapToGridInCell/>=0A=
+   <w:WrapTextWithPunct/>=0A=
+   <w:UseAsianBreakRules/>=0A=
+   <w:DontGrowAutofit/>=0A=
+   <w:DontUseIndentAsNumberingTabStop/>=0A=
+   <w:FELineBreak11/>=0A=
+   <w:WW11IndentRules/>=0A=
+   <w:DontAutofitConstrainedTables/>=0A=
+   <w:AutofitLikeWW11/>=0A=
+   <w:HangulWidthLikeWW11/>=0A=
+   <w:UseNormalStyleForList/>=0A=
+   <w:SplitPgBreakAndParaMark/>=0A=
+   <w:DontVertAlignCellWithSp/>=0A=
+   <w:DontBreakConstrainedForcedTables/>=0A=
+   <w:DontVertAlignInTxbx/>=0A=
+   <w:Word11KerningPairs/>=0A=
+   <w:CachedColBalance/>=0A=
+  </w:Compatibility>=0A=
+  <m:mathPr>=0A=
+   <m:mathFont m:val=3D"Cambria Math"/>=0A=
+   <m:brkBin m:val=3D"before"/>=0A=
+   <m:brkBinSub m:val=3D"&#45;-"/>=0A=
+   <m:smallFrac m:val=3D"off"/>=0A=
+   <m:dispDef/>=0A=
+   <m:lMargin m:val=3D"0"/>=0A=
+   <m:rMargin m:val=3D"0"/>=0A=
+   <m:defJc m:val=3D"centerGroup"/>=0A=
+   <m:wrapIndent m:val=3D"1440"/>=0A=
+   <m:intLim m:val=3D"subSup"/>=0A=
+   <m:naryLim m:val=3D"undOvr"/>=0A=
+  </m:mathPr></w:WordDocument>=0A=
+</xml><![endif]--><!--[if gte mso 9]><xml>=0A=
+ <w:LatentStyles DefLockedState=3D"false" DefUnhideWhenUsed=3D"true"=0A=
+  DefSemiHidden=3D"true" DefQFormat=3D"false" DefPriority=3D"99"=0A=
+  LatentStyleCount=3D"276">=0A=
+  <w:LsdException Locked=3D"false" Priority=3D"0" SemiHidden=3D"false"=0A=
+   UnhideWhenUsed=3D"false" QFormat=3D"true" Name=3D"Normal"/>=0A=
+  <w:LsdException Locked=3D"false" Priority=3D"9" SemiHidden=3D"false"=0A=
+   UnhideWhenUsed=3D"false" QFormat=3D"true" Name=3D"heading 1"/>=0A=
+  <w:LsdException Locked=3D"false" Priority=3D"9" QFormat=3D"true" =
+Name=3D"heading 2"/>=0A=
+  <w:LsdException Locked=3D"false" Priority=3D"9" QFormat=3D"true" =
+Name=3D"heading 3"/>=0A=
+  <w:LsdException Locked=3D"false" Priority=3D"9" QFormat=3D"true" =
+Name=3D"heading 4"/>=0A=
+  <w:LsdException Locked=3D"false" Priority=3D"9" QFormat=3D"true" =
+Name=3D"heading 5"/>=0A=
+  <w:LsdException Locked=3D"false" Priority=3D"9" QFormat=3D"true" =
+Name=3D"heading 6"/>=0A=
+  <w:LsdException Locked=3D"false" Priority=3D"9" QFormat=3D"true" =
+Name=3D"heading 7"/>=0A=
+  <w:LsdException Locked=3D"false" Priority=3D"9" QFormat=3D"true" =
+Name=3D"heading 8"/>=0A=
+  <w:LsdException Locked=3D"false" Priority=3D"9" QFormat=3D"true" =
+Name=3D"heading 9"/>=0A=
+  <w:LsdException Locked=3D"false" Priority=3D"39" Name=3D"toc 1"/>=0A=
+  <w:LsdException Locked=3D"false" Priority=3D"39" Name=3D"toc 2"/>=0A=
+  <w:LsdException Locked=3D"false" Priority=3D"39" Name=3D"toc 3"/>=0A=
+  <w:LsdException Locked=3D"false" Priority=3D"39" Name=3D"toc 4"/>=0A=
+  <w:LsdException Locked=3D"false" Priority=3D"39" Name=3D"toc 5"/>=0A=
+  <w:LsdException Locked=3D"false" Priority=3D"39" Name=3D"toc 6"/>=0A=
+  <w:LsdException Locked=3D"false" Priority=3D"39" Name=3D"toc 7"/>=0A=
+  <w:LsdException Locked=3D"false" Priority=3D"39" Name=3D"toc 8"/>=0A=
+  <w:LsdException Locked=3D"false" Priority=3D"39" Name=3D"toc 9"/>=0A=
+  <w:LsdException Locked=3D"false" Priority=3D"35" QFormat=3D"true" =
+Name=3D"caption"/>=0A=
+  <w:LsdException Locked=3D"false" Priority=3D"10" SemiHidden=3D"false"=0A=
+   UnhideWhenUsed=3D"false" QFormat=3D"true" Name=3D"Title"/>=0A=
+  <w:LsdException Locked=3D"false" Priority=3D"1" Name=3D"Default =
+Paragraph Font"/>=0A=
+  <w:LsdException Locked=3D"false" Priority=3D"11" SemiHidden=3D"false"=0A=
+   UnhideWhenUsed=3D"false" QFormat=3D"true" Name=3D"Subtitle"/>=0A=
+  <w:LsdException Locked=3D"false" Priority=3D"22" SemiHidden=3D"false"=0A=
+   UnhideWhenUsed=3D"false" QFormat=3D"true" Name=3D"Strong"/>=0A=
+  <w:LsdException Locked=3D"false" Priority=3D"20" SemiHidden=3D"false"=0A=
+   UnhideWhenUsed=3D"false" QFormat=3D"true" Name=3D"Emphasis"/>=0A=
+  <w:LsdException Locked=3D"false" Priority=3D"59" SemiHidden=3D"false"=0A=
+   UnhideWhenUsed=3D"false" Name=3D"Table Grid"/>=0A=
+  <w:LsdException Locked=3D"false" UnhideWhenUsed=3D"false" =
+Name=3D"Placeholder Text"/>=0A=
+  <w:LsdException Locked=3D"false" Priority=3D"1" SemiHidden=3D"false"=0A=
+   UnhideWhenUsed=3D"false" QFormat=3D"true" Name=3D"No Spacing"/>=0A=
+  <w:LsdException Locked=3D"false" Priority=3D"60" SemiHidden=3D"false"=0A=
+   UnhideWhenUsed=3D"false" Name=3D"Light Shading"/>=0A=
+  <w:LsdException Locked=3D"false" Priority=3D"61" SemiHidden=3D"false"=0A=
+   UnhideWhenUsed=3D"false" Name=3D"Light List"/>=0A=
+  <w:LsdException Locked=3D"false" Priority=3D"62" SemiHidden=3D"false"=0A=
+   UnhideWhenUsed=3D"false" Name=3D"Light Grid"/>=0A=
+  <w:LsdException Locked=3D"false" Priority=3D"63" SemiHidden=3D"false"=0A=
+   UnhideWhenUsed=3D"false" Name=3D"Medium Shading 1"/>=0A=
+  <w:LsdException Locked=3D"false" Priority=3D"64" SemiHidden=3D"false"=0A=
+   UnhideWhenUsed=3D"false" Name=3D"Medium Shading 2"/>=0A=
+  <w:LsdException Locked=3D"false" Priority=3D"65" SemiHidden=3D"false"=0A=
+   UnhideWhenUsed=3D"false" Name=3D"Medium List 1"/>=0A=
+  <w:LsdException Locked=3D"false" Priority=3D"66" SemiHidden=3D"false"=0A=
+   UnhideWhenUsed=3D"false" Name=3D"Medium List 2"/>=0A=
+  <w:LsdException Locked=3D"false" Priority=3D"67" SemiHidden=3D"false"=0A=
+   UnhideWhenUsed=3D"false" Name=3D"Medium Grid 1"/>=0A=
+  <w:LsdException Locked=3D"false" Priority=3D"68" SemiHidden=3D"false"=0A=
+   UnhideWhenUsed=3D"false" Name=3D"Medium Grid 2"/>=0A=
+  <w:LsdException Locked=3D"false" Priority=3D"69" SemiHidden=3D"false"=0A=
+   UnhideWhenUsed=3D"false" Name=3D"Medium Grid 3"/>=0A=
+  <w:LsdException Locked=3D"false" Priority=3D"70" SemiHidden=3D"false"=0A=
+   UnhideWhenUsed=3D"false" Name=3D"Dark List"/>=0A=
+  <w:LsdException Locked=3D"false" Priority=3D"71" SemiHidden=3D"false"=0A=
+   UnhideWhenUsed=3D"false" Name=3D"Colorful Shading"/>=0A=
+  <w:LsdException Locked=3D"false" Priority=3D"72" SemiHidden=3D"false"=0A=
+   UnhideWhenUsed=3D"false" Name=3D"Colorful List"/>=0A=
+  <w:LsdException Locked=3D"false" Priority=3D"73" SemiHidden=3D"false"=0A=
+   UnhideWhenUsed=3D"false" Name=3D"Colorful Grid"/>=0A=
+  <w:LsdException Locked=3D"false" Priority=3D"60" SemiHidden=3D"false"=0A=
+   UnhideWhenUsed=3D"false" Name=3D"Light Shading Accent 1"/>=0A=
+  <w:LsdException Locked=3D"false" Priority=3D"61" SemiHidden=3D"false"=0A=
+   UnhideWhenUsed=3D"false" Name=3D"Light List Accent 1"/>=0A=
+  <w:LsdException Locked=3D"false" Priority=3D"62" SemiHidden=3D"false"=0A=
+   UnhideWhenUsed=3D"false" Name=3D"Light Grid Accent 1"/>=0A=
+  <w:LsdException Locked=3D"false" Priority=3D"63" SemiHidden=3D"false"=0A=
+   UnhideWhenUsed=3D"false" Name=3D"Medium Shading 1 Accent 1"/>=0A=
+  <w:LsdException Locked=3D"false" Priority=3D"64" SemiHidden=3D"false"=0A=
+   UnhideWhenUsed=3D"false" Name=3D"Medium Shading 2 Accent 1"/>=0A=
+  <w:LsdException Locked=3D"false" Priority=3D"65" SemiHidden=3D"false"=0A=
+   UnhideWhenUsed=3D"false" Name=3D"Medium List 1 Accent 1"/>=0A=
+  <w:LsdException Locked=3D"false" UnhideWhenUsed=3D"false" =
+Name=3D"Revision"/>=0A=
+  <w:LsdException Locked=3D"false" Priority=3D"34" SemiHidden=3D"false"=0A=
+   UnhideWhenUsed=3D"false" QFormat=3D"true" Name=3D"List Paragraph"/>=0A=
+  <w:LsdException Locked=3D"false" Priority=3D"29" SemiHidden=3D"false"=0A=
+   UnhideWhenUsed=3D"false" QFormat=3D"true" Name=3D"Quote"/>=0A=
+  <w:LsdException Locked=3D"false" Priority=3D"30" SemiHidden=3D"false"=0A=
+   UnhideWhenUsed=3D"false" QFormat=3D"true" Name=3D"Intense Quote"/>=0A=
+  <w:LsdException Locked=3D"false" Priority=3D"66" SemiHidden=3D"false"=0A=
+   UnhideWhenUsed=3D"false" Name=3D"Medium List 2 Accent 1"/>=0A=
+  <w:LsdException Locked=3D"false" Priority=3D"67" SemiHidden=3D"false"=0A=
+   UnhideWhenUsed=3D"false" Name=3D"Medium Grid 1 Accent 1"/>=0A=
+  <w:LsdException Locked=3D"false" Priority=3D"68" SemiHidden=3D"false"=0A=
+   UnhideWhenUsed=3D"false" Name=3D"Medium Grid 2 Accent 1"/>=0A=
+  <w:LsdException Locked=3D"false" Priority=3D"69" SemiHidden=3D"false"=0A=
+   UnhideWhenUsed=3D"false" Name=3D"Medium Grid 3 Accent 1"/>=0A=
+  <w:LsdException Locked=3D"false" Priority=3D"70" SemiHidden=3D"false"=0A=
+   UnhideWhenUsed=3D"false" Name=3D"Dark List Accent 1"/>=0A=
+  <w:LsdException Locked=3D"false" Priority=3D"71" SemiHidden=3D"false"=0A=
+   UnhideWhenUsed=3D"false" Name=3D"Colorful Shading Accent 1"/>=0A=
+  <w:LsdException Locked=3D"false" Priority=3D"72" SemiHidden=3D"false"=0A=
+   UnhideWhenUsed=3D"false" Name=3D"Colorful List Accent 1"/>=0A=
+  <w:LsdException Locked=3D"false" Priority=3D"73" SemiHidden=3D"false"=0A=
+   UnhideWhenUsed=3D"false" Name=3D"Colorful Grid Accent 1"/>=0A=
+  <w:LsdException Locked=3D"false" Priority=3D"60" SemiHidden=3D"false"=0A=
+   UnhideWhenUsed=3D"false" Name=3D"Light Shading Accent 2"/>=0A=
+  <w:LsdException Locked=3D"false" Priority=3D"61" SemiHidden=3D"false"=0A=
+   UnhideWhenUsed=3D"false" Name=3D"Light List Accent 2"/>=0A=
+  <w:LsdException Locked=3D"false" Priority=3D"62" SemiHidden=3D"false"=0A=
+   UnhideWhenUsed=3D"false" Name=3D"Light Grid Accent 2"/>=0A=
+  <w:LsdException Locked=3D"false" Priority=3D"63" SemiHidden=3D"false"=0A=
+   UnhideWhenUsed=3D"false" Name=3D"Medium Shading 1 Accent 2"/>=0A=
+  <w:LsdException Locked=3D"false" Priority=3D"64" SemiHidden=3D"false"=0A=
+   UnhideWhenUsed=3D"false" Name=3D"Medium Shading 2 Accent 2"/>=0A=
+  <w:LsdException Locked=3D"false" Priority=3D"65" SemiHidden=3D"false"=0A=
+   UnhideWhenUsed=3D"false" Name=3D"Medium List 1 Accent 2"/>=0A=
+  <w:LsdException Locked=3D"false" Priority=3D"66" SemiHidden=3D"false"=0A=
+   UnhideWhenUsed=3D"false" Name=3D"Medium List 2 Accent 2"/>=0A=
+  <w:LsdException Locked=3D"false" Priority=3D"67" SemiHidden=3D"false"=0A=
+   UnhideWhenUsed=3D"false" Name=3D"Medium Grid 1 Accent 2"/>=0A=
+  <w:LsdException Locked=3D"false" Priority=3D"68" SemiHidden=3D"false"=0A=
+   UnhideWhenUsed=3D"false" Name=3D"Medium Grid 2 Accent 2"/>=0A=
+  <w:LsdException Locked=3D"false" Priority=3D"69" SemiHidden=3D"false"=0A=
+   UnhideWhenUsed=3D"false" Name=3D"Medium Grid 3 Accent 2"/>=0A=
+  <w:LsdException Locked=3D"false" Priority=3D"70" SemiHidden=3D"false"=0A=
+   UnhideWhenUsed=3D"false" Name=3D"Dark List Accent 2"/>=0A=
+  <w:LsdException Locked=3D"false" Priority=3D"71" SemiHidden=3D"false"=0A=
+   UnhideWhenUsed=3D"false" Name=3D"Colorful Shading Accent 2"/>=0A=
+  <w:LsdException Locked=3D"false" Priority=3D"72" SemiHidden=3D"false"=0A=
+   UnhideWhenUsed=3D"false" Name=3D"Colorful List Accent 2"/>=0A=
+  <w:LsdException Locked=3D"false" Priority=3D"73" SemiHidden=3D"false"=0A=
+   UnhideWhenUsed=3D"false" Name=3D"Colorful Grid Accent 2"/>=0A=
+  <w:LsdException Locked=3D"false" Priority=3D"60" SemiHidden=3D"false"=0A=
+   UnhideWhenUsed=3D"false" Name=3D"Light Shading Accent 3"/>=0A=
+  <w:LsdException Locked=3D"false" Priority=3D"61" SemiHidden=3D"false"=0A=
+   UnhideWhenUsed=3D"false" Name=3D"Light List Accent 3"/>=0A=
+  <w:LsdException Locked=3D"false" Priority=3D"62" SemiHidden=3D"false"=0A=
+   UnhideWhenUsed=3D"false" Name=3D"Light Grid Accent 3"/>=0A=
+  <w:LsdException Locked=3D"false" Priority=3D"63" SemiHidden=3D"false"=0A=
+   UnhideWhenUsed=3D"false" Name=3D"Medium Shading 1 Accent 3"/>=0A=
+  <w:LsdException Locked=3D"false" Priority=3D"64" SemiHidden=3D"false"=0A=
+   UnhideWhenUsed=3D"false" Name=3D"Medium Shading 2 Accent 3"/>=0A=
+  <w:LsdException Locked=3D"false" Priority=3D"65" SemiHidden=3D"false"=0A=
+   UnhideWhenUsed=3D"false" Name=3D"Medium List 1 Accent 3"/>=0A=
+  <w:LsdException Locked=3D"false" Priority=3D"66" SemiHidden=3D"false"=0A=
+   UnhideWhenUsed=3D"false" Name=3D"Medium List 2 Accent 3"/>=0A=
+  <w:LsdException Locked=3D"false" Priority=3D"67" SemiHidden=3D"false"=0A=
+   UnhideWhenUsed=3D"false" Name=3D"Medium Grid 1 Accent 3"/>=0A=
+  <w:LsdException Locked=3D"false" Priority=3D"68" SemiHidden=3D"false"=0A=
+   UnhideWhenUsed=3D"false" Name=3D"Medium Grid 2 Accent 3"/>=0A=
+  <w:LsdException Locked=3D"false" Priority=3D"69" SemiHidden=3D"false"=0A=
+   UnhideWhenUsed=3D"false" Name=3D"Medium Grid 3 Accent 3"/>=0A=
+  <w:LsdException Locked=3D"false" Priority=3D"70" SemiHidden=3D"false"=0A=
+   UnhideWhenUsed=3D"false" Name=3D"Dark List Accent 3"/>=0A=
+  <w:LsdException Locked=3D"false" Priority=3D"71" SemiHidden=3D"false"=0A=
+   UnhideWhenUsed=3D"false" Name=3D"Colorful Shading Accent 3"/>=0A=
+  <w:LsdException Locked=3D"false" Priority=3D"72" SemiHidden=3D"false"=0A=
+   UnhideWhenUsed=3D"false" Name=3D"Colorful List Accent 3"/>=0A=
+  <w:LsdException Locked=3D"false" Priority=3D"73" SemiHidden=3D"false"=0A=
+   UnhideWhenUsed=3D"false" Name=3D"Colorful Grid Accent 3"/>=0A=
+  <w:LsdException Locked=3D"false" Priority=3D"60" SemiHidden=3D"false"=0A=
+   UnhideWhenUsed=3D"false" Name=3D"Light Shading Accent 4"/>=0A=
+  <w:LsdException Locked=3D"false" Priority=3D"61" SemiHidden=3D"false"=0A=
+   UnhideWhenUsed=3D"false" Name=3D"Light List Accent 4"/>=0A=
+  <w:LsdException Locked=3D"false" Priority=3D"62" SemiHidden=3D"false"=0A=
+   UnhideWhenUsed=3D"false" Name=3D"Light Grid Accent 4"/>=0A=
+  <w:LsdException Locked=3D"false" Priority=3D"63" SemiHidden=3D"false"=0A=
+   UnhideWhenUsed=3D"false" Name=3D"Medium Shading 1 Accent 4"/>=0A=
+  <w:LsdException Locked=3D"false" Priority=3D"64" SemiHidden=3D"false"=0A=
+   UnhideWhenUsed=3D"false" Name=3D"Medium Shading 2 Accent 4"/>=0A=
+  <w:LsdException Locked=3D"false" Priority=3D"65" SemiHidden=3D"false"=0A=
+   UnhideWhenUsed=3D"false" Name=3D"Medium List 1 Accent 4"/>=0A=
+  <w:LsdException Locked=3D"false" Priority=3D"66" SemiHidden=3D"false"=0A=
+   UnhideWhenUsed=3D"false" Name=3D"Medium List 2 Accent 4"/>=0A=
+  <w:LsdException Locked=3D"false" Priority=3D"67" SemiHidden=3D"false"=0A=
+   UnhideWhenUsed=3D"false" Name=3D"Medium Grid 1 Accent 4"/>=0A=
+  <w:LsdException Locked=3D"false" Priority=3D"68" SemiHidden=3D"false"=0A=
+   UnhideWhenUsed=3D"false" Name=3D"Medium Grid 2 Accent 4"/>=0A=
+  <w:LsdException Locked=3D"false" Priority=3D"69" SemiHidden=3D"false"=0A=
+   UnhideWhenUsed=3D"false" Name=3D"Medium Grid 3 Accent 4"/>=0A=
+  <w:LsdException Locked=3D"false" Priority=3D"70" SemiHidden=3D"false"=0A=
+   UnhideWhenUsed=3D"false" Name=3D"Dark List Accent 4"/>=0A=
+  <w:LsdException Locked=3D"false" Priority=3D"71" SemiHidden=3D"false"=0A=
+   UnhideWhenUsed=3D"false" Name=3D"Colorful Shading Accent 4"/>=0A=
+  <w:LsdException Locked=3D"false" Priority=3D"72" SemiHidden=3D"false"=0A=
+   UnhideWhenUsed=3D"false" Name=3D"Colorful List Accent 4"/>=0A=
+  <w:LsdException Locked=3D"false" Priority=3D"73" SemiHidden=3D"false"=0A=
+   UnhideWhenUsed=3D"false" Name=3D"Colorful Grid Accent 4"/>=0A=
+  <w:LsdException Locked=3D"false" Priority=3D"60" SemiHidden=3D"false"=0A=
+   UnhideWhenUsed=3D"false" Name=3D"Light Shading Accent 5"/>=0A=
+  <w:LsdException Locked=3D"false" Priority=3D"61" SemiHidden=3D"false"=0A=
+   UnhideWhenUsed=3D"false" Name=3D"Light List Accent 5"/>=0A=
+  <w:LsdException Locked=3D"false" Priority=3D"62" SemiHidden=3D"false"=0A=
+   UnhideWhenUsed=3D"false" Name=3D"Light Grid Accent 5"/>=0A=
+  <w:LsdException Locked=3D"false" Priority=3D"63" SemiHidden=3D"false"=0A=
+   UnhideWhenUsed=3D"false" Name=3D"Medium Shading 1 Accent 5"/>=0A=
+  <w:LsdException Locked=3D"false" Priority=3D"64" SemiHidden=3D"false"=0A=
+   UnhideWhenUsed=3D"false" Name=3D"Medium Shading 2 Accent 5"/>=0A=
+  <w:LsdException Locked=3D"false" Priority=3D"65" SemiHidden=3D"false"=0A=
+   UnhideWhenUsed=3D"false" Name=3D"Medium List 1 Accent 5"/>=0A=
+  <w:LsdException Locked=3D"false" Priority=3D"66" SemiHidden=3D"false"=0A=
+   UnhideWhenUsed=3D"false" Name=3D"Medium List 2 Accent 5"/>=0A=
+  <w:LsdException Locked=3D"false" Priority=3D"67" SemiHidden=3D"false"=0A=
+   UnhideWhenUsed=3D"false" Name=3D"Medium Grid 1 Accent 5"/>=0A=
+  <w:LsdException Locked=3D"false" Priority=3D"68" SemiHidden=3D"false"=0A=
+   UnhideWhenUsed=3D"false" Name=3D"Medium Grid 2 Accent 5"/>=0A=
+  <w:LsdException Locked=3D"false" Priority=3D"69" SemiHidden=3D"false"=0A=
+   UnhideWhenUsed=3D"false" Name=3D"Medium Grid 3 Accent 5"/>=0A=
+  <w:LsdException Locked=3D"false" Priority=3D"70" SemiHidden=3D"false"=0A=
+   UnhideWhenUsed=3D"false" Name=3D"Dark List Accent 5"/>=0A=
+  <w:LsdException Locked=3D"false" Priority=3D"71" SemiHidden=3D"false"=0A=
+   UnhideWhenUsed=3D"false" Name=3D"Colorful Shading Accent 5"/>=0A=
+  <w:LsdException Locked=3D"false" Priority=3D"72" SemiHidden=3D"false"=0A=
+   UnhideWhenUsed=3D"false" Name=3D"Colorful List Accent 5"/>=0A=
+  <w:LsdException Locked=3D"false" Priority=3D"73" SemiHidden=3D"false"=0A=
+   UnhideWhenUsed=3D"false" Name=3D"Colorful Grid Accent 5"/>=0A=
+  <w:LsdException Locked=3D"false" Priority=3D"60" SemiHidden=3D"false"=0A=
+   UnhideWhenUsed=3D"false" Name=3D"Light Shading Accent 6"/>=0A=
+  <w:LsdException Locked=3D"false" Priority=3D"61" SemiHidden=3D"false"=0A=
+   UnhideWhenUsed=3D"false" Name=3D"Light List Accent 6"/>=0A=
+  <w:LsdException Locked=3D"false" Priority=3D"62" SemiHidden=3D"false"=0A=
+   UnhideWhenUsed=3D"false" Name=3D"Light Grid Accent 6"/>=0A=
+  <w:LsdException Locked=3D"false" Priority=3D"63" SemiHidden=3D"false"=0A=
+   UnhideWhenUsed=3D"false" Name=3D"Medium Shading 1 Accent 6"/>=0A=
+  <w:LsdException Locked=3D"false" Priority=3D"64" SemiHidden=3D"false"=0A=
+   UnhideWhenUsed=3D"false" Name=3D"Medium Shading 2 Accent 6"/>=0A=
+  <w:LsdException Locked=3D"false" Priority=3D"65" SemiHidden=3D"false"=0A=
+   UnhideWhenUsed=3D"false" Name=3D"Medium List 1 Accent 6"/>=0A=
+  <w:LsdException Locked=3D"false" Priority=3D"66" SemiHidden=3D"false"=0A=
+   UnhideWhenUsed=3D"false" Name=3D"Medium List 2 Accent 6"/>=0A=
+  <w:LsdException Locked=3D"false" Priority=3D"67" SemiHidden=3D"false"=0A=
+   UnhideWhenUsed=3D"false" Name=3D"Medium Grid 1 Accent 6"/>=0A=
+  <w:LsdException Locked=3D"false" Priority=3D"68" SemiHidden=3D"false"=0A=
+   UnhideWhenUsed=3D"false" Name=3D"Medium Grid 2 Accent 6"/>=0A=
+  <w:LsdException Locked=3D"false" Priority=3D"69" SemiHidden=3D"false"=0A=
+   UnhideWhenUsed=3D"false" Name=3D"Medium Grid 3 Accent 6"/>=0A=
+  <w:LsdException Locked=3D"false" Priority=3D"70" SemiHidden=3D"false"=0A=
+   UnhideWhenUsed=3D"false" Name=3D"Dark List Accent 6"/>=0A=
+  <w:LsdException Locked=3D"false" Priority=3D"71" SemiHidden=3D"false"=0A=
+   UnhideWhenUsed=3D"false" Name=3D"Colorful Shading Accent 6"/>=0A=
+  <w:LsdException Locked=3D"false" Priority=3D"72" SemiHidden=3D"false"=0A=
+   UnhideWhenUsed=3D"false" Name=3D"Colorful List Accent 6"/>=0A=
+  <w:LsdException Locked=3D"false" Priority=3D"73" SemiHidden=3D"false"=0A=
+   UnhideWhenUsed=3D"false" Name=3D"Colorful Grid Accent 6"/>=0A=
+  <w:LsdException Locked=3D"false" Priority=3D"19" SemiHidden=3D"false"=0A=
+   UnhideWhenUsed=3D"false" QFormat=3D"true" Name=3D"Subtle Emphasis"/>=0A=
+  <w:LsdException Locked=3D"false" Priority=3D"21" SemiHidden=3D"false"=0A=
+   UnhideWhenUsed=3D"false" QFormat=3D"true" Name=3D"Intense Emphasis"/>=0A=
+  <w:LsdException Locked=3D"false" Priority=3D"31" SemiHidden=3D"false"=0A=
+   UnhideWhenUsed=3D"false" QFormat=3D"true" Name=3D"Subtle Reference"/>=0A=
+  <w:LsdException Locked=3D"false" Priority=3D"32" SemiHidden=3D"false"=0A=
+   UnhideWhenUsed=3D"false" QFormat=3D"true" Name=3D"Intense Reference"/>=0A=
+  <w:LsdException Locked=3D"false" Priority=3D"33" SemiHidden=3D"false"=0A=
+   UnhideWhenUsed=3D"false" QFormat=3D"true" Name=3D"Book Title"/>=0A=
+  <w:LsdException Locked=3D"false" Priority=3D"37" =
+Name=3D"Bibliography"/>=0A=
+  <w:LsdException Locked=3D"false" Priority=3D"39" QFormat=3D"true" =
+Name=3D"TOC Heading"/>=0A=
+ </w:LatentStyles>=0A=
+</xml><![endif]-->
+<STYLE>@font-face {
+	font-family: Arial;
+}
+@font-face {
+	font-family: Courier New;
+}
+@font-face {
+	font-family: Wingdings;
+}
+@font-face {
+	font-family: Wingdings;
+}
+@font-face {
+	font-family: Copperplate Gothic Light;
+}
+@page WordSection1 {size: 8.5in 11.0in; margin: 1.0in 1.25in 1.0in =
+1.25in; mso-header-margin: .5in; mso-footer-margin: .5in; =
+mso-paper-source: 0; }
+P.MsoNormal {
+	MARGIN: 0in 0in 0pt; FONT-FAMILY: "Times New Roman"; FONT-SIZE: 12pt; =
+mso-style-unhide: no; mso-style-qformat: yes; mso-style-parent: ""; =
+mso-pagination: widow-orphan; mso-bidi-font-size: 10.0pt; =
+mso-fareast-font-family: "Times New Roman"; mso-bidi-font-family: "Times =
+New Roman"; mso-bidi-theme-font: minor-bidi
+}
+LI.MsoNormal {
+	MARGIN: 0in 0in 0pt; FONT-FAMILY: "Times New Roman"; FONT-SIZE: 12pt; =
+mso-style-unhide: no; mso-style-qformat: yes; mso-style-parent: ""; =
+mso-pagination: widow-orphan; mso-bidi-font-size: 10.0pt; =
+mso-fareast-font-family: "Times New Roman"; mso-bidi-font-family: "Times =
+New Roman"; mso-bidi-theme-font: minor-bidi
+}
+DIV.MsoNormal {
+	MARGIN: 0in 0in 0pt; FONT-FAMILY: "Times New Roman"; FONT-SIZE: 12pt; =
+mso-style-unhide: no; mso-style-qformat: yes; mso-style-parent: ""; =
+mso-pagination: widow-orphan; mso-bidi-font-size: 10.0pt; =
+mso-fareast-font-family: "Times New Roman"; mso-bidi-font-family: "Times =
+New Roman"; mso-bidi-theme-font: minor-bidi
+}
+A:link {
+	COLOR: blue; TEXT-DECORATION: underline; mso-style-parent: ""; =
+mso-style-priority: 99; text-underline: single
+}
+SPAN.MsoHyperlink {
+	COLOR: blue; TEXT-DECORATION: underline; mso-style-parent: ""; =
+mso-style-priority: 99; text-underline: single
+}
+A:visited {
+	COLOR: blue; TEXT-DECORATION: underline; mso-style-parent: ""; =
+mso-style-priority: 99; text-underline: single; mso-style-noshow: yes
+}
+SPAN.MsoHyperlinkFollowed {
+	COLOR: blue; TEXT-DECORATION: underline; mso-style-parent: ""; =
+mso-style-priority: 99; text-underline: single; mso-style-noshow: yes
+}
+SPAN.SpellE {
+	mso-style-name: ""; mso-spl-e: yes
+}
+SPAN.GramE {
+	mso-style-name: ""; mso-gram-e: yes
+}
+.MsoChpDefault {
+	FONT-SIZE: 10pt; mso-bidi-font-size: 10.0pt; mso-style-type: =
+export-only; mso-default-props: yes; mso-ansi-font-size: 10.0pt
+}
+DIV.WordSection1 {
+	page: WordSection1
+}
+OL {
+	MARGIN-BOTTOM: 0in
+}
+UL {
+	MARGIN-BOTTOM: 0in
+}
+</STYLE>
+<!--[if gte mso 10]>=0A=
+<style>=0A=
+ /* Style Definitions */
+table.MsoNormalTable=0A=
+	{mso-style-name:"Table Normal";=0A=
+	mso-tstyle-rowband-size:0;=0A=
+	mso-tstyle-colband-size:0;=0A=
+	mso-style-noshow:yes;=0A=
+	mso-style-priority:99;=0A=
+	mso-style-parent:"";=0A=
+	mso-padding-alt:0in 5.4pt 0in 5.4pt;=0A=
+	mso-para-margin:0in;=0A=
+	mso-para-margin-bottom:.0001pt;=0A=
+	mso-pagination:widow-orphan;=0A=
+	font-size:10.0pt;=0A=
+	font-family:"Times New Roman";}=0A=
+</style>=0A=
+<![endif]--><!--[if gte mso 9]><xml>=0A=
+ <o:shapedefaults v:ext=3D"edit" spidmax=3D"1027"/>=0A=
+</xml><![endif]--><!--[if gte mso 9]><xml>=0A=
+ <o:shapelayout v:ext=3D"edit">=0A=
+  <o:idmap v:ext=3D"edit" data=3D"1"/>=0A=
+ </o:shapelayout></xml><![endif]--></HEAD>
+<BODY style=3D"tab-interval: .5in" lang=3DEN-US bgColor=3Dwhite =
+vLink=3Dblue link=3Dblue>
+<DIV class=3DWordSection1>
+<P style=3D"TEXT-AUTOSPACE: ; mso-pagination: none; =
+mso-layout-grid-align: none"=20
+class=3DMsoNormal><B style=3D"mso-bidi-font-weight: normal"><SPAN=20
+style=3D"FONT-FAMILY: 'Copperplate Gothic Light'; FONT-SIZE: 14pt; =
+mso-bidi-font-size: 10.0pt; mso-bidi-font-family: 'Times New Roman'">CSE =
+
+421/521<o:p></o:p></SPAN></B></P>
+<P style=3D"TEXT-AUTOSPACE: ; mso-pagination: none; =
+mso-layout-grid-align: none"=20
+class=3DMsoNormal><B style=3D"mso-bidi-font-weight: normal"><SPAN=20
+style=3D"FONT-FAMILY: 'Copperplate Gothic Light'; FONT-SIZE: 14pt; =
+mso-bidi-font-size: 10.0pt; mso-bidi-font-family: 'Times New =
+Roman'">Introduction=20
+to Operating Systems<o:p></o:p></SPAN></B></P>
+<DIV=20
+style=3D"BORDER-BOTTOM: windowtext 1pt solid; BORDER-LEFT: medium none; =
+PADDING-BOTTOM: 1pt; PADDING-LEFT: 0in; PADDING-RIGHT: 0in; BORDER-TOP: =
+medium none; BORDER-RIGHT: medium none; PADDING-TOP: 0in; =
+mso-border-bottom-alt: solid windowtext .75pt">
+<DIV=20
+style=3D"BORDER-BOTTOM: windowtext 1pt solid; BORDER-LEFT: medium none; =
+PADDING-BOTTOM: 1pt; PADDING-LEFT: 0in; PADDING-RIGHT: 0in; BORDER-TOP: =
+medium none; BORDER-RIGHT: medium none; PADDING-TOP: 0in; =
+mso-border-bottom-alt: solid windowtext .75pt">
+<DIV=20
+style=3D"BORDER-BOTTOM: windowtext 1pt solid; BORDER-LEFT: medium none; =
+PADDING-BOTTOM: 1pt; PADDING-LEFT: 0in; PADDING-RIGHT: 0in; BORDER-TOP: =
+medium none; BORDER-RIGHT: medium none; PADDING-TOP: 0in; =
+mso-border-bottom-alt: solid windowtext .75pt">
+<DIV=20
+style=3D"BORDER-BOTTOM: windowtext 1pt solid; BORDER-LEFT: medium none; =
+PADDING-BOTTOM: 1pt; PADDING-LEFT: 0in; PADDING-RIGHT: 0in; BORDER-TOP: =
+medium none; BORDER-RIGHT: medium none; PADDING-TOP: 0in; =
+mso-border-bottom-alt: solid windowtext .75pt">
+<DIV=20
+style=3D"BORDER-BOTTOM: windowtext 1pt solid; BORDER-LEFT: medium none; =
+PADDING-BOTTOM: 1pt; PADDING-LEFT: 0in; PADDING-RIGHT: 0in; BORDER-TOP: =
+medium none; BORDER-RIGHT: medium none; PADDING-TOP: 0in; =
+mso-border-bottom-alt: solid windowtext .75pt">
+<DIV=20
+style=3D"BORDER-BOTTOM: windowtext 1pt solid; BORDER-LEFT: medium none; =
+PADDING-BOTTOM: 1pt; PADDING-LEFT: 0in; PADDING-RIGHT: 0in; BORDER-TOP: =
+medium none; BORDER-RIGHT: medium none; PADDING-TOP: 0in; =
+mso-border-bottom-alt: solid windowtext .75pt">
+<DIV=20
+style=3D"BORDER-BOTTOM: windowtext 1pt solid; BORDER-LEFT: medium none; =
+PADDING-BOTTOM: 1pt; PADDING-LEFT: 0in; PADDING-RIGHT: 0in; BORDER-TOP: =
+medium none; BORDER-RIGHT: medium none; PADDING-TOP: 0in; =
+mso-border-bottom-alt: solid windowtext .75pt">
+<DIV=20
+style=3D"BORDER-BOTTOM: windowtext 1pt solid; BORDER-LEFT: medium none; =
+PADDING-BOTTOM: 1pt; PADDING-LEFT: 0in; PADDING-RIGHT: 0in; BORDER-TOP: =
+medium none; BORDER-RIGHT: medium none; PADDING-TOP: 0in; =
+mso-border-bottom-alt: solid windowtext .75pt">
+<DIV=20
+style=3D"BORDER-BOTTOM: windowtext 1pt solid; BORDER-LEFT: medium none; =
+PADDING-BOTTOM: 1pt; PADDING-LEFT: 0in; PADDING-RIGHT: 0in; BORDER-TOP: =
+medium none; BORDER-RIGHT: medium none; PADDING-TOP: 0in; =
+mso-border-bottom-alt: solid windowtext .75pt; mso-element: =
+para-border-div">
+<P=20
+style=3D"BORDER-BOTTOM: medium none; BORDER-LEFT: medium none; =
+PADDING-BOTTOM: 0in; PADDING-LEFT: 0in; PADDING-RIGHT: 0in; =
+TEXT-AUTOSPACE: ; BORDER-TOP: medium none; BORDER-RIGHT: medium none; =
+PADDING-TOP: 0in; mso-pagination: none; mso-layout-grid-align: none; =
+mso-border-bottom-alt: solid windowtext .75pt; mso-padding-alt: 0in 0in =
+1.0pt 0in"=20
+class=3DMsoNormal><B style=3D"mso-bidi-font-weight: normal"><SPAN=20
+style=3D"FONT-FAMILY: 'Copperplate Gothic Light'; mso-bidi-font-size: =
+12.0pt; mso-bidi-font-family: 'Times New Roman'">Fall=20
+2012</SPAN></B><B style=3D"mso-bidi-font-weight: normal"><SPAN=20
+style=3D"mso-bidi-font-size: 12.0pt; mso-bidi-font-family: 'Times New =
+Roman'"><o:p></o:p></SPAN></B></P></DIV></DIV></DIV></DIV></DIV></DIV></D=
+IV></DIV></DIV>
+<P style=3D"TEXT-AUTOSPACE: ; mso-pagination: none; =
+mso-layout-grid-align: none"=20
+class=3DMsoNormal><SPAN=20
+style=3D"mso-bidi-font-family: 'Times New =
+Roman'"><o:p>&nbsp;</o:p></SPAN></P>
+<P style=3D"TEXT-AUTOSPACE: ; mso-pagination: none; =
+mso-layout-grid-align: none"=20
+class=3DMsoNormal><B style=3D"mso-bidi-font-weight: normal"><SPAN=20
+style=3D"FONT-FAMILY: 'Copperplate Gothic Light'; mso-bidi-font-family: =
+'Times New Roman'">Instructor:<o:p></o:p></SPAN></B></P>
+<P style=3D"TEXT-AUTOSPACE: ; mso-pagination: none; =
+mso-layout-grid-align: none"=20
+class=3DMsoNormal><SPAN=20
+style=3D"mso-bidi-font-family: 'Times New =
+Roman'"><o:p>&nbsp;</o:p></SPAN></P>
+<P=20
+style=3D"TEXT-AUTOSPACE: ; MARGIN-LEFT: 24pt; mso-pagination: none; =
+mso-layout-grid-align: none"=20
+class=3DMsoNormal><SPAN style=3D"mso-bidi-font-family: 'Times New =
+Roman'">Prof.=20
+Tevfik Kosar<o:p></o:p></SPAN></P>
+<P=20
+style=3D"TEXT-AUTOSPACE: ; MARGIN-LEFT: 24pt; mso-pagination: none; =
+mso-layout-grid-align: none"=20
+class=3DMsoNormal><SPAN style=3D"mso-bidi-font-family: 'Times New =
+Roman'">338J Davis=20
+Hall, 645-2323<o:p></o:p></SPAN></P>
+<P=20
+style=3D"TEXT-AUTOSPACE: ; MARGIN-LEFT: 24pt; mso-pagination: none; =
+mso-layout-grid-align: none"=20
+class=3DMsoNormal><SPAN=20
+style=3D"mso-bidi-font-family: 'Times New =
+Roman'">tkosar@buffalo.edu<o:p></o:p></SPAN></P>
+<P=20
+style=3D"TEXT-AUTOSPACE: ; MARGIN-LEFT: 24pt; mso-pagination: none; =
+mso-layout-grid-align: none"=20
+class=3DMsoNormal><SPAN style=3D"mso-bidi-font-family: 'Times New =
+Roman'">Office=20
+hours: Wed 10:00am-11:00am, Thu 11:00am - noon<o:p></o:p></SPAN></P>
+<P style=3D"TEXT-AUTOSPACE: ; mso-pagination: none; =
+mso-layout-grid-align: none"=20
+class=3DMsoNormal><SPAN=20
+style=3D"mso-bidi-font-family: 'Times New =
+Roman'">&nbsp;<o:p></o:p></SPAN></P>
+<P style=3D"TEXT-AUTOSPACE: ; mso-pagination: none; =
+mso-layout-grid-align: none"=20
+class=3DMsoNormal><B style=3D"mso-bidi-font-weight: normal"><SPAN=20
+style=3D"FONT-FAMILY: 'Copperplate Gothic Light'; mso-bidi-font-family: =
+'Times New Roman'">Course=20
+Description:<o:p></o:p></SPAN></B></P>
+<P=20
+style=3D"TEXT-ALIGN: justify; TEXT-AUTOSPACE: ; mso-pagination: none; =
+mso-layout-grid-align: none"=20
+class=3DMsoNormal><SPAN=20
+style=3D"mso-bidi-font-family: 'Times New =
+Roman'"><o:p>&nbsp;</o:p></SPAN></P>
+<P=20
+style=3D"TEXT-ALIGN: justify; TEXT-AUTOSPACE: ; MARGIN-LEFT: 24pt; =
+mso-pagination: none; mso-layout-grid-align: none"=20
+class=3DMsoNormal><SPAN style=3D"mso-bidi-font-family: 'Times New =
+Roman'">CSE=20
+421/521 is an introductory course on the design and implementation of =
+operating=20
+systems. It will focus on different OS design techniques, process =
+management,=20
+processor scheduling, concurrent programming, deadlocks and =
+synchronization,=20
+memory management, file management and I/O systems, disk scheduling, =
+protection=20
+and security, and distributed systems. The course will include hands-on=20
+programming projects on different OS components. <o:p></o:p></SPAN></P>
+<P=20
+style=3D"TEXT-ALIGN: justify; TEXT-AUTOSPACE: ; MARGIN-LEFT: 24pt; =
+mso-pagination: none; mso-layout-grid-align: none"=20
+class=3DMsoNormal><I style=3D"mso-bidi-font-style: normal"><SPAN=20
+style=3D"mso-bidi-font-family: 'Times New Roman'">(Prerequisites of this =
+course:=20
+CSE 305, CSE 321, or permission of the instructor.)</SPAN></I><SPAN=20
+style=3D"mso-bidi-font-family: 'Times New Roman'"><o:p></o:p></SPAN></P>
+<P=20
+style=3D"TEXT-ALIGN: justify; TEXT-AUTOSPACE: ; MARGIN-LEFT: 24pt; =
+mso-pagination: none; mso-layout-grid-align: none"=20
+class=3DMsoNormal><SPAN=20
+style=3D"mso-bidi-font-family: 'Times New =
+Roman'"><o:p>&nbsp;</o:p></SPAN></P>
+<P=20
+style=3D"TEXT-ALIGN: justify; TEXT-AUTOSPACE: ; mso-pagination: none; =
+mso-layout-grid-align: none"=20
+class=3DMsoNormal><B style=3D"mso-bidi-font-weight: normal"><SPAN=20
+style=3D"FONT-FAMILY: 'Copperplate Gothic Light'; mso-bidi-font-family: =
+'Times New Roman'">Course=20
+Logistics:<o:p></o:p></SPAN></B></P>
+<P=20
+style=3D"TEXT-ALIGN: justify; TEXT-AUTOSPACE: ; mso-pagination: none; =
+mso-layout-grid-align: none"=20
+class=3DMsoNormal><SPAN=20
+style=3D"FONT-FAMILY: 'Copperplate Gothic Light'; mso-bidi-font-family: =
+'Times New Roman'"><o:p>&nbsp;</o:p></SPAN></P>
+<P=20
+style=3D"TEXT-ALIGN: justify; TEXT-AUTOSPACE: ; MARGIN-LEFT: 24pt; =
+mso-pagination: none; mso-layout-grid-align: none"=20
+class=3DMsoNormal><SPAN style=3D"mso-bidi-font-family: 'Times New =
+Roman'">Lecture=20
+time &amp; <SPAN class=3DGramE>location<SPAN style=3D"mso-tab-count: =
+1">&nbsp;=20
+</SPAN>:</SPAN> Tue &amp; Thu, 9:30am-10:50am (Davis =
+101)<o:p></o:p></SPAN></P>
+<P=20
+style=3D"TEXT-ALIGN: justify; TEXT-AUTOSPACE: ; MARGIN-LEFT: 24pt; =
+mso-pagination: none; mso-layout-grid-align: none"=20
+class=3DMsoNormal><SPAN style=3D"mso-bidi-font-family: 'Times New =
+Roman'">Recitation=20
+<SPAN class=3DGramE>sessions<SPAN=20
+style=3D"mso-tab-count: =
+1">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;=20
+</SPAN>:</SPAN> Tue 11:00am-11:50am (<SPAN class=3DSpellE>Capen</SPAN> =
+260), Wed=20
+10:00am-10:50am (<SPAN class=3DSpellE>Obrian</SPAN> =
+112)<o:p></o:p></SPAN></P>
+<P=20
+style=3D"TEXT-ALIGN: justify; TEXT-AUTOSPACE: ; MARGIN-LEFT: 24pt; =
+mso-pagination: none; mso-layout-grid-align: none"=20
+class=3DMsoNormal><SPAN=20
+style=3D"mso-bidi-font-size: 12.0pt; mso-bidi-font-family: 'Times New =
+Roman'">Teaching=20
+<SPAN class=3DGramE>assistants<SPAN=20
+style=3D"mso-tab-count: =
+1">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;=20
+</SPAN>:</SPAN> <A href=3D"mailto:sonaliba@buffalo.edu"><SPAN=20
+class=3DSpellE>Sonali</SPAN> <SPAN class=3DSpellE>Batra</SPAN></A>, <A=20
+href=3D"mailto:yyang25@buffalo.edu">Ying Yang</A>, <A=20
+href=3D"mailto:weidazho@buffalo.edu"><SPAN class=3DSpellE>Weida</SPAN> =
+<SPAN=20
+class=3DSpellE>Zhong</SPAN></A> <o:p></o:p></SPAN></P>
+<P=20
+style=3D"TEXT-ALIGN: justify; TEXT-AUTOSPACE: ; MARGIN-LEFT: 24pt; =
+mso-pagination: none; mso-layout-grid-align: none"=20
+class=3DMsoNormal><SPAN=20
+style=3D"mso-bidi-font-family: 'Times New =
+Roman'"><o:p>&nbsp;</o:p></SPAN></P>
+<P=20
+style=3D"TEXT-ALIGN: justify; TEXT-AUTOSPACE: ; mso-pagination: none; =
+mso-layout-grid-align: none; tab-stops: 117.6pt"=20
+class=3DMsoNormal><SPAN=20
+style=3D"FONT-FAMILY: 'Copperplate Gothic Light'; mso-bidi-font-family: =
+'Times New Roman'">&nbsp;<B=20
+style=3D"mso-bidi-font-weight: normal">Textbook: (Required) <SPAN=20
+style=3D"mso-tab-count: 1">&nbsp;&nbsp;&nbsp;&nbsp;=20
+</SPAN><o:p></o:p></B></SPAN></P>
+<P=20
+style=3D"TEXT-ALIGN: justify; TEXT-AUTOSPACE: ; mso-pagination: none; =
+mso-layout-grid-align: none; tab-stops: 117.6pt"=20
+class=3DMsoNormal><SPAN=20
+style=3D"mso-bidi-font-family: 'Times New =
+Roman'"><o:p>&nbsp;</o:p></SPAN></P>
+<P=20
+style=3D"TEXT-ALIGN: justify; TEXT-INDENT: -0.25in; TEXT-AUTOSPACE: ; =
+MARGIN-LEFT: 0.5in; mso-pagination: none; mso-layout-grid-align: none; =
+tab-stops: 11.0pt list .5in; mso-list: l1 level1 lfo2"=20
+class=3DMsoNormal><![if !supportLists]><SPAN=20
+style=3D"FONT-FAMILY: Wingdings; mso-fareast-font-family: Wingdings; =
+mso-bidi-font-family: Wingdings"><SPAN=20
+style=3D"mso-list: Ignore">v<SPAN style=3D"FONT: 7pt 'Times New Roman'"> =
+
+</SPAN></SPAN></SPAN><![endif]><U><SPAN=20
+style=3D"mso-bidi-font-family: 'Times New Roman'">Operating Systems=20
+Concepts</SPAN></U><SPAN style=3D"mso-bidi-font-family: 'Times New =
+Roman'">=20
+(8<SUP>th</SUP> Update Edition), <o:p></o:p></SPAN></P>
+<P=20
+style=3D"TEXT-ALIGN: justify; TEXT-AUTOSPACE: ; MARGIN-LEFT: 0.25in; =
+mso-pagination: none; mso-layout-grid-align: none; tab-stops: 11.0pt =
+.5in"=20
+class=3DMsoNormal><I style=3D"mso-bidi-font-style: normal"><SPAN=20
+style=3D"mso-bidi-font-family: 'Times New Roman'"><SPAN=20
+style=3D"mso-tab-count: 1">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </SPAN>By A. =
+<SPAN=20
+class=3DSpellE>Silbershatz</SPAN>, P.B. Galvin, and G. <SPAN=20
+class=3DSpellE>Gayne</SPAN>. <SPAN class=3DGramE>Wiley Publishers,=20
+2011.</SPAN></SPAN></I><SPAN style=3D"mso-bidi-font-family: 'Times New =
+Roman'">=20
+</SPAN><SPAN=20
+style=3D"mso-bidi-font-size: 12.0pt; mso-bidi-font-family: 'Times New =
+Roman'">ISBN:=20
+978-1-1181-1273-1&nbsp;</SPAN><SPAN=20
+style=3D"mso-bidi-font-family: 'Times New Roman'"><o:p></o:p></SPAN></P>
+<P=20
+style=3D"TEXT-ALIGN: justify; TEXT-INDENT: 12pt; TEXT-AUTOSPACE: ; =
+MARGIN-LEFT: 24pt; mso-pagination: none; mso-layout-grid-align: none"=20
+class=3DMsoNormal><SPAN=20
+style=3D"mso-bidi-font-size: 12.0pt; mso-bidi-font-family: 'Times New =
+Roman'"><o:p>&nbsp;</o:p></SPAN></P>
+<P=20
+style=3D"TEXT-ALIGN: justify; TEXT-AUTOSPACE: ; mso-pagination: none; =
+mso-layout-grid-align: none"=20
+class=3DMsoNormal><B style=3D"mso-bidi-font-weight: normal"><SPAN=20
+style=3D"FONT-FAMILY: 'Copperplate Gothic Light'; mso-bidi-font-family: =
+'Times New Roman'">Recommended=20
+Supplementary Text</SPAN></B><SPAN=20
+style=3D"FONT-FAMILY: 'Copperplate Gothic Light'; mso-bidi-font-family: =
+'Times New Roman'">:=20
+<B style=3D"mso-bidi-font-weight: normal">(Optional) =
+</B><o:p></o:p></SPAN></P>
+<P=20
+style=3D"TEXT-ALIGN: justify; TEXT-AUTOSPACE: ; mso-pagination: none; =
+mso-layout-grid-align: none"=20
+class=3DMsoNormal><SPAN=20
+style=3D"FONT-FAMILY: 'Copperplate Gothic Light'; mso-bidi-font-family: =
+'Times New Roman'"><o:p>&nbsp;</o:p></SPAN></P>
+<P=20
+style=3D"TEXT-ALIGN: justify; TEXT-INDENT: -0.25in; TEXT-AUTOSPACE: ; =
+MARGIN-LEFT: 0.5in; mso-layout-grid-align: none; mso-list: l0 level1 =
+lfo4; mso-hyphenate: none"=20
+class=3DMsoNormal><![if !supportLists]><SPAN=20
+style=3D"FONT-FAMILY: Wingdings; mso-fareast-font-family: Wingdings; =
+mso-bidi-font-family: Wingdings"><SPAN=20
+style=3D"mso-list: Ignore">v<SPAN style=3D"FONT: 7pt 'Times New Roman'"> =
+
+</SPAN></SPAN></SPAN><![endif]><U><SPAN=20
+style=3D"mso-bidi-font-family: 'Times New Roman'">The C Programming=20
+Language</SPAN></U><SPAN style=3D"mso-bidi-font-family: 'Times New =
+Roman'">=20
+(Second Edition) <o:p></o:p></SPAN></P>
+<P=20
+style=3D"TEXT-ALIGN: justify; TEXT-AUTOSPACE: ; MARGIN-LEFT: 0.5in; =
+mso-layout-grid-align: none; mso-hyphenate: none"=20
+class=3DMsoNormal><SPAN style=3D"mso-bidi-font-family: 'Times New =
+Roman'">By=20
+Kernighan and Ritchie. Prentice Hall, Second Edition, 1988, ISBN =
+0-13-110362-8.=20
+<o:p></o:p></SPAN></P>
+<P=20
+style=3D"TEXT-ALIGN: justify; TEXT-AUTOSPACE: ; MARGIN-LEFT: 0.5in; =
+mso-layout-grid-align: none; mso-hyphenate: none"=20
+class=3DMsoNormal><SPAN=20
+style=3D"mso-bidi-font-family: 'Times New =
+Roman'"><o:p>&nbsp;</o:p></SPAN></P>
+<P=20
+style=3D"TEXT-ALIGN: justify; TEXT-INDENT: -0.25in; TEXT-AUTOSPACE: ; =
+MARGIN-LEFT: 0.5in; mso-layout-grid-align: none; mso-list: l0 level1 =
+lfo4; mso-hyphenate: none"=20
+class=3DMsoNormal><![if !supportLists]><SPAN=20
+style=3D"FONT-FAMILY: Wingdings; mso-bidi-font-size: 12.0pt; =
+mso-fareast-font-family: Wingdings; mso-bidi-font-family: =
+Wingdings"><SPAN=20
+style=3D"mso-list: Ignore">v<SPAN style=3D"FONT: 7pt 'Times New Roman'"> =
+
+</SPAN></SPAN></SPAN><![endif]><U><SPAN=20
+style=3D"mso-bidi-font-size: 12.0pt; mso-bidi-font-family: 'Times New =
+Roman'">The=20
+C++ Programming Language</SPAN></U><SPAN=20
+style=3D"mso-bidi-font-size: 12.0pt; mso-bidi-font-family: 'Times New =
+Roman'">=20
+(Third Edition)<o:p></o:p></SPAN></P>
+<P=20
+style=3D"TEXT-ALIGN: justify; TEXT-AUTOSPACE: ; MARGIN-LEFT: 0.5in; =
+mso-layout-grid-align: none; mso-hyphenate: none"=20
+class=3DMsoNormal><SPAN=20
+style=3D"mso-bidi-font-size: 12.0pt; mso-bidi-font-family: 'Times New =
+Roman'">By=20
+<SPAN class=3DSpellE>Bjarne</SPAN> <SPAN =
+class=3DSpellE>Stroutstrup</SPAN>. <SPAN=20
+style=3D"mso-bidi-font-weight: bold">Addison-Wesley, Third Edition, =
+1997, ISBN=20
+0-201-88954-4</SPAN><o:p></o:p></SPAN></P>
+<P=20
+style=3D"TEXT-ALIGN: justify; TEXT-AUTOSPACE: ; mso-layout-grid-align: =
+none; mso-hyphenate: none"=20
+class=3DMsoNormal><U><SPAN=20
+style=3D"mso-bidi-font-size: 12.0pt; mso-bidi-font-family: 'Times New =
+Roman'"><o:p><SPAN=20
+style=3D"TEXT-DECORATION: none">&nbsp;</SPAN></o:p></SPAN></U></P>
+<P=20
+style=3D"TEXT-ALIGN: justify; TEXT-INDENT: -0.25in; TEXT-AUTOSPACE: ; =
+MARGIN-LEFT: 0.5in; mso-layout-grid-align: none; mso-list: l0 level1 =
+lfo4; mso-hyphenate: none"=20
+class=3DMsoNormal><![if !supportLists]><SPAN=20
+style=3D"FONT-FAMILY: Wingdings; mso-fareast-font-family: Wingdings; =
+mso-bidi-font-family: Wingdings"><SPAN=20
+style=3D"mso-list: Ignore">v<SPAN style=3D"FONT: 7pt 'Times New Roman'"> =
+
+</SPAN></SPAN></SPAN><![endif]><U><SPAN=20
+style=3D"mso-bidi-font-family: 'Times New Roman'">Advanced Programming =
+in the UNIX=20
+Environment</SPAN></U><SPAN=20
+style=3D"mso-bidi-font-family: 'Times New Roman'"><o:p></o:p></SPAN></P>
+<P=20
+style=3D"TEXT-ALIGN: justify; TEXT-AUTOSPACE: ; MARGIN-LEFT: 0.5in; =
+mso-layout-grid-align: none; mso-hyphenate: none"=20
+class=3DMsoNormal><SPAN style=3D"mso-bidi-font-family: 'Times New =
+Roman'">By Richard=20
+Stevens. Addison Wesley Press, </SPAN><SPAN=20
+style=3D"mso-bidi-font-size: 16.0pt; mso-bidi-font-family: 'Times New =
+Roman'">1993,=20
+ISBN 0-201-56317-7.</SPAN><SPAN=20
+style=3D"mso-bidi-font-family: 'Times New Roman'"><o:p></o:p></SPAN></P>
+<P=20
+style=3D"TEXT-ALIGN: justify; TEXT-AUTOSPACE: ; mso-pagination: none; =
+mso-layout-grid-align: none"=20
+class=3DMsoNormal><B style=3D"mso-bidi-font-weight: normal"><SPAN=20
+style=3D"FONT-FAMILY: 'Copperplate Gothic Light'; mso-bidi-font-family: =
+'Times New Roman'"><o:p>&nbsp;</o:p></SPAN></B></P>
+<P=20
+style=3D"TEXT-ALIGN: justify; TEXT-AUTOSPACE: ; mso-pagination: none; =
+mso-layout-grid-align: none"=20
+class=3DMsoNormal><B style=3D"mso-bidi-font-weight: normal"><SPAN=20
+style=3D"FONT-FAMILY: 'Copperplate Gothic Light'; mso-bidi-font-family: =
+'Times New Roman'">Grading:</SPAN></B><B=20
+style=3D"mso-bidi-font-weight: normal"><SPAN=20
+style=3D"mso-bidi-font-family: 'Times New =
+Roman'"><o:p></o:p></SPAN></B></P>
+<P=20
+style=3D"TEXT-ALIGN: justify; TEXT-AUTOSPACE: ; MARGIN-LEFT: 24pt; =
+mso-pagination: none; mso-layout-grid-align: none"=20
+class=3DMsoNormal><SPAN=20
+style=3D"mso-bidi-font-family: 'Times New =
+Roman'"><o:p>&nbsp;</o:p></SPAN></P>
+<P=20
+style=3D"TEXT-ALIGN: justify; TEXT-AUTOSPACE: ; MARGIN-LEFT: 24pt; =
+mso-pagination: none; mso-layout-grid-align: none"=20
+class=3DMsoNormal><SPAN style=3D"mso-bidi-font-family: 'Times New =
+Roman'">The=20
+end-of-semester grades for this course will be composed=20
+of:<o:p></o:p></SPAN></P>
+<P=20
+style=3D"TEXT-ALIGN: justify; TEXT-AUTOSPACE: ; MARGIN-LEFT: 24pt; =
+mso-pagination: none; mso-layout-grid-align: none"=20
+class=3DMsoNormal><SPAN=20
+style=3D"mso-bidi-font-family: 'Times New =
+Roman'"><o:p>&nbsp;</o:p></SPAN></P>
+<P=20
+style=3D"TEXT-ALIGN: justify; TEXT-INDENT: -0.25in; TEXT-AUTOSPACE: ; =
+MARGIN-LEFT: 0.5in; mso-pagination: none; mso-layout-grid-align: none; =
+tab-stops: 11.0pt list .5in; mso-list: l1 level1 lfo2"=20
+class=3DMsoNormal><![if !supportLists]><SPAN=20
+style=3D"FONT-FAMILY: Wingdings; mso-fareast-font-family: Wingdings; =
+mso-bidi-font-family: Wingdings"><SPAN=20
+style=3D"mso-list: Ignore">v<SPAN style=3D"FONT: 7pt 'Times New Roman'"> =
+
+</SPAN></SPAN></SPAN><![endif]><SPAN=20
+style=3D"mso-bidi-font-family: 'Times New Roman'">Pop Quizzes:=20
+5%<o:p></o:p></SPAN></P>
+<P=20
+style=3D"TEXT-ALIGN: justify; TEXT-INDENT: -0.25in; TEXT-AUTOSPACE: ; =
+MARGIN-LEFT: 0.5in; mso-pagination: none; mso-layout-grid-align: none; =
+tab-stops: 11.0pt list .5in; mso-list: l1 level1 lfo2"=20
+class=3DMsoNormal><![if !supportLists]><SPAN=20
+style=3D"FONT-FAMILY: Wingdings; mso-fareast-font-family: Wingdings; =
+mso-bidi-font-family: Wingdings"><SPAN=20
+style=3D"mso-list: Ignore">v<SPAN style=3D"FONT: 7pt 'Times New Roman'"> =
+
+</SPAN></SPAN></SPAN><![endif]><SPAN=20
+style=3D"mso-bidi-font-family: 'Times New Roman'">Homework:=20
+10%<o:p></o:p></SPAN></P>
+<P=20
+style=3D"TEXT-ALIGN: justify; TEXT-INDENT: -0.25in; TEXT-AUTOSPACE: ; =
+MARGIN-LEFT: 0.5in; mso-pagination: none; mso-layout-grid-align: none; =
+tab-stops: 11.0pt list .5in; mso-list: l1 level1 lfo2"=20
+class=3DMsoNormal><![if !supportLists]><SPAN=20
+style=3D"FONT-FAMILY: Wingdings; mso-fareast-font-family: Wingdings; =
+mso-bidi-font-family: Wingdings"><SPAN=20
+style=3D"mso-list: Ignore">v<SPAN style=3D"FONT: 7pt 'Times New Roman'"> =
+
+</SPAN></SPAN></SPAN><![endif]><SPAN=20
+style=3D"mso-bidi-font-family: 'Times New Roman'">Projects:=20
+30%&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<o:p></o:p></SPAN></P>
+<P=20
+style=3D"TEXT-ALIGN: justify; TEXT-INDENT: -0.25in; TEXT-AUTOSPACE: ; =
+MARGIN-LEFT: 0.5in; mso-pagination: none; mso-layout-grid-align: none; =
+tab-stops: 11.0pt list .5in; mso-list: l1 level1 lfo2"=20
+class=3DMsoNormal><![if !supportLists]><SPAN=20
+style=3D"FONT-FAMILY: Wingdings; mso-fareast-font-family: Wingdings; =
+mso-bidi-font-family: Wingdings"><SPAN=20
+style=3D"mso-list: Ignore">v<SPAN style=3D"FONT: 7pt 'Times New Roman'"> =
+
+</SPAN></SPAN></SPAN><![endif]><SPAN=20
+style=3D"mso-bidi-font-family: 'Times New Roman'">Midterm:=20
+25%<o:p></o:p></SPAN></P>
+<P=20
+style=3D"TEXT-ALIGN: justify; TEXT-INDENT: -0.25in; TEXT-AUTOSPACE: ; =
+MARGIN-LEFT: 0.5in; mso-pagination: none; mso-layout-grid-align: none; =
+tab-stops: 11.0pt list .5in; mso-list: l1 level1 lfo2"=20
+class=3DMsoNormal><![if !supportLists]><SPAN=20
+style=3D"FONT-FAMILY: Wingdings; mso-fareast-font-family: Wingdings; =
+mso-bidi-font-family: Wingdings"><SPAN=20
+style=3D"mso-list: Ignore">v<SPAN style=3D"FONT: 7pt 'Times New Roman'"> =
+
+</SPAN></SPAN></SPAN><![endif]><SPAN=20
+style=3D"mso-bidi-font-family: 'Times New Roman'">Final: =
+30%<o:p></o:p></SPAN></P>
+<P=20
+style=3D"TEXT-ALIGN: justify; TEXT-AUTOSPACE: ; MARGIN-LEFT: 24pt; =
+mso-pagination: none; mso-layout-grid-align: none"=20
+class=3DMsoNormal><SPAN=20
+style=3D"mso-bidi-font-family: 'Times New =
+Roman'">&nbsp;<o:p></o:p></SPAN></P>
+<P=20
+style=3D"TEXT-ALIGN: justify; TEXT-AUTOSPACE: ; MARGIN-LEFT: 24pt; =
+mso-pagination: none; mso-layout-grid-align: none"=20
+class=3DMsoNormal><SPAN style=3D"mso-bidi-font-family: 'Times New =
+Roman'">There will=20
+be no formal attendance taken in the class. But, you are expected to =
+attend the=20
+classes and actively contribute via asking and/or answering questions. =
+There may=20
+be pop quizzes at the beginning of some classes. The questions in the =
+quizzes=20
+will come mostly from the material discussed in the previous lecture(s) =
+or=20
+homework assignment(s). There will be three programming projects, and =
+four=20
+homework assignments throughout the course.<o:p></o:p></SPAN></P>
+<P=20
+style=3D"TEXT-ALIGN: justify; TEXT-AUTOSPACE: ; MARGIN-LEFT: 24pt; =
+mso-pagination: none; mso-layout-grid-align: none"=20
+class=3DMsoNormal><SPAN=20
+style=3D"mso-bidi-font-family: 'Times New =
+Roman'"><o:p>&nbsp;</o:p></SPAN></P>
+<P=20
+style=3D"TEXT-ALIGN: justify; TEXT-AUTOSPACE: ; mso-pagination: none; =
+mso-layout-grid-align: none"=20
+class=3DMsoNormal><B style=3D"mso-bidi-font-weight: normal"><SPAN=20
+style=3D"FONT-FAMILY: 'Copperplate Gothic Light'; mso-bidi-font-family: =
+'Times New Roman'">Course=20
+Schedule (Tentative):<o:p></o:p></SPAN></B></P>
+<P=20
+style=3D"TEXT-ALIGN: justify; TEXT-AUTOSPACE: ; mso-pagination: none; =
+mso-layout-grid-align: none"=20
+class=3DMsoNormal><B style=3D"mso-bidi-font-weight: normal"><SPAN=20
+style=3D"mso-bidi-font-family: 'Times New =
+Roman'"><o:p>&nbsp;</o:p></SPAN></B></P>
+<P=20
+style=3D"TEXT-ALIGN: justify; TEXT-AUTOSPACE: ; mso-pagination: none; =
+mso-layout-grid-align: none"=20
+class=3DMsoNormal><SPAN style=3D"mso-bidi-font-family: 'Times New =
+Roman'">This=20
+schedule is tentative and subject to change. Please check this page =
+regularly=20
+for the updates on the schedule; announcements on the projects, homework =
+
+assignments and exams; and other news about the course. All lecture =
+slides will=20
+be posted online to the course web page the same day after each=20
+class.<o:p></o:p></SPAN></P>
+<P=20
+style=3D"TEXT-ALIGN: justify; TEXT-AUTOSPACE: ; MARGIN-LEFT: 24pt; =
+mso-pagination: none; mso-layout-grid-align: none"=20
+class=3DMsoNormal><SPAN=20
+style=3D"mso-bidi-font-family: 'Times New =
+Roman'">&nbsp;<o:p></o:p></SPAN></P>
+<TABLE=20
+style=3D"BORDER-BOTTOM: medium none; BORDER-LEFT: medium none; =
+BORDER-COLLAPSE: collapse; MARGIN-LEFT: 22.05pt; BORDER-TOP: medium =
+none; BORDER-RIGHT: medium none; mso-padding-alt: 0in 5.4pt 0in 5.4pt; =
+mso-table-layout-alt: fixed; mso-border-alt: solid black .75pt; =
+mso-yfti-tbllook: 1184"=20
+class=3DMsoNormalTable border=3D1 cellSpacing=3D0 cellPadding=3D0 =
+width=3D499>
+  <TBODY>
+  <TR style=3D"mso-yfti-irow: 0; mso-yfti-firstrow: yes">
+    <TD=20
+    style=3D"BORDER-BOTTOM: black 1pt solid; BORDER-LEFT: black 1pt =
+solid; PADDING-BOTTOM: 0in; PADDING-LEFT: 5.4pt; WIDTH: 64.5pt; =
+PADDING-RIGHT: 5.4pt; BORDER-TOP: black 1pt solid; BORDER-RIGHT: black =
+1pt solid; PADDING-TOP: 0in; mso-border-alt: solid black .75pt"=20
+    vAlign=3Dbottom width=3D65>
+      <P=20
+      style=3D"TEXT-ALIGN: center; TEXT-AUTOSPACE: ; mso-pagination: =
+none; mso-layout-grid-align: none"=20
+      class=3DMsoNormal align=3Dcenter><B style=3D"mso-bidi-font-weight: =
+normal"><SPAN=20
+      style=3D"FONT-FAMILY: Arial; mso-bidi-font-family: 'Times New =
+Roman'">Date</SPAN></B><B=20
+      style=3D"mso-bidi-font-weight: normal"><SPAN=20
+      style=3D"mso-bidi-font-family: 'Times New =
+Roman'"><o:p></o:p></SPAN></B></P></TD>
+    <TD=20
+    style=3D"BORDER-BOTTOM: black 1pt solid; BORDER-LEFT: medium none; =
+PADDING-BOTTOM: 0in; PADDING-LEFT: 5.4pt; WIDTH: 53.55pt; PADDING-RIGHT: =
+5.4pt; BORDER-TOP: black 1pt solid; BORDER-RIGHT: black 1pt solid; =
+PADDING-TOP: 0in; mso-border-alt: solid black .75pt; =
+mso-border-left-alt: solid black .75pt"=20
+    vAlign=3Dbottom width=3D54>
+      <P=20
+      style=3D"TEXT-ALIGN: center; TEXT-AUTOSPACE: ; mso-pagination: =
+none; mso-layout-grid-align: none"=20
+      class=3DMsoNormal align=3Dcenter><B style=3D"mso-bidi-font-weight: =
+normal"><SPAN=20
+      style=3D"FONT-FAMILY: Arial; mso-bidi-font-family: 'Times New =
+Roman'">Lect.</SPAN></B><B=20
+      style=3D"mso-bidi-font-weight: normal"><SPAN=20
+      style=3D"mso-bidi-font-family: 'Times New =
+Roman'"><o:p></o:p></SPAN></B></P></TD>
+    <TD=20
+    style=3D"BORDER-BOTTOM: black 1pt solid; BORDER-LEFT: medium none; =
+PADDING-BOTTOM: 0in; PADDING-LEFT: 5.4pt; WIDTH: 241.9pt; PADDING-RIGHT: =
+5.4pt; BORDER-TOP: black 1pt solid; BORDER-RIGHT: black 1pt solid; =
+PADDING-TOP: 0in; mso-border-alt: solid black .75pt; =
+mso-border-left-alt: solid black .75pt"=20
+    vAlign=3Dbottom width=3D242>
+      <P=20
+      style=3D"TEXT-ALIGN: center; TEXT-AUTOSPACE: ; mso-pagination: =
+none; mso-layout-grid-align: none"=20
+      class=3DMsoNormal align=3Dcenter><B style=3D"mso-bidi-font-weight: =
+normal"><SPAN=20
+      style=3D"FONT-FAMILY: Arial; mso-bidi-font-family: 'Times New =
+Roman'">Title</SPAN></B><B=20
+      style=3D"mso-bidi-font-weight: normal"><SPAN=20
+      style=3D"mso-bidi-font-family: 'Times New =
+Roman'"><o:p></o:p></SPAN></B></P></TD>
+    <TD=20
+    style=3D"BORDER-BOTTOM: black 1pt solid; BORDER-LEFT: medium none; =
+PADDING-BOTTOM: 0in; PADDING-LEFT: 5.4pt; WIDTH: 139.5pt; PADDING-RIGHT: =
+5.4pt; BORDER-TOP: black 1pt solid; BORDER-RIGHT: black 1pt solid; =
+PADDING-TOP: 0in; mso-border-alt: solid black .75pt; =
+mso-border-left-alt: solid black .75pt"=20
+    vAlign=3Dbottom width=3D140>
+      <P=20
+      style=3D"TEXT-ALIGN: center; TEXT-AUTOSPACE: ; mso-pagination: =
+none; mso-layout-grid-align: none"=20
+      class=3DMsoNormal align=3Dcenter><B style=3D"mso-bidi-font-weight: =
+normal"><SPAN=20
+      style=3D"FONT-FAMILY: Arial; mso-bidi-font-family: 'Times New =
+Roman'">Notes</SPAN></B><B=20
+      style=3D"mso-bidi-font-weight: normal"><SPAN=20
+      style=3D"mso-bidi-font-family: 'Times New =
+Roman'"><o:p></o:p></SPAN></B></P></TD></TR>
+  <TR style=3D"mso-yfti-irow: 1">
+    <TD=20
+    style=3D"BORDER-BOTTOM: black 1pt solid; BORDER-LEFT: black 1pt =
+solid; PADDING-BOTTOM: 0in; PADDING-LEFT: 5.4pt; WIDTH: 64.5pt; =
+PADDING-RIGHT: 5.4pt; BORDER-TOP: medium none; BORDER-RIGHT: black 1pt =
+solid; PADDING-TOP: 0in; mso-border-alt: solid black .75pt; =
+mso-border-top-alt: solid black .75pt"=20
+    vAlign=3Dbottom width=3D65>
+      <P=20
+      style=3D"TEXT-AUTOSPACE: ; mso-pagination: none; =
+mso-layout-grid-align: none"=20
+      class=3DMsoNormal><B style=3D"mso-bidi-font-weight: normal"><SPAN=20
+      style=3D"mso-bidi-font-family: 'Times New Roman'">Aug=20
+      28<o:p></o:p></SPAN></B></P></TD>
+    <TD=20
+    style=3D"BORDER-BOTTOM: black 1pt solid; BORDER-LEFT: medium none; =
+PADDING-BOTTOM: 0in; PADDING-LEFT: 5.4pt; WIDTH: 53.55pt; PADDING-RIGHT: =
+5.4pt; BORDER-TOP: medium none; BORDER-RIGHT: black 1pt solid; =
+PADDING-TOP: 0in; mso-border-alt: solid black .75pt; =
+mso-border-left-alt: solid black .75pt; mso-border-top-alt: solid black =
+.75pt"=20
+    vAlign=3Dbottom width=3D54>
+      <P=20
+      style=3D"TEXT-ALIGN: center; TEXT-AUTOSPACE: ; mso-pagination: =
+none; mso-layout-grid-align: none"=20
+      class=3DMsoNormal align=3Dcenter><SPAN=20
+      style=3D"mso-bidi-font-family: 'Times New =
+Roman'">1<o:p></o:p></SPAN></P></TD>
+    <TD=20
+    style=3D"BORDER-BOTTOM: black 1pt solid; BORDER-LEFT: medium none; =
+PADDING-BOTTOM: 0in; PADDING-LEFT: 5.4pt; WIDTH: 241.9pt; PADDING-RIGHT: =
+5.4pt; BORDER-TOP: medium none; BORDER-RIGHT: black 1pt solid; =
+PADDING-TOP: 0in; mso-border-alt: solid black .75pt; =
+mso-border-left-alt: solid black .75pt; mso-border-top-alt: solid black =
+.75pt"=20
+    vAlign=3Dbottom width=3D242>
+      <P=20
+      style=3D"TEXT-AUTOSPACE: ; mso-pagination: none; =
+mso-layout-grid-align: none"=20
+      class=3DMsoNormal><SPAN style=3D"mso-bidi-font-family: 'Times New =
+Roman'"><A=20
+      =
+href=3D"http://www.cse.buffalo.edu/faculty/tkosar/cse421-521/slides/01-In=
+troduction.pdf">Introduction</A>=20
+      (<A=20
+      =
+href=3D"http://www.cse.buffalo.edu/faculty/tkosar/cse421-521/slides/01-In=
+troduction_2spp.pdf">2spp</A>)<o:p></o:p></SPAN></P></TD>
+    <TD=20
+    style=3D"BORDER-BOTTOM: black 1pt solid; BORDER-LEFT: medium none; =
+PADDING-BOTTOM: 0in; PADDING-LEFT: 5.4pt; WIDTH: 139.5pt; PADDING-RIGHT: =
+5.4pt; BORDER-TOP: medium none; BORDER-RIGHT: black 1pt solid; =
+PADDING-TOP: 0in; mso-border-alt: solid black .75pt; =
+mso-border-left-alt: solid black .75pt; mso-border-top-alt: solid black =
+.75pt"=20
+    vAlign=3Dbottom width=3D140>
+      <P=20
+      style=3D"TEXT-AUTOSPACE: ; mso-pagination: none; =
+mso-layout-grid-align: none"=20
+      class=3DMsoNormal><I style=3D"mso-bidi-font-style: normal"><SPAN=20
+      style=3D"COLOR: green; mso-bidi-font-family: 'Times New =
+Roman'">Read=20
+      Ch.1<o:p></o:p></SPAN></I></P></TD></TR>
+  <TR style=3D"mso-yfti-irow: 2">
+    <TD=20
+    style=3D"BORDER-BOTTOM: black 1pt solid; BORDER-LEFT: black 1pt =
+solid; PADDING-BOTTOM: 0in; PADDING-LEFT: 5.4pt; WIDTH: 64.5pt; =
+PADDING-RIGHT: 5.4pt; BORDER-TOP: medium none; BORDER-RIGHT: black 1pt =
+solid; PADDING-TOP: 0in; mso-border-alt: solid black .75pt; =
+mso-border-top-alt: solid black .75pt"=20
+    vAlign=3Dbottom width=3D65>
+      <P=20
+      style=3D"TEXT-AUTOSPACE: ; mso-pagination: none; =
+mso-layout-grid-align: none"=20
+      class=3DMsoNormal><B style=3D"mso-bidi-font-weight: normal"><SPAN=20
+      style=3D"mso-bidi-font-family: 'Times New Roman'">Aug=20
+      30<o:p></o:p></SPAN></B></P></TD>
+    <TD=20
+    style=3D"BORDER-BOTTOM: black 1pt solid; BORDER-LEFT: medium none; =
+PADDING-BOTTOM: 0in; PADDING-LEFT: 5.4pt; WIDTH: 53.55pt; PADDING-RIGHT: =
+5.4pt; BORDER-TOP: medium none; BORDER-RIGHT: black 1pt solid; =
+PADDING-TOP: 0in; mso-border-alt: solid black .75pt; =
+mso-border-left-alt: solid black .75pt; mso-border-top-alt: solid black =
+.75pt"=20
+    vAlign=3Dbottom width=3D54>
+      <P=20
+      style=3D"TEXT-ALIGN: center; TEXT-AUTOSPACE: ; mso-pagination: =
+none; mso-layout-grid-align: none"=20
+      class=3DMsoNormal align=3Dcenter><SPAN=20
+      style=3D"mso-bidi-font-family: 'Times New =
+Roman'">2<o:p></o:p></SPAN></P></TD>
+    <TD=20
+    style=3D"BORDER-BOTTOM: black 1pt solid; BORDER-LEFT: medium none; =
+PADDING-BOTTOM: 0in; PADDING-LEFT: 5.4pt; WIDTH: 241.9pt; PADDING-RIGHT: =
+5.4pt; BORDER-TOP: medium none; BORDER-RIGHT: black 1pt solid; =
+PADDING-TOP: 0in; mso-border-alt: solid black .75pt; =
+mso-border-left-alt: solid black .75pt; mso-border-top-alt: solid black =
+.75pt"=20
+    vAlign=3Dbottom width=3D242>
+      <P=20
+      style=3D"TEXT-AUTOSPACE: ; mso-pagination: none; =
+mso-layout-grid-align: none"=20
+      class=3DMsoNormal><SPAN style=3D"mso-bidi-font-family: 'Times New =
+Roman'"><A=20
+      =
+href=3D"http://www.cse.buffalo.edu/faculty/tkosar/cse421-521/slides/02-OS=
+_Structures.pdf">Operating=20
+      System Structures</A> (<A=20
+      =
+href=3D"http://www.cse.buffalo.edu/faculty/tkosar/cse421-521/slides/02-OS=
+_Structures_2spp.pdf">2spp</A>)<o:p></o:p></SPAN></P></TD>
+    <TD=20
+    style=3D"BORDER-BOTTOM: black 1pt solid; BORDER-LEFT: medium none; =
+PADDING-BOTTOM: 0in; PADDING-LEFT: 5.4pt; WIDTH: 139.5pt; PADDING-RIGHT: =
+5.4pt; BORDER-TOP: medium none; BORDER-RIGHT: black 1pt solid; =
+PADDING-TOP: 0in; mso-border-alt: solid black .75pt; =
+mso-border-left-alt: solid black .75pt; mso-border-top-alt: solid black =
+.75pt"=20
+    vAlign=3Dbottom width=3D140>
+      <P=20
+      style=3D"TEXT-AUTOSPACE: ; mso-pagination: none; =
+mso-layout-grid-align: none"=20
+      class=3DMsoNormal><I><SPAN=20
+      style=3D"COLOR: green; mso-bidi-font-family: 'Times New =
+Roman'">Read=20
+      Ch.2</SPAN></I><SPAN=20
+      style=3D"COLOR: green; mso-bidi-font-family: 'Times New =
+Roman'"><o:p></o:p></SPAN></P></TD></TR>
+  <TR style=3D"mso-yfti-irow: 3">
+    <TD=20
+    style=3D"BORDER-BOTTOM: black 1pt solid; BORDER-LEFT: black 1pt =
+solid; PADDING-BOTTOM: 0in; PADDING-LEFT: 5.4pt; WIDTH: 64.5pt; =
+PADDING-RIGHT: 5.4pt; BORDER-TOP: medium none; BORDER-RIGHT: black 1pt =
+solid; PADDING-TOP: 0in; mso-border-alt: solid black .75pt; =
+mso-border-top-alt: solid black .75pt"=20
+    vAlign=3Dbottom width=3D65>
+      <P=20
+      style=3D"TEXT-AUTOSPACE: ; mso-pagination: none; =
+mso-layout-grid-align: none"=20
+      class=3DMsoNormal><B style=3D"mso-bidi-font-weight: normal"><SPAN=20
+      style=3D"mso-bidi-font-family: 'Times New Roman'">Sep=20
+      4<o:p></o:p></SPAN></B></P></TD>
+    <TD=20
+    style=3D"BORDER-BOTTOM: black 1pt solid; BORDER-LEFT: medium none; =
+PADDING-BOTTOM: 0in; PADDING-LEFT: 5.4pt; WIDTH: 53.55pt; PADDING-RIGHT: =
+5.4pt; BORDER-TOP: medium none; BORDER-RIGHT: black 1pt solid; =
+PADDING-TOP: 0in; mso-border-alt: solid black .75pt; =
+mso-border-left-alt: solid black .75pt; mso-border-top-alt: solid black =
+.75pt"=20
+    vAlign=3Dbottom width=3D54>
+      <P=20
+      style=3D"TEXT-ALIGN: center; TEXT-AUTOSPACE: ; mso-pagination: =
+none; mso-layout-grid-align: none"=20
+      class=3DMsoNormal align=3Dcenter><SPAN=20
+      style=3D"mso-bidi-font-family: 'Times New =
+Roman'">3<o:p></o:p></SPAN></P></TD>
+    <TD=20
+    style=3D"BORDER-BOTTOM: black 1pt solid; BORDER-LEFT: medium none; =
+PADDING-BOTTOM: 0in; PADDING-LEFT: 5.4pt; WIDTH: 241.9pt; PADDING-RIGHT: =
+5.4pt; BORDER-TOP: medium none; BORDER-RIGHT: black 1pt solid; =
+PADDING-TOP: 0in; mso-border-alt: solid black .75pt; =
+mso-border-left-alt: solid black .75pt; mso-border-top-alt: solid black =
+.75pt"=20
+    vAlign=3Dbottom width=3D242>
+      <P=20
+      style=3D"TEXT-AUTOSPACE: ; mso-pagination: none; =
+mso-layout-grid-align: none"=20
+      class=3DMsoNormal><SPAN style=3D"mso-bidi-font-family: 'Times New =
+Roman'"><A=20
+      =
+href=3D"http://www.cse.buffalo.edu/faculty/tkosar/cse421-521/slides/03-Pr=
+ocesses.pdf">Processes</A>=20
+      (<A=20
+      =
+href=3D"http://www.cse.buffalo.edu/faculty/tkosar/cse421-521/slides/03-Pr=
+ocesses_2spp.pdf">2spp</A>)<o:p></o:p></SPAN></P></TD>
+    <TD=20
+    style=3D"BORDER-BOTTOM: black 1pt solid; BORDER-LEFT: medium none; =
+PADDING-BOTTOM: 0in; PADDING-LEFT: 5.4pt; WIDTH: 139.5pt; PADDING-RIGHT: =
+5.4pt; BORDER-TOP: medium none; BORDER-RIGHT: black 1pt solid; =
+PADDING-TOP: 0in; mso-border-alt: solid black .75pt; =
+mso-border-left-alt: solid black .75pt; mso-border-top-alt: solid black =
+.75pt"=20
+    vAlign=3Dbottom width=3D140>
+      <P=20
+      style=3D"TEXT-AUTOSPACE: ; mso-pagination: none; =
+mso-layout-grid-align: none"=20
+      class=3DMsoNormal><I><SPAN=20
+      style=3D"COLOR: green; mso-bidi-font-family: 'Times New =
+Roman'">Read=20
+      Ch.3</SPAN></I><SPAN=20
+      style=3D"mso-bidi-font-family: 'Times New =
+Roman'"><o:p></o:p></SPAN></P></TD></TR>
+  <TR style=3D"mso-yfti-irow: 4">
+    <TD=20
+    style=3D"BORDER-BOTTOM: black 1pt solid; BORDER-LEFT: black 1pt =
+solid; PADDING-BOTTOM: 0in; PADDING-LEFT: 5.4pt; WIDTH: 64.5pt; =
+PADDING-RIGHT: 5.4pt; BORDER-TOP: medium none; BORDER-RIGHT: black 1pt =
+solid; PADDING-TOP: 0in; mso-border-alt: solid black .75pt; =
+mso-border-top-alt: solid black .75pt"=20
+    vAlign=3Dbottom width=3D65>
+      <P=20
+      style=3D"TEXT-AUTOSPACE: ; mso-pagination: none; =
+mso-layout-grid-align: none"=20
+      class=3DMsoNormal><B style=3D"mso-bidi-font-weight: normal"><SPAN=20
+      style=3D"mso-bidi-font-family: 'Times New Roman'">Sep=20
+      6<o:p></o:p></SPAN></B></P></TD>
+    <TD=20
+    style=3D"BORDER-BOTTOM: black 1pt solid; BORDER-LEFT: medium none; =
+PADDING-BOTTOM: 0in; PADDING-LEFT: 5.4pt; WIDTH: 53.55pt; PADDING-RIGHT: =
+5.4pt; BORDER-TOP: medium none; BORDER-RIGHT: black 1pt solid; =
+PADDING-TOP: 0in; mso-border-alt: solid black .75pt; =
+mso-border-left-alt: solid black .75pt; mso-border-top-alt: solid black =
+.75pt"=20
+    vAlign=3Dbottom width=3D54>
+      <P=20
+      style=3D"TEXT-ALIGN: center; TEXT-AUTOSPACE: ; mso-pagination: =
+none; mso-layout-grid-align: none"=20
+      class=3DMsoNormal align=3Dcenter><SPAN=20
+      style=3D"mso-bidi-font-family: 'Times New =
+Roman'">4<o:p></o:p></SPAN></P></TD>
+    <TD=20
+    style=3D"BORDER-BOTTOM: black 1pt solid; BORDER-LEFT: medium none; =
+PADDING-BOTTOM: 0in; PADDING-LEFT: 5.4pt; WIDTH: 241.9pt; PADDING-RIGHT: =
+5.4pt; BORDER-TOP: medium none; BORDER-RIGHT: black 1pt solid; =
+PADDING-TOP: 0in; mso-border-alt: solid black .75pt; =
+mso-border-left-alt: solid black .75pt; mso-border-top-alt: solid black =
+.75pt"=20
+    vAlign=3Dbottom width=3D242>
+      <P=20
+      style=3D"TEXT-AUTOSPACE: ; mso-pagination: none; =
+mso-layout-grid-align: none"=20
+      class=3DMsoNormal><SPAN style=3D"mso-bidi-font-family: 'Times New =
+Roman'"><A=20
+      =
+href=3D"http://www.cse.buffalo.edu/faculty/tkosar/cse421-521/slides/04-Th=
+reads.pdf">Threads</A>=20
+      (<A=20
+      =
+href=3D"http://www.cse.buffalo.edu/faculty/tkosar/cse421-521/slides/04-Th=
+reads_2spp.pdf">2spp</A>)<o:p></o:p></SPAN></P></TD>
+    <TD=20
+    style=3D"BORDER-BOTTOM: black 1pt solid; BORDER-LEFT: medium none; =
+PADDING-BOTTOM: 0in; PADDING-LEFT: 5.4pt; WIDTH: 139.5pt; PADDING-RIGHT: =
+5.4pt; BORDER-TOP: medium none; BORDER-RIGHT: black 1pt solid; =
+PADDING-TOP: 0in; mso-border-alt: solid black .75pt; =
+mso-border-left-alt: solid black .75pt; mso-border-top-alt: solid black =
+.75pt"=20
+    vAlign=3Dbottom width=3D140>
+      <P=20
+      style=3D"TEXT-AUTOSPACE: ; mso-pagination: none; =
+mso-layout-grid-align: none"=20
+      class=3DMsoNormal><I><SPAN=20
+      style=3D"COLOR: green; mso-bidi-font-family: 'Times New =
+Roman'">Read Ch.4;=20
+      <A=20
+      =
+href=3D"http://www.cse.buffalo.edu/faculty/tkosar/cse421-521/homework/hom=
+ework-1.pdf">HW-1</A></SPAN></I><I><SPAN=20
+      style=3D"COLOR: red; mso-bidi-font-family: 'Times New Roman'"> out =
+
+      </SPAN></I><SPAN=20
+      style=3D"mso-bidi-font-family: 'Times New =
+Roman'"><o:p></o:p></SPAN></P></TD></TR>
+  <TR style=3D"mso-yfti-irow: 5">
+    <TD=20
+    style=3D"BORDER-BOTTOM: black 1pt solid; BORDER-LEFT: black 1pt =
+solid; PADDING-BOTTOM: 0in; PADDING-LEFT: 5.4pt; WIDTH: 64.5pt; =
+PADDING-RIGHT: 5.4pt; BORDER-TOP: medium none; BORDER-RIGHT: black 1pt =
+solid; PADDING-TOP: 0in; mso-border-alt: solid black .75pt; =
+mso-border-top-alt: solid black .75pt"=20
+    vAlign=3Dbottom width=3D65>
+      <P=20
+      style=3D"TEXT-AUTOSPACE: ; mso-pagination: none; =
+mso-layout-grid-align: none"=20
+      class=3DMsoNormal><B style=3D"mso-bidi-font-weight: normal"><SPAN=20
+      style=3D"mso-bidi-font-family: 'Times New Roman'">Sep=20
+      11<o:p></o:p></SPAN></B></P></TD>
+    <TD=20
+    style=3D"BORDER-BOTTOM: black 1pt solid; BORDER-LEFT: medium none; =
+PADDING-BOTTOM: 0in; PADDING-LEFT: 5.4pt; WIDTH: 53.55pt; PADDING-RIGHT: =
+5.4pt; BORDER-TOP: medium none; BORDER-RIGHT: black 1pt solid; =
+PADDING-TOP: 0in; mso-border-alt: solid black .75pt; =
+mso-border-left-alt: solid black .75pt; mso-border-top-alt: solid black =
+.75pt"=20
+    vAlign=3Dbottom width=3D54>
+      <P=20
+      style=3D"TEXT-ALIGN: center; TEXT-AUTOSPACE: ; mso-pagination: =
+none; mso-layout-grid-align: none"=20
+      class=3DMsoNormal align=3Dcenter><SPAN=20
+      style=3D"mso-bidi-font-family: 'Times New =
+Roman'">5<o:p></o:p></SPAN></P></TD>
+    <TD=20
+    style=3D"BORDER-BOTTOM: black 1pt solid; BORDER-LEFT: medium none; =
+PADDING-BOTTOM: 0in; PADDING-LEFT: 5.4pt; WIDTH: 241.9pt; PADDING-RIGHT: =
+5.4pt; BORDER-TOP: medium none; BORDER-RIGHT: black 1pt solid; =
+PADDING-TOP: 0in; mso-border-alt: solid black .75pt; =
+mso-border-left-alt: solid black .75pt; mso-border-top-alt: solid black =
+.75pt"=20
+    vAlign=3Dbottom width=3D242>
+      <P=20
+      style=3D"TEXT-AUTOSPACE: ; mso-pagination: none; =
+mso-layout-grid-align: none"=20
+      class=3DMsoNormal><SPAN style=3D"mso-bidi-font-family: 'Times New =
+Roman'"><A=20
+      =
+href=3D"http://www.cse.buffalo.edu/faculty/tkosar/cse421-521/slides/05-CP=
+U_Scheduling_I.pdf">CPU=20
+      Scheduling =96 I</A> (<A=20
+      =
+href=3D"http://www.cse.buffalo.edu/faculty/tkosar/cse421-521/slides/05-CP=
+U_Scheduling_I_2spp.pdf">2spp</A>)<o:p></o:p></SPAN></P></TD>
+    <TD=20
+    style=3D"BORDER-BOTTOM: black 1pt solid; BORDER-LEFT: medium none; =
+PADDING-BOTTOM: 0in; PADDING-LEFT: 5.4pt; WIDTH: 139.5pt; PADDING-RIGHT: =
+5.4pt; BORDER-TOP: medium none; BORDER-RIGHT: black 1pt solid; =
+PADDING-TOP: 0in; mso-border-alt: solid black .75pt; =
+mso-border-left-alt: solid black .75pt; mso-border-top-alt: solid black =
+.75pt"=20
+    vAlign=3Dbottom width=3D140>
+      <P=20
+      style=3D"TEXT-AUTOSPACE: ; mso-pagination: none; =
+mso-layout-grid-align: none"=20
+      class=3DMsoNormal><I><SPAN=20
+      style=3D"COLOR: green; mso-bidi-font-family: 'Times New =
+Roman'">Read Ch.5;=20
+      <A=20
+      =
+href=3D"http://www.cse.buffalo.edu/faculty/tkosar/cse421-521/slides/Recit=
+ation_01.pdf">Recitation-1</A></SPAN></I><SPAN=20
+      style=3D"mso-bidi-font-family: 'Times New =
+Roman'"><o:p></o:p></SPAN></P></TD></TR>
+  <TR style=3D"mso-yfti-irow: 6">
+    <TD=20
+    style=3D"BORDER-BOTTOM: black 1pt solid; BORDER-LEFT: black 1pt =
+solid; PADDING-BOTTOM: 0in; PADDING-LEFT: 5.4pt; WIDTH: 64.5pt; =
+PADDING-RIGHT: 5.4pt; BORDER-TOP: medium none; BORDER-RIGHT: black 1pt =
+solid; PADDING-TOP: 0in; mso-border-alt: solid black .75pt; =
+mso-border-top-alt: solid black .75pt"=20
+    vAlign=3Dbottom width=3D65>
+      <P=20
+      style=3D"TEXT-AUTOSPACE: ; mso-pagination: none; =
+mso-layout-grid-align: none"=20
+      class=3DMsoNormal><B style=3D"mso-bidi-font-weight: normal"><SPAN=20
+      style=3D"mso-bidi-font-family: 'Times New Roman'">Sep=20
+      13<o:p></o:p></SPAN></B></P></TD>
+    <TD=20
+    style=3D"BORDER-BOTTOM: black 1pt solid; BORDER-LEFT: medium none; =
+PADDING-BOTTOM: 0in; PADDING-LEFT: 5.4pt; WIDTH: 53.55pt; PADDING-RIGHT: =
+5.4pt; BORDER-TOP: medium none; BORDER-RIGHT: black 1pt solid; =
+PADDING-TOP: 0in; mso-border-alt: solid black .75pt; =
+mso-border-left-alt: solid black .75pt; mso-border-top-alt: solid black =
+.75pt"=20
+    vAlign=3Dbottom width=3D54>
+      <P=20
+      style=3D"TEXT-ALIGN: center; TEXT-AUTOSPACE: ; mso-pagination: =
+none; mso-layout-grid-align: none"=20
+      class=3DMsoNormal align=3Dcenter><SPAN=20
+      style=3D"mso-bidi-font-family: 'Times New =
+Roman'">6<o:p></o:p></SPAN></P></TD>
+    <TD=20
+    style=3D"BORDER-BOTTOM: black 1pt solid; BORDER-LEFT: medium none; =
+PADDING-BOTTOM: 0in; PADDING-LEFT: 5.4pt; WIDTH: 241.9pt; PADDING-RIGHT: =
+5.4pt; BORDER-TOP: medium none; BORDER-RIGHT: black 1pt solid; =
+PADDING-TOP: 0in; mso-border-alt: solid black .75pt; =
+mso-border-left-alt: solid black .75pt; mso-border-top-alt: solid black =
+.75pt"=20
+    vAlign=3Dbottom width=3D242>
+      <P=20
+      style=3D"TEXT-AUTOSPACE: ; mso-pagination: none; =
+mso-layout-grid-align: none"=20
+      class=3DMsoNormal><SPAN style=3D"mso-bidi-font-family: 'Times New =
+Roman'"><A=20
+      =
+href=3D"http://www.cse.buffalo.edu/faculty/tkosar/cse421-521/slides/06-CP=
+U_Scheduling_II.pdf">CPU=20
+      Scheduling =96 II</A> (<A=20
+      =
+href=3D"http://www.cse.buffalo.edu/faculty/tkosar/cse421-521/slides/06-CP=
+U_Scheduling_II_2spp.pdf">2spp</A>)<o:p></o:p></SPAN></P></TD>
+    <TD=20
+    style=3D"BORDER-BOTTOM: black 1pt solid; BORDER-LEFT: medium none; =
+PADDING-BOTTOM: 0in; PADDING-LEFT: 5.4pt; WIDTH: 139.5pt; PADDING-RIGHT: =
+5.4pt; BORDER-TOP: medium none; BORDER-RIGHT: black 1pt solid; =
+PADDING-TOP: 0in; mso-border-alt: solid black .75pt; =
+mso-border-left-alt: solid black .75pt; mso-border-top-alt: solid black =
+.75pt"=20
+    vAlign=3Dbottom width=3D140>
+      <P=20
+      style=3D"TEXT-AUTOSPACE: ; mso-pagination: none; =
+mso-layout-grid-align: none"=20
+      class=3DMsoNormal><I style=3D"mso-bidi-font-style: normal"><SPAN=20
+      style=3D"COLOR: red; mso-bidi-font-family: 'Times New Roman'">HW-1 =
+
+      due<o:p></o:p></SPAN></I></P></TD></TR>
+  <TR style=3D"mso-yfti-irow: 7">
+    <TD=20
+    style=3D"BORDER-BOTTOM: black 1pt solid; BORDER-LEFT: black 1pt =
+solid; PADDING-BOTTOM: 0in; PADDING-LEFT: 5.4pt; WIDTH: 64.5pt; =
+PADDING-RIGHT: 5.4pt; BORDER-TOP: medium none; BORDER-RIGHT: black 1pt =
+solid; PADDING-TOP: 0in; mso-border-alt: solid black .75pt; =
+mso-border-top-alt: solid black .75pt"=20
+    vAlign=3Dbottom width=3D65>
+      <P=20
+      style=3D"TEXT-AUTOSPACE: ; mso-pagination: none; =
+mso-layout-grid-align: none"=20
+      class=3DMsoNormal><B style=3D"mso-bidi-font-weight: normal"><SPAN=20
+      style=3D"mso-bidi-font-family: 'Times New Roman'">Sep=20
+      20<o:p></o:p></SPAN></B></P></TD>
+    <TD=20
+    style=3D"BORDER-BOTTOM: black 1pt solid; BORDER-LEFT: medium none; =
+PADDING-BOTTOM: 0in; PADDING-LEFT: 5.4pt; WIDTH: 53.55pt; PADDING-RIGHT: =
+5.4pt; BORDER-TOP: medium none; BORDER-RIGHT: black 1pt solid; =
+PADDING-TOP: 0in; mso-border-alt: solid black .75pt; =
+mso-border-left-alt: solid black .75pt; mso-border-top-alt: solid black =
+.75pt"=20
+    vAlign=3Dbottom width=3D54>
+      <P=20
+      style=3D"TEXT-ALIGN: center; TEXT-AUTOSPACE: ; mso-pagination: =
+none; mso-layout-grid-align: none"=20
+      class=3DMsoNormal align=3Dcenter><SPAN=20
+      style=3D"mso-bidi-font-family: 'Times New =
+Roman'">7<o:p></o:p></SPAN></P></TD>
+    <TD=20
+    style=3D"BORDER-BOTTOM: black 1pt solid; BORDER-LEFT: medium none; =
+PADDING-BOTTOM: 0in; PADDING-LEFT: 5.4pt; WIDTH: 241.9pt; PADDING-RIGHT: =
+5.4pt; BORDER-TOP: medium none; BORDER-RIGHT: black 1pt solid; =
+PADDING-TOP: 0in; mso-border-alt: solid black .75pt; =
+mso-border-left-alt: solid black .75pt; mso-border-top-alt: solid black =
+.75pt"=20
+    vAlign=3Dbottom width=3D242>
+      <P=20
+      style=3D"TEXT-AUTOSPACE: ; mso-pagination: none; =
+mso-layout-grid-align: none"=20
+      class=3DMsoNormal><SPAN style=3D"mso-bidi-font-family: 'Times New =
+Roman'"><A=20
+      =
+href=3D"http://www.cse.buffalo.edu/faculty/tkosar/cse421-521/slides/07-Pr=
+oject-I_Discussion.pdf">Project-I=20
+      Discussion</A> (<A=20
+      =
+href=3D"http://www.cse.buffalo.edu/faculty/tkosar/cse421-521/slides/07-Pr=
+oject-I_Discussion_2spp.pdf">2spp</A>)<o:p></o:p></SPAN></P></TD>
+    <TD=20
+    style=3D"BORDER-BOTTOM: black 1pt solid; BORDER-LEFT: medium none; =
+PADDING-BOTTOM: 0in; PADDING-LEFT: 5.4pt; WIDTH: 139.5pt; PADDING-RIGHT: =
+5.4pt; BORDER-TOP: medium none; BORDER-RIGHT: black 1pt solid; =
+PADDING-TOP: 0in; mso-border-alt: solid black .75pt; =
+mso-border-left-alt: solid black .75pt; mso-border-top-alt: solid black =
+.75pt"=20
+    vAlign=3Dbottom width=3D140>
+      <P=20
+      style=3D"TEXT-AUTOSPACE: ; mso-pagination: none; =
+mso-layout-grid-align: none"=20
+      class=3DMsoNormal><I><SPAN=20
+      style=3D"COLOR: red; mso-bidi-font-family: 'Times New Roman'"><A=20
+      =
+href=3D"http://www.cse.buffalo.edu/faculty/tkosar/cse421-521/projects/pro=
+ject-1.pdf">Prj-1</A>=20
+      out</SPAN></I><I><SPAN=20
+      style=3D"COLOR: green; mso-bidi-font-family: 'Times New Roman'">; =
+<A=20
+      =
+href=3D"http://www.cse.buffalo.edu/faculty/tkosar/cse421-521/slides/Recit=
+ation_02.pdf">Recitation-2</A></SPAN></I><SPAN=20
+      style=3D"mso-bidi-font-family: 'Times New =
+Roman'"><o:p></o:p></SPAN></P></TD></TR>
+  <TR style=3D"mso-yfti-irow: 8">
+    <TD=20
+    style=3D"BORDER-BOTTOM: black 1pt solid; BORDER-LEFT: black 1pt =
+solid; PADDING-BOTTOM: 0in; PADDING-LEFT: 5.4pt; WIDTH: 64.5pt; =
+PADDING-RIGHT: 5.4pt; BORDER-TOP: medium none; BORDER-RIGHT: black 1pt =
+solid; PADDING-TOP: 0in; mso-border-alt: solid black .75pt; =
+mso-border-top-alt: solid black .75pt"=20
+    vAlign=3Dbottom width=3D65>
+      <P=20
+      style=3D"TEXT-AUTOSPACE: ; mso-pagination: none; =
+mso-layout-grid-align: none"=20
+      class=3DMsoNormal><B style=3D"mso-bidi-font-weight: normal"><SPAN=20
+      style=3D"mso-bidi-font-family: 'Times New Roman'">Sep=20
+      25<o:p></o:p></SPAN></B></P></TD>
+    <TD=20
+    style=3D"BORDER-BOTTOM: black 1pt solid; BORDER-LEFT: medium none; =
+PADDING-BOTTOM: 0in; PADDING-LEFT: 5.4pt; WIDTH: 53.55pt; PADDING-RIGHT: =
+5.4pt; BORDER-TOP: medium none; BORDER-RIGHT: black 1pt solid; =
+PADDING-TOP: 0in; mso-border-alt: solid black .75pt; =
+mso-border-left-alt: solid black .75pt; mso-border-top-alt: solid black =
+.75pt"=20
+    vAlign=3Dbottom width=3D54>
+      <P=20
+      style=3D"TEXT-ALIGN: center; TEXT-AUTOSPACE: ; mso-pagination: =
+none; mso-layout-grid-align: none"=20
+      class=3DMsoNormal align=3Dcenter><SPAN=20
+      style=3D"mso-bidi-font-family: 'Times New =
+Roman'">8<o:p></o:p></SPAN></P></TD>
+    <TD=20
+    style=3D"BORDER-BOTTOM: black 1pt solid; BORDER-LEFT: medium none; =
+PADDING-BOTTOM: 0in; PADDING-LEFT: 5.4pt; WIDTH: 241.9pt; PADDING-RIGHT: =
+5.4pt; BORDER-TOP: medium none; BORDER-RIGHT: black 1pt solid; =
+PADDING-TOP: 0in; mso-border-alt: solid black .75pt; =
+mso-border-left-alt: solid black .75pt; mso-border-top-alt: solid black =
+.75pt"=20
+    vAlign=3Dbottom width=3D242>
+      <P=20
+      style=3D"TEXT-AUTOSPACE: ; mso-pagination: none; =
+mso-layout-grid-align: none"=20
+      class=3DMsoNormal><SPAN style=3D"mso-bidi-font-family: 'Times New =
+Roman'"><A=20
+      =
+href=3D"http://www.cse.buffalo.edu/faculty/tkosar/cse421-521/slides/08-Pr=
+ocess_Synchronization_I.pdf">Process=20
+      Synchronization =96 I</A> (<A=20
+      =
+href=3D"http://www.cse.buffalo.edu/faculty/tkosar/cse421-521/slides/08-Pr=
+ocess_Synchronization_I_2spp.pdf">2spp</A>)<o:p></o:p></SPAN></P></TD>
+    <TD=20
+    style=3D"BORDER-BOTTOM: black 1pt solid; BORDER-LEFT: medium none; =
+PADDING-BOTTOM: 0in; PADDING-LEFT: 5.4pt; WIDTH: 139.5pt; PADDING-RIGHT: =
+5.4pt; BORDER-TOP: medium none; BORDER-RIGHT: black 1pt solid; =
+PADDING-TOP: 0in; mso-border-alt: solid black .75pt; =
+mso-border-left-alt: solid black .75pt; mso-border-top-alt: solid black =
+.75pt"=20
+    vAlign=3Dbottom width=3D140>
+      <P=20
+      style=3D"TEXT-AUTOSPACE: ; mso-pagination: none; =
+mso-layout-grid-align: none"=20
+      class=3DMsoNormal><I><SPAN=20
+      style=3D"COLOR: green; mso-bidi-font-family: 'Times New =
+Roman'">Read Ch.6;=20
+      <A=20
+      =
+href=3D"http://www.cse.buffalo.edu/faculty/tkosar/cse421-521/slides/Recit=
+ation_03.pdf">Recitation-3</A></SPAN></I><SPAN=20
+      style=3D"mso-bidi-font-family: 'Times New =
+Roman'"><o:p></o:p></SPAN></P></TD></TR>
+  <TR style=3D"mso-yfti-irow: 9">
+    <TD=20
+    style=3D"BORDER-BOTTOM: black 1pt solid; BORDER-LEFT: black 1pt =
+solid; PADDING-BOTTOM: 0in; PADDING-LEFT: 5.4pt; WIDTH: 64.5pt; =
+PADDING-RIGHT: 5.4pt; BORDER-TOP: medium none; BORDER-RIGHT: black 1pt =
+solid; PADDING-TOP: 0in; mso-border-alt: solid black .75pt; =
+mso-border-top-alt: solid black .75pt"=20
+    vAlign=3Dbottom width=3D65>
+      <P=20
+      style=3D"TEXT-AUTOSPACE: ; mso-pagination: none; =
+mso-layout-grid-align: none"=20
+      class=3DMsoNormal><B style=3D"mso-bidi-font-weight: normal"><SPAN=20
+      style=3D"mso-bidi-font-family: 'Times New Roman'">Sep=20
+      27<o:p></o:p></SPAN></B></P></TD>
+    <TD=20
+    style=3D"BORDER-BOTTOM: black 1pt solid; BORDER-LEFT: medium none; =
+PADDING-BOTTOM: 0in; PADDING-LEFT: 5.4pt; WIDTH: 53.55pt; PADDING-RIGHT: =
+5.4pt; BORDER-TOP: medium none; BORDER-RIGHT: black 1pt solid; =
+PADDING-TOP: 0in; mso-border-alt: solid black .75pt; =
+mso-border-left-alt: solid black .75pt; mso-border-top-alt: solid black =
+.75pt"=20
+    vAlign=3Dbottom width=3D54>
+      <P=20
+      style=3D"TEXT-ALIGN: center; TEXT-AUTOSPACE: ; mso-pagination: =
+none; mso-layout-grid-align: none"=20
+      class=3DMsoNormal align=3Dcenter><SPAN=20
+      style=3D"mso-bidi-font-family: 'Times New =
+Roman'">9<o:p></o:p></SPAN></P></TD>
+    <TD=20
+    style=3D"BORDER-BOTTOM: black 1pt solid; BORDER-LEFT: medium none; =
+PADDING-BOTTOM: 0in; PADDING-LEFT: 5.4pt; WIDTH: 241.9pt; PADDING-RIGHT: =
+5.4pt; BORDER-TOP: medium none; BORDER-RIGHT: black 1pt solid; =
+PADDING-TOP: 0in; mso-border-alt: solid black .75pt; =
+mso-border-left-alt: solid black .75pt; mso-border-top-alt: solid black =
+.75pt"=20
+    vAlign=3Dbottom width=3D242>
+      <P=20
+      style=3D"TEXT-AUTOSPACE: ; mso-pagination: none; =
+mso-layout-grid-align: none"=20
+      class=3DMsoNormal><SPAN style=3D"mso-bidi-font-family: 'Times New =
+Roman'"><A=20
+      =
+href=3D"http://www.cse.buffalo.edu/faculty/tkosar/cse421-521/slides/09-Pr=
+ocess_Synchronization_II.pdf">Process=20
+      Synchronization =96 II</A> (<A=20
+      =
+href=3D"http://www.cse.buffalo.edu/faculty/tkosar/cse421-521/slides/09-Pr=
+ocess_Synchronization_II_2spp.pdf">2spp</A>)=20
+      <o:p></o:p></SPAN></P></TD>
+    <TD=20
+    style=3D"BORDER-BOTTOM: black 1pt solid; BORDER-LEFT: medium none; =
+PADDING-BOTTOM: 0in; PADDING-LEFT: 5.4pt; WIDTH: 139.5pt; PADDING-RIGHT: =
+5.4pt; BORDER-TOP: medium none; BORDER-RIGHT: black 1pt solid; =
+PADDING-TOP: 0in; mso-border-alt: solid black .75pt; =
+mso-border-left-alt: solid black .75pt; mso-border-top-alt: solid black =
+.75pt"=20
+    vAlign=3Dbottom width=3D140>
+      <P=20
+      style=3D"TEXT-AUTOSPACE: ; mso-pagination: none; =
+mso-layout-grid-align: none"=20
+      class=3DMsoNormal><SPAN=20
+      style=3D"mso-bidi-font-family: 'Times New =
+Roman'"><o:p>&nbsp;</o:p></SPAN></P></TD></TR>
+  <TR style=3D"mso-yfti-irow: 10">
+    <TD=20
+    style=3D"BORDER-BOTTOM: black 1pt solid; BORDER-LEFT: black 1pt =
+solid; PADDING-BOTTOM: 0in; PADDING-LEFT: 5.4pt; WIDTH: 64.5pt; =
+PADDING-RIGHT: 5.4pt; BORDER-TOP: medium none; BORDER-RIGHT: black 1pt =
+solid; PADDING-TOP: 0in; mso-border-alt: solid black .75pt; =
+mso-border-top-alt: solid black .75pt"=20
+    vAlign=3Dbottom width=3D65>
+      <P=20
+      style=3D"TEXT-AUTOSPACE: ; mso-pagination: none; =
+mso-layout-grid-align: none"=20
+      class=3DMsoNormal><B style=3D"mso-bidi-font-weight: normal"><SPAN=20
+      style=3D"mso-bidi-font-family: 'Times New Roman'">Oct=20
+      2<o:p></o:p></SPAN></B></P></TD>
+    <TD=20
+    style=3D"BORDER-BOTTOM: black 1pt solid; BORDER-LEFT: medium none; =
+PADDING-BOTTOM: 0in; PADDING-LEFT: 5.4pt; WIDTH: 53.55pt; PADDING-RIGHT: =
+5.4pt; BORDER-TOP: medium none; BORDER-RIGHT: black 1pt solid; =
+PADDING-TOP: 0in; mso-border-alt: solid black .75pt; =
+mso-border-left-alt: solid black .75pt; mso-border-top-alt: solid black =
+.75pt"=20
+    vAlign=3Dbottom width=3D54>
+      <P=20
+      style=3D"TEXT-ALIGN: center; TEXT-AUTOSPACE: ; mso-pagination: =
+none; mso-layout-grid-align: none"=20
+      class=3DMsoNormal align=3Dcenter><SPAN=20
+      style=3D"mso-bidi-font-family: 'Times New =
+Roman'">10<o:p></o:p></SPAN></P></TD>
+    <TD=20
+    style=3D"BORDER-BOTTOM: black 1pt solid; BORDER-LEFT: medium none; =
+PADDING-BOTTOM: 0in; PADDING-LEFT: 5.4pt; WIDTH: 241.9pt; PADDING-RIGHT: =
+5.4pt; BORDER-TOP: medium none; BORDER-RIGHT: black 1pt solid; =
+PADDING-TOP: 0in; mso-border-alt: solid black .75pt; =
+mso-border-left-alt: solid black .75pt; mso-border-top-alt: solid black =
+.75pt"=20
+    vAlign=3Dbottom width=3D242>
+      <P=20
+      style=3D"TEXT-AUTOSPACE: ; mso-pagination: none; =
+mso-layout-grid-align: none"=20
+      class=3DMsoNormal><SPAN style=3D"mso-bidi-font-family: 'Times New =
+Roman'"><A=20
+      =
+href=3D"http://www.cse.buffalo.edu/faculty/tkosar/cse421-521/slides/10-De=
+adlocks_I.pdf">Deadlocks=20
+      =96 I</A> (<A=20
+      =
+href=3D"http://www.cse.buffalo.edu/faculty/tkosar/cse421-521/slides/10-De=
+adlocks_I_2spp.pdf">2spp</A>)=20
+      <o:p></o:p></SPAN></P></TD>
+    <TD=20
+    style=3D"BORDER-BOTTOM: black 1pt solid; BORDER-LEFT: medium none; =
+PADDING-BOTTOM: 0in; PADDING-LEFT: 5.4pt; WIDTH: 139.5pt; PADDING-RIGHT: =
+5.4pt; BORDER-TOP: medium none; BORDER-RIGHT: black 1pt solid; =
+PADDING-TOP: 0in; mso-border-alt: solid black .75pt; =
+mso-border-left-alt: solid black .75pt; mso-border-top-alt: solid black =
+.75pt"=20
+    vAlign=3Dbottom width=3D140>
+      <P=20
+      style=3D"TEXT-AUTOSPACE: ; mso-pagination: none; =
+mso-layout-grid-align: none"=20
+      class=3DMsoNormal><I><SPAN=20
+      style=3D"COLOR: green; mso-bidi-font-family: 'Times New =
+Roman'">Read Ch.7;=20
+      <A=20
+      =
+href=3D"http://www.cse.buffalo.edu/faculty/tkosar/cse421-521/homework/hom=
+ework-2.pdf">HW-2</A>=20
+      out;<A=20
+      =
+href=3D"http://www.cse.buffalo.edu/faculty/tkosar/cse421-521/slides/Recit=
+ation_04.pdf">Recitation-4</A></SPAN></I><SPAN=20
+      style=3D"mso-bidi-font-family: 'Times New =
+Roman'"><o:p></o:p></SPAN></P></TD></TR>
+  <TR style=3D"mso-yfti-irow: 11">
+    <TD=20
+    style=3D"BORDER-BOTTOM: black 1pt solid; BORDER-LEFT: black 1pt =
+solid; PADDING-BOTTOM: 0in; PADDING-LEFT: 5.4pt; WIDTH: 64.5pt; =
+PADDING-RIGHT: 5.4pt; BORDER-TOP: medium none; BORDER-RIGHT: black 1pt =
+solid; PADDING-TOP: 0in; mso-border-alt: solid black .75pt; =
+mso-border-top-alt: solid black .75pt"=20
+    vAlign=3Dbottom width=3D65>
+      <P=20
+      style=3D"TEXT-AUTOSPACE: ; mso-pagination: none; =
+mso-layout-grid-align: none"=20
+      class=3DMsoNormal><B style=3D"mso-bidi-font-weight: normal"><SPAN=20
+      style=3D"mso-bidi-font-family: 'Times New Roman'">Oct=20
+      4<o:p></o:p></SPAN></B></P></TD>
+    <TD=20
+    style=3D"BORDER-BOTTOM: black 1pt solid; BORDER-LEFT: medium none; =
+PADDING-BOTTOM: 0in; PADDING-LEFT: 5.4pt; WIDTH: 53.55pt; PADDING-RIGHT: =
+5.4pt; BORDER-TOP: medium none; BORDER-RIGHT: black 1pt solid; =
+PADDING-TOP: 0in; mso-border-alt: solid black .75pt; =
+mso-border-left-alt: solid black .75pt; mso-border-top-alt: solid black =
+.75pt"=20
+    vAlign=3Dbottom width=3D54>
+      <P=20
+      style=3D"TEXT-ALIGN: center; TEXT-AUTOSPACE: ; mso-pagination: =
+none; mso-layout-grid-align: none"=20
+      class=3DMsoNormal align=3Dcenter><SPAN=20
+      style=3D"mso-bidi-font-family: 'Times New =
+Roman'">11<o:p></o:p></SPAN></P></TD>
+    <TD=20
+    style=3D"BORDER-BOTTOM: black 1pt solid; BORDER-LEFT: medium none; =
+PADDING-BOTTOM: 0in; PADDING-LEFT: 5.4pt; WIDTH: 241.9pt; PADDING-RIGHT: =
+5.4pt; BORDER-TOP: medium none; BORDER-RIGHT: black 1pt solid; =
+PADDING-TOP: 0in; mso-border-alt: solid black .75pt; =
+mso-border-left-alt: solid black .75pt; mso-border-top-alt: solid black =
+.75pt"=20
+    vAlign=3Dbottom width=3D242>
+      <P=20
+      style=3D"TEXT-AUTOSPACE: ; mso-pagination: none; =
+mso-layout-grid-align: none"=20
+      class=3DMsoNormal><SPAN style=3D"mso-bidi-font-family: 'Times New =
+Roman'"><A=20
+      =
+href=3D"http://www.cse.buffalo.edu/faculty/tkosar/cse421-521/slides/11-De=
+adlocks_II.pdf">Deadlocks=20
+      =96 II</A> (<A=20
+      =
+href=3D"http://www.cse.buffalo.edu/faculty/tkosar/cse421-521/slides/11-De=
+adlocks_II_2spp.pdf">2spp</A>)=20
+      <o:p></o:p></SPAN></P></TD>
+    <TD=20
+    style=3D"BORDER-BOTTOM: black 1pt solid; BORDER-LEFT: medium none; =
+PADDING-BOTTOM: 0in; PADDING-LEFT: 5.4pt; WIDTH: 139.5pt; PADDING-RIGHT: =
+5.4pt; BORDER-TOP: medium none; BORDER-RIGHT: black 1pt solid; =
+PADDING-TOP: 0in; mso-border-alt: solid black .75pt; =
+mso-border-left-alt: solid black .75pt; mso-border-top-alt: solid black =
+.75pt"=20
+    vAlign=3Dbottom width=3D140>
+      <P=20
+      style=3D"TEXT-AUTOSPACE: ; mso-pagination: none; =
+mso-layout-grid-align: none"=20
+      class=3DMsoNormal><SPAN=20
+      style=3D"mso-bidi-font-family: 'Times New =
+Roman'"><o:p>&nbsp;</o:p></SPAN></P></TD></TR>
+  <TR style=3D"mso-yfti-irow: 12">
+    <TD=20
+    style=3D"BORDER-BOTTOM: black 1pt solid; BORDER-LEFT: black 1pt =
+solid; PADDING-BOTTOM: 0in; PADDING-LEFT: 5.4pt; WIDTH: 64.5pt; =
+PADDING-RIGHT: 5.4pt; BORDER-TOP: medium none; BORDER-RIGHT: black 1pt =
+solid; PADDING-TOP: 0in; mso-border-alt: solid black .75pt; =
+mso-border-top-alt: solid black .75pt"=20
+    vAlign=3Dbottom width=3D65>
+      <P=20
+      style=3D"TEXT-AUTOSPACE: ; mso-pagination: none; =
+mso-layout-grid-align: none"=20
+      class=3DMsoNormal><B style=3D"mso-bidi-font-weight: normal"><SPAN=20
+      style=3D"mso-bidi-font-family: 'Times New Roman'">Oct=20
+      9<o:p></o:p></SPAN></B></P></TD>
+    <TD=20
+    style=3D"BORDER-BOTTOM: black 1pt solid; BORDER-LEFT: medium none; =
+PADDING-BOTTOM: 0in; PADDING-LEFT: 5.4pt; WIDTH: 53.55pt; PADDING-RIGHT: =
+5.4pt; BORDER-TOP: medium none; BORDER-RIGHT: black 1pt solid; =
+PADDING-TOP: 0in; mso-border-alt: solid black .75pt; =
+mso-border-left-alt: solid black .75pt; mso-border-top-alt: solid black =
+.75pt"=20
+    vAlign=3Dbottom width=3D54>
+      <P=20
+      style=3D"TEXT-ALIGN: center; TEXT-AUTOSPACE: ; mso-pagination: =
+none; mso-layout-grid-align: none"=20
+      class=3DMsoNormal align=3Dcenter><SPAN=20
+      style=3D"mso-bidi-font-family: 'Times New =
+Roman'">12<o:p></o:p></SPAN></P></TD>
+    <TD=20
+    style=3D"BORDER-BOTTOM: black 1pt solid; BORDER-LEFT: medium none; =
+PADDING-BOTTOM: 0in; PADDING-LEFT: 5.4pt; WIDTH: 241.9pt; PADDING-RIGHT: =
+5.4pt; BORDER-TOP: medium none; BORDER-RIGHT: black 1pt solid; =
+PADDING-TOP: 0in; mso-border-alt: solid black .75pt; =
+mso-border-left-alt: solid black .75pt; mso-border-top-alt: solid black =
+.75pt"=20
+    vAlign=3Dbottom width=3D242>
+      <P=20
+      style=3D"TEXT-AUTOSPACE: ; mso-pagination: none; =
+mso-layout-grid-align: none"=20
+      class=3DMsoNormal><SPAN=20
+      style=3D"mso-bidi-font-family: 'Times New =
+Roman'"><o:p></o:p></SPAN></P></TD>
+    <TD=20
+    style=3D"BORDER-BOTTOM: black 1pt solid; BORDER-LEFT: medium none; =
+PADDING-BOTTOM: 0in; PADDING-LEFT: 5.4pt; WIDTH: 139.5pt; PADDING-RIGHT: =
+5.4pt; BORDER-TOP: medium none; BORDER-RIGHT: black 1pt solid; =
+PADDING-TOP: 0in; mso-border-alt: solid black .75pt; =
+mso-border-left-alt: solid black .75pt; mso-border-top-alt: solid black =
+.75pt"=20
+    vAlign=3Dbottom width=3D140>
+      <P=20
+      style=3D"TEXT-AUTOSPACE: ; mso-pagination: none; =
+mso-layout-grid-align: none"=20
+      class=3DMsoNormal><SPAN=20
+      style=3D"COLOR: green; mso-bidi-font-family: 'Times New =
+Roman'"><I>HW-2=20
+      due</I><o:p>&nbsp;</o:p></SPAN></P></TD></TR>
+  <TR style=3D"mso-yfti-irow: 13">
+    <TD=20
+    style=3D"BORDER-BOTTOM: black 1pt solid; BORDER-LEFT: black 1pt =
+solid; PADDING-BOTTOM: 0in; PADDING-LEFT: 5.4pt; WIDTH: 64.5pt; =
+PADDING-RIGHT: 5.4pt; BORDER-TOP: medium none; BORDER-RIGHT: black 1pt =
+solid; PADDING-TOP: 0in; mso-border-alt: solid black .75pt; =
+mso-border-top-alt: solid black .75pt"=20
+    vAlign=3Dbottom width=3D65>
+      <P=20
+      style=3D"TEXT-AUTOSPACE: ; mso-pagination: none; =
+mso-layout-grid-align: none"=20
+      class=3DMsoNormal><B style=3D"mso-bidi-font-weight: normal"><SPAN=20
+      style=3D"mso-bidi-font-family: 'Times New Roman'">Oct=20
+      11<o:p></o:p></SPAN></B></P></TD>
+    <TD=20
+    style=3D"BORDER-BOTTOM: black 1pt solid; BORDER-LEFT: medium none; =
+PADDING-BOTTOM: 0in; PADDING-LEFT: 5.4pt; WIDTH: 53.55pt; PADDING-RIGHT: =
+5.4pt; BORDER-TOP: medium none; BORDER-RIGHT: black 1pt solid; =
+PADDING-TOP: 0in; mso-border-alt: solid black .75pt; =
+mso-border-left-alt: solid black .75pt; mso-border-top-alt: solid black =
+.75pt"=20
+    vAlign=3Dbottom width=3D54>
+      <P=20
+      style=3D"TEXT-ALIGN: center; TEXT-AUTOSPACE: ; mso-pagination: =
+none; mso-layout-grid-align: none"=20
+      class=3DMsoNormal align=3Dcenter><SPAN=20
+      style=3D"mso-bidi-font-family: 'Times New =
+Roman'">13<o:p></o:p></SPAN></P></TD>
+    <TD=20
+    style=3D"BORDER-BOTTOM: black 1pt solid; BORDER-LEFT: medium none; =
+PADDING-BOTTOM: 0in; PADDING-LEFT: 5.4pt; WIDTH: 241.9pt; PADDING-RIGHT: =
+5.4pt; BORDER-TOP: medium none; BORDER-RIGHT: black 1pt solid; =
+PADDING-TOP: 0in; mso-border-alt: solid black .75pt; =
+mso-border-left-alt: solid black .75pt; mso-border-top-alt: solid black =
+.75pt"=20
+    vAlign=3Dbottom width=3D242>
+      <P=20
+      style=3D"TEXT-AUTOSPACE: ; mso-pagination: none; =
+mso-layout-grid-align: none"=20
+      class=3DMsoNormal><SPAN style=3D"mso-bidi-font-family: 'Times New =
+Roman'"><A=20
+      =
+href=3D"http://www.cse.buffalo.edu/faculty/tkosar/cse421-521/slides/12-Mi=
+dterm_Review.pdf">Midterm=20
+      Review </A>(<A=20
+      =
+href=3D"http://www.cse.buffalo.edu/faculty/tkosar/cse421-521/slides/12-Mi=
+dterm_Review_2spp.pdf">2spp</A>)=20
+      <o:p></o:p></SPAN></P><o:p></o:p></SPAN>
+      <P></P></TD>
+    <TD=20
+    style=3D"BORDER-BOTTOM: black 1pt solid; BORDER-LEFT: medium none; =
+PADDING-BOTTOM: 0in; PADDING-LEFT: 5.4pt; WIDTH: 139.5pt; PADDING-RIGHT: =
+5.4pt; BORDER-TOP: medium none; BORDER-RIGHT: black 1pt solid; =
+PADDING-TOP: 0in; mso-border-alt: solid black .75pt; =
+mso-border-left-alt: solid black .75pt; mso-border-top-alt: solid black =
+.75pt"=20
+    vAlign=3Dbottom width=3D140>
+      <P=20
+      style=3D"TEXT-AUTOSPACE: ; mso-pagination: none; =
+mso-layout-grid-align: none"=20
+      class=3DMsoNormal><SPAN=20
+      style=3D"mso-bidi-font-family: 'Times New =
+Roman'"><o:p>&nbsp;</o:p></SPAN></P></TD></TR>
+  <TR style=3D"mso-yfti-irow: 14">
+    <TD=20
+    style=3D"BORDER-BOTTOM: black 1pt solid; BORDER-LEFT: black 1pt =
+solid; PADDING-BOTTOM: 0in; PADDING-LEFT: 5.4pt; WIDTH: 64.5pt; =
+PADDING-RIGHT: 5.4pt; BORDER-TOP: medium none; BORDER-RIGHT: black 1pt =
+solid; PADDING-TOP: 0in; mso-border-alt: solid black .75pt; =
+mso-border-top-alt: solid black .75pt"=20
+    vAlign=3Dbottom width=3D65>
+      <P=20
+      style=3D"TEXT-AUTOSPACE: ; mso-pagination: none; =
+mso-layout-grid-align: none"=20
+      class=3DMsoNormal><B style=3D"mso-bidi-font-weight: normal"><SPAN=20
+      style=3D"mso-bidi-font-family: 'Times New Roman'">Oct=20
+      16<o:p></o:p></SPAN></B></P></TD>
+    <TD=20
+    style=3D"BORDER-BOTTOM: black 1pt solid; BORDER-LEFT: medium none; =
+PADDING-BOTTOM: 0in; PADDING-LEFT: 5.4pt; WIDTH: 53.55pt; PADDING-RIGHT: =
+5.4pt; BACKGROUND: #b3b3b3; BORDER-TOP: medium none; BORDER-RIGHT: black =
+1pt solid; PADDING-TOP: 0in; mso-border-alt: solid black .75pt; =
+mso-border-left-alt: solid black .75pt; mso-border-top-alt: solid black =
+.75pt"=20
+    vAlign=3Dbottom width=3D54>
+      <P=20
+      style=3D"TEXT-ALIGN: center; TEXT-AUTOSPACE: ; mso-pagination: =
+none; mso-layout-grid-align: none"=20
+      class=3DMsoNormal align=3Dcenter><SPAN=20
+      style=3D"mso-bidi-font-family: 'Times New =
+Roman'"><o:p>&nbsp;</o:p></SPAN></P></TD>
+    <TD=20
+    style=3D"BORDER-BOTTOM: black 1pt solid; BORDER-LEFT: medium none; =
+PADDING-BOTTOM: 0in; PADDING-LEFT: 5.4pt; WIDTH: 241.9pt; PADDING-RIGHT: =
+5.4pt; BORDER-TOP: medium none; BORDER-RIGHT: black 1pt solid; =
+PADDING-TOP: 0in; mso-border-alt: solid black .75pt; =
+mso-border-left-alt: solid black .75pt; mso-border-top-alt: solid black =
+.75pt"=20
+    vAlign=3Dbottom width=3D242>
+      <P=20
+      style=3D"TEXT-AUTOSPACE: ; mso-pagination: none; =
+mso-layout-grid-align: none"=20
+      class=3DMsoNormal><SPAN=20
+      style=3D"COLOR: red; mso-bidi-font-family: 'Times New =
+Roman'">MIDTERM=20
+      EXAM<SPAN style=3D"mso-spacerun: yes">&nbsp;&nbsp; =
+</SPAN></SPAN><I=20
+      style=3D"mso-bidi-font-style: normal"><SPAN=20
+      style=3D"mso-bidi-font-family: 'Times New Roman'">(Room: Davis=20
+      101)</SPAN></I><SPAN=20
+      style=3D"COLOR: red; mso-bidi-font-family: 'Times New =
+Roman'"><o:p></o:p></SPAN></P></TD>
+    <TD=20
+    style=3D"BORDER-BOTTOM: black 1pt solid; BORDER-LEFT: medium none; =
+PADDING-BOTTOM: 0in; PADDING-LEFT: 5.4pt; WIDTH: 139.5pt; PADDING-RIGHT: =
+5.4pt; BORDER-TOP: medium none; BORDER-RIGHT: black 1pt solid; =
+PADDING-TOP: 0in; mso-border-alt: solid black .75pt; =
+mso-border-left-alt: solid black .75pt; mso-border-top-alt: solid black =
+.75pt"=20
+    vAlign=3Dbottom width=3D140>
+      <P=20
+      style=3D"TEXT-AUTOSPACE: ; mso-pagination: none; =
+mso-layout-grid-align: none"=20
+      class=3DMsoNormal><I style=3D"mso-bidi-font-style: normal"><SPAN=20
+      style=3D"mso-bidi-font-family: 'Times New Roman'">@ 9:30am-10<SPAN =
+
+      class=3DGramE>:50am</SPAN><o:p></o:p></SPAN></I></P></TD></TR>
+  <TR style=3D"mso-yfti-irow: 15">
+    <TD=20
+    style=3D"BORDER-BOTTOM: black 1pt solid; BORDER-LEFT: black 1pt =
+solid; PADDING-BOTTOM: 0in; PADDING-LEFT: 5.4pt; WIDTH: 64.5pt; =
+PADDING-RIGHT: 5.4pt; BORDER-TOP: medium none; BORDER-RIGHT: black 1pt =
+solid; PADDING-TOP: 0in; mso-border-alt: solid black .75pt; =
+mso-border-top-alt: solid black .75pt"=20
+    vAlign=3Dbottom width=3D65>
+      <P=20
+      style=3D"TEXT-AUTOSPACE: ; mso-pagination: none; =
+mso-layout-grid-align: none"=20
+      class=3DMsoNormal><B style=3D"mso-bidi-font-weight: normal"><SPAN=20
+      style=3D"mso-bidi-font-family: 'Times New Roman'">Oct=20
+      18<o:p></o:p></SPAN></B></P></TD>
+    <TD=20
+    style=3D"BORDER-BOTTOM: black 1pt solid; BORDER-LEFT: medium none; =
+PADDING-BOTTOM: 0in; PADDING-LEFT: 5.4pt; WIDTH: 53.55pt; PADDING-RIGHT: =
+5.4pt; BORDER-TOP: medium none; BORDER-RIGHT: black 1pt solid; =
+PADDING-TOP: 0in; mso-border-alt: solid black .75pt; =
+mso-border-left-alt: solid black .75pt; mso-border-top-alt: solid black =
+.75pt"=20
+    vAlign=3Dbottom width=3D54>
+      <P=20
+      style=3D"TEXT-ALIGN: center; TEXT-AUTOSPACE: ; mso-pagination: =
+none; mso-layout-grid-align: none"=20
+      class=3DMsoNormal align=3Dcenter><SPAN=20
+      style=3D"mso-bidi-font-family: 'Times New =
+Roman'">14<o:p></o:p></SPAN></P></TD>
+    <TD=20
+    style=3D"BORDER-BOTTOM: black 1pt solid; BORDER-LEFT: medium none; =
+PADDING-BOTTOM: 0in; PADDING-LEFT: 5.4pt; WIDTH: 241.9pt; PADDING-RIGHT: =
+5.4pt; BORDER-TOP: medium none; BORDER-RIGHT: black 1pt solid; =
+PADDING-TOP: 0in; mso-border-alt: solid black .75pt; =
+mso-border-left-alt: solid black .75pt; mso-border-top-alt: solid black =
+.75pt"=20
+    vAlign=3Dbottom width=3D242>
+      <P=20
+      style=3D"TEXT-AUTOSPACE: ; mso-pagination: none; =
+mso-layout-grid-align: none"=20
+      class=3DMsoNormal><SPAN style=3D"mso-bidi-font-family: 'Times New =
+Roman'"><A=20
+      =
+href=3D"http://www.cse.buffalo.edu/faculty/tkosar/cse421-521/slides/14-Ma=
+in_Memory.pdf">Main=20
+      Memory </A>(<A=20
+      =
+href=3D"http://www.cse.buffalo.edu/faculty/tkosar/cse421-521/slides/14-Ma=
+in_Memory_2spp.pdf">2spp</A>)=20
+      <o:p></o:p></SPAN></P></TD>
+    <TD=20
+    style=3D"BORDER-BOTTOM: black 1pt solid; BORDER-LEFT: medium none; =
+PADDING-BOTTOM: 0in; PADDING-LEFT: 5.4pt; WIDTH: 139.5pt; PADDING-RIGHT: =
+5.4pt; BORDER-TOP: medium none; BORDER-RIGHT: black 1pt solid; =
+PADDING-TOP: 0in; mso-border-alt: solid black .75pt; =
+mso-border-left-alt: solid black .75pt; mso-border-top-alt: solid black =
+.75pt"=20
+    vAlign=3Dbottom width=3D140>
+      <P=20
+      style=3D"TEXT-AUTOSPACE: ; mso-pagination: none; =
+mso-layout-grid-align: none"=20
+      class=3DMsoNormal><I style=3D"mso-bidi-font-style: normal"><SPAN=20
+      style=3D"COLOR: #339966; mso-bidi-font-family: 'Times New =
+Roman'"><o:p>Read=20
+      Ch.8;</o:p></SPAN></I></P></TD></TR>
+  <TR style=3D"mso-yfti-irow: 16">
+    <TD=20
+    style=3D"BORDER-BOTTOM: black 1pt solid; BORDER-LEFT: black 1pt =
+solid; PADDING-BOTTOM: 0in; PADDING-LEFT: 5.4pt; WIDTH: 64.5pt; =
+PADDING-RIGHT: 5.4pt; BORDER-TOP: medium none; BORDER-RIGHT: black 1pt =
+solid; PADDING-TOP: 0in; mso-border-alt: solid black .75pt; =
+mso-border-top-alt: solid black .75pt"=20
+    vAlign=3Dbottom width=3D65>
+      <P=20
+      style=3D"TEXT-AUTOSPACE: ; mso-pagination: none; =
+mso-layout-grid-align: none"=20
+      class=3DMsoNormal><B style=3D"mso-bidi-font-weight: normal"><SPAN=20
+      style=3D"mso-bidi-font-family: 'Times New Roman'">Oct=20
+      23<o:p></o:p></SPAN></B></P></TD>
+    <TD=20
+    style=3D"BORDER-BOTTOM: black 1pt solid; BORDER-LEFT: medium none; =
+PADDING-BOTTOM: 0in; PADDING-LEFT: 5.4pt; WIDTH: 53.55pt; PADDING-RIGHT: =
+5.4pt; BORDER-TOP: medium none; BORDER-RIGHT: black 1pt solid; =
+PADDING-TOP: 0in; mso-border-alt: solid black .75pt; =
+mso-border-left-alt: solid black .75pt; mso-border-top-alt: solid black =
+.75pt"=20
+    vAlign=3Dbottom width=3D54>
+      <P=20
+      style=3D"TEXT-ALIGN: center; TEXT-AUTOSPACE: ; mso-pagination: =
+none; mso-layout-grid-align: none"=20
+      class=3DMsoNormal align=3Dcenter><SPAN=20
+      style=3D"mso-bidi-font-family: 'Times New =
+Roman'">15<o:p></o:p></SPAN></P></TD>
+    <TD=20
+    style=3D"BORDER-BOTTOM: black 1pt solid; BORDER-LEFT: medium none; =
+PADDING-BOTTOM: 0in; PADDING-LEFT: 5.4pt; WIDTH: 241.9pt; PADDING-RIGHT: =
+5.4pt; BORDER-TOP: medium none; BORDER-RIGHT: black 1pt solid; =
+PADDING-TOP: 0in; mso-border-alt: solid black .75pt; =
+mso-border-left-alt: solid black .75pt; mso-border-top-alt: solid black =
+.75pt"=20
+    vAlign=3Dbottom width=3D242>
+      <P=20
+      style=3D"TEXT-AUTOSPACE: ; mso-pagination: none; =
+mso-layout-grid-align: none"=20
+      class=3DMsoNormal><SPAN style=3D"mso-bidi-font-family: 'Times New =
+Roman'"><A=20
+      =
+href=3D"http://www.cse.buffalo.edu/faculty/tkosar/cse421-521/slides/15-Vi=
+rtual_Memory_I.pdf">Virtual=20
+      Memory =96 I </A>(<A=20
+      =
+href=3D"http://www.cse.buffalo.edu/faculty/tkosar/cse421-521/slides/15-Vi=
+rtual_Memory_I_2spp.pdf">2spp</A>)=20
+      <o:p></o:p></SPAN></P></TD>
+    <TD=20
+    style=3D"BORDER-BOTTOM: black 1pt solid; BORDER-LEFT: medium none; =
+PADDING-BOTTOM: 0in; PADDING-LEFT: 5.4pt; WIDTH: 139.5pt; PADDING-RIGHT: =
+5.4pt; BORDER-TOP: medium none; BORDER-RIGHT: black 1pt solid; =
+PADDING-TOP: 0in; mso-border-alt: solid black .75pt; =
+mso-border-left-alt: solid black .75pt; mso-border-top-alt: solid black =
+.75pt"=20
+    vAlign=3Dbottom width=3D140>
+      <P=20
+      style=3D"TEXT-AUTOSPACE: ; mso-pagination: none; =
+mso-layout-grid-align: none"=20
+      class=3DMsoNormal><SPAN=20
+      style=3D"COLOR: #339966; mso-bidi-font-family: 'Times New =
+Roman'"><o:p><I>Read=20
+      Ch 9;</I></o:p></SPAN></P></TD></TR>
+  <TR style=3D"HEIGHT: 10.95pt; mso-yfti-irow: 17">
+    <TD=20
+    style=3D"BORDER-BOTTOM: black 1pt solid; BORDER-LEFT: black 1pt =
+solid; PADDING-BOTTOM: 0in; PADDING-LEFT: 5.4pt; WIDTH: 64.5pt; =
+PADDING-RIGHT: 5.4pt; HEIGHT: 10.95pt; BORDER-TOP: medium none; =
+BORDER-RIGHT: black 1pt solid; PADDING-TOP: 0in; mso-border-alt: solid =
+black .75pt; mso-border-top-alt: solid black .75pt"=20
+    vAlign=3Dbottom width=3D65>
+      <P=20
+      style=3D"TEXT-AUTOSPACE: ; mso-pagination: none; =
+mso-layout-grid-align: none"=20
+      class=3DMsoNormal><B style=3D"mso-bidi-font-weight: normal"><SPAN=20
+      style=3D"mso-bidi-font-family: 'Times New Roman'">Oct=20
+      25<o:p></o:p></SPAN></B></P></TD>
+    <TD=20
+    style=3D"BORDER-BOTTOM: black 1pt solid; BORDER-LEFT: medium none; =
+PADDING-BOTTOM: 0in; PADDING-LEFT: 5.4pt; WIDTH: 53.55pt; PADDING-RIGHT: =
+5.4pt; HEIGHT: 10.95pt; BORDER-TOP: medium none; BORDER-RIGHT: black 1pt =
+solid; PADDING-TOP: 0in; mso-border-alt: solid black .75pt; =
+mso-border-left-alt: solid black .75pt; mso-border-top-alt: solid black =
+.75pt"=20
+    vAlign=3Dbottom width=3D54>
+      <P=20
+      style=3D"TEXT-ALIGN: center; TEXT-AUTOSPACE: ; mso-pagination: =
+none; mso-layout-grid-align: none"=20
+      class=3DMsoNormal align=3Dcenter><SPAN=20
+      style=3D"mso-bidi-font-family: 'Times New =
+Roman'">16<o:p></o:p></SPAN></P></TD>
+    <TD=20
+    style=3D"BORDER-BOTTOM: black 1pt solid; BORDER-LEFT: medium none; =
+PADDING-BOTTOM: 0in; PADDING-LEFT: 5.4pt; WIDTH: 241.9pt; PADDING-RIGHT: =
+5.4pt; HEIGHT: 10.95pt; BORDER-TOP: medium none; BORDER-RIGHT: black 1pt =
+solid; PADDING-TOP: 0in; mso-border-alt: solid black .75pt; =
+mso-border-left-alt: solid black .75pt; mso-border-top-alt: solid black =
+.75pt"=20
+    vAlign=3Dbottom width=3D242>
+      <P=20
+      style=3D"TEXT-AUTOSPACE: ; mso-pagination: none; =
+mso-layout-grid-align: none"=20
+      class=3DMsoNormal><SPAN style=3D"mso-bidi-font-family: 'Times New =
+Roman'"><A=20
+      =
+href=3D"http://www.cse.buffalo.edu/faculty/tkosar/cse421-521/slides/16-Vi=
+rtual_Memory_II.pdf">Virtual=20
+      Memory =96 II </A>(<A=20
+      =
+href=3D"http://www.cse.buffalo.edu/faculty/tkosar/cse421-521/slides/16-Vi=
+rtual_Memory_II_2spp.pdf">2spp</A>)=20
+      <o:p></o:p></SPAN></P></TD>
+    <TD=20
+    style=3D"BORDER-BOTTOM: black 1pt solid; BORDER-LEFT: medium none; =
+PADDING-BOTTOM: 0in; PADDING-LEFT: 5.4pt; WIDTH: 139.5pt; PADDING-RIGHT: =
+5.4pt; HEIGHT: 10.95pt; BORDER-TOP: medium none; BORDER-RIGHT: black 1pt =
+solid; PADDING-TOP: 0in; mso-border-alt: solid black .75pt; =
+mso-border-left-alt: solid black .75pt; mso-border-top-alt: solid black =
+.75pt"=20
+    vAlign=3Dbottom width=3D140>
+      <P=20
+      style=3D"TEXT-AUTOSPACE: ; mso-pagination: none; =
+mso-layout-grid-align: none"=20
+      class=3DMsoNormal><SPAN=20
+      style=3D"COLOR: red; mso-bidi-font-family: 'Times New =
+Roman'"><o:p><I><A=20
+      =
+href=3D"http://www.cse.buffalo.edu/faculty/tkosar/cse421-521/homework/hom=
+ework-3.pdf">HW-3</A>=20
+      out;</I></o:p></SPAN></P></TD></TR>
+  <TR style=3D"mso-yfti-irow: 18">
+    <TD=20
+    style=3D"BORDER-BOTTOM: black 1pt solid; BORDER-LEFT: black 1pt =
+solid; PADDING-BOTTOM: 0in; PADDING-LEFT: 5.4pt; WIDTH: 64.5pt; =
+PADDING-RIGHT: 5.4pt; BORDER-TOP: medium none; BORDER-RIGHT: black 1pt =
+solid; PADDING-TOP: 0in; mso-border-alt: solid black .75pt; =
+mso-border-top-alt: solid black .75pt"=20
+    vAlign=3Dbottom width=3D65>
+      <P=20
+      style=3D"TEXT-AUTOSPACE: ; mso-pagination: none; =
+mso-layout-grid-align: none"=20
+      class=3DMsoNormal><B style=3D"mso-bidi-font-weight: normal"><SPAN=20
+      style=3D"mso-bidi-font-family: 'Times New Roman'">Oct=20
+      30<o:p></o:p></SPAN></B></P></TD>
+    <TD=20
+    style=3D"BORDER-BOTTOM: black 1pt solid; BORDER-LEFT: medium none; =
+PADDING-BOTTOM: 0in; PADDING-LEFT: 5.4pt; WIDTH: 53.55pt; PADDING-RIGHT: =
+5.4pt; BORDER-TOP: medium none; BORDER-RIGHT: black 1pt solid; =
+PADDING-TOP: 0in; mso-border-alt: solid black .75pt; =
+mso-border-left-alt: solid black .75pt; mso-border-top-alt: solid black =
+.75pt"=20
+    vAlign=3Dbottom width=3D54>
+      <P=20
+      style=3D"TEXT-ALIGN: center; TEXT-AUTOSPACE: ; mso-pagination: =
+none; mso-layout-grid-align: none"=20
+      class=3DMsoNormal align=3Dcenter><SPAN=20
+      style=3D"mso-bidi-font-family: 'Times New =
+Roman'">17<o:p></o:p></SPAN></P></TD>
+    <TD=20
+    style=3D"BORDER-BOTTOM: black 1pt solid; BORDER-LEFT: medium none; =
+PADDING-BOTTOM: 0in; PADDING-LEFT: 5.4pt; WIDTH: 241.9pt; PADDING-RIGHT: =
+5.4pt; BORDER-TOP: medium none; BORDER-RIGHT: black 1pt solid; =
+PADDING-TOP: 0in; mso-border-alt: solid black .75pt; =
+mso-border-left-alt: solid black .75pt; mso-border-top-alt: solid black =
+.75pt"=20
+    vAlign=3Dbottom width=3D242>
+      <P=20
+      style=3D"TEXT-AUTOSPACE: ; mso-pagination: none; =
+mso-layout-grid-align: none"=20
+      class=3DMsoNormal><SPAN=20
+      style=3D"mso-bidi-font-family: 'Times New Roman'">Project-II =
+Discussion=20
+      <o:p></o:p></SPAN></P></TD>
+    <TD=20
+    style=3D"BORDER-BOTTOM: black 1pt solid; BORDER-LEFT: medium none; =
+PADDING-BOTTOM: 0in; PADDING-LEFT: 5.4pt; WIDTH: 139.5pt; PADDING-RIGHT: =
+5.4pt; BORDER-TOP: medium none; BORDER-RIGHT: black 1pt solid; =
+PADDING-TOP: 0in; mso-border-alt: solid black .75pt; =
+mso-border-left-alt: solid black .75pt; mso-border-top-alt: solid black =
+.75pt"=20
+    vAlign=3Dbottom width=3D140>
+      <P=20
+      style=3D"TEXT-AUTOSPACE: ; mso-pagination: none; =
+mso-layout-grid-align: none"=20
+      class=3DMsoNormal><SPAN=20
+      style=3D"COLOR: red; mso-bidi-font-family: 'Times New =
+Roman'"><o:p><I>Prj-1=20
+      due; <A=20
+      =
+href=3D"http://www.cse.buffalo.edu/faculty/tkosar/cse421-521/projects/pro=
+ject-2.pdf">Prj-2</A>=20
+      out</I></o:p></SPAN></P></TD></TR>
+  <TR style=3D"mso-yfti-irow: 19">
+    <TD=20
+    style=3D"BORDER-BOTTOM: black 1pt solid; BORDER-LEFT: black 1pt =
+solid; PADDING-BOTTOM: 0in; PADDING-LEFT: 5.4pt; WIDTH: 64.5pt; =
+PADDING-RIGHT: 5.4pt; BORDER-TOP: medium none; BORDER-RIGHT: black 1pt =
+solid; PADDING-TOP: 0in; mso-border-alt: solid black .75pt; =
+mso-border-top-alt: solid black .75pt"=20
+    vAlign=3Dbottom width=3D65>
+      <P=20
+      style=3D"TEXT-AUTOSPACE: ; mso-pagination: none; =
+mso-layout-grid-align: none"=20
+      class=3DMsoNormal><B style=3D"mso-bidi-font-weight: normal"><SPAN=20
+      style=3D"mso-bidi-font-family: 'Times New Roman'">Nov=20
+      1<o:p></o:p></SPAN></B></P></TD>
+    <TD=20
+    style=3D"BORDER-BOTTOM: black 1pt solid; BORDER-LEFT: medium none; =
+PADDING-BOTTOM: 0in; PADDING-LEFT: 5.4pt; WIDTH: 53.55pt; PADDING-RIGHT: =
+5.4pt; BORDER-TOP: medium none; BORDER-RIGHT: black 1pt solid; =
+PADDING-TOP: 0in; mso-border-alt: solid black .75pt; =
+mso-border-left-alt: solid black .75pt; mso-border-top-alt: solid black =
+.75pt"=20
+    vAlign=3Dbottom width=3D54>
+      <P=20
+      style=3D"TEXT-ALIGN: center; TEXT-AUTOSPACE: ; mso-pagination: =
+none; mso-layout-grid-align: none"=20
+      class=3DMsoNormal align=3Dcenter><SPAN=20
+      style=3D"mso-bidi-font-family: 'Times New =
+Roman'">18<o:p></o:p></SPAN></P></TD>
+    <TD=20
+    style=3D"BORDER-BOTTOM: black 1pt solid; BORDER-LEFT: medium none; =
+PADDING-BOTTOM: 0in; PADDING-LEFT: 5.4pt; WIDTH: 241.9pt; PADDING-RIGHT: =
+5.4pt; BORDER-TOP: medium none; BORDER-RIGHT: black 1pt solid; =
+PADDING-TOP: 0in; mso-border-alt: solid black .75pt; =
+mso-border-left-alt: solid black .75pt; mso-border-top-alt: solid black =
+.75pt"=20
+    vAlign=3Dbottom width=3D242>
+      <P=20
+      style=3D"TEXT-AUTOSPACE: ; mso-pagination: none; =
+mso-layout-grid-align: none"=20
+      class=3DMsoNormal><SPAN=20
+      style=3D"mso-bidi-font-family: 'Times New =
+Roman'"><o:p></o:p></SPAN></P></TD>
+    <TD=20
+    style=3D"BORDER-BOTTOM: black 1pt solid; BORDER-LEFT: medium none; =
+PADDING-BOTTOM: 0in; PADDING-LEFT: 5.4pt; WIDTH: 139.5pt; PADDING-RIGHT: =
+5.4pt; BORDER-TOP: medium none; BORDER-RIGHT: black 1pt solid; =
+PADDING-TOP: 0in; mso-border-alt: solid black .75pt; =
+mso-border-left-alt: solid black .75pt; mso-border-top-alt: solid black =
+.75pt"=20
+    vAlign=3Dbottom width=3D140>
+      <P=20
+      style=3D"TEXT-AUTOSPACE: ; mso-pagination: none; =
+mso-layout-grid-align: none"=20
+      class=3DMsoNormal><SPAN=20
+      style=3D"mso-bidi-font-family: 'Times New =
+Roman'"><o:p>&nbsp;</o:p></SPAN></P></TD></TR>
+  <TR style=3D"mso-yfti-irow: 20">
+    <TD=20
+    style=3D"BORDER-BOTTOM: black 1pt solid; BORDER-LEFT: black 1pt =
+solid; PADDING-BOTTOM: 0in; PADDING-LEFT: 5.4pt; WIDTH: 64.5pt; =
+PADDING-RIGHT: 5.4pt; BORDER-TOP: medium none; BORDER-RIGHT: black 1pt =
+solid; PADDING-TOP: 0in; mso-border-alt: solid black .75pt; =
+mso-border-top-alt: solid black .75pt"=20
+    vAlign=3Dbottom width=3D65>
+      <P=20
+      style=3D"TEXT-AUTOSPACE: ; mso-pagination: none; =
+mso-layout-grid-align: none"=20
+      class=3DMsoNormal><B style=3D"mso-bidi-font-weight: normal"><SPAN=20
+      style=3D"mso-bidi-font-family: 'Times New Roman'">Nov=20
+      6<o:p></o:p></SPAN></B></P></TD>
+    <TD=20
+    style=3D"BORDER-BOTTOM: black 1pt solid; BORDER-LEFT: medium none; =
+PADDING-BOTTOM: 0in; PADDING-LEFT: 5.4pt; WIDTH: 53.55pt; PADDING-RIGHT: =
+5.4pt; BORDER-TOP: medium none; BORDER-RIGHT: black 1pt solid; =
+PADDING-TOP: 0in; mso-border-alt: solid black .75pt; =
+mso-border-left-alt: solid black .75pt; mso-border-top-alt: solid black =
+.75pt"=20
+    vAlign=3Dbottom width=3D54>
+      <P=20
+      style=3D"TEXT-ALIGN: center; TEXT-AUTOSPACE: ; mso-pagination: =
+none; mso-layout-grid-align: none"=20
+      class=3DMsoNormal align=3Dcenter><SPAN=20
+      style=3D"mso-bidi-font-family: 'Times New =
+Roman'">19<o:p></o:p></SPAN></P></TD>
+    <TD=20
+    style=3D"BORDER-BOTTOM: black 1pt solid; BORDER-LEFT: medium none; =
+PADDING-BOTTOM: 0in; PADDING-LEFT: 5.4pt; WIDTH: 241.9pt; PADDING-RIGHT: =
+5.4pt; BORDER-TOP: medium none; BORDER-RIGHT: black 1pt solid; =
+PADDING-TOP: 0in; mso-border-alt: solid black .75pt; =
+mso-border-left-alt: solid black .75pt; mso-border-top-alt: solid black =
+.75pt"=20
+    vAlign=3Dbottom width=3D242>
+      <P=20
+      style=3D"TEXT-AUTOSPACE: ; mso-pagination: none; =
+mso-layout-grid-align: none"=20
+      class=3DMsoNormal><SPAN style=3D"mso-bidi-font-family: 'Times New =
+Roman'"><A=20
+      =
+href=3D"http://www.cse.buffalo.edu/faculty/tkosar/cse421-521/slides/19-Fi=
+le_Systems.pdf">File=20
+      Systems </A>(<A=20
+      =
+href=3D"http://www.cse.buffalo.edu/faculty/tkosar/cse421-521/slides/19-Fi=
+le_Systems_2spp.pdf">2spp</A>)<o:p></o:p></SPAN></P></TD>
+    <TD=20
+    style=3D"BORDER-BOTTOM: black 1pt solid; BORDER-LEFT: medium none; =
+PADDING-BOTTOM: 0in; PADDING-LEFT: 5.4pt; WIDTH: 139.5pt; PADDING-RIGHT: =
+5.4pt; BORDER-TOP: medium none; BORDER-RIGHT: black 1pt solid; =
+PADDING-TOP: 0in; mso-border-alt: solid black .75pt; =
+mso-border-left-alt: solid black .75pt; mso-border-top-alt: solid black =
+.75pt"=20
+    vAlign=3Dbottom width=3D140>
+      <P=20
+      style=3D"TEXT-AUTOSPACE: ; mso-pagination: none; =
+mso-layout-grid-align: none"=20
+      class=3DMsoNormal><SPAN=20
+      style=3D"COLOR: green; mso-bidi-font-family: 'Times New =
+Roman'"><o:p><I>Read=20
+      Ch.11;HW-3</I></o:p></SPAN></P></TD></TR>
+  <TR style=3D"mso-yfti-irow: 21">
+    <TD=20
+    style=3D"BORDER-BOTTOM: black 1pt solid; BORDER-LEFT: black 1pt =
+solid; PADDING-BOTTOM: 0in; PADDING-LEFT: 5.4pt; WIDTH: 64.5pt; =
+PADDING-RIGHT: 5.4pt; BORDER-TOP: medium none; BORDER-RIGHT: black 1pt =
+solid; PADDING-TOP: 0in; mso-border-alt: solid black .75pt; =
+mso-border-top-alt: solid black .75pt"=20
+    vAlign=3Dbottom width=3D65>
+      <P=20
+      style=3D"TEXT-AUTOSPACE: ; mso-pagination: none; =
+mso-layout-grid-align: none"=20
+      class=3DMsoNormal><B style=3D"mso-bidi-font-weight: normal"><SPAN=20
+      style=3D"mso-bidi-font-family: 'Times New Roman'">Nov=20
+      8<o:p></o:p></SPAN></B></P></TD>
+    <TD=20
+    style=3D"BORDER-BOTTOM: black 1pt solid; BORDER-LEFT: medium none; =
+PADDING-BOTTOM: 0in; PADDING-LEFT: 5.4pt; WIDTH: 53.55pt; PADDING-RIGHT: =
+5.4pt; BORDER-TOP: medium none; BORDER-RIGHT: black 1pt solid; =
+PADDING-TOP: 0in; mso-border-alt: solid black .75pt; =
+mso-border-left-alt: solid black .75pt; mso-border-top-alt: solid black =
+.75pt"=20
+    vAlign=3Dbottom width=3D54>
+      <P=20
+      style=3D"TEXT-ALIGN: center; TEXT-AUTOSPACE: ; mso-pagination: =
+none; mso-layout-grid-align: none"=20
+      class=3DMsoNormal align=3Dcenter><SPAN=20
+      style=3D"mso-bidi-font-family: 'Times New =
+Roman'">20<o:p></o:p></SPAN></P></TD>
+    <TD=20
+    style=3D"BORDER-BOTTOM: black 1pt solid; BORDER-LEFT: medium none; =
+PADDING-BOTTOM: 0in; PADDING-LEFT: 5.4pt; WIDTH: 241.9pt; PADDING-RIGHT: =
+5.4pt; BORDER-TOP: medium none; BORDER-RIGHT: black 1pt solid; =
+PADDING-TOP: 0in; mso-border-alt: solid black .75pt; =
+mso-border-left-alt: solid black .75pt; mso-border-top-alt: solid black =
+.75pt"=20
+    vAlign=3Dbottom width=3D242>
+      <P=20
+      style=3D"TEXT-AUTOSPACE: ; mso-pagination: none; =
+mso-layout-grid-align: none"=20
+      class=3DMsoNormal><SPAN style=3D"mso-bidi-font-family: 'Times New =
+Roman'"><A=20
+      =
+href=3D"http://www.cse.buffalo.edu/faculty/tkosar/cse421-521/slides/20-Ma=
+ss_Storage_IO_I.pdf">Mass=20
+      Storage &amp; I/O =96 I</A> (<A=20
+      =
+href=3D"http://www.cse.buffalo.edu/faculty/tkosar/cse421-521/slides/20-Ma=
+ss_Storage_IO_I_2spp.pdf">2spp</A>)<o:p></o:p></SPAN></P></TD>
+    <TD=20
+    style=3D"BORDER-BOTTOM: black 1pt solid; BORDER-LEFT: medium none; =
+PADDING-BOTTOM: 0in; PADDING-LEFT: 5.4pt; WIDTH: 139.5pt; PADDING-RIGHT: =
+5.4pt; BORDER-TOP: medium none; BORDER-RIGHT: black 1pt solid; =
+PADDING-TOP: 0in; mso-border-alt: solid black .75pt; =
+mso-border-left-alt: solid black .75pt; mso-border-top-alt: solid black =
+.75pt"=20
+    vAlign=3Dbottom width=3D140>
+      <P=20
+      style=3D"TEXT-AUTOSPACE: ; mso-pagination: none; =
+mso-layout-grid-align: none"=20
+      class=3DMsoNormal><SPAN=20
+      style=3D"COLOR: green; mso-bidi-font-family: 'Times New =
+Roman'"><o:p><I>Read=20
+      Ch.12</I></o:p></SPAN></P></TD></TR>
+  <TR style=3D"mso-yfti-irow: 22">
+    <TD=20
+    style=3D"BORDER-BOTTOM: black 1pt solid; BORDER-LEFT: black 1pt =
+solid; PADDING-BOTTOM: 0in; PADDING-LEFT: 5.4pt; WIDTH: 64.5pt; =
+PADDING-RIGHT: 5.4pt; BORDER-TOP: medium none; BORDER-RIGHT: black 1pt =
+solid; PADDING-TOP: 0in; mso-border-alt: solid black .75pt; =
+mso-border-top-alt: solid black .75pt"=20
+    vAlign=3Dbottom width=3D65>
+      <P=20
+      style=3D"TEXT-AUTOSPACE: ; mso-pagination: none; =
+mso-layout-grid-align: none"=20
+      class=3DMsoNormal><B style=3D"mso-bidi-font-weight: normal"><SPAN=20
+      style=3D"mso-bidi-font-family: 'Times New Roman'">Nov=20
+      13<o:p></o:p></SPAN></B></P></TD>
+    <TD=20
+    style=3D"BORDER-BOTTOM: black 1pt solid; BORDER-LEFT: medium none; =
+PADDING-BOTTOM: 0in; PADDING-LEFT: 5.4pt; WIDTH: 53.55pt; PADDING-RIGHT: =
+5.4pt; BORDER-TOP: medium none; BORDER-RIGHT: black 1pt solid; =
+PADDING-TOP: 0in; mso-border-alt: solid black .75pt; =
+mso-border-left-alt: solid black .75pt; mso-border-top-alt: solid black =
+.75pt"=20
+    vAlign=3Dbottom width=3D54>
+      <P=20
+      style=3D"TEXT-ALIGN: center; TEXT-AUTOSPACE: ; mso-pagination: =
+none; mso-layout-grid-align: none"=20
+      class=3DMsoNormal align=3Dcenter><SPAN=20
+      style=3D"mso-bidi-font-family: 'Times New =
+Roman'">21<o:p></o:p></SPAN></P></TD>
+    <TD=20
+    style=3D"BORDER-BOTTOM: black 1pt solid; BORDER-LEFT: medium none; =
+PADDING-BOTTOM: 0in; PADDING-LEFT: 5.4pt; WIDTH: 241.9pt; PADDING-RIGHT: =
+5.4pt; BORDER-TOP: medium none; BORDER-RIGHT: black 1pt solid; =
+PADDING-TOP: 0in; mso-border-alt: solid black .75pt; =
+mso-border-left-alt: solid black .75pt; mso-border-top-alt: solid black =
+.75pt"=20
+    vAlign=3Dbottom width=3D242>
+      <P=20
+      style=3D"TEXT-AUTOSPACE: ; mso-pagination: none; =
+mso-layout-grid-align: none"=20
+      class=3DMsoNormal><SPAN style=3D"mso-bidi-font-family: 'Times New =
+Roman'"><A=20
+      =
+href=3D"http://www.cse.buffalo.edu/faculty/tkosar/cse421-521/slides/21-Ma=
+ss_Storage_IO_II.pdf">Mass=20
+      Storage &amp; I/O =96 II</A> (<A=20
+      =
+href=3D"http://www.cse.buffalo.edu/faculty/tkosar/cse421-521/slides/21-Ma=
+ss_Storage_IO_II_2spp.pdf">2spp</A>)<o:p></o:p></SPAN></P></TD>
+    <TD=20
+    style=3D"BORDER-BOTTOM: black 1pt solid; BORDER-LEFT: medium none; =
+PADDING-BOTTOM: 0in; PADDING-LEFT: 5.4pt; WIDTH: 139.5pt; PADDING-RIGHT: =
+5.4pt; BORDER-TOP: medium none; BORDER-RIGHT: black 1pt solid; =
+PADDING-TOP: 0in; mso-border-alt: solid black .75pt; =
+mso-border-left-alt: solid black .75pt; mso-border-top-alt: solid black =
+.75pt"=20
+    vAlign=3Dbottom width=3D140>
+      <P=20
+      style=3D"TEXT-AUTOSPACE: ; mso-pagination: none; =
+mso-layout-grid-align: none"=20
+      class=3DMsoNormal><SPAN=20
+      style=3D"mso-bidi-font-family: 'Times New =
+Roman'"><o:p>&nbsp;</o:p></SPAN></P></TD></TR>
+  <TR style=3D"mso-yfti-irow: 23">
+    <TD=20
+    style=3D"BORDER-BOTTOM: black 1pt solid; BORDER-LEFT: black 1pt =
+solid; PADDING-BOTTOM: 0in; PADDING-LEFT: 5.4pt; WIDTH: 64.5pt; =
+PADDING-RIGHT: 5.4pt; BORDER-TOP: medium none; BORDER-RIGHT: black 1pt =
+solid; PADDING-TOP: 0in; mso-border-alt: solid black .75pt; =
+mso-border-top-alt: solid black .75pt"=20
+    vAlign=3Dbottom width=3D65>
+      <P=20
+      style=3D"TEXT-AUTOSPACE: ; mso-pagination: none; =
+mso-layout-grid-align: none"=20
+      class=3DMsoNormal><B style=3D"mso-bidi-font-weight: normal"><SPAN=20
+      style=3D"mso-bidi-font-family: 'Times New Roman'">Nov=20
+      15<o:p></o:p></SPAN></B></P></TD>
+    <TD=20
+    style=3D"BORDER-BOTTOM: black 1pt solid; BORDER-LEFT: medium none; =
+PADDING-BOTTOM: 0in; PADDING-LEFT: 5.4pt; WIDTH: 53.55pt; PADDING-RIGHT: =
+5.4pt; BORDER-TOP: medium none; BORDER-RIGHT: black 1pt solid; =
+PADDING-TOP: 0in; mso-border-alt: solid black .75pt; =
+mso-border-left-alt: solid black .75pt; mso-border-top-alt: solid black =
+.75pt"=20
+    vAlign=3Dbottom width=3D54>
+      <P=20
+      style=3D"TEXT-ALIGN: center; TEXT-AUTOSPACE: ; mso-pagination: =
+none; mso-layout-grid-align: none"=20
+      class=3DMsoNormal align=3Dcenter><SPAN=20
+      style=3D"mso-bidi-font-family: 'Times New =
+Roman'">22<o:p></o:p></SPAN></P></TD>
+    <TD=20
+    style=3D"BORDER-BOTTOM: black 1pt solid; BORDER-LEFT: medium none; =
+PADDING-BOTTOM: 0in; PADDING-LEFT: 5.4pt; WIDTH: 241.9pt; PADDING-RIGHT: =
+5.4pt; BORDER-TOP: medium none; BORDER-RIGHT: black 1pt solid; =
+PADDING-TOP: 0in; mso-border-alt: solid black .75pt; =
+mso-border-left-alt: solid black .75pt; mso-border-top-alt: solid black =
+.75pt"=20
+    vAlign=3Dbottom width=3D242>
+      <P=20
+      style=3D"TEXT-AUTOSPACE: ; mso-pagination: none; =
+mso-layout-grid-align: none"=20
+      class=3DMsoNormal><SPAN style=3D"mso-bidi-font-family: 'Times New =
+Roman'"><A=20
+      =
+href=3D"http://www.cse.buffalo.edu/faculty/tkosar/cse421-521/slides/22-Di=
+stributed_Systems_I.pdf">Distributed=20
+      Systems =96 I</A> (<A=20
+      =
+href=3D"http://www.cse.buffalo.edu/faculty/tkosar/cse421-521/slides/22-Di=
+stributed_Systems_I_2spp.pdf">2spp</A>)=20
+      <o:p></o:p></SPAN></P></TD>
+    <TD=20
+    style=3D"BORDER-BOTTOM: black 1pt solid; BORDER-LEFT: medium none; =
+PADDING-BOTTOM: 0in; PADDING-LEFT: 5.4pt; WIDTH: 139.5pt; PADDING-RIGHT: =
+5.4pt; BORDER-TOP: medium none; BORDER-RIGHT: black 1pt solid; =
+PADDING-TOP: 0in; mso-border-alt: solid black .75pt; =
+mso-border-left-alt: solid black .75pt; mso-border-top-alt: solid black =
+.75pt"=20
+    vAlign=3Dbottom width=3D140>
+      <P=20
+      style=3D"TEXT-AUTOSPACE: ; mso-pagination: none; =
+mso-layout-grid-align: none"=20
+      class=3DMsoNormal><SPAN=20
+      style=3D"COLOR: green; mso-bidi-font-family: 'Times New =
+Roman'"><o:p><I>Read=20
+      Ch.18</I></o:p></SPAN></P></TD></TR>
+  <TR style=3D"mso-yfti-irow: 24">
+    <TD=20
+    style=3D"BORDER-BOTTOM: black 1pt solid; BORDER-LEFT: black 1pt =
+solid; PADDING-BOTTOM: 0in; PADDING-LEFT: 5.4pt; WIDTH: 64.5pt; =
+PADDING-RIGHT: 5.4pt; BORDER-TOP: medium none; BORDER-RIGHT: black 1pt =
+solid; PADDING-TOP: 0in; mso-border-alt: solid black .75pt; =
+mso-border-top-alt: solid black .75pt"=20
+    vAlign=3Dbottom width=3D65>
+      <P=20
+      style=3D"TEXT-AUTOSPACE: ; mso-pagination: none; =
+mso-layout-grid-align: none"=20
+      class=3DMsoNormal><B style=3D"mso-bidi-font-weight: normal"><SPAN=20
+      style=3D"mso-bidi-font-family: 'Times New Roman'">Nov=20
+      20<o:p></o:p></SPAN></B></P></TD>
+    <TD=20
+    style=3D"BORDER-BOTTOM: black 1pt solid; BORDER-LEFT: medium none; =
+PADDING-BOTTOM: 0in; PADDING-LEFT: 5.4pt; WIDTH: 53.55pt; PADDING-RIGHT: =
+5.4pt; BORDER-TOP: medium none; BORDER-RIGHT: black 1pt solid; =
+PADDING-TOP: 0in; mso-border-alt: solid black .75pt; =
+mso-border-left-alt: solid black .75pt; mso-border-top-alt: solid black =
+.75pt"=20
+    vAlign=3Dbottom width=3D54>
+      <P=20
+      style=3D"TEXT-ALIGN: center; TEXT-AUTOSPACE: ; mso-pagination: =
+none; mso-layout-grid-align: none"=20
+      class=3DMsoNormal align=3Dcenter><SPAN=20
+      style=3D"mso-bidi-font-family: 'Times New =
+Roman'">23<o:p></o:p></SPAN></P></TD>
+    <TD=20
+    style=3D"BORDER-BOTTOM: black 1pt solid; BORDER-LEFT: medium none; =
+PADDING-BOTTOM: 0in; PADDING-LEFT: 5.4pt; WIDTH: 241.9pt; PADDING-RIGHT: =
+5.4pt; BORDER-TOP: medium none; BORDER-RIGHT: black 1pt solid; =
+PADDING-TOP: 0in; mso-border-alt: solid black .75pt; =
+mso-border-left-alt: solid black .75pt; mso-border-top-alt: solid black =
+.75pt"=20
+    vAlign=3Dbottom width=3D242>
+      <P=20
+      style=3D"TEXT-AUTOSPACE: ; mso-pagination: none; =
+mso-layout-grid-align: none"=20
+      class=3DMsoNormal><SPAN=20
+      style=3D"mso-bidi-font-family: 'Times New Roman'">Project =96III =
+Discussion=20
+      <o:p></o:p></SPAN></P></TD>
+    <TD=20
+    style=3D"BORDER-BOTTOM: black 1pt solid; BORDER-LEFT: medium none; =
+PADDING-BOTTOM: 0in; PADDING-LEFT: 5.4pt; WIDTH: 139.5pt; PADDING-RIGHT: =
+5.4pt; BORDER-TOP: medium none; BORDER-RIGHT: black 1pt solid; =
+PADDING-TOP: 0in; mso-border-alt: solid black .75pt; =
+mso-border-left-alt: solid black .75pt; mso-border-top-alt: solid black =
+.75pt"=20
+    vAlign=3Dbottom width=3D140>
+      <P=20
+      style=3D"TEXT-AUTOSPACE: ; mso-pagination: none; =
+mso-layout-grid-align: none"=20
+      class=3DMsoNormal><SPAN=20
+      style=3D"COLOR: red; mso-bidi-font-family: 'Times New =
+Roman'"><o:p><I>Prj-2=20
+      due; <A=20
+      =
+href=3D"http://www.cse.buffalo.edu/faculty/tkosar/cse421-521/projects/pro=
+ject-3.pdf">Prj-3</A>=20
+      out</I></o:p></SPAN></P></TD></TR>
+  <TR style=3D"mso-yfti-irow: 25">
+    <TD=20
+    style=3D"BORDER-BOTTOM: black 1pt solid; BORDER-LEFT: black 1pt =
+solid; PADDING-BOTTOM: 0in; PADDING-LEFT: 5.4pt; WIDTH: 64.5pt; =
+PADDING-RIGHT: 5.4pt; BORDER-TOP: medium none; BORDER-RIGHT: black 1pt =
+solid; PADDING-TOP: 0in; mso-border-alt: solid black .75pt; =
+mso-border-top-alt: solid black .75pt"=20
+    vAlign=3Dbottom width=3D65>
+      <P=20
+      style=3D"TEXT-AUTOSPACE: ; mso-pagination: none; =
+mso-layout-grid-align: none"=20
+      class=3DMsoNormal><B style=3D"mso-bidi-font-weight: normal"><SPAN=20
+      style=3D"mso-bidi-font-family: 'Times New Roman'">Nov=20
+      22<o:p></o:p></SPAN></B></P></TD>
+    <TD=20
+    style=3D"BORDER-BOTTOM: black 1pt solid; BORDER-LEFT: medium none; =
+PADDING-BOTTOM: 0in; PADDING-LEFT: 5.4pt; WIDTH: 53.55pt; PADDING-RIGHT: =
+5.4pt; BACKGROUND: #b3b3b3; BORDER-TOP: medium none; BORDER-RIGHT: black =
+1pt solid; PADDING-TOP: 0in; mso-border-alt: solid black .75pt; =
+mso-border-left-alt: solid black .75pt; mso-border-top-alt: solid black =
+.75pt"=20
+    vAlign=3Dbottom width=3D54>
+      <P=20
+      style=3D"TEXT-ALIGN: center; TEXT-AUTOSPACE: ; mso-pagination: =
+none; mso-layout-grid-align: none"=20
+      class=3DMsoNormal align=3Dcenter><SPAN=20
+      style=3D"mso-bidi-font-family: 'Times New =
+Roman'"><o:p>&nbsp;</o:p></SPAN></P></TD>
+    <TD=20
+    style=3D"BORDER-BOTTOM: black 1pt solid; BORDER-LEFT: medium none; =
+PADDING-BOTTOM: 0in; PADDING-LEFT: 5.4pt; WIDTH: 241.9pt; PADDING-RIGHT: =
+5.4pt; BACKGROUND: #b3b3b3; BORDER-TOP: medium none; BORDER-RIGHT: black =
+1pt solid; PADDING-TOP: 0in; mso-border-alt: solid black .75pt; =
+mso-border-left-alt: solid black .75pt; mso-border-top-alt: solid black =
+.75pt"=20
+    vAlign=3Dbottom width=3D242>
+      <P=20
+      style=3D"TEXT-AUTOSPACE: ; mso-pagination: none; =
+mso-layout-grid-align: none"=20
+      class=3DMsoNormal><SPAN=20
+      style=3D"mso-bidi-font-family: 'Times New =
+Roman'"><o:p>&nbsp;</o:p></SPAN></P></TD>
+    <TD=20
+    style=3D"BORDER-BOTTOM: black 1pt solid; BORDER-LEFT: medium none; =
+PADDING-BOTTOM: 0in; PADDING-LEFT: 5.4pt; WIDTH: 139.5pt; PADDING-RIGHT: =
+5.4pt; BORDER-TOP: medium none; BORDER-RIGHT: black 1pt solid; =
+PADDING-TOP: 0in; mso-border-alt: solid black .75pt; =
+mso-border-left-alt: solid black .75pt; mso-border-top-alt: solid black =
+.75pt"=20
+    vAlign=3Dbottom width=3D140>
+      <P=20
+      style=3D"TEXT-AUTOSPACE: ; mso-pagination: none; =
+mso-layout-grid-align: none"=20
+      class=3DMsoNormal><SPAN=20
+      style=3D"COLOR: red; mso-bidi-font-family: 'Times New Roman'">Fall =
+
+      Recess<o:p></o:p></SPAN></P></TD></TR>
+  <TR style=3D"mso-yfti-irow: 26">
+    <TD=20
+    style=3D"BORDER-BOTTOM: black 1pt solid; BORDER-LEFT: black 1pt =
+solid; PADDING-BOTTOM: 0in; PADDING-LEFT: 5.4pt; WIDTH: 64.5pt; =
+PADDING-RIGHT: 5.4pt; BORDER-TOP: medium none; BORDER-RIGHT: black 1pt =
+solid; PADDING-TOP: 0in; mso-border-alt: solid black .75pt; =
+mso-border-top-alt: solid black .75pt"=20
+    vAlign=3Dbottom width=3D65>
+      <P=20
+      style=3D"TEXT-AUTOSPACE: ; mso-pagination: none; =
+mso-layout-grid-align: none"=20
+      class=3DMsoNormal><B style=3D"mso-bidi-font-weight: normal"><SPAN=20
+      style=3D"mso-bidi-font-family: 'Times New Roman'">Nov=20
+      27<o:p></o:p></SPAN></B></P></TD>
+    <TD=20
+    style=3D"BORDER-BOTTOM: black 1pt solid; BORDER-LEFT: medium none; =
+PADDING-BOTTOM: 0in; PADDING-LEFT: 5.4pt; WIDTH: 53.55pt; PADDING-RIGHT: =
+5.4pt; BORDER-TOP: medium none; BORDER-RIGHT: black 1pt solid; =
+PADDING-TOP: 0in; mso-border-alt: solid black .75pt; =
+mso-border-left-alt: solid black .75pt; mso-border-top-alt: solid black =
+.75pt"=20
+    vAlign=3Dbottom width=3D54>
+      <P=20
+      style=3D"TEXT-ALIGN: center; TEXT-AUTOSPACE: ; mso-pagination: =
+none; mso-layout-grid-align: none"=20
+      class=3DMsoNormal align=3Dcenter><SPAN=20
+      style=3D"mso-bidi-font-family: 'Times New =
+Roman'">24<o:p></o:p></SPAN></P></TD>
+    <TD=20
+    style=3D"BORDER-BOTTOM: black 1pt solid; BORDER-LEFT: medium none; =
+PADDING-BOTTOM: 0in; PADDING-LEFT: 5.4pt; WIDTH: 241.9pt; PADDING-RIGHT: =
+5.4pt; BORDER-TOP: medium none; BORDER-RIGHT: black 1pt solid; =
+PADDING-TOP: 0in; mso-border-alt: solid black .75pt; =
+mso-border-left-alt: solid black .75pt; mso-border-top-alt: solid black =
+.75pt"=20
+    vAlign=3Dbottom width=3D242>
+      <P=20
+      style=3D"TEXT-AUTOSPACE: ; mso-pagination: none; =
+mso-layout-grid-align: none"=20
+      class=3DMsoNormal><SPAN style=3D"mso-bidi-font-family: 'Times New =
+Roman'"><A=20
+      =
+href=3D"http://www.cse.buffalo.edu/faculty/tkosar/cse421-521/slides/23-Di=
+stributed_Systems_II.pdf">Distributed=20
+      Systems =96 II</A> (<A=20
+      =
+href=3D"http://www.cse.buffalo.edu/faculty/tkosar/cse421-521/slides/23-Di=
+stributed_Systems_II_2spp.pdf">2spp</A>)<o:p></o:p></SPAN></P></TD>
+    <TD=20
+    style=3D"BORDER-BOTTOM: black 1pt solid; BORDER-LEFT: medium none; =
+PADDING-BOTTOM: 0in; PADDING-LEFT: 5.4pt; WIDTH: 139.5pt; PADDING-RIGHT: =
+5.4pt; BORDER-TOP: medium none; BORDER-RIGHT: black 1pt solid; =
+PADDING-TOP: 0in; mso-border-alt: solid black .75pt; =
+mso-border-left-alt: solid black .75pt; mso-border-top-alt: solid black =
+.75pt"=20
+    vAlign=3Dbottom width=3D140>
+      <P=20
+      style=3D"TEXT-AUTOSPACE: ; mso-pagination: none; =
+mso-layout-grid-align: none"=20
+      class=3DMsoNormal><SPAN=20
+      style=3D"mso-bidi-font-family: 'Times New =
+Roman'"><o:p>&nbsp;</o:p></SPAN></P></TD></TR>
+  <TR style=3D"mso-yfti-irow: 27">
+    <TD=20
+    style=3D"BORDER-BOTTOM: black 1pt solid; BORDER-LEFT: black 1pt =
+solid; PADDING-BOTTOM: 0in; PADDING-LEFT: 5.4pt; WIDTH: 64.5pt; =
+PADDING-RIGHT: 5.4pt; BORDER-TOP: medium none; BORDER-RIGHT: black 1pt =
+solid; PADDING-TOP: 0in; mso-border-alt: solid black .75pt; =
+mso-border-top-alt: solid black .75pt"=20
+    vAlign=3Dbottom width=3D65>
+      <P=20
+      style=3D"TEXT-AUTOSPACE: ; mso-pagination: none; =
+mso-layout-grid-align: none"=20
+      class=3DMsoNormal><B style=3D"mso-bidi-font-weight: normal"><SPAN=20
+      style=3D"mso-bidi-font-family: 'Times New Roman'">Nov=20
+      29<o:p></o:p></SPAN></B></P></TD>
+    <TD=20
+    style=3D"BORDER-BOTTOM: black 1pt solid; BORDER-LEFT: medium none; =
+PADDING-BOTTOM: 0in; PADDING-LEFT: 5.4pt; WIDTH: 53.55pt; PADDING-RIGHT: =
+5.4pt; BORDER-TOP: medium none; BORDER-RIGHT: black 1pt solid; =
+PADDING-TOP: 0in; mso-border-alt: solid black .75pt; =
+mso-border-left-alt: solid black .75pt; mso-border-top-alt: solid black =
+.75pt"=20
+    vAlign=3Dbottom width=3D54>
+      <P=20
+      style=3D"TEXT-ALIGN: center; TEXT-AUTOSPACE: ; mso-pagination: =
+none; mso-layout-grid-align: none"=20
+      class=3DMsoNormal align=3Dcenter><SPAN=20
+      style=3D"mso-bidi-font-family: 'Times New =
+Roman'">25<o:p></o:p></SPAN></P></TD>
+    <TD=20
+    style=3D"BORDER-BOTTOM: black 1pt solid; BORDER-LEFT: medium none; =
+PADDING-BOTTOM: 0in; PADDING-LEFT: 5.4pt; WIDTH: 241.9pt; PADDING-RIGHT: =
+5.4pt; BORDER-TOP: medium none; BORDER-RIGHT: black 1pt solid; =
+PADDING-TOP: 0in; mso-border-alt: solid black .75pt; =
+mso-border-left-alt: solid black .75pt; mso-border-top-alt: solid black =
+.75pt"=20
+    vAlign=3Dbottom width=3D242>
+      <P=20
+      style=3D"TEXT-AUTOSPACE: ; mso-pagination: none; =
+mso-layout-grid-align: none"=20
+      class=3DMsoNormal><SPAN style=3D"mso-bidi-font-family: 'Times New =
+Roman'"><A=20
+      =
+href=3D"http://www.cse.buffalo.edu/faculty/tkosar/cse421-521/slides/24-Di=
+stributed_Systems_III.pdf">Distributed=20
+      Systems =96 III</A> (<A=20
+      =
+href=3D"http://www.cse.buffalo.edu/faculty/tkosar/cse421-521/slides/24-Di=
+stributed_Systems_III_2spp.pdf">2spp</A>)<o:p></o:p></SPAN></P></TD>
+    <TD=20
+    style=3D"BORDER-BOTTOM: black 1pt solid; BORDER-LEFT: medium none; =
+PADDING-BOTTOM: 0in; PADDING-LEFT: 5.4pt; WIDTH: 139.5pt; PADDING-RIGHT: =
+5.4pt; BORDER-TOP: medium none; BORDER-RIGHT: black 1pt solid; =
+PADDING-TOP: 0in; mso-border-alt: solid black .75pt; =
+mso-border-left-alt: solid black .75pt; mso-border-top-alt: solid black =
+.75pt"=20
+    vAlign=3Dbottom width=3D140>
+      <P=20
+      style=3D"TEXT-AUTOSPACE: ; mso-pagination: none; =
+mso-layout-grid-align: none"=20
+      class=3DMsoNormal><SPAN=20
+      style=3D"COLOR: green; mso-bidi-font-family: 'Times New =
+Roman'"><o:p><I>Read=20
+      Ch.17</I></o:p></SPAN></P></TD></TR>
+  <TR style=3D"mso-yfti-irow: 28">
+    <TD=20
+    style=3D"BORDER-BOTTOM: black 1pt solid; BORDER-LEFT: black 1pt =
+solid; PADDING-BOTTOM: 0in; PADDING-LEFT: 5.4pt; WIDTH: 64.5pt; =
+PADDING-RIGHT: 5.4pt; BORDER-TOP: medium none; BORDER-RIGHT: black 1pt =
+solid; PADDING-TOP: 0in; mso-border-alt: solid black .75pt; =
+mso-border-top-alt: solid black .75pt"=20
+    vAlign=3Dbottom width=3D65>
+      <P=20
+      style=3D"TEXT-AUTOSPACE: ; mso-pagination: none; =
+mso-layout-grid-align: none"=20
+      class=3DMsoNormal><B style=3D"mso-bidi-font-weight: normal"><SPAN=20
+      style=3D"mso-bidi-font-family: 'Times New Roman'">Dec=20
+      4<o:p></o:p></SPAN></B></P></TD>
+    <TD=20
+    style=3D"BORDER-BOTTOM: black 1pt solid; BORDER-LEFT: medium none; =
+PADDING-BOTTOM: 0in; PADDING-LEFT: 5.4pt; WIDTH: 53.55pt; PADDING-RIGHT: =
+5.4pt; BORDER-TOP: medium none; BORDER-RIGHT: black 1pt solid; =
+PADDING-TOP: 0in; mso-border-alt: solid black .75pt; =
+mso-border-left-alt: solid black .75pt; mso-border-top-alt: solid black =
+.75pt"=20
+    vAlign=3Dbottom width=3D54>
+      <P=20
+      style=3D"TEXT-ALIGN: center; TEXT-AUTOSPACE: ; mso-pagination: =
+none; mso-layout-grid-align: none"=20
+      class=3DMsoNormal align=3Dcenter><SPAN=20
+      style=3D"mso-bidi-font-family: 'Times New =
+Roman'">26<o:p></o:p></SPAN></P></TD>
+    <TD=20
+    style=3D"BORDER-BOTTOM: black 1pt solid; BORDER-LEFT: medium none; =
+PADDING-BOTTOM: 0in; PADDING-LEFT: 5.4pt; WIDTH: 241.9pt; PADDING-RIGHT: =
+5.4pt; BORDER-TOP: medium none; BORDER-RIGHT: black 1pt solid; =
+PADDING-TOP: 0in; mso-border-alt: solid black .75pt; =
+mso-border-left-alt: solid black .75pt; mso-border-top-alt: solid black =
+.75pt"=20
+    vAlign=3Dbottom width=3D242>
+      <P=20
+      style=3D"TEXT-AUTOSPACE: ; mso-pagination: none; =
+mso-layout-grid-align: none"=20
+      class=3DMsoNormal><SPAN style=3D"mso-bidi-font-family: 'Times New =
+Roman'"><A=20
+      =
+href=3D"http://www.cse.buffalo.edu/faculty/tkosar/cse421-521/slides/25-Pr=
+otection_Security.pdf">Protection=20
+      &amp; Security</A> (<A=20
+      =
+href=3D"http://www.cse.buffalo.edu/faculty/tkosar/cse421-521/slides/25-Pr=
+otection_Security_2spp.pdf">2spp</A>)<o:p></o:p></SPAN></P></TD>
+    <TD=20
+    style=3D"BORDER-BOTTOM: black 1pt solid; BORDER-LEFT: medium none; =
+PADDING-BOTTOM: 0in; PADDING-LEFT: 5.4pt; WIDTH: 139.5pt; PADDING-RIGHT: =
+5.4pt; BORDER-TOP: medium none; BORDER-RIGHT: black 1pt solid; =
+PADDING-TOP: 0in; mso-border-alt: solid black .75pt; =
+mso-border-left-alt: solid black .75pt; mso-border-top-alt: solid black =
+.75pt"=20
+    vAlign=3Dbottom width=3D140>
+      <P=20
+      style=3D"TEXT-AUTOSPACE: ; mso-pagination: none; =
+mso-layout-grid-align: none"=20
+      class=3DMsoNormal><I style=3D"mso-bidi-font-style: normal"><SPAN=20
+      style=3D"COLOR: green; mso-bidi-font-family: 'Times New =
+Roman'"><o:p><I>Read=20
+      Ch.15</I></o:p></SPAN></I></P></TD></TR>
+  <TR style=3D"mso-yfti-irow: 29">
+    <TD=20
+    style=3D"BORDER-BOTTOM: black 1pt solid; BORDER-LEFT: black 1pt =
+solid; PADDING-BOTTOM: 0in; PADDING-LEFT: 5.4pt; WIDTH: 64.5pt; =
+PADDING-RIGHT: 5.4pt; BORDER-TOP: medium none; BORDER-RIGHT: black 1pt =
+solid; PADDING-TOP: 0in; mso-border-alt: solid black .75pt; =
+mso-border-top-alt: solid black .75pt"=20
+    vAlign=3Dbottom width=3D65>
+      <P=20
+      style=3D"TEXT-AUTOSPACE: ; mso-pagination: none; =
+mso-layout-grid-align: none"=20
+      class=3DMsoNormal><B style=3D"mso-bidi-font-weight: normal"><SPAN=20
+      style=3D"mso-bidi-font-family: 'Times New Roman'">Dec=20
+      6<o:p></o:p></SPAN></B></P></TD>
+    <TD=20
+    style=3D"BORDER-BOTTOM: black 1pt solid; BORDER-LEFT: medium none; =
+PADDING-BOTTOM: 0in; PADDING-LEFT: 5.4pt; WIDTH: 53.55pt; PADDING-RIGHT: =
+5.4pt; BORDER-TOP: medium none; BORDER-RIGHT: black 1pt solid; =
+PADDING-TOP: 0in; mso-border-alt: solid black .75pt; =
+mso-border-left-alt: solid black .75pt; mso-border-top-alt: solid black =
+.75pt"=20
+    vAlign=3Dbottom width=3D54>
+      <P=20
+      style=3D"TEXT-ALIGN: center; TEXT-AUTOSPACE: ; mso-pagination: =
+none; mso-layout-grid-align: none"=20
+      class=3DMsoNormal align=3Dcenter><SPAN=20
+      style=3D"mso-bidi-font-family: 'Times New =
+Roman'">27<o:p></o:p></SPAN></P></TD>
+    <TD=20
+    style=3D"BORDER-BOTTOM: black 1pt solid; BORDER-LEFT: medium none; =
+PADDING-BOTTOM: 0in; PADDING-LEFT: 5.4pt; WIDTH: 241.9pt; PADDING-RIGHT: =
+5.4pt; BORDER-TOP: medium none; BORDER-RIGHT: black 1pt solid; =
+PADDING-TOP: 0in; mso-border-alt: solid black .75pt; =
+mso-border-left-alt: solid black .75pt; mso-border-top-alt: solid black =
+.75pt"=20
+    vAlign=3Dbottom width=3D242>
+      <P=20
+      style=3D"TEXT-AUTOSPACE: ; mso-pagination: none; =
+mso-layout-grid-align: none"=20
+      class=3DMsoNormal><SPAN style=3D"mso-bidi-font-family: 'Times New =
+Roman'"><A=20
+      =
+href=3D"http://www.cse.buffalo.edu/faculty/tkosar/cse421-521/slides/26-Fi=
+nal_Review.pdf">Final=20
+      Review</A> (<A=20
+      =
+href=3D"http://www.cse.buffalo.edu/faculty/tkosar/cse421-521/slides/26-Fi=
+nal_Review_2spp.pdf">2spp</A>)<o:p></o:p></SPAN></P></TD>
+    <TD=20
+    style=3D"BORDER-BOTTOM: black 1pt solid; BORDER-LEFT: medium none; =
+PADDING-BOTTOM: 0in; PADDING-LEFT: 5.4pt; WIDTH: 139.5pt; PADDING-RIGHT: =
+5.4pt; BORDER-TOP: medium none; BORDER-RIGHT: black 1pt solid; =
+PADDING-TOP: 0in; mso-border-alt: solid black .75pt; =
+mso-border-left-alt: solid black .75pt; mso-border-top-alt: solid black =
+.75pt"=20
+    vAlign=3Dbottom width=3D140>
+      <P=20
+      style=3D"TEXT-AUTOSPACE: ; mso-pagination: none; =
+mso-layout-grid-align: none"=20
+      class=3DMsoNormal><SPAN=20
+      style=3D"mso-bidi-font-family: 'Times New =
+Roman'"><o:p>&nbsp;</o:p></SPAN></P></TD></TR>
+  <TR style=3D"mso-yfti-irow: 30; mso-yfti-lastrow: yes">
+    <TD=20
+    style=3D"BORDER-BOTTOM: black 1pt solid; BORDER-LEFT: black 1pt =
+solid; PADDING-BOTTOM: 0in; PADDING-LEFT: 5.4pt; WIDTH: 64.5pt; =
+PADDING-RIGHT: 5.4pt; BORDER-TOP: medium none; BORDER-RIGHT: black 1pt =
+solid; PADDING-TOP: 0in; mso-border-alt: solid black .75pt; =
+mso-border-top-alt: solid black .75pt"=20
+    vAlign=3Dbottom width=3D65>
+      <P=20
+      style=3D"TEXT-AUTOSPACE: ; mso-pagination: none; =
+mso-layout-grid-align: none"=20
+      class=3DMsoNormal><B style=3D"mso-bidi-font-weight: normal"><SPAN=20
+      style=3D"mso-bidi-font-family: 'Times New Roman'">Dec=20
+      17<o:p></o:p></SPAN></B></P></TD>
+    <TD=20
+    style=3D"BORDER-BOTTOM: black 1pt solid; BORDER-LEFT: medium none; =
+PADDING-BOTTOM: 0in; PADDING-LEFT: 5.4pt; WIDTH: 53.55pt; PADDING-RIGHT: =
+5.4pt; BACKGROUND: #b3b3b3; BORDER-TOP: medium none; BORDER-RIGHT: black =
+1pt solid; PADDING-TOP: 0in; mso-border-alt: solid black .75pt; =
+mso-border-left-alt: solid black .75pt; mso-border-top-alt: solid black =
+.75pt"=20
+    vAlign=3Dbottom width=3D54>
+      <P=20
+      style=3D"TEXT-ALIGN: center; TEXT-AUTOSPACE: ; mso-pagination: =
+none; mso-layout-grid-align: none"=20
+      class=3DMsoNormal align=3Dcenter><SPAN=20
+      style=3D"mso-bidi-font-family: 'Times New =
+Roman'"><o:p>&nbsp;</o:p></SPAN></P></TD>
+    <TD=20
+    style=3D"BORDER-BOTTOM: black 1pt solid; BORDER-LEFT: medium none; =
+PADDING-BOTTOM: 0in; PADDING-LEFT: 5.4pt; WIDTH: 241.9pt; PADDING-RIGHT: =
+5.4pt; BORDER-TOP: medium none; BORDER-RIGHT: black 1pt solid; =
+PADDING-TOP: 0in; mso-border-alt: solid black .75pt; =
+mso-border-left-alt: solid black .75pt; mso-border-top-alt: solid black =
+.75pt"=20
+    vAlign=3Dbottom width=3D242>
+      <P=20
+      style=3D"TEXT-AUTOSPACE: ; mso-pagination: none; =
+mso-layout-grid-align: none"=20
+      class=3DMsoNormal><SPAN=20
+      style=3D"COLOR: red; mso-bidi-font-family: 'Times New =
+Roman'">FINAL=20
+      EXAM<SPAN=20
+      style=3D"mso-spacerun: =
+yes">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&n=
+bsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;=20
+      </SPAN></SPAN><I style=3D"mso-bidi-font-style: normal"><SPAN=20
+      style=3D"mso-bidi-font-family: 'Times New Roman'">(<SPAN=20
+      class=3DSpellE>Room<SPAN class=3DGramE>:Knox=20
+      104</SPAN></SPAN>)<o:p></o:p></SPAN></I></P></TD>
+    <TD=20
+    style=3D"BORDER-BOTTOM: black 1pt solid; BORDER-LEFT: medium none; =
+PADDING-BOTTOM: 0in; PADDING-LEFT: 5.4pt; WIDTH: 139.5pt; PADDING-RIGHT: =
+5.4pt; BORDER-TOP: medium none; BORDER-RIGHT: black 1pt solid; =
+PADDING-TOP: 0in; mso-border-alt: solid black .75pt; =
+mso-border-left-alt: solid black .75pt; mso-border-top-alt: solid black =
+.75pt"=20
+    vAlign=3Dbottom width=3D140>
+      <P=20
+      style=3D"TEXT-AUTOSPACE: ; mso-pagination: none; =
+mso-layout-grid-align: none"=20
+      class=3DMsoNormal><I style=3D"mso-bidi-font-style: normal"><SPAN=20
+      style=3D"mso-bidi-font-family: 'Times New Roman'">@ 11:45am - =
+2:45pm=20
+      <o:p></o:p></SPAN></I></P></TD></TR></TBODY></TABLE>
+<P class=3DMsoNormal><SPAN=20
+style=3D"mso-bidi-font-family: 'Times New =
+Roman'">&nbsp;<o:p></o:p></SPAN></P></DIV></BODY></HTML>
