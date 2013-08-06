@@ -1,0 +1,903 @@
+From: "Saved by Windows Internet Explorer 9"
+Subject: CSE565 Lectures
+Date: Fri, 28 Dec 2012 11:44:56 +0800
+MIME-Version: 1.0
+Content-Type: multipart/related;
+	type="text/html";
+	boundary="----=_NextPart_000_0005_01CDE4F0.C27D54D0"
+X-MimeOLE: Produced By Microsoft MimeOLE V6.1.7601.17609
+
+This is a multi-part message in MIME format.
+
+------=_NextPart_000_0005_01CDE4F0.C27D54D0
+Content-Type: text/html;
+	charset="iso-8859-1"
+Content-Transfer-Encoding: quoted-printable
+Content-Location: http://www.cse.buffalo.edu/~shambhu/cse56512/lectures.html
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<HTML><HEAD><TITLE>CSE565 Lectures</TITLE>
+<META content=3D"text/html; charset=3Diso-8859-1" =
+http-equiv=3DContent-Type>
+<META name=3DGENERATOR content=3D"MSHTML 9.00.8112.16457"></HEAD>
+<BODY aLink=3D#ff0000 bgColor=3D#000000 text=3D#000000 vLink=3D#3333ff=20
+link=3D#3333ff>&nbsp;=20
+<TABLE border=3D0 cellSpacing=3D0 cellPadding=3D10 width=3D"100%" =
+bgColor=3D#000000>
+  <TBODY>
+  <TR>
+    <TD vAlign=3Dmiddle align=3Dcenter><A =
+href=3D"http://www.buffalo.edu/"><IMG=20
+      alt=3D"SUNY at Buffalo" align=3Dcenter=20
+      src=3D"http://www.cse.buffalo.edu/~shambhu/cse56512/ublogo.gif" =
+width=3D120=20
+      height=3D100 ORDER=3D"0" B></A>&nbsp;</TD>
+    <TD vAlign=3Dmiddle align=3Dcenter><FONT color=3D#ffffff><FONT =
+size=3D+2>CSE565=20
+      </FONT><FONT size=3D+2>C</FONT><FONT size=3D+1>omputer <FONT=20
+      size=3D+2>S</FONT><FONT size=3D+1>ecurity </FONT><BR><FONT =
+color=3D#ffffff><FONT=20
+      size=3D+2>Fall 2012</FONT>&nbsp;</FONT></FONT>&nbsp;<BR><A=20
+      href=3D"http://www.cse.buffalo.edu/faculty/shambhu/" =
+target=3D_top><FONT=20
+      color=3D#ffffff><FONT size=3D+2>Prof. Shambhu=20
+      Upadhyaya</A></FONT>&nbsp;</FONT></FONT>&nbsp; =
+</TD></TR></TBODY></TABLE>&nbsp;=20
+<TABLE border=3D2 cellSpacing=3D0 cellPadding=3D10 width=3D"100%">
+  <TBODY>
+  <TR>
+    <TD bgColor=3D#ded4f1 vAlign=3Dtop noWrap align=3Dleft>
+      <CENTER><FONT color=3D#ffff00><B><FONT size=3D+1>CSE 565=20
+      </FONT></B>&nbsp;</FONT></CENTER>
+      <P><FONT color=3D#ffcccc><A=20
+      =
+href=3D"http://www.cse.buffalo.edu/~shambhu/cse56512/index.html">Home</A>=
+&nbsp;&nbsp;</FONT>&nbsp;=20
+      <BR><FONT color=3D#ffcccc><A=20
+      =
+href=3D"http://www.cse.buffalo.edu/~shambhu/cse56512/descriptions.html">C=
+ourse=20
+      Description</A>&nbsp;&nbsp;</FONT>&nbsp; <BR><FONT =
+color=3D#ffcccc><A=20
+      =
+href=3D"http://www.cse.buffalo.edu/~shambhu/cse56512/instructor.html">Ins=
+tructor=20
+      &amp;TAs</A>&nbsp;</FONT>&nbsp; <BR><FONT color=3D#000000><A=20
+      =
+href=3D"http://www.cse.buffalo.edu/~shambhu/cse56512/lectures.html">Lectu=
+res</A>&nbsp;</FONT>&nbsp;=20
+      <BR><A=20
+      =
+href=3D"http://www.cse.buffalo.edu/~shambhu/cse56512/handouts.html">Hando=
+uts</FONT>=20
+      </A><BR><FONT color=3D#ffcccc><A=20
+      =
+href=3D"http://www.cse.buffalo.edu/~shambhu/cse56512/homeworks.html">Home=
+works</A>&nbsp;</FONT>&nbsp;=20
+      <BR><FONT color=3D#ffcccc><A=20
+      =
+href=3D"http://www.cse.buffalo.edu/~shambhu/cse56512/projects.html">Labs =
+and=20
+      Projects</A>&nbsp;</FONT>&nbsp; <BR><FONT color=3D#ffcccc><A=20
+      =
+href=3D"http://www.cse.buffalo.edu/~shambhu/cse56512/students.html">Stude=
+nt=20
+      Database</A>&nbsp;&nbsp;</FONT>&nbsp;=20
+      <P> </P>
+    <TD bgColor=3D#ffffff vAlign=3Dtop align=3Dleft FGCOLOR=3D"black">
+      <CENTER>
+      <H2><FONT size=3D+2>Course L</FONT>ecture <FONT=20
+      size=3D+2>P</FONT>lan</H2></CENTER>
+      <META name=3DGENERATOR=20
+      content=3D"Mozilla/4.61 [en] (X11; U; Linux 2.2.12 i686) =
+[Netscape]">
+      <META content=3Dno-cache http-equiv=3DPragma>
+      <HR>
+
+      <P>The instructor's lectures are available in ppt and pdf formats. =
+The=20
+      slides are printed 2 per page. You are strongly encouraged to =
+print the=20
+      pdf version before the class.=20
+      <CENTER>
+      <P>
+      <HR width=3D"100%">
+      </CENTER>
+      <P><BR>
+      <TABLE border=3D3 cellSpacing=3D2 cellPadding=3D2 width=3D"100%" =
+NOSAVE>
+        <TBODY>
+        <TR NOSAVE>
+          <TD NOSAVE>
+            <CENTER><B>Wk&nbsp;</B></CENTER></TD>
+          <TD>
+            <CENTER><B>Date</B></CENTER></TD>
+          <TD><B>Lec</B> <BR><B>No.</B></TD>
+          <TD>
+            <CENTER><B>Lecture Topic</B></CENTER></TD>
+          <TD>
+            <CENTER><B>Notes</B></CENTER></TD>
+          <TD>
+            <CENTER><B>Reading</B></CENTER></TD>
+          <TD>
+            <CENTER><B>Assignment</B></CENTER></TD>
+        <TR NOSAVE>
+          <TD rowSpan=3D3 NOSAVE>
+            <CENTER>15</CENTER></TD>
+          <TD>
+            <CENTER>Fri 12/07</CENTER></TD>
+          <TD>
+            <CENTER>45</CENTER></TD>
+          <TD>Quiz 5 (optional)</TD>
+          <TD>
+            <CENTER>[*]</CENTER></TD>
+          <TD>
+            <CENTER>&nbsp;</CENTER></TD>
+          <TD>
+            <CENTER>&nbsp;</CENTER></TD></TR>
+        <TR NOSAVE>
+          <TD>
+            <CENTER>Wed 12/05</CENTER></TD>
+          <TD>
+            <CENTER>44</CENTER></TD>
+          <TD>Midterm 3</TD>
+          <TD>
+            <CENTER>[*]</CENTER></TD>
+          <TD>
+            <CENTER>&nbsp;Digital certificates onwards</CENTER></TD>
+          <TD>
+            <CENTER>&nbsp;Click Home on left for =
+details</CENTER></TD></TR>
+        <TR NOSAVE>
+          <TD>
+            <CENTER>Mon 12/03</CENTER></TD>
+          <TD>
+            <CENTER>43</CENTER></TD>
+          <TD>Intrusion Detection</TD>
+          <TD>
+            <CENTER>[<A=20
+            =
+href=3D"http://www.cse.buffalo.edu/~shambhu/cse56512/lectures/lec-43-ids.=
+ppt"=20
+            target=3D_top>ppt</A>,<A=20
+            =
+href=3D"http://www.cse.buffalo.edu/~shambhu/cse56512/lectures/lec-43.pdf"=
+=20
+            target=3D_top>pdf</A>]</CENTER></TD>
+          <TD>
+            <CENTER>Ch. 20</CENTER></TD>
+          <TD>
+            <CENTER>&nbsp;<BLINK>Solution to HW 5 =
+posted</BLINK></CENTER></TD></TR>
+        <TR NOSAVE>
+          <TD rowSpan=3D3 NOSAVE>
+            <CENTER>14</CENTER></TD>
+          <TD>
+            <CENTER>Fri 11/30</CENTER></TD>
+          <TD>
+            <CENTER>42</CENTER></TD>
+          <TD>Program Security</TD>
+          <TD>
+            <CENTER>[<A=20
+            =
+href=3D"http://www.cse.buffalo.edu/~shambhu/cse56512/lectures/lec-42-prog=
+ram-security.ppt"=20
+            target=3D_top>ppt</A>,<A=20
+            =
+href=3D"http://www.cse.buffalo.edu/~shambhu/cse56512/lectures/lec-42.pdf"=
+=20
+            target=3D_top>pdf</A>]</CENTER></TD>
+          <TD>
+            <CENTER>&nbsp;From Pfleeger</CENTER></TD>
+          <TD>
+            <CENTER>&nbsp;Midterm 3 next Wednesday</CENTER></TD></TR>
+        <TR NOSAVE>
+          <TD>
+            <CENTER>Wed 11/28</CENTER></TD>
+          <TD>
+            <CENTER>41</CENTER></TD>
+          <TD>TCB, U.S. Orange Book</TD>
+          <TD>
+            <CENTER>[No New Material]</CENTER></TD>
+          <TD>
+            <CENTER>&nbsp;From Pfleeger</CENTER></TD>
+          <TD>
+            <CENTER>&nbsp;</CENTER></TD></TR>
+        <TR NOSAVE>
+          <TD>
+            <CENTER>Mon 11/26</CENTER></TD>
+          <TD>
+            <CENTER>40</CENTER></TD>
+          <TD>OS Security, Contd.</TD>
+          <TD>
+            <CENTER>[No New Material]</CENTER></TD>
+          <TD>
+            <CENTER>From Pfleeger</CENTER></TD>
+          <TD>
+            <CENTER>&nbsp;Project 3 due today in =
+class</CENTER></TD></TR>
+        <TR NOSAVE>
+          <TD rowSpan=3D3 NOSAVE>
+            <CENTER>13</CENTER></TD>
+          <TD>
+            <CENTER>Fri 11/23</CENTER></TD>
+          <TD>
+            <CENTER>39</CENTER></TD>
+          <TD>Thanksgiving</TD>
+          <TD>
+            <CENTER>[No Class]</CENTER></TD>
+          <TD>
+            <CENTER>&nbsp;</CENTER></TD>
+          <TD>
+            <CENTER>&nbsp;Homework 5 will be assigned</CENTER></TD></TR>
+        <TR NOSAVE>
+          <TD>
+            <CENTER>Wed 11/21</CENTER></TD>
+          <TD>
+            <CENTER>38</CENTER></TD>
+          <TD>Thanksgiving</TD>
+          <TD>
+            <CENTER>[No Class]</CENTER></TD>
+          <TD>
+            <CENTER>&nbsp;</CENTER></TD>
+          <TD>
+            <CENTER>&nbsp;</CENTER></TD></TR>
+        <TR NOSAVE>
+          <TD>
+            <CENTER>Mon 11/19</CENTER></TD>
+          <TD>
+            <CENTER>37</CENTER></TD>
+          <TD>OS Security</TD>
+          <TD>
+            <CENTER>[<A=20
+            =
+href=3D"http://www.cse.buffalo.edu/~shambhu/cse56512/lectures/lec-37-osse=
+curity.ppt"=20
+            target=3D_top>ppt</A>,<A=20
+            =
+href=3D"http://www.cse.buffalo.edu/~shambhu/cse56512/lectures/lec-37.pdf"=
+=20
+            target=3D_top>pdf</A>]</CENTER></TD>
+          <TD>
+            <CENTER>From Pfleeger</CENTER></TD>
+          <TD>
+            <CENTER>&nbsp;Project 3 due next Monday</CENTER></TD></TR>
+        <TR NOSAVE>
+          <TD rowSpan=3D3 NOSAVE>
+            <CENTER>12</CENTER></TD>
+          <TD>
+            <CENTER>Fri 11/16</CENTER></TD>
+          <TD>
+            <CENTER>36</CENTER></TD>
+          <TD>IP Security, Contd.</TD>
+          <TD>
+            <CENTER>[No New Material]</CENTER></TD>
+          <TD>
+            <CENTER>&nbsp;Ch. 19</CENTER></TD>
+          <TD>
+            <CENTER>&nbsp;</CENTER></TD></TR>
+        <TR NOSAVE>
+          <TD>
+            <CENTER>Wed 11/14</CENTER></TD>
+          <TD>
+            <CENTER>35</CENTER></TD>
+          <TD>IP Security</TD>
+          <TD>
+            <CENTER>[<A=20
+            =
+href=3D"http://www.cse.buffalo.edu/~shambhu/cse56512/lectures/lec-35-ipse=
+curity.ppt"=20
+            target=3D_top>ppt</A>,<A=20
+            =
+href=3D"http://www.cse.buffalo.edu/~shambhu/cse56512/lectures/lec-35.pdf"=
+=20
+            target=3D_top>pdf</A>]</CENTER></TD>
+          <TD>
+            <CENTER>&nbsp;Ch. 19</CENTER></TD>
+          <TD>
+            <CENTER>&nbsp;Start working on Project 3</CENTER></TD></TR>
+        <TR NOSAVE>
+          <TD>
+            <CENTER>Mon 11/12</CENTER></TD>
+          <TD>
+            <CENTER>34</CENTER></TD>
+          <TD>Midterm 2</TD>
+          <TD>
+            <CENTER>[*]</CENTER></TD>
+          <TD>
+            <CENTER>Material after 1st midterm</CENTER></TD>
+          <TD>
+            <CENTER>&nbsp;Homework #4 solution posted</CENTER></TD></TR>
+        <TR NOSAVE>
+          <TD rowSpan=3D3 NOSAVE>
+            <CENTER>11</CENTER></TD>
+          <TD>
+            <CENTER>Fri 11/09</CENTER></TD>
+          <TD>
+            <CENTER>33</CENTER></TD>
+          <TD>Review for Midterm</TD>
+          <TD>
+            <CENTER>[No New Material]</CENTER></TD>
+          <TD>
+            <CENTER>&nbsp;Material up to key distribution=20
+(inclusive)</CENTER></TD>
+          <TD>
+            <CENTER>&nbsp;Project 3 has been assigned</CENTER></TD></TR>
+        <TR NOSAVE>
+          <TD>
+            <CENTER>Wed 11/07</CENTER></TD>
+          <TD>
+            <CENTER>32</CENTER></TD>
+          <TD>IP Basics, IPv4, IPv6</TD>
+          <TD>
+            <CENTER>[<A=20
+            =
+href=3D"http://www.cse.buffalo.edu/~shambhu/cse56512/lectures/lec-32-ipba=
+sics.ppt"=20
+            target=3D_top>ppt</A>,<A=20
+            =
+href=3D"http://www.cse.buffalo.edu/~shambhu/cse56512/lectures/lec-32.pdf"=
+=20
+            target=3D_top>pdf</A>]</CENTER></TD>
+          <TD>
+            <CENTER>&nbsp;Appendix L</CENTER></TD>
+          <TD>
+            <CENTER>&nbsp;Midterm 2 next Monday</CENTER></TD></TR>
+        <TR NOSAVE>
+          <TD>
+            <CENTER>Mon 11/05</CENTER></TD>
+          <TD>
+            <CENTER>31</CENTER></TD>
+          <TD>E-mail Security, Contd.</TD>
+          <TD>
+            <CENTER>[No New Material]</CENTER></TD>
+          <TD>
+            <CENTER>Ch. 18</CENTER></TD>
+          <TD>
+            <CENTER>&nbsp;Homework 4 assigned</CENTER></TD></TR>
+        <TR NOSAVE>
+          <TD rowSpan=3D3 NOSAVE>
+            <CENTER>10</CENTER></TD>
+          <TD>
+            <CENTER>Fri 11/02</CENTER></TD>
+          <TD>
+            <CENTER>30</CENTER></TD>
+          <TD>E-mail Security</TD>
+          <TD>
+            <CENTER>[<A=20
+            =
+href=3D"http://www.cse.buffalo.edu/~shambhu/cse56512/lectures/lec-30-emai=
+lsecurity.ppt"=20
+            target=3D_top>ppt</A>,<A=20
+            =
+href=3D"http://www.cse.buffalo.edu/~shambhu/cse56512/lectures/lec-30.pdf"=
+=20
+            target=3D_top>pdf</A>]</CENTER></TD>
+          <TD>
+            <CENTER>&nbsp;Ch. 18</CENTER></TD>
+          <TD>
+            <CENTER>&nbsp;Project 2 Report due in =
+class</CENTER></TD></TR>
+        <TR NOSAVE>
+          <TD>
+            <CENTER>Wed 10/31</CENTER></TD>
+          <TD>
+            <CENTER>29</CENTER></TD>
+          <TD>Digital Certificates</TD>
+          <TD>
+            <CENTER>[Use last week's]</CENTER></TD>
+          <TD>
+            <CENTER>&nbsp;Ch. 14</CENTER></TD>
+          <TD>
+            <CENTER>&nbsp;HW 3 Solution Available on =
+pollux</CENTER></TD></TR>
+        <TR NOSAVE>
+          <TD>
+            <CENTER>Mon 10/29</CENTER></TD>
+          <TD>
+            <CENTER>28</CENTER></TD>
+          <TD>Kerberos, Contd.</TD>
+          <TD>
+            <CENTER>[Whiteboard]</CENTER></TD>
+          <TD>
+            <CENTER>&nbsp;Ch. 15</CENTER></TD>
+          <TD>
+            <CENTER>&nbsp;Quiz 2 will be returned</CENTER></TD></TR>
+        <TR NOSAVE>
+          <TD rowSpan=3D3 NOSAVE>
+            <CENTER>9</CENTER></TD>
+          <TD>
+            <CENTER>Fri 10/26</CENTER></TD>
+          <TD>
+            <CENTER>27</CENTER></TD>
+          <TD>Kerberos, Contd.</TD>
+          <TD>
+            <CENTER>[No New Material]</CENTER></TD>
+          <TD>
+            <CENTER>&nbsp;Ch 15</CENTER></TD>
+          <TD>
+            <CENTER>&nbsp;Project 2 due next Friday</CENTER></TD></TR>
+        <TR NOSAVE>
+          <TD>
+            <CENTER>Wed 10/24</CENTER></TD>
+          <TD>
+            <CENTER>26</CENTER></TD>
+          <TD>Network Security/Kerberos</TD>
+          <TD>
+            <CENTER>[<A=20
+            =
+href=3D"http://www.cse.buffalo.edu/~shambhu/cse56512/lectures/lec-26-auth=
+entication.ppt"=20
+            target=3D_top>ppt</A>,<A=20
+            =
+href=3D"http://www.cse.buffalo.edu/~shambhu/cse56512/lectures/lec-26.pdf"=
+=20
+            target=3D_top>pdf</A>]</CENTER></TD>
+          <TD>
+            <CENTER>&nbsp;Ch. 15</CENTER></TD>
+          <TD>
+            <CENTER>&nbsp;Homework 3 due in class</CENTER></TD></TR>
+        <TR NOSAVE>
+          <TD>
+            <CENTER>Mon 10/22</CENTER></TD>
+          <TD>
+            <CENTER>25</CENTER></TD>
+          <TD>Key Management, Contd.</TD>
+          <TD>
+            <CENTER>[No New Material]</CENTER></TD>
+          <TD>
+            <CENTER>&nbsp;Ch. 14</CENTER></TD>
+          <TD>
+            <CENTER>&nbsp;Quiz 3 may be given this =
+week</CENTER></TD></TR>
+        <TR NOSAVE>
+          <TD rowSpan=3D3 NOSAVE>
+            <CENTER>8</CENTER></TD>
+          <TD>
+            <CENTER>Fri 10/19</CENTER></TD>
+          <TD>
+            <CENTER>24</CENTER></TD>
+          <TD>Key Management</TD>
+          <TD>
+            <CENTER>[<A=20
+            =
+href=3D"http://www.cse.buffalo.edu/~shambhu/cse56512/lectures/lec-24-keym=
+anagement.ppt"=20
+            target=3D_top>ppt</A>,<A=20
+            =
+href=3D"http://www.cse.buffalo.edu/~shambhu/cse56512/lectures/lec-24.pdf"=
+=20
+            target=3D_top>pdf</A>]</CENTER></TD>
+          <TD>
+            <CENTER>&nbsp;Ch 14</CENTER></TD>
+          <TD>
+            <CENTER>&nbsp;</CENTER></TD></TR>
+        <TR NOSAVE>
+          <TD>
+            <CENTER>Wed 10/17</CENTER></TD>
+          <TD>
+            <CENTER>23</CENTER></TD>
+          <TD>DSA Vulnerabilities</TD>
+          <TD>
+            <CENTER>[No New Material]</CENTER></TD>
+          <TD>
+            <CENTER>&nbsp;Ch. 13</CENTER></TD>
+          <TD>
+            <CENTER>&nbsp;Homework 3 posted</CENTER></TD></TR>
+        <TR NOSAVE>
+          <TD>
+            <CENTER>Mon 10/15</CENTER></TD>
+          <TD>
+            <CENTER>22</CENTER></TD>
+          <TD>DSA Algorithms, Contd.</TD>
+          <TD>
+            <CENTER>[No New Material]</CENTER></TD>
+          <TD>
+            <CENTER>&nbsp;Ch. 13</CENTER></TD>
+          <TD>
+            <CENTER>&nbsp;Midterm 1 will be returned</CENTER></TD></TR>
+        <TR NOSAVE>
+          <TD rowSpan=3D3 NOSAVE>
+            <CENTER>7</CENTER></TD>
+          <TD>
+            <CENTER>Fri 10/12</CENTER></TD>
+          <TD>
+            <CENTER>21</CENTER></TD>
+          <TD>DSA Algorithms</TD>
+          <TD>
+            <CENTER>[Blackboard]</CENTER></TD>
+          <TD>
+            <CENTER>&nbsp;</CENTER></TD>
+          <TD>
+            <CENTER>&nbsp;</CENTER></TD></TR>
+        <TR NOSAVE>
+          <TD>
+            <CENTER>Wed 10/10</CENTER></TD>
+          <TD>
+            <CENTER>20</CENTER></TD>
+          <TD>Digital Signatures</TD>
+          <TD>
+            <CENTER>[<A=20
+            =
+href=3D"http://www.cse.buffalo.edu/~shambhu/cse56512/lectures/lec-20-digi=
+tal-signature.ppt"=20
+            target=3D_top>ppt</A>,<A=20
+            =
+href=3D"http://www.cse.buffalo.edu/~shambhu/cse56512/lectures/lec-20.pdf"=
+=20
+            target=3D_top>pdf</A>]</CENTER></TD>
+          <TD>
+            <CENTER>&nbsp;Ch. 13</CENTER></TD>
+          <TD>
+            <CENTER>&nbsp;HW 3 will be posted</CENTER></TD></TR>
+        <TR NOSAVE>
+          <TD>
+            <CENTER>Mon 10/08</CENTER></TD>
+          <TD>
+            <CENTER>19</CENTER></TD>
+          <TD>Midterm 1</TD>
+          <TD>
+            <CENTER>[*]</CENTER></TD>
+          <TD>
+            <CENTER>&nbsp;Material up to PKE</CENTER></TD>
+          <TD>
+            <CENTER>&nbsp;</CENTER></TD></TR>
+        <TR NOSAVE>
+          <TD rowSpan=3D3 NOSAVE>
+            <CENTER>6</CENTER></TD>
+          <TD>
+            <CENTER>Fri 10/05</CENTER></TD>
+          <TD>
+            <CENTER>18</CENTER></TD>
+          <TD>Midterm Review</TD>
+          <TD>
+            <CENTER>[Go over Homeworks]</CENTER></TD>
+          <TD>
+            <CENTER>&nbsp;</CENTER></TD>
+          <TD>
+            <CENTER>&nbsp;Project 2 has been posted</CENTER></TD></TR>
+        <TR NOSAVE>
+          <TD>
+            <CENTER>Wed 10/03</CENTER></TD>
+          <TD>
+            <CENTER>17</CENTER></TD>
+          <TD>MAC and Hash Functions</TD>
+          <TD>
+            <CENTER>[<A=20
+            =
+href=3D"http://www.cse.buffalo.edu/~shambhu/cse56512/lectures/lec-17-hash=
+.pdf"=20
+            target=3D_top>pdf</A>]</CENTER></TD>
+          <TD>
+            <CENTER>&nbsp;Ch. 11</CENTER></TD>
+          <TD>
+            <CENTER>&nbsp;Homework 2 due in class</CENTER></TD></TR>
+        <TR NOSAVE>
+          <TD>
+            <CENTER>Mon 10/01</CENTER></TD>
+          <TD>
+            <CENTER>16</CENTER></TD>
+          <TD>Diffe-Hellman Key Exchange</TD>
+          <TD>
+            <CENTER>[<A=20
+            =
+href=3D"http://www.cse.buffalo.edu/~shambhu/cse56512/lectures/lec-16-d-h-=
+keyexchange.ppt"=20
+            target=3D_top>ppt</A>,<A=20
+            =
+href=3D"http://www.cse.buffalo.edu/~shambhu/cse56512/lectures/lec-16.pdf"=
+=20
+            target=3D_top>pdf</A>]</CENTER></TD>
+          <TD>
+            <CENTER>&nbsp;Ch. 10</CENTER></TD>
+          <TD>
+            <CENTER>&nbsp;Project 1 due today in =
+class</CENTER></TD></TR>
+        <TR NOSAVE>
+          <TD rowSpan=3D3 NOSAVE>
+            <CENTER>5</CENTER></TD>
+          <TD>
+            <CENTER>Fri 09/28</CENTER></TD>
+          <TD>
+            <CENTER>15</CENTER></TD>
+          <TD>RSA Computation Issues</TD>
+          <TD>
+            <CENTER>[No New Material]</CENTER></TD>
+          <TD>
+            <CENTER>&nbsp;Ch. 9</CENTER></TD>
+          <TD>
+            <CENTER>&nbsp;</CENTER></TD></TR>
+        <TR NOSAVE>
+          <TD>
+            <CENTER>Wed 09/26</CENTER></TD>
+          <TD>
+            <CENTER>14</CENTER></TD>
+          <TD>Yom Kippur</TD>
+          <TD>
+            <CENTER>[No Class]</CENTER></TD>
+          <TD>
+            <CENTER>&nbsp;</CENTER></TD>
+          <TD>
+            <CENTER>&nbsp;Homework 2 due next =
+Wednesday</CENTER></TD></TR>
+        <TR NOSAVE>
+          <TD>
+            <CENTER>Mon 09/24</CENTER></TD>
+          <TD>
+            <CENTER>13</CENTER></TD>
+          <TD>PKE and RSA Contd.</TD>
+          <TD>
+            <CENTER>[No New Material]</CENTER></TD>
+          <TD>
+            <CENTER>&nbsp;Ch. 9</CENTER></TD>
+          <TD>
+            <CENTER>&nbsp;Project 1 due next Monday</CENTER></TD></TR>
+        <TR NOSAVE>
+          <TD rowSpan=3D3 NOSAVE>
+            <CENTER>4</CENTER></TD>
+          <TD>
+            <CENTER>Fri 09/21</CENTER></TD>
+          <TD>
+            <CENTER>12</CENTER></TD>
+          <TD>PKE and RSA</TD>
+          <TD>
+            <CENTER>[<A=20
+            =
+href=3D"http://www.cse.buffalo.edu/~shambhu/cse56512/lectures/lec-12-rsa.=
+ppt"=20
+            target=3D_top>ppt</A>,<A=20
+            =
+href=3D"http://www.cse.buffalo.edu/~shambhu/cse56512/lectures/lec-12.pdf"=
+=20
+            target=3D_top>pdf</A>]</CENTER></TD>
+          <TD>
+            <CENTER>&nbsp;Ch. 9</CENTER></TD>
+          <TD>
+            <CENTER>&nbsp;HW#2 has been posted</CENTER></TD></TR>
+        <TR NOSAVE>
+          <TD>
+            <CENTER>Wed 09/19</CENTER></TD>
+          <TD>
+            <CENTER>11</CENTER></TD>
+          <TD>Number Theory, Basics and Advanced</TD>
+          <TD>
+            <CENTER>[<A=20
+            =
+href=3D"http://www.cse.buffalo.edu/~shambhu/cse56512/lectures/lec-10-prim=
+ality.ppt"=20
+            target=3D_top>ppt</A>,<A=20
+            =
+href=3D"http://www.cse.buffalo.edu/~shambhu/cse56512/lectures/lec-10.pdf"=
+=20
+            target=3D_top>pdf</A>]</CENTER></TD>
+          <TD>
+            <CENTER>Ch. 8</CENTER></TD>
+          <TD>
+            <CENTER>&nbsp;Homework #1 due in the =
+class</CENTER></TD></TR>
+        <TR NOSAVE>
+          <TD>
+            <CENTER>Mon 09/17</CENTER></TD>
+          <TD>
+            <CENTER>10</CENTER></TD>
+          <TD>Rosh Hashanah</TD>
+          <TD>
+            <CENTER>[No Class]</CENTER></TD>
+          <TD>
+            <CENTER>&nbsp;</CENTER></TD>
+          <TD>
+            <CENTER>&nbsp;Homework #2 will be posted</CENTER></TD></TR>
+        <TR NOSAVE>
+          <TD rowSpan=3D3 NOSAVE>
+            <CENTER>3</CENTER></TD>
+          <TD>
+            <CENTER>Fri 09/14</CENTER></TD>
+          <TD>
+            <CENTER>9</CENTER></TD>
+          <TD>AES Contd.</TD>
+          <TD>
+            <CENTER>[No New Class Material]</CENTER></TD>
+          <TD>
+            <CENTER>&nbsp;Ch. 5</CENTER></TD>
+          <TD>
+            <CENTER>&nbsp;Start on Project #1</CENTER></TD></TR>
+        <TR NOSAVE>
+          <TD>
+            <CENTER>Wed 09/12</CENTER></TD>
+          <TD>
+            <CENTER>8</CENTER></TD>
+          <TD>Advanced Encryption Standard</TD>
+          <TD>
+            <CENTER>[<A=20
+            =
+href=3D"http://www.cse.buffalo.edu/~shambhu/cse56512/lectures/lec-08-aes.=
+ppt"=20
+            target=3D_top>ppt</A>,<A=20
+            =
+href=3D"http://www.cse.buffalo.edu/~shambhu/cse56512/lectures/lec-08.pdf"=
+=20
+            target=3D_top>pdf</A>]</CENTER></TD>
+          <TD>
+            <CENTER>Ch. 5</CENTER></TD>
+          <TD>
+            <CENTER>&nbsp;Homework #1 due next =
+Wednesday</CENTER></TD></TR>
+        <TR NOSAVE>
+          <TD>
+            <CENTER>Mon 09/10</CENTER></TD>
+          <TD>
+            <CENTER>7</CENTER></TD>
+          <TD>DES Cryptanalysis, Contd.</TD>
+          <TD>
+            <CENTER>[No New Material]</CENTER></TD>
+          <TD>
+            <CENTER>&nbsp;</CENTER></TD>
+          <TD>
+            <CENTER>&nbsp;Project #1 posted</CENTER></TD></TR>
+        <TR NOSAVE>
+          <TD rowSpan=3D3 NOSAVE>
+            <CENTER>2</CENTER></TD>
+          <TD>
+            <CENTER>Fri 09/07</CENTER></TD>
+          <TD>
+            <CENTER>6</CENTER></TD>
+          <TD>DES and Cryptanalysis, Contd.</TD>
+          <TD>
+            <CENTER>[No New Class Material]</CENTER></TD>
+          <TD>
+            <CENTER>&nbsp;Ch. 3</CENTER></TD>
+          <TD>
+            <CENTER>&nbsp;Project #1 will be posted</CENTER></TD></TR>
+        <TR NOSAVE>
+          <TD>
+            <CENTER>Wed 09/05</CENTER></TD>
+          <TD>
+            <CENTER>5</CENTER></TD>
+          <TD>Block Ciphers, DES and Cryptanalysis of DES</TD>
+          <TD>
+            <CENTER>[<A=20
+            =
+href=3D"http://www.cse.buffalo.edu/~shambhu/cse56512/lectures/lec-05-des.=
+ppt"=20
+            target=3D_top>ppt</A>,<A=20
+            =
+href=3D"http://www.cse.buffalo.edu/~shambhu/cse56512/lectures/lec-05.pdf"=
+=20
+            target=3D_top>pdf</A>]</CENTER></TD>
+          <TD>
+            <CENTER>Ch. 3</CENTER></TD>
+          <TD>
+            <CENTER>&nbsp;Homework #1 posted</CENTER></TD></TR>
+        <TR NOSAVE>
+          <TD>
+            <CENTER>Mon 09/03</CENTER></TD>
+          <TD>
+            <CENTER>4</CENTER></TD>
+          <TD>Labor Day</TD>
+          <TD>
+            <CENTER>[No Class]</CENTER></TD>
+          <TD>
+            <CENTER>&nbsp;</CENTER></TD>
+          <TD>
+            <CENTER>&nbsp;None</CENTER></TD></TR>
+        <TR NOSAVE>
+          <TD rowSpan=3D3 NOSAVE>
+            <CENTER>1</CENTER></TD>
+          <TD>
+            <CENTER>Fri 08/31</CENTER></TD>
+          <TD>
+            <CENTER>3</CENTER></TD>
+          <TD>Basic Encryption/Decryption</TD>
+          <TD>
+            <CENTER>[<A=20
+            =
+href=3D"http://www.cse.buffalo.edu/~shambhu/cse56512/lectures/lec-03-basi=
+c.ppt"=20
+            target=3D_top>ppt</A>,<A=20
+            =
+href=3D"http://www.cse.buffalo.edu/~shambhu/cse56512/lectures/lec-03.pdf"=
+=20
+            target=3D_top>pdf</A>]</CENTER></TD>
+          <TD>
+            <CENTER>Ch. 2</CENTER></TD>
+          <TD>
+            <CENTER>&nbsp;None</CENTER></TD></TR>
+        <TR NOSAVE>
+          <TD>
+            <CENTER>Wed 08/29</CENTER></TD>
+          <TD>
+            <CENTER>2</CENTER></TD>
+          <TD>Video on Hacking</TD>
+          <TD>
+            <CENTER>[Courtesy PBS]</CENTER></TD>
+          <TD>
+            <CENTER>&nbsp;</CENTER></TD>
+          <TD>
+            <CENTER>&nbsp;</CENTER></TD></TR>
+        <TR NOSAVE>
+          <TD>
+            <CENTER>Mon 08/29</CENTER></TD>
+          <TD>
+            <CENTER>1</CENTER></TD>
+          <TD>Course Introduction</TD>
+          <TD>
+            <CENTER>[<A=20
+            =
+href=3D"http://www.cse.buffalo.edu/~shambhu/cse56512/lectures/lec-01-intr=
+o.ppt"=20
+            target=3D_top>ppt</A>,<A=20
+            =
+href=3D"http://www.cse.buffalo.edu/~shambhu/cse56512/lectures/lec-01.pdf"=
+=20
+            target=3D_top>pdf</A>]</CENTER></TD>
+          <TD>
+            <CENTER>Ch. 1</CENTER></TD>
+          <TD>
+            <CENTER>&nbsp;None</CENTER></TD></TR></TBODY></TABLE>
+      <HR>
+
+      <CENTER>
+      <P><FONT size=3D+1>Last Updated:=20
+12/03/2012</FONT></CENTER></P></TR></TBODY></TABLE></BODY></HTML>
+
+------=_NextPart_000_0005_01CDE4F0.C27D54D0
+Content-Type: image/gif
+Content-Transfer-Encoding: base64
+Content-Location: http://www.cse.buffalo.edu/~shambhu/cse56512/ublogo.gif
+
+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
+V9iFFZeFlBAIADs=
+
+------=_NextPart_000_0005_01CDE4F0.C27D54D0--
