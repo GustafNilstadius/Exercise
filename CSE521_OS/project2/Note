@@ -1,0 +1,46 @@
+Nov 13
+1.Should I select C++ or C?
+C++ STL list class is a good choice?
+STL list doesn't support find the biggest or least
+
+2.if select C lanauge, I need a pointer in linklist which point to node, that is not good
+
+3.I can reuse code from linux kernel:include/linux/list.h,
+however it ovekill
+
+4. so i decide use library from C++
+
+5. class heritance--virtual function?
+http://www.cprogramming.com/tutorial/constructor_destructor_ordering.html
+
+6.lru-clock
+http://www.cs.columbia.edu/~junfeng/os/lectures/l19-vm.pdf
+
+Nov 14
+Implement lru-clock
+
+Nov 15
+implement lru-ref8,lfu
+
+Nov 18
+fifo 262
+ref8 243
+lfu 176
+stack 243
+clock 262
+opt:188
+
+tbd:
+1.optimal crash
+2."./virtualmem" should output "help", however, it still run the normal process
+
+Nov 19
+opt:151  other 151
+fifo:262 other 262
+ref8:243 other 243
+lfu:176   other 174
+stack:243  other 243
+clock:259 other 259
+
+
+	  

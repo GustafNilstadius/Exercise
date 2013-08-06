@@ -1,0 +1,23 @@
+1.how to compile:
+#make
+
+2.how to clean binary:
+#make clean
+
+3.how to startup:
+3.1 run server
+#./dec_server
+3.2 on the same machine run
+#./dec_client
+or on the another machine run
+#./dec_client -s <iphost address of server>
+
+4.you can starup multiple clients at the same time, the server is one single thread UDP server
+
+5.something need to take care
+5.1 no spaces should exist between “;”and “insert”,”query” or “reset”.
+Below is not acceptable:
+insert A->B B->C; insert C->D; query A D; reset;
+Below is valid:
+insert A->B B->C;insert C->D;query A D;reset;
+5.2 only support 26 Events:A,B,....Z.

@@ -1,0 +1,8 @@
+request received from 127.0.0.1: insert A->B;
+INSERT DONE.
+request received from 127.0.0.1: query A B;
+A happened before B
+request received from 127.0.0.1: insert B->C;
+INSERT DONE.
+request received from 127.0.0.1: query A C;
+A happened before C

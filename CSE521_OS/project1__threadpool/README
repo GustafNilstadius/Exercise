@@ -1,0 +1,76 @@
+Notice:
+this version has a flaw:When kill server and restart server again in TIME_WAIT, client can’t connect server
+
+1.Compile:
+go to linux host
+there are two makefiles in the project, one is under poollib/
+#cd poollib/
+#run make
+#cd ..
+#run make
+
+2.start server:
+#./myhttpd -d -p 22222
+(suppose myhttpd run on host metallica.cse.buffalo.edu)
+
+3.test plan 
+please use Firefox as your browser
+
+3.1 verify normal GET function
+test step: input "http://metallica.cse.buffalo.edu:22222/Server.c" to your browser address
+expect:wait about one minuate, you can get Server.c in browser
+
+3.2 parser "~", can translate to "~/myhttpd/"
+test step:input "http://metallica.cse.buffalo.edu:22222/~minilog.c" to your browser address
+expect:your can get ~/myhttpd/minilog.c in browser
+
+3.3 verify:when GET a directory, and file "index.html" exist under the directory, "index.html" will be send to client
+test step:
+3.3.1 under metallica
+#cd ~/myhttpd/poolib
+#cp makefile index.html
+3.3.2
+input "http://metallica.cse.buffalo.edu:22222/poollib" to your browser
+expect:you can get ~/myhttpd/poollib/index.html in browser
+
+3.4verify: when GET a diretory which doesn't include "index.html"
+test step:
+3.4.1 under metallica
+#cd ~/myhttpd/poolib
+#rm index.html
+3.4.2
+input "http://metallica.cse.buffalo.edu:22222/poollib" to your browser
+expect:you can get a file list under the direcotry,which are sort alphanumeric
+
+3.5verify FCFS scheduler(default scheduler)
+test step:
+3.5.1 start server 
+#./myhttpd -d -p 22222 -t 120
+3.5.2 first get a longer file
+input "http://metallica.cse.buffalo.edu:22222/Server.c" to browser
+3.5.3 first get a shorter file
+input "http://metallica.cse.buffalo.edu:22222/minilog.h" to browser
+expect:watch the debugging informaion in metallica's console,you will find "Server.c" schedule first, "minilog.h" schedule late
+
+3.6 verify SJF scheduler
+3.6.1 start server
+#./myhttpd -d -p 22222 -t 120 -s SJF
+3.5.2 first get a longer file
+input "http://metallica.cse.buffalo.edu:22222/Server.c" to browser
+3.5.3 first get a shorter file
+input "http://metallica.cse.buffalo.edu:22222/minilog.h" to browser
+expect:watch the debugging informaion in metallica's console,you will find "Server.c" schedule late, "minilog.h" schedule first
+
+3.7 daemonize and logging file
+3.6.1 start server
+#./myhttpd -d -p 22222 -t 60 -l ~/log.txt
+3.5.2 get a file
+input "http://metallica.cse.buffalo.edu:22222/Server.c" to browser
+3.5.3
+under metallica
+#cat ~/log.txt
+expect:wait about for one miniute(default sleep time),you will find myhttpd log some scheduler information to log.txt
+#ps -aef | grep myhttpd
+expect:you will find the ppid of myhttpd is 1, and there are not any terminal attached to myhttpd, so it is already daemonized
+
+

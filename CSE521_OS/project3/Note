@@ -1,0 +1,18 @@
+Nov 28 2012
+1.already finish socket part, but not sure if one line client input---one alive session,
+or one alive session for one total client socket.
+
+2.Graph
+directed graph c language example
+http://www.geeksforgeeks.org/archives/18750
+aleady support graph
+
+Nov 29 2012
+1.now client support multiple line input; but only support one client
+2.client end can work
+3.support "insert","query","reset".
+
+tbd:
+0.server printout the client's host name when receive request
+1.getopt();
+2.log

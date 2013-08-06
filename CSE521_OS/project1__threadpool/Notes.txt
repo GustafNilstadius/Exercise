@@ -1,0 +1,78 @@
+
+
+
+
+
+2012 Oct 13:
+1. support "GET /Server.c HTTP/1.1"
+Plese use "telnet" to verfy it(IE/Firefox browser has more strict requrirment for Http server)
+
+telnet> open 127.0.0.1 8888
+Trying 127.0.0.1...
+Connected to metallica.cse.buffalo.edu (127.0.0.1).
+Escape character is '^]'.
+GET /Server.c HTTP/1.1
+GET /Server.c HTTP/1.1
+HTTP/1.0 200 OK
+Date: Sat Oct 13 17:48:20 2012
+ GMT
+Server: 
+Last-Modified: Fri Oct 12 17:30:42 2012
+ GMT
+Content-Type: text/html
+Content-Length: 2859
+
+
+
+2012 Oct 14:
+1.now support "FCFS" and "SJF"
+The below is "SJF" test result
+
+metallica {~/CSE521_OS/project1} > ./myhttpd 
+./myhttpd 
+receive data from client
+to enqueue /home/csgrad/qiantao/CSE521_OS/project1_bak/Server.c,which length is 2859
+receive data from client
+to enqueue /home/csgrad/qiantao/CSE521_OS/project1_bak/protocol.h,which length is 33
+receive data from client
+to enqueue /home/csgrad/qiantao/CSE521_OS/project1_bak/client.c,which length is 1431
+scheulder Thread wake up
+To move highest priority 33 at location 1 to head
+scheduler get /home/csgrad/qiantao/CSE521_OS/project1_bak/protocol.h,which length is 33, send to work pool
+To move highest priority 1431 at location 2 to head
+scheduler get /home/csgrad/qiantao/CSE521_OS/project1_bak/client.c,which length is 1431, send to work pool
+scheduler get /home/csgrad/qiantao/CSE521_OS/project1_bak/Server.c,which length is 2859, send to work pool
+wokderFunction:send back/home/csgrad/qiantao/CSE521_OS/project1_bak/protocol.h,which length is 33
+wokderFunction:send back/home/csgrad/qiantao/CSE521_OS/project1_bak/Server.c,which length is 2859
+wokderFunction:send back/home/csgrad/qiantao/CSE521_OS/project1_bak/client.c,which length is 1431
+
+
+TBD:
+1.log format:GMT,src IP address
+2.when kill process unexpectedly, collect memory
+3. dameon
+4.desgin document
+5.option parser---getopt
+6.log
+7.protocol: head, directory
+8.support browser
+9.bug: when kill server, the port become unavailabe in TIME_WAIT time, the "netstat -a| grep port"
+
+Oct 28
+already resolve:
+1.dameon
+2.option parse--getopt
+3.log
+
+Oct 29
+resolved
+1.logging format:GMT, however can't support src IP address
+2.diretory
+3.diretory has the index.html
+tbd
+4.~
+5.head
+6.browser
+7.Server's time-wait issue
+8.when kill process,retrieve back resource
+

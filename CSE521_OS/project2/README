@@ -1,0 +1,20 @@
+1.compile the image
+>make
+2.test
+suppose the input text is "a.txt
+1>FIFO
+>./virtualmem -r FIFO -i a.txt
+2>LFU
+>./virtualmem -r LFU -i a.txt
+3>LRU-STACK
+>./virtualmem -r LRU_STACK -i a.txt
+4>LRU-CLOCK
+>./virtualmem -r LRU_CLOCK -i a.txt
+5>LRU-REF8
+>./virtualmem -r LRU_REF8 -i a.txt
+6>FIFO + 7 available pages
+>./virtualmem -r FIFO -i a.txt -f 7
+7>input from stdin
+>./virtualmem -r FIFO
+3.clean all *.o or binary code
+>make clean
