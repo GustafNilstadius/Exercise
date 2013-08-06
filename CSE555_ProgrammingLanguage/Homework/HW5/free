@@ -1,0 +1,3 @@
+occurs_free_in(V, W):-	V=W.
+occurs_free_in(V, lam(W,T)):- \+ V=W, occurs_free_in(V,T).
+occurs_free_in(V,app(T1,T2)) :- occurs_free_in(V,T1);occurs_free_in(V,T2).

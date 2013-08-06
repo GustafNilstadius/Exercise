@@ -1,0 +1,23 @@
+STACK OPERATION EXAMPLES 
+
+let stack = Lf.Lx.((f tom) ((f ding) ((f hari) x)))
+
+NORM: (top stack)
+
+==>* tom
+
+NORM: (nonempty stack)
+
+true
+
+NORM: (nonempty Lf.Lx.x)
+
+false
+
+NORM: (size stack)
+
+==>* Lf.Lx.(f (f (f x)))
+
+NORM: ((push alice) stack)
+
+==>* Lf.Lx.((f alice) ((f tom) ((f ding) ((f hari) x))))

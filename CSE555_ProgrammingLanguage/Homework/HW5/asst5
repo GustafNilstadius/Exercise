@@ -1,0 +1,38 @@
+/*problem 1*/
+occurs_free_in(V, W):-	V=W.
+occurs_free_in(V, lam(W,T)):- \+ V=W, occurs_free_in(V,T).
+occurs_free_in(V,app(T1,T2)) :- occurs_free_in(V,T1);occurs_free_in(V,T2).
+
+/*problme 2*/
+member(X,[X|T]). 
+member(X,[H|T])  :-  member(X,T). 
+nonmember(X,Y)	:- \+ member(X,Y).
+
+edge(la,sf).
+edge(la,dfw).
+edge(la,stl).
+edge(sf,ord).
+edge(ord, stl).
+edge(ord, nyc).
+edge(nyc, dc).
+edge(nyc, stl).
+edge(dc, dfw).
+edge(stl, dfw).
+edge(sf,la).  % following facts cause loops in the graph
+edge(nyc,la).
+edge(dfw,la).
+
+path(Start, End, Path) :- path2(Start, End,[], P), Path = [Start|P].
+path2(X, Y,Mid,[Y]) :- edge(X,Y),nonmember(Y,Mid).
+path2(X, Y,Mid,[Z|P]) :- edge(X,Z),nonmember(Z,Mid),path2(Z,Y,[X|Mid],P).
+
+/*problem 3*/
+min([],X,X).
+min([H|T],M,X) :- H =< M, min(T,H,X).
+min([H|T],M,X) :- M < H, min(T,M,X).
+min([H|T],X) :- min(T,H,X).
+
+oldest1(X1):-author(X1,bday(d(D1),m(M1),y(Y1))),\+ (author(X2,bday(d(D2),m(M2),y(Y2))),Y1>Y2).
+oldest2(N):-setof((X,Y),X^D^M^author(X,bday(D,M,y(Y))),Listall),
+setof(Y,X^D^M^author(X,bday(D,M,y(Y))),Listyear),
+min(Listyear,Old),author(N,bday(_,_,y(Old))).

@@ -1,0 +1,22 @@
+member(X,[X|T]). 
+member(X,[H|T])  :-  member(X,T). 
+nonmember(X,Y)	:- \+ member(X,Y).
+
+edge(la,sf).
+edge(la,dfw).
+edge(la,stl).
+edge(sf,ord).
+edge(ord, stl).
+edge(ord, nyc).
+edge(nyc, dc).
+edge(nyc, stl).
+edge(dc, dfw).
+edge(stl, dfw).
+edge(sf,la).  % following facts cause loops in the graph
+edge(nyc,la).
+edge(dfw,la).
+
+path(Start, End, Path) :- path2(Start, End,[], P), Path = [Start|P].
+path2(X, Y,Mid,[Y]) :- edge(X,Y),nonmember(Y,Mid).
+path2(X, Y,Mid,[Z|P]) :- edge(X,Z),nonmember(Z,Mid),path2(Z,Y,[X|Mid],P).
+

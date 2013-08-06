@@ -1,0 +1,30 @@
+ALPHA EQUALITY CHECK
+
+Lf.Lx.(f (f (f x))) = Lg.Ly.(g (g (g y)))
+
+true
+
+Lf.Lx.(f (k (f x))) = Lg.Ly.(g (k (g y)))
+
+true
+
+Lf.Lx.(f (k (f x))) = Lg.Ly.(g (m (g y)))
+
+false
+
+
+SUBSTITUTION
+
+
+Lf.Lx.(f (k (f x))) [k <- Lf.f]
+
+==> Lf.Lx.(f (Lf.f (f x)))
+
+Lf.Lx.(f (k (f x))) [k <- Lf.(f x)]
+
+==> Lf.Lx'.(f (Lf.(f x) (f x')))
+
+Lf.Lx.(f (k (f x))) [k <- (f x)]
+
+==> Lf'.Lx'.(f' ((f x) (f' x')))
+

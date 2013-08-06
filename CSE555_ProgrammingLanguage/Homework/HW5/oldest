@@ -1,0 +1,12 @@
+min([],X,X).
+min([H|T],M,X) :- H =< M, min(T,H,X).
+min([H|T],M,X) :- M < H, min(T,M,X).
+min([H|T],X) :- min(T,H,X).
+
+oldest1(X1):-author(X1,bday(d(D1),m(M1),y(Y1))),\+ (author(X2,bday(d(D2),m(M2),y(Y2))),Y1>Y2).
+oldest2(N):-setof((X,Y),X^D^M^author(X,bday(D,M,y(Y))),Listall),
+setof(Y,X^D^M^author(X,bday(D,M,y(Y))),Listyear),
+min(Listyear,Old),author(N,bday(_,_,y(Old))).
+
+
+

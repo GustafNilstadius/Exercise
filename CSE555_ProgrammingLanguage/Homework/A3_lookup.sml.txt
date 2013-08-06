@@ -1,0 +1,26 @@
+datatype treedict = leaf of string * int | node of treedict * treedict;
+
+fun tree2list(leaf(x)) = [x]
+   | tree2list(node(t1,t2)) = tree2list(t1) @  tree2list(t2) ;
+
+exception found of bool*string*int;
+
+fun lookuplist(fruit:string,[])=raise found(false,fruit,0)
+    | lookuplist(fruit,(fruitin,numberin)::t) = if fruit=fruitin
+then raise found(true,fruit,numberin)
+else lookuplist(fruit,t)
+
+fun lookup (fruit:string,tree:treedict)=
+	   let val diclist=tree2list(tree)
+	   in
+	   lookuplist(fruit,diclist)
+end
+handle
+	found(false,fruit,number)=> (print(fruit);print(" not found\n"))
+	|found(true,fruit,number)=> (print("the value of ");print(fruit); print(" is "); print(Int.toString(number));print("\n"));
+
+val dic=node (leaf("apple",100),leaf("orange",200));
+
+lookup("apple",dic);
+lookup("orange",dic);
+lookup("fool",dic);

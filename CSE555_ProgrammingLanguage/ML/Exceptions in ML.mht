@@ -1,0 +1,271 @@
+From: "Saved by Windows Internet Explorer 9"
+Subject: Exceptions in ML
+Date: Mon, 22 Oct 2012 11:22:58 -0400
+MIME-Version: 1.0
+Content-Type: text/html;
+	charset="Windows-1252"
+Content-Transfer-Encoding: quoted-printable
+Content-Location: http://people.cs.clemson.edu/~turner/courses/cs428/summer98/section1/webct/content/ml/mlexcep.html
+X-MimeOLE: Produced By Microsoft MimeOLE V6.1.7601.17609
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<HTML><HEAD><TITLE>Exceptions in ML</TITLE>
+<META content=3D"text/html; charset=3Dwindows-1252" =
+http-equiv=3DContent-Type>
+<META name=3DGENERATOR content=3D"MSHTML 9.00.8112.16450"></HEAD>
+<BODY bgColor=3D#ffffff text=3D#191970>
+<CENTER>
+<H2>Exceptions in ML</H2></CENTER>
+<HR>
+
+<P>
+<H3>Exceptions</H3>
+<P>An <I>exception</I> is a condition that arises during the execution =
+of a=20
+program in which some nonroutine action is needed. It can be an error =
+condition=20
+or some condition that may signal the need for alternative processing, =
+such as=20
+an end of file. Programming languages that support exceptions have =
+predefined=20
+exceptions, mostly for error conditions such as division by zero, out of =
+heap=20
+storage, etc. In addition, programs or program modules can define =
+additional=20
+exceptions that are meaningful within the context of the program or in=20
+conjunction with the program module, such as an empty stack exception to =
+signal=20
+an attempt to access an element of an empty stack. In order for =
+exceptions to be=20
+very useful, a language must also provide a facility that allows an =
+executing=20
+program to execute code to process an exception and continue the =
+execution of=20
+the program. An exception that is not handled by an executing program =
+causes the=20
+program to terminate.=20
+<P>We have previously seen a couple of examples of the use of exceptions =
+in ML.=20
+<A=20
+href=3D"http://www.cs.clemson.edu/~turner/courses/cs428/current/examples/=
+ml/ml/functions2">ML=20
+Function Example 2</A> defined and used exception <B>Empty_List</B> to =
+indicate=20
+an attempt to find the maximum value in an empty list, and <A=20
+href=3D"http://www.cs.clemson.edu/~turner/courses/cs428/current/examples/=
+ml/ml/bst">ML=20
+BST Example 1</A> defined and used exception <B>Empty_btree</B> to =
+indicate an=20
+attempt to access a component of an empty binary tree. In each of these =
+cases if=20
+an exception was raised (by evaluating an expression such as <B>raise=20
+Empty_List</B>) the effect was that all evaluation was terminated and an =
+error=20
+message was printed at the top (user interaction) level by sml. Using =
+exceptions=20
+in this way is only minimally useful. First, useful programs are usually =
+(or at=20
+least often) not executed in an interactive mode, and having an =
+exception occur=20
+and terminate a program that is started and is expected to run to =
+completion is=20
+user unfriendly to say the least. Furthermore, if exceptions are to be =
+useful=20
+for things like end of file processing, then the program should continue =
+and=20
+take whatever action is appropriate at end-of-file.=20
+<P>
+<H3>Handling exceptions</H3>
+<P>ML exception handling is illustrated in <A=20
+href=3D"http://www.cs.clemson.edu/~turner/courses/cs428/current/examples/=
+ml/ml/exceptions">the=20
+ML exceptions example</A>. This example defines function <B>findPos</B>, =
+whose=20
+value is the position of a given (parameter) int in a given int list, =
+and=20
+function <B>printPos</B>, which prints the position of a given int in a =
+given=20
+int list <I>and returns the position as its value</I>. An exception is =
+used to=20
+detect when the given int list is empty and when the given int is not in =
+the=20
+given int list.=20
+<P>In this example we see an extension of the <B>exception</B> =
+definition that=20
+we previously saw:=20
+<BLOCKQUOTE>exception NotFound of int; </BLOCKQUOTE>Note the similarity =
+between=20
+this syntax and that of a constructor for a datatype. This definition =
+specifies=20
+that exception NotFound is to have an int parameter. Thus when the =
+exception is=20
+raised, there is the ability to attach some information (an int in this =
+case) to=20
+the exception that may be useful in handling it.=20
+<P>Observe that findPos is implemented by using the auxilary function =
+findPos2.=20
+Function findPos has an additional parameter (p) that indicates the =
+position of=20
+the original list that the current head of the parameter list occupies. =
+When=20
+findPos2 is first called, p is 0, and it is incremented by 1 as elements =
+are=20
+removed from the front of the list. If findPos2 is asked whether its =
+first=20
+parameter (n) is in an empty list, this indicates that n was not in the =
+original=20
+list and exception NotFound is raised with argument p. Thus if NotFound =
+is=20
+raised with an argument of zero, the original list was empty, and =
+otherwise the=20
+parameter value was not in the original (nonempty) list.=20
+<P>Handling the exception is illustrated in function printPos. First, =
+let's=20
+ignore the <B>let</B> clause in this function. We could just as well =
+(although=20
+not quite so satisfactorily) have written printPos as <PRE>fun =
+printPos(n: int, L: int list) =3D
+      (print("The position of "); print(Int.toString(n));
+       print(" in the list is "); print(Int.toString(findPos(n, L)));
+       print(".\n"); findPos(n, L))
+   handle
+     NotFound(0) =3D&gt; (print("\nThe list is empty.\n"); ~1)
+   | NotFound(p) =3D&gt; (print("\n" ^ Int.toString(n));
+                     print(" is not in the list.\n"); ~1) ;
+</PRE>What we want to focus on first is the syntax and semantics of the=20
+exception handling mechanism. Note that the structure here is=20
+<BLOCKQUOTE><I>expression</I><BR><B>handle</B><BR><I>exception pattern =
+1</I>=20
+  <B>=3D&gt;</B> <I>expression 1</I><BR><B>|</B> <I>exception pattern =
+2</I>=20
+  <B>=3D&gt;</B> <I>expression 2</I> <B>;</B> </BLOCKQUOTE>where =
+<I>expression</I>=20
+is=20
+<BLOCKQUOTE>(print("The position of "); print(Int.toString(n)); print(" =
+in the=20
+  list is "); print(Int.toString(findPos(n, L))); print(".\n"); =
+findPos(n, L))=20
+</BLOCKQUOTE>the expression that represents the normal "value" of =
+function=20
+printPos.=20
+<P>(As an aside, note that each of the components of the expression list =
+of=20
+<I>expression</I> is a print function (with value of type unit) except =
+the last=20
+component, which is the position of the given int in the given int list. =
+Because=20
+the value of an expression list is the value of its last expression, the =
+value=20
+of <I>expression</I> is the position in the list, which is the result of =
+
+evaluating the printPos function.)=20
+<P>The exception handling mechanism here works as follows. If, during =
+the=20
+evaluation of <I>expression</I>, an exception occurs then an attempt is =
+made to=20
+match the exception to one of the exception patterns in the handler. If =
+a match=20
+occurs, then the corresponding expression (<I>expression 1</I> or =
+<I>expression=20
+2</I>) is evaluated and its value becomes the value of the entire =
+function body=20
+expression (and hence is the value of the printPos evaluation).=20
+<P>So the way that the exception handling works here is=20
+<OL>
+  <P>
+  <LI>In evaluating the print(Int.toString(findPos(n, L))) component of =
+the=20
+  expression list, findPos(n, L)) is evaluated. During the evaluation of =
+
+  findPos(n, L)), findPos2(n, L, 0) is evaluated.=20
+  <P></P>
+  <LI>If a NotFound exception is raised during the evaluation of =
+findPos2(n, L,=20
+  0)), it terminates the findPos2 evaluation because there is no =
+exception=20
+  handler there, and the exception is raised at the point where findPos2 =
+is=20
+  evaluated. If this is in a recursive invocation of findPos2, the =
+exception is=20
+  propagated out to successive fundPos2 invocations, terminating each =
+one=20
+  because there is no exception handler there.=20
+  <P></P>
+  <LI>The exception is eventually propagated back to findPos at the =
+point where=20
+  it evaluates findPos2(n, L, 0), and this causes findPos to terminate =
+and=20
+  propagate the exception back to the place where it (findPos) is =
+evaluated=20
+  (because there is no exception handler in findPos).=20
+  <P></P>
+  <LI>Thus the exception is eventually made to be raised at the =
+evaluation of=20
+  findPos(n, L) in printPos, which terminates this evaluation and =
+propagates the=20
+  exception to Int.toString (because there is no error handler following =
+
+  findPos(n, L)). This all proceeds in a like manner, terminating =
+Int.toString=20
+  and propagating the exception to print, which terminates print and =
+propagates=20
+  the exception, which terminates the evaluation of the expression list=20
+  <DL>
+    <DD>(print("The position of "); print(Int.toString(n));=20
+    <DD>print(" in the list is "); print(Int.toString(findPos(n, L)));=20
+    <DD>print(".\n"); findPos(n, L)) </DD></DL>
+  <P></P>
+  <LI>When the evaluation of the expression list is terminated and the =
+exception=20
+  is raised there, the expression handler is used and a search is made =
+for a=20
+  match on the exception patterns.=20
+  <P></P>
+  <LI>If an exception pattern is matched, its corresponding expression =
+is=20
+  evaluated, and the result becomes the result of the expression list =
+(which=20
+  becomes the value of the printPos evaluation). If no exception pattern =
+is=20
+  matched, then the printPos evaluation is terminated and the exception =
+is=20
+  propagated to the place where the printPos evaluation was invoked.=20
+  <P></P>
+  <LI>If an exception is propagated to the top level (user interaction =
+in sml),=20
+  then an exception error message is printed by sml. Note that no =
+message is=20
+  printed by sml if the error is handled during the evaluation. =
+</LI></OL>
+<P>You should download the <A=20
+href=3D"http://www.cs.clemson.edu/~turner/courses/cs428/current/examples/=
+ml/ml/exceptions">code=20
+for this example</A> and execute it to get a feel for how it works.=20
+<P>Note that the modified code shown above (modified from the code in =
+the=20
+example to remove the <B>let</B> clause) has a couple of undesirable=20
+characteristics:=20
+<OL>
+  <P>
+  <LI>Evaluation of, for example, printPos(3, [4, 2, 7, 1]) would print =
+<PRE>The position of 3 in the list is
+3 is not in the list.
+val it =3D ~1
+</PRE>The reason for this is that the expression list has been partially =
+
+  evaluated, producing the first printed line, when the exception =
+occurs. It=20
+  would be much nicer to eliminate the confusing first line "The =
+position of 3=20
+  in the list is".=20
+  <P></P>
+  <LI>In cases where there is no exception, the evaluation findPos(n, L) =
+occurs=20
+  twice, which is inefficient. </LI></OL>The use of the <B>let</B> =
+clause in the=20
+example avoids both of these problems. <B>let</B> is discussed in the =
+next=20
+section.=20
+<P>
+<HR>
+</BODY></HTML>

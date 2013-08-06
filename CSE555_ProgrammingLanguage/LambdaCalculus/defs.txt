@@ -1,0 +1,20 @@
+let succ = Ln.Lf.Lx.((n f) (f x))
+let add = Ln1.Ln2.Lf.Lx.((n1 f) ((n2 f) x))
+let mult =  Ln1.Ln2.Lf.(n1 (n2 f))
+
+let true = Lx1.Lx2.x1
+let false = Lx1.Lx2.x2
+let not = Lb.((b false) true)
+let is0 = Ln.((n Lx.false) true)
+
+let if = Lp.Lt.Le.((p t) e)
+
+let pair = Lx1.Lx2.Lc.((c x1) x2)
+let left = Lc.(c true)
+let right = Lc.(c false)
+
+let z = 0
+let pmap = Lx1.((pair (succ (left x1))) (left x1))
+let pred = Lx1.(right ((x1 pmap) ((pair z) z)))
+
+letrec fact = Ln.(((if (is0 n)) 1) ((mult n) (fact (pred n))))
