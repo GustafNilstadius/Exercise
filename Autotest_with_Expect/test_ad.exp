@@ -1,0 +1,62 @@
+#!/usr/bin/expect
+
+###user maybe modify these variables start
+set testlist [list \
+    [list "exp2-rt" "5"] \
+    [list "exp2-android" "5"] \
+    ]
+set fivm_path /home/qiantao/fivm/android_lib/fiji_android_lib/ants_build/jar/handler_sol1.build/fivm
+#set grmonpath /opt/grmon-eval-2.0.37/linux/bin/grmon
+#set passwd "2wsx#EDC"
+####user maybe modify these variables end
+
+proc testitem {arglist} {
+    global fivm_path
+    set fileprefix [join $arglist "_"]
+    expect "grmon2>"
+    send "load $fivm_path\r"
+    expect "grmon2>"
+    send "run\r"
+    expect "execution command"
+
+    puts "show arglist"
+    foreach arg $arglist {
+	puts $arg
+    }
+    
+    set send_slow {1 .1}
+    foreach arg $arglist {
+	send -s $arg
+	send -s "\r"
+    }
+    send "\r"
+    expect "Program exited normally"
+
+    set filesuffix [clock format [clock seconds] -format "%Y%m%d%H%M%S"]
+    set linktoken "_"
+    set typesuffix ".txt"   
+    set file_name $fileprefix$linktoken$filesuffix$typesuffix
+    set tmpfile [open $fileprefix$linktoken$filesuffix$typesuffix w]
+    puts $tmpfile $expect_out(buffer)
+    close $tmpfile
+}
+
+
+set timeout 1000
+set buffersize 1000000
+match_max $buffersize
+
+spawn grmon -ftdi -u
+set grmonid $spawn_id
+match_max -i $grmonid $buffersize
+
+foreach item $testlist {
+testitem $item
+}
+
+send "exit\r"
+
+
+
+
+
