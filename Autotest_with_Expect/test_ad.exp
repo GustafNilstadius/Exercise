@@ -7,7 +7,6 @@ set testlist [list \
     ]
 set fivm_path /home/qiantao/fivm/android_lib/fiji_android_lib/ants_build/jar/handler_sol1.build/fivm
 #set grmonpath /opt/grmon-eval-2.0.37/linux/bin/grmon
-#set passwd "2wsx#EDC"
 ####user maybe modify these variables end
 
 proc testitem {arglist} {
