@@ -1,0 +1,806 @@
+From: "Saved by Windows Internet Explorer 9"
+Subject: PA 2 Specification
+Date: Tue, 12 Feb 2013 21:42:40 -0500
+MIME-Version: 1.0
+Content-Type: text/html;
+	charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+Content-Location: https://docs.google.com/a/buffalo.edu/document/d/1o_cdxfitzqhx0R5c7_04f4u21xUdl0777kb7iP9eMcw/pub
+X-MimeOLE: Produced By Microsoft MimeOLE V6.1.7601.17609
+
+=EF=BB=BF<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<HTML><HEAD><TITLE>PA 2 Specification</TITLE>
+<META content=3D"text/html; charset=3Dutf-8" http-equiv=3DContent-Type>
+<SCRIPT type=3Dtext/javascript>=0A=
+(function(){function =
+a(d){this.t=3D{};this.tick=3Dfunction(d,i,f){this.t[d]=3D[void =
+0!=3Df?f:(new Date).getTime(),i]};this.tick("start",null,d)}var b=3Dnew =
+a;window.jstiming=3D{Timer:a,load:b};if(window.performance&&window.perfor=
+mance.timing){var =
+c=3Dwindow.performance.timing,e=3Dwindow.jstiming.load,g=3Dc.navigationSt=
+art,h=3Dc.responseStart;0<g&&h>=3Dg&&(e.tick("_wtsrt",void =
+0,g),e.tick("wtsrt_","_wtsrt",h),e.tick("tbsd_","wtsrt_"))}=0A=
+try{var =
+j=3Dnull;window.chrome&&window.chrome.csi&&(j=3DMath.floor(window.chrome.=
+csi().pageT),e&&0<g&&(e.tick("_tbnd",void =
+0,window.chrome.csi().startE),e.tick("tbnd_","_tbnd",g)));null=3D=3Dj&&wi=
+ndow.gtbExternal&&(j=3Dwindow.gtbExternal.pageT());null=3D=3Dj&&window.ex=
+ternal&&(j=3Dwindow.external.pageT,e&&0<g&&(e.tick("_tbnd",void =
+0,window.external.startE),e.tick("tbnd_","_tbnd",g)));j&&(window.jstiming=
+.pt=3Dj)}catch(k){};})()=0A=
+</SCRIPT>
+
+<SCRIPT type=3Dtext/javascript>var KX_timer =3D new =
+window.jstiming.Timer(); KX_timer.name =3D 'published';</SCRIPT>
+
+<STYLE type=3Dtext/css>BODY {
+	MARGIN: 0px; FONT-FAMILY: arial, sans, sans-serif
+}
+IFRAME {
+	BORDER-BOTTOM: 0px; BORDER-LEFT: 0px; WIDTH: 100%; HEIGHT: 100%; =
+BORDER-TOP: 0px; BORDER-RIGHT: 0px; frameborder: 0
+}
+#header {
+	PADDING-BOTTOM: 10px; PADDING-LEFT: 10px; PADDING-RIGHT: 10px; =
+BACKGROUND: #f0f0f0; PADDING-TOP: 10px
+}
+#footer {
+	PADDING-BOTTOM: 10px; PADDING-LEFT: 10px; PADDING-RIGHT: 10px; =
+BACKGROUND: #f0f0f0; PADDING-TOP: 10px
+}
+#header {
+	BORDER-BOTTOM: #ccc 1px solid
+}
+#footer {
+	BORDER-BOTTOM: #ccc 1px solid; FONT-SIZE: 13px; BORDER-TOP: #ccc 1px =
+solid
+}
+#contents {
+	MARGIN: 6px
+}
+.dash {
+	PADDING-BOTTOM: 0px; PADDING-LEFT: 6px; PADDING-RIGHT: 6px; =
+PADDING-TOP: 0px
+}
+</STYLE>
+
+<META name=3DGENERATOR content=3D"MSHTML 9.00.8112.16457"></HEAD>
+<BODY>
+<DIV id=3Dheader>PA 2 Specification</DIV>
+<DIV id=3Dcontents>
+<STYLE type=3Dtext/css>OL {
+	PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-LEFT: 0px; PADDING-RIGHT: =
+0px; PADDING-TOP: 0px
+}
+.c16 {
+	BORDER-BOTTOM: #000000 1pt solid; BORDER-LEFT: #000000 1pt solid; =
+PADDING-BOTTOM: 5pt; PADDING-LEFT: 5pt; WIDTH: 468pt; PADDING-RIGHT: =
+5pt; VERTICAL-ALIGN: top; BORDER-TOP: #000000 1pt solid; BORDER-RIGHT: =
+#000000 1pt solid; PADDING-TOP: 5pt
+}
+.c13 {
+	PADDING-BOTTOM: 0px; LIST-STYLE-TYPE: decimal; MARGIN: 0px; =
+PADDING-LEFT: 0px; PADDING-RIGHT: 0px; PADDING-TOP: 0px
+}
+.c19 {
+	PADDING-BOTTOM: 0px; LIST-STYLE-TYPE: lower-latin; MARGIN: 0px; =
+PADDING-LEFT: 0px; PADDING-RIGHT: 0px; PADDING-TOP: 0px
+}
+.c21 {
+	PADDING-BOTTOM: 72pt; BACKGROUND-COLOR: #ffffff; PADDING-LEFT: 72pt; =
+PADDING-RIGHT: 72pt; MAX-WIDTH: 468pt; PADDING-TOP: 72pt
+}
+.c11 {
+	PADDING-BOTTOM: 0px; LIST-STYLE-TYPE: lower-roman; MARGIN: 0px; =
+PADDING-LEFT: 0px; PADDING-RIGHT: 0px; PADDING-TOP: 0px
+}
+.c22 {
+	PADDING-BOTTOM: 0px; LIST-STYLE-TYPE: disc; MARGIN: 0px; PADDING-LEFT: =
+0px; PADDING-RIGHT: 0px; PADDING-TOP: 0px
+}
+.c0 {
+	PADDING-LEFT: 0pt; DIRECTION: ltr; MARGIN-LEFT: 36pt
+}
+.c3 {
+	LINE-HEIGHT: 1; DIRECTION: ltr; MARGIN-LEFT: 36pt
+}
+.c24 {
+	PADDING-BOTTOM: 0px; LIST-STYLE-TYPE: circle; MARGIN: 0px; =
+PADDING-LEFT: 0px; PADDING-RIGHT: 0px; PADDING-TOP: 0px
+}
+.c20 {
+	COLOR: #1155cc; TEXT-DECORATION: underline
+}
+.c10 {
+	PADDING-LEFT: 0pt; MARGIN-LEFT: 72pt
+}
+.c7 {
+	COLOR: ; TEXT-DECORATION:=20
+}
+.c23 {
+	COLOR: #000099; TEXT-DECORATION: underline
+}
+.c25 {
+	COLOR: #666666; FONT-SIZE: 12pt
+}
+.c1 {
+	DIRECTION: ltr; HEIGHT: 11pt
+}
+.c14 {
+	PADDING-LEFT: 0pt; MARGIN-LEFT: 108pt
+}
+.c4 {
+	FONT-STYLE: italic; FONT-WEIGHT: bold
+}
+.c6 {
+	FONT-WEIGHT: bold
+}
+.c2 {
+	COLOR: #0000ff
+}
+.c15 {
+	COLOR: #222222
+}
+.c17 {
+	COLOR: #ff0000
+}
+.c5 {
+	FONT-STYLE: italic
+}
+.c8 {
+	DIRECTION: ltr
+}
+.c26 {
+	TEXT-ALIGN: center
+}
+.c9 {
+	MARGIN-LEFT: 36pt
+}
+.c12 {
+	HEIGHT: 11pt
+}
+.c18 {
+	BORDER-COLLAPSE: collapse
+}
+.title {
+	TEXT-ALIGN: left; PADDING-BOTTOM: 6pt; LINE-HEIGHT: 1.15; FONT-FAMILY: =
+"Arial"; COLOR: #000000; FONT-SIZE: 36pt; FONT-WEIGHT: bold; =
+PADDING-TOP: 24pt
+}
+.subtitle {
+	TEXT-ALIGN: left; PADDING-BOTTOM: 4pt; LINE-HEIGHT: 1.15; FONT-STYLE: =
+italic; FONT-FAMILY: "Georgia"; COLOR: #666666; FONT-SIZE: 24pt; =
+PADDING-TOP: 18pt
+}
+LI {
+	FONT-FAMILY: "Arial"; COLOR: #000000; FONT-SIZE: 11pt
+}
+P {
+	MARGIN: 0px; FONT-FAMILY: "Arial"; COLOR: #000000; FONT-SIZE: 11pt
+}
+H1 {
+	TEXT-ALIGN: left; PADDING-BOTTOM: 6pt; LINE-HEIGHT: 1.15; FONT-FAMILY: =
+"Arial"; COLOR: #000000; FONT-SIZE: 18pt; FONT-WEIGHT: bold; =
+PADDING-TOP: 24pt
+}
+H2 {
+	TEXT-ALIGN: left; PADDING-BOTTOM: 4pt; LINE-HEIGHT: 1.15; FONT-FAMILY: =
+"Arial"; COLOR: #000000; FONT-SIZE: 14pt; FONT-WEIGHT: bold; =
+PADDING-TOP: 18pt
+}
+H3 {
+	TEXT-ALIGN: left; PADDING-BOTTOM: 4pt; LINE-HEIGHT: 1.15; FONT-FAMILY: =
+"Arial"; COLOR: #666666; FONT-SIZE: 12pt; FONT-WEIGHT: bold; =
+PADDING-TOP: 14pt
+}
+H4 {
+	TEXT-ALIGN: left; PADDING-BOTTOM: 2pt; LINE-HEIGHT: 1.15; FONT-STYLE: =
+italic; FONT-FAMILY: "Arial"; COLOR: #666666; FONT-SIZE: 11pt; =
+PADDING-TOP: 12pt
+}
+H5 {
+	TEXT-ALIGN: left; PADDING-BOTTOM: 2pt; LINE-HEIGHT: 1.15; FONT-FAMILY: =
+"Arial"; COLOR: #666666; FONT-SIZE: 10pt; FONT-WEIGHT: bold; =
+PADDING-TOP: 11pt
+}
+H6 {
+	TEXT-ALIGN: left; PADDING-BOTTOM: 2pt; LINE-HEIGHT: 1.15; FONT-STYLE: =
+italic; FONT-FAMILY: "Arial"; COLOR: #666666; FONT-SIZE: 10pt; =
+PADDING-TOP: 10pt
+}
+</STYLE>
+
+<H2 class=3D"c8 c26"><A name=3Dh.evov0wf199ob></A><SPAN>CSE 486/586 =
+Distributed=20
+Systems</SPAN></H2>
+<H2 class=3D"c8 c26"><A name=3Dh.2m784yplpyr3></A><SPAN>Programming =
+Assignment=20
+2</SPAN></H2>
+<H2 class=3D"c8 c26"><A name=3Dh.l065v1u2torm></A><SPAN>Totally and =
+Causally Ordered=20
+Group Messenger with a Local Persistent Key-Value Table</SPAN></H2>
+<P class=3Dc1><SPAN class=3Dc6></SPAN></P>
+<H3 class=3Dc8><A =
+name=3Dh.d85shrjiyret></A><SPAN>Introduction</SPAN></H3>
+<P class=3Dc8><SPAN>The teaching staff hopes you had fun working on PA1! =
+If you=20
+got frustrated, we feel for you and believe us, we were there too. While =
+it is=20
+expected to be frustrated in the beginning, we promise you, it will get =
+better=20
+and you will enjoy more and more as you do it. You might even start =
+enjoying=20
+reading the Android documentation because it *is* actually the single =
+best place=20
+to get great information about Android. I do hope, though, that you now=20
+understand a bit more about what it means to write networked =
+applications on=20
+Android.</SPAN></P>
+<P class=3Dc1><SPAN></SPAN></P>
+<P class=3Dc8><SPAN>Now back to the assignment: this assignment builds =
+on the=20
+previous simple messenger and points to the next assignment. You will =
+design a=20
+group messenger that preserves total ordering as well as causal ordering =
+of all=20
+messages. In addition, you will implement a key-value table that each =
+device=20
+uses to individually store all messages on its local storage, which =
+should prep=20
+you for the next assignment. </SPAN><SPAN class=3Dc17>Once again, please =
+follow=20
+everything exactly. Otherwise, it might result in getting no point for =
+this=20
+assignment.</SPAN></P>
+<P class=3Dc1><SPAN></SPAN></P>
+<P class=3Dc8><SPAN>The rest of the description can be long. Please =
+don=E2=80=99t =E2=80=9Ctl;dr=E2=80=9D!=20
+Please read to the end first and get the overall picture. Then please =
+revisit as=20
+you go!</SPAN></P>
+<H3 class=3Dc8><A name=3Dh.2fozr954o460></A><SPAN>Step 0: Importing the =
+project=20
+template</SPAN></H3>
+<P class=3Dc8><SPAN>Unlike the previous assignment, we will have strict=20
+requirements for the UI as well as a few other components. In order to =
+provide=20
+you more help in meeting these requirements, we have a project template =
+you can=20
+import to Eclipse.</SPAN></P>
+<OL class=3Dc13>
+  <LI class=3Dc0><SPAN>Download </SPAN><SPAN class=3Dc20><A class=3Dc7=20
+  =
+href=3D"http://www.cse.buffalo.edu/~stevko/courses/cse486/spring13/files/=
+GroupMessenger.zip">the=20
+  project template zip file</A></SPAN><SPAN>&nbsp;to a directory.</SPAN>
+  <LI class=3Dc0><SPAN>Import it to your Eclipse =
+workspace.</SPAN></LI></OL>
+<OL class=3Dc19>
+  <LI class=3D"c10 c8"><SPAN>Open Eclipse.</SPAN>
+  <LI class=3D"c10 c8"><SPAN>Go to =E2=80=9CFile=E2=80=9D -&gt; =
+=E2=80=9CImport=E2=80=9D</SPAN>
+  <LI class=3D"c10 c8"><SPAN>Select =E2=80=9CGeneral/Existing Projects =
+into Workspace=E2=80=9D=20
+  (</SPAN><SPAN class=3Dc17>Caution</SPAN><SPAN>: this is not =
+=E2=80=9CAndroid/Existing=20
+  Android Code into Workspace=E2=80=9D).</SPAN>
+  <LI class=3D"c10 c8"><SPAN>In the next screen (which should be =
+=E2=80=9CImport=20
+  Projects=E2=80=9D), do the following:</SPAN></LI></OL>
+<OL class=3Dc11>
+  <LI class=3D"c14 c8"><SPAN>Choose =E2=80=9CSelect archive =
+file:=E2=80=9D and select the project=20
+  template zip file that you downloaded.</SPAN>
+  <LI class=3D"c14 c8"><SPAN>Click =
+=E2=80=9CFinish.=E2=80=9D</SPAN></LI></OL>
+<OL class=3Dc19 start=3D5>
+  <LI class=3D"c10 c8"><SPAN>At this point, the project template should =
+have been=20
+  imported to your workspace.</SPAN></LI></OL>
+<OL class=3Dc11>
+  <LI class=3D"c14 c8"><SPAN>You might get an error saying =
+=E2=80=9CAndroid requires=20
+  compiler compliance level...=E2=80=9D If so, right click on =
+=E2=80=9CGroupMessenger=E2=80=9D from the=20
+  Package Explorer, choose =E2=80=9CAndroid Tools=E2=80=9D -&gt; =
+=E2=80=9CFix Project Properties=E2=80=9D which=20
+  will fix the error.</SPAN></LI></OL>
+<OL class=3Dc19 start=3D6>
+  <LI class=3D"c10 c8"><SPAN>Try running it on an AVD and verify that =
+it=E2=80=99s=20
+  working.</SPAN></LI></OL>
+<OL class=3Dc13 start=3D3>
+  <LI class=3Dc0><SPAN>Use the project template for implementing all the =
+
+  components for this assignment.</SPAN></LI></OL>
+<H3 class=3Dc8><A name=3Dh.9uwxf1cjnnqu></A><SPAN>Step 1: Implementing =
+the main=20
+Activity</SPAN></H3>
+<P class=3Dc8><SPAN>Just like group chatting, y</SPAN><SPAN>our main =
+Activity=20
+should display all messages regardless of which AVD the messages come =
+from. For=20
+example, if there are three AVDs running your app, all messages from all =
+three=20
+app instances should be displayed in each and every app =
+instance=E2=80=99s TextView.=20
+Unlike PA1, we have strict UI requirements to simplify this=20
+assignment:</SPAN></P>
+<OL class=3Dc13>
+  <LI class=3Dc0><SPAN>There has to be one (and only one) EditText where =
+a user=20
+  can enter messages.</SPAN>
+  <LI class=3Dc0><SPAN>There has to be one (and only one) =
+=E2=80=9CSend=E2=80=9D button that a=20
+  user can click to send a message. This should be the only way to send =
+a=20
+  message. For example, pressing enter is not a signal to send a message =
+
+  anymore.</SPAN>
+  <LI class=3Dc0><SPAN>There has to be one (and only one) TextView that =
+displays=20
+  all the message in the total-causal order.</SPAN>
+  <LI class=3Dc0><SPAN>There has to be three buttons, one for testing =
+your content=20
+  provider, one for the first test case, and one for the second test =
+case. The=20
+  details on the test cases are in the final step =E2=80=9CStep 3: =
+Implementing=20
+  Total-Causal Ordering=E2=80=9D.</SPAN>
+  <LI class=3Dc0><SPAN class=3Dc2>At least for the layout, the template =
+gives you a=20
+  starting point to meet the above =
+requirements.</SPAN><SPAN>&nbsp;Please do not=20
+  change the layout, but implement the necessary components starting =
+from the=20
+  layout.</SPAN>
+  <LI class=3Dc0><SPAN>Your app should display all the messages =
+exchanged while a=20
+  user is using the app. However, if the user closes the app and =
+restarts it, it=20
+  is not required to display the message exchanges in the previous=20
+  run.</SPAN></LI></OL>
+<H3 class=3Dc8><A name=3Dh.7l7zhryu69eh></A><SPAN>Step 2: Writing a =
+Content=20
+Provider</SPAN></H3>
+<P class=3Dc8><SPAN>Along with the main Activity, your app should have a =
+content=20
+provider. This provider should be used to store all messages, but the=20
+abstraction it provides should be a general key-value table. The =
+following are=20
+the requirements for your provider:</SPAN></P>
+<OL class=3Dc13>
+  <LI class=3Dc0><SPAN>Any app (not just your app) should be able to =
+access (read=20
+  and write) your provider. This means that you should not set any =
+permission to=20
+  access your provider.</SPAN>
+  <LI class=3Dc0><SPAN>Your provider=E2=80=99s URI should be=20
+  =
+=E2=80=9Ccontent://edu.buffalo.cse.cse486586.groupmessenger.provider=E2=80=
+=9D, which means=20
+  that any app should be able to access your provider using that URI. To =
+
+  simplify your implementation, your provider does not need to =
+match/support any=20
+  other URI pattern.</SPAN>
+  <LI class=3Dc0><SPAN>Your provider should have two =
+columns.</SPAN></LI></OL>
+<OL class=3Dc19>
+  <LI class=3D"c10 c8"><SPAN>The first column should be named as =
+=E2=80=9Ckey=E2=80=9D (an all=20
+  lowercase string without the quotation marks). This column is used to =
+store=20
+  all keys.</SPAN>
+  <LI class=3D"c10 c8"><SPAN>The second column should be named as =
+=E2=80=9Cvalue=E2=80=9D (an all=20
+  lowercase string without the quotation marks). This column is used to =
+store=20
+  all values.</SPAN>
+  <LI class=3D"c10 c8"><SPAN>All keys and values that your provider =
+stores should=20
+  use the string data type.</SPAN></LI></OL>
+<OL class=3Dc13 start=3D4>
+  <LI class=3Dc0><SPAN>Your provider should only implement insert() and =
+query().=20
+  All other operations are not necessary.</SPAN>
+  <LI class=3Dc0><SPAN>Since the column names are =E2=80=9Ckey=E2=80=9D =
+and =E2=80=9Cvalue=E2=80=9D, any app=20
+  should be able to insert a &lt;key, value&gt; pair as in the following =
+
+  example:</SPAN></LI></OL>
+<P class=3Dc1><SPAN></SPAN></P><A=20
+href=3D"https://docs.google.com/a/buffalo.edu/document/d/1o_cdxfitzqhx0R5=
+c7_04f4u21xUdl0777kb7iP9eMcw/pub#"=20
+name=3Ddd0c8b38ae2dbd454f451241d0a7b293b11d7aa4></A><A=20
+href=3D"https://docs.google.com/a/buffalo.edu/document/d/1o_cdxfitzqhx0R5=
+c7_04f4u21xUdl0777kb7iP9eMcw/pub#"=20
+name=3D0></A>
+<TABLE class=3Dc18 cellSpacing=3D0 cellPadding=3D0>
+  <TBODY>
+  <TR>
+    <TD class=3Dc16>
+      <P class=3D"c8 c9"><SPAN>ContentValues keyValueToInsert =3D new=20
+      ContentValues();</SPAN></P>
+      <P class=3D"c3 c12"><SPAN></SPAN></P>
+      <P class=3Dc3><SPAN>// inserting =
+&lt;=E2=80=9Dkey-to-insert=E2=80=9D,=20
+      =E2=80=9Cvalue-to-insert=E2=80=9D&gt;</SPAN></P>
+      <P class=3Dc3><SPAN>keyValueToInsert.put(=E2=80=9Ckey=E2=80=9D, =
+=E2=80=9Ckey-to-insert=E2=80=9D);</SPAN></P>
+      <P class=3Dc3><SPAN>keyValueToInsert.put(=E2=80=9Cvalue=E2=80=9D,=20
+      =E2=80=9Cvalue-to-insert=E2=80=9D);</SPAN></P>
+      <P class=3D"c3 c12"><SPAN></SPAN></P>
+      <P class=3Dc3><SPAN>Uri newUri =3D =
+getContentResolver().insert(</SPAN></P>
+      <P class=3Dc3><SPAN>&nbsp; &nbsp; providerUri, &nbsp; &nbsp;// =
+assume we=20
+      already created a Uri object with our provider URI</SPAN></P>
+      <P class=3Dc3><SPAN>&nbsp; &nbsp; keyValueToInsert</SPAN></P>
+      <P class=3Dc3><SPAN>);</SPAN></P></TD></TR></TBODY></TABLE>
+<P class=3Dc1><SPAN class=3Dc4></SPAN></P>
+<OL class=3Dc13 start=3D6>
+  <LI class=3Dc0><SPAN>Similarly, any app should be able to read a =
+&lt;key,=20
+  value&gt; pair from your provider with query(). Since your provider is =
+a=20
+  simple &lt;key, value&gt; table, we are not going to follow the =
+Android=20
+  convention; your provider should be able to answer queries as in the =
+following=20
+  example:</SPAN></LI></OL>
+<P class=3Dc1><SPAN></SPAN></P><A=20
+href=3D"https://docs.google.com/a/buffalo.edu/document/d/1o_cdxfitzqhx0R5=
+c7_04f4u21xUdl0777kb7iP9eMcw/pub#"=20
+name=3Da3101ddeaf1e5018810b4d17585133a8fd5b9a1e></A><A=20
+href=3D"https://docs.google.com/a/buffalo.edu/document/d/1o_cdxfitzqhx0R5=
+c7_04f4u21xUdl0777kb7iP9eMcw/pub#"=20
+name=3D1></A>
+<TABLE class=3Dc18 cellSpacing=3D0 cellPadding=3D0>
+  <TBODY>
+  <TR>
+    <TD class=3Dc16>
+      <P class=3Dc3><SPAN>Cursor resultCursor =3D=20
+      getContentResolver().query(</SPAN></P>
+      <P class=3Dc3><SPAN>&nbsp; &nbsp; providerUri, &nbsp; &nbsp;// =
+assume we=20
+      already created a Uri object with our provider URI</SPAN></P>
+      <P class=3Dc3><SPAN>&nbsp; &nbsp; null, &nbsp; &nbsp; &nbsp; =
+&nbsp; &nbsp;=20
+      &nbsp; &nbsp; &nbsp;// no need to support the </SPAN><SPAN=20
+      class=3Dc5>projection </SPAN><SPAN>parameter</SPAN></P>
+      <P class=3Dc3><SPAN>&nbsp; &nbsp; =E2=80=9Ckey-to-read=E2=80=9D, =
+&nbsp; &nbsp;// we provide=20
+      the key directly as the </SPAN><SPAN=20
+      class=3Dc5>selection</SPAN><SPAN>&nbsp;parameter</SPAN></P>
+      <P class=3Dc3><SPAN>&nbsp; &nbsp; null, &nbsp; &nbsp; &nbsp; =
+&nbsp; &nbsp;=20
+      &nbsp; &nbsp; &nbsp;// no need to support the </SPAN><SPAN=20
+      class=3Dc5>selectionArgs</SPAN><SPAN>&nbsp;parameter</SPAN></P>
+      <P class=3Dc3><SPAN>&nbsp; &nbsp; null &nbsp; &nbsp; &nbsp; &nbsp; =
+&nbsp;=20
+      &nbsp; &nbsp; &nbsp; // no need to support the </SPAN><SPAN=20
+      class=3Dc5>sortOrder </SPAN><SPAN>parameter</SPAN></P>
+      <P class=3Dc3><SPAN>);</SPAN></P></TD></TR></TBODY></TABLE>
+<P class=3D"c1 c9"><SPAN></SPAN></P>
+<P class=3D"c8 c9"><SPAN>Thus, your query() implementation should read =
+the=20
+</SPAN><SPAN class=3Dc5>selection</SPAN><SPAN>&nbsp;parameter and use it =
+as the=20
+key to retrieve from your table. In turn, the Cursor returned by your =
+query()=20
+implementation should include only one row with two columns using your=20
+provider=E2=80=99s column names, i.e., =E2=80=9Ckey=E2=80=9D and =
+=E2=80=9Cvalue=E2=80=9D. You probably want to use=20
+android.database.MatrixCursor instead of implementing your own=20
+Cursor.</SPAN></P>
+<OL class=3Dc13 start=3D7>
+  <LI class=3Dc0><SPAN>Your provider should store the &lt;key, value&gt; =
+pairs=20
+  using one of the data storage options. The details of possible data =
+storage=20
+  options are in </SPAN><SPAN class=3Dc20><A class=3Dc7=20
+  =
+href=3D"http://developer.android.com/guide/topics/data/data-storage.html"=
+>http://developer.android.com/guide/topics/data/data-storage.html</A></SP=
+AN><SPAN>.=20
+  You can choose any option; however, the easiest way to do this is =
+probably use=20
+  the internal storage with the key as the file name and the value =
+stored in the=20
+  file.</SPAN>
+  <LI class=3Dc0><SPAN>After implementing your provider, you can verify =
+whether or=20
+  not you are meeting the requirements by clicking =
+=E2=80=9CPTest=E2=80=9D provided in the=20
+  template. You can take a look at OnPTestClickListener.java to see what =
+tests=20
+  it does.</SPAN>
+  <LI class=3Dc0><SPAN>If your provider does not pass PTest, there will =
+be no=20
+  point for this portion of the assignment.</SPAN></LI></OL>
+<H3 class=3Dc8><A name=3Dh.31dlm68eonzx></A><SPAN>Step 3: Implementing =
+Total-Causal=20
+Ordering</SPAN></H3>
+<P class=3Dc8><SPAN>The final step is supporting both total and causal =
+ordering.=20
+You will need to design an algorithm that does this and implement it.=20
+</SPAN><SPAN class=3D"c17 c5">You will probably need to spend most of =
+your time on=20
+this part.</SPAN><SPAN class=3D"c4 c17">&nbsp;</SPAN><SPAN>The =
+requirements=20
+are:</SPAN></P>
+<OL class=3Dc13>
+  <LI class=3Dc0><SPAN>Your app should multicast every user-entered =
+message to all=20
+  app instances (</SPAN><SPAN class=3Dc2>including the one that is =
+sending the=20
+  message</SPAN><SPAN>). </SPAN><SPAN class=3Dc17>In the rest of the =
+description,=20
+  =E2=80=9Cmulticast=E2=80=9D always means sending a message to all app =
+instances.</SPAN>
+  <LI class=3Dc0><SPAN>Your app should u</SPAN><SPAN>se=20
+  B-multicast.</SPAN><SPAN>&nbsp;It should not implement =
+R-multicast.</SPAN>
+  <LI class=3Dc0><SPAN class=3Dc2>You need to come up with an algorithm =
+that=20
+  provides total-causal ordering. </SPAN><SPAN>After all, this is the =
+main point=20
+  of this assignment!</SPAN>
+  <LI class=3Dc0><SPAN>As with PA1, we have fixed the ports &amp;=20
+  sockets.</SPAN></LI></OL>
+<OL class=3Dc19>
+  <LI class=3D"c10 c8"><SPAN>Your app should open one server socket that =
+listens=20
+  on 10000.</SPAN>
+  <LI class=3D"c10 c8"><SPAN>You need to use=20
+  </SPAN><SPAN>run_avd.py</SPAN><SPAN>&nbsp;and=20
+  </SPAN><SPAN>set_redir.py</SPAN><SPAN>&nbsp;to set up the testing=20
+  environment.</SPAN>
+  <LI class=3D"c10 c8"><SPAN>The grading will use up to 3 AVDs. The =
+redirection=20
+  ports are 11108, 11112, and 11116.</SPAN>
+  <LI class=3D"c10 c8"><SPAN>You should just hard-code the above 3 ports =
+and use=20
+  them to set up connections.</SPAN>
+  <LI class=3D"c10 c8"><SPAN>Please use the code snippet provided in the =
+PA1=20
+  description on how to determine your local AVD.</SPAN></LI></OL>
+<OL class=3Dc11>
+  <LI class=3D"c8 c14"><SPAN>avd0: =E2=80=9C5554=E2=80=9D</SPAN>
+  <LI class=3D"c14 c8"><SPAN>avd1: =E2=80=9C5556=E2=80=9D</SPAN>
+  <LI class=3D"c14 c8"><SPAN>avd2: =
+=E2=80=9C5558=E2=80=9D</SPAN></LI></OL>
+<OL class=3Dc13 start=3D5>
+  <LI class=3Dc0><SPAN>Every message should be stored in your provider=20
+  individually by all app instances. Each message should be stored as a =
+&lt;key,=20
+  value&gt; pair. The key should be the final delivery sequence number =
+for the=20
+  message (as a string); the value should be the actual message (again, =
+as a=20
+  string). The delivery sequence number should start from 0 and increase =
+by 1=20
+  for each message.</SPAN>
+  <LI class=3Dc0><SPAN>You need to write two test cases. Manually =
+testing the=20
+  correctness of your app is going to be difficult since you need to =
+verify the=20
+  ordering with concurrent events. A better way is to write test cases =
+that can=20
+  automatically generate messages. This is still not perfect, but it can =
+assist=20
+  you when you debug your app. The next two points detail the test =
+cases.</SPAN>
+  <LI class=3Dc0><SPAN>Test case 1</SPAN></LI></OL>
+<OL class=3Dc19 start=3D6>
+  <LI class=3D"c10 c8"><SPAN>Your main Activity should have =
+=E2=80=9CTest1=E2=80=9D button that=20
+  triggers the test case. (This is already provided by the =
+template.)</SPAN>
+  <LI class=3D"c10 c8"><SPAN>When the button is clicked, it should =
+create a thread=20
+  that multicasts 5 messages in sequence. Multicasting of one message =
+should be=20
+  followed by 3 seconds sleep of the thread. This is just to make sure =
+that we=20
+  can spread messages from different emulator instances.</SPAN>
+  <LI class=3D"c10 c8"><SPAN>The message format should be =
+=E2=80=9C&lt;AVD=20
+  name&gt;:&lt;sequence number&gt;=E2=80=9D. &lt;AVD name&gt; is the =
+emulator instance=E2=80=99s=20
+  name, e.g., avd0, avd1, and avd2. &lt;sequence number&gt; is a number =
+starting=20
+  from 0 and increasing by 1 for each message. For example, if your =
+first=20
+  emulator instance multicasts 5 messages, then the messages should be =
+=E2=80=9Cavd0:0=E2=80=9D,=20
+  =E2=80=9Cavd0:1=E2=80=9D, =E2=80=9Cavd0:2=E2=80=9D, =
+=E2=80=9Cavd0:3=E2=80=9D, and =E2=80=9Cavd0:4=E2=80=9D.</SPAN>
+  <LI class=3D"c10 c8"><SPAN>With this test case, at least the following =
+two=20
+  ordering guarantees can be verified by just looking at the sequence of =
+
+  messages on each instance.</SPAN></LI></OL>
+<OL class=3Dc11>
+  <LI class=3D"c14 c8"><SPAN>Total ordering: every emulator instance =
+should=20
+  display the same order of message</SPAN>
+  <LI class=3D"c14 c8"><SPAN>FIFO ordering: all messages from the same =
+instance=20
+  should preserve the local order. This should be preserved because =
+causal=20
+  ordering implies FIFO ordering.</SPAN></LI></OL>
+<OL class=3Dc13 start=3D8>
+  <LI class=3Dc0><SPAN>Test case 2</SPAN></LI></OL>
+<OL class=3Dc19 start=3D10>
+  <LI class=3D"c10 c8"><SPAN>Your main Activity should have =
+=E2=80=9CTest2=E2=80=9D button that=20
+  triggers the test case. (This is already provided by the =
+template.)</SPAN>
+  <LI class=3D"c10 c8"><SPAN>When the button is clicked, your app should =
+multicast=20
+  one message. The message format should be the same as the above test=20
+  case.</SPAN>
+  <LI class=3D"c10 c8"><SPAN>Receiving of this first message should =
+trigger all=20
+  app instances to multicast exactly two more messages. Unlike the test =
+case 1,=20
+  you should not introduce any extra delay between the messages.</SPAN>
+  <LI class=3D"c10 c8"><SPAN>Thus, in total with 3 AVDs, there should be =
+1 + 3 + 3=20
+  =3D 7 multicast messages.</SPAN>
+  <LI class=3D"c8 c10"><SPAN>What this means is that your code should =
+recognize=20
+  the first message of this test case and react accordingly when it =
+receives the=20
+  message.</SPAN></LI></OL>
+<H3 class=3Dc8><A name=3Dh.8s97dklgz1></A><SPAN>Design =
+Document</SPAN></H3>
+<P class=3Dc8><SPAN>You need to write a design document of up to 2 pages =
+(12 pt=20
+font in .pdf). Please discuss the following questions:</SPAN></P>
+<OL class=3Dc22>
+  <LI class=3Dc0><SPAN>What components have you written?</SPAN>
+  <LI class=3Dc0><SPAN>What does each component do? Please include =
+figures if=20
+  necessary when describing each component.</SPAN>
+  <LI class=3Dc0><SPAN>What is your total-causal ordering algorithm? Why =
+does it=20
+  provide both ordering guarantees at the same time?</SPAN>
+  <LI class=3Dc0><SPAN>How do you handle the first message in your test =
+case 2?=20
+  Why did you choose that way?</SPAN>
+  <LI class=3Dc0><SPAN>What have you learned in this =
+assignment?</SPAN></LI></OL>
+<H3 class=3Dc8><A name=3Dh.enn5ir8bgmu2></A><SPAN>Submission</SPAN></H3>
+<P class=3Dc8><SPAN>We use the CSE submit script. You need to use either =
+
+=E2=80=9C</SPAN><SPAN class=3Dc15>submit_cse486=E2=80=9D or =
+=E2=80=9Csubmit_cse586=E2=80=9D, depending on your=20
+registration status.</SPAN><SPAN>&nbsp;If you haven=E2=80=99t used it, =
+the instructions=20
+on how to use it is here:</SPAN><SPAN><A class=3Dc7=20
+href=3D"https://wiki.cse.buffalo.edu/services/content/submit-script">&nbs=
+p;</A></SPAN><SPAN=20
+class=3Dc20><A class=3Dc7=20
+href=3D"https://wiki.cse.buffalo.edu/services/content/submit-script">http=
+s://wiki.cse.buffalo.edu/services/content/submit-script</A></SPAN></P>
+<P class=3Dc1><SPAN></SPAN></P>
+<P class=3Dc8><SPAN>One again, y</SPAN><SPAN>ou need to submit three =
+</SPAN><SPAN=20
+class=3Dc2>separate</SPAN><SPAN>&nbsp;files described below. =
+</SPAN><SPAN=20
+class=3D"c6 c17">You must follow everything below exactly. Otherwise, =
+you will get=20
+no point on this assignment.</SPAN></P>
+<OL class=3Dc22>
+  <LI class=3Dc0><SPAN>Your app=E2=80=99s .apk: The name should be=20
+  GroupMessenger.apk.</SPAN>
+  <LI class=3Dc0><SPAN>Your design document in .pdf: The name should be=20
+  GroupMessenger.pdf. Please do not submit a .docx or .txt file.</SPAN>
+  <LI class=3Dc0><SPAN>Your entire Eclipse project source code tree =
+zipped up in=20
+  .zip: The name should be GroupMessenger.zip. To do this, please go to =
+your=20
+  Eclipse workspace directory, find your app, and zip it. Please do not =
+use any=20
+  other compression tool other than zip, i.e., no 7-Zip, no RAR, etc. =
+Please=20
+  make sure to zip the top-level directory that contains all the source, =
+i.e.,=20
+  unzipping should create one =E2=80=9CGroupMessenger=E2=80=9D directory =
+that contains all the=20
+  source files.</SPAN></LI></OL>
+<H3 class=3Dc8><A name=3Dh.7tz4jwj9wbbg></A><SPAN>Deadline: </SPAN><SPAN =
+
+class=3Dc17>3/1/12 (Monday) 2:59pm</SPAN></H3>
+<P class=3Dc8><SPAN>This is right before class @ 3pm. The deadline is =
+firm; if=20
+your timestamp is 3pm, it is a late submission.</SPAN></P>
+<H3 class=3Dc8><A name=3Dh.6nv5hzcj5681></A><SPAN>Grading</SPAN></H3>
+<P class=3Dc8><SPAN>This assignment is 15% of your final grade. The =
+breakdown for=20
+this assignment is:</SPAN></P>
+<OL class=3Dc22>
+  <LI class=3Dc0><SPAN>10%: your app</SPAN></LI></OL>
+<OL class=3Dc24>
+  <LI class=3D"c10 c8"><SPAN>2% if the content provider behaves =
+correctly</SPAN>
+  <LI class=3D"c10 c8"><SPAN>3% if total ordering is preserved</SPAN>
+  <LI class=3D"c10 c8"><SPAN>3% if causal ordering is preserved</SPAN>
+  <LI class=3D"c10 c8"><SPAN>2% if you write test cases =
+correctly</SPAN></LI></OL>
+<OL class=3Dc22 start=3D2>
+  <LI class=3Dc0><SPAN>5%: your design document</SPAN></LI></OL>
+<OL class=3Dc24>
+  <LI class=3D"c10 c8"><SPAN>2% for the overall clarity of the =
+description</SPAN>
+  <LI class=3D"c10 c8"><SPAN>3% for the correct total-causal ordering =
+algorithm=20
+  description</SPAN></LI></OL></DIV>
+<DIV id=3Dfooter><SPAN>Published by <A title=3D"Learn more about Google =
+Drive"=20
+href=3D"https://docs.google.com/a/buffalo.edu/" target=3D_blank>Google=20
+Drive</A></SPAN><SPAN class=3Ddash>=E2=80=93</SPAN><A=20
+href=3D"https://docs.google.com/a/buffalo.edu/abuse?id=3D1o_cdxfitzqhx0R5=
+c7_04f4u21xUdl0777kb7iP9eMcw">Report=20
+Abuse</A><SPAN class=3Ddash>=E2=80=93</SPAN><SPAN>Updated automatically =
+every 5=20
+minutes</SPAN></DIV>
+<SCRIPT type=3Dtext/javascript>=0A=
+(function(){var =
+e=3D!1;if(window.jstiming){window.jstiming.a=3D{};window.jstiming.b=3D1;v=
+ar i=3Dfunction(b,a,d){var c=3Db.t[a],g=3Db.t.start;if(c&&(g||d))return =
+c=3Db.t[a][0],void 0!=3Dd?g=3Dd:g=3Dg[0],c-g},m=3Dfunction(b,a,d){var =
+c=3D"";window.jstiming.pt&&(c+=3D"&srt=3D"+window.jstiming.pt,delete =
+window.jstiming.pt);try{window.external&&window.external.tran?c+=3D"&tran=
+=3D"+window.external.tran:window.gtbExternal&&window.gtbExternal.tran?c+=3D=
+"&tran=3D"+window.gtbExternal.tran():window.chrome&&window.chrome.csi&&(c=
++=3D"&tran=3D"+window.chrome.csi().tran)}catch(g){}var f=3D=0A=
+window.chrome;if(f&&(f=3Df.loadTimes)){f().wasFetchedViaSpdy&&(c+=3D"&p=3D=
+s");if(f().wasNpnNegotiated){var =
+c=3Dc+"&npn=3D1",j=3Df().npnNegotiatedProtocol;j&&(c+=3D"&npnv=3D"+(encod=
+eURIComponent||escape)(j))}f().wasAlternateProtocolAvailable&&(c+=3D"&apa=
+=3D1")}var k=3Db.t,r=3Dk.start,f=3D[],j=3D[],h;for(h in =
+k)if("start"!=3Dh&&0!=3Dh.indexOf("_")){var =
+l=3Dk[h][1];l?k[l]&&j.push(h+"."+i(b,h,k[l][0])):r&&f.push(h+"."+i(b,h))}=
+delete k.start;if(a)for(var n in =
+a)c+=3D"&"+n+"=3D"+a[n];(a=3Dd)||(a=3D"https:"=3D=3Ddocument.location.pro=
+tocol?"https://csi.gstatic.com/csi":=0A=
+"http://csi.gstatic.com/csi");return[a,"?v=3D3","&s=3D"+(window.jstiming.=
+sn||"_s")+"&action=3D",b.name,j.length?"&it=3D"+j.join(","):"","",c,"&rt=3D=
+",f.join(",")].join("")};window.jstiming.getReportUri=3Dm;var =
+p=3Dfunction(b,a,d){b=3Dm(b,a,d);if(!b)return"";a=3Dnew Image;var =
+c=3Dwindow.jstiming.b++;window.jstiming.a[c]=3Da;a.onload=3Da.onerror=3Df=
+unction(){window.jstiming&&delete =
+window.jstiming.a[c]};a.src=3Db;a=3Dnull;return =
+b};window.jstiming.report=3Dfunction(b,a,d){if("prerender"=3D=3Ddocument.=
+webkitVisibilityState){var c=3De,g=3D=0A=
+function(){if(!c){a?a.prerender=3D"1":a=3D{prerender:"1"};var =
+f;"prerender"=3D=3Ddocument.webkitVisibilityState?f=3De:(p(b,a,d),f=3D!0)=
+;f&&(c=3D!0,document.removeEventListener("webkitvisibilitychange",g,e))}}=
+;document.addEventListener("webkitvisibilitychange",g,e);return""}return =
+p(b,a,d)};window.jstiming.reportDone=3Dfunction(b){if(window.jstiming.b<=3D=
+(b||1))return e;for(var a in window.jstiming.a)return e;return!0};var =
+q=3Dfunction(b,a,d,c){return =
+0<d?(c?b.tick(a,c,d):b.tick(a,"",d),!0):e};window.jstiming.getNavTiming=3D=0A=
+function(b){if(window.performance&&window.performance.timing){var =
+a=3Dwindow.performance.timing;q(b,"_dns",a.domainLookupStart)&&q(b,"dns_"=
+,a.domainLookupEnd,"_dns");q(b,"_con",a.connectStart)&&q(b,"con_",a.conne=
+ctEnd,"_con");q(b,"_req",a.requestStart)&&q(b,"req_",a.responseStart,"_re=
+q");q(b,"_rcv",a.responseStart)&&q(b,"rcv_",a.responseEnd,"_rcv");if(q(b,=
+"_ns",a.navigationStart)){q(b,"ntsrt_",a.responseStart,"_ns");q(b,"nsfs_"=
+,a.fetchStart,"_ns");var =
+d=3Dwindow.external&&window.external.startE;!d&&(window.chrome&&=0A=
+window.chrome.csi)&&(d=3DMath.floor(window.chrome.csi().startE));d&&(q(b,=
+"_se",d),q(b,"sens_",a.navigationStart,"_se"));q(b,"ntplt0_",a.loadEventS=
+tart,"_ns");q(b,"ntplt1_",a.loadEventEnd,"_ns")}}}};})()=0A=
+</SCRIPT>
+
+<SCRIPT type=3Dtext/javascript>KX_timer.tick('tl'); if =
+(document.location.protocol =3D=3D 'https:') =
+{window.jstiming.report(KX_timer, undefined , =
+'https://gg.google.com/csi');} else =
+{window.jstiming.report(KX_timer);}</SCRIPT>
+</BODY></HTML>

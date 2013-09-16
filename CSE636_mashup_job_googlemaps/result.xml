@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<response version="2">
+
+    <query>*</query>
+    <location>lockport,ny</location>
+
+    <dupefilter>true</dupefilter>
+    <highlight>false</highlight>
+    <totalresults>-1</totalresults>
+    
+    <start>0</start>
+    <end>0</end>
+    
+    <radius>25</radius>
+    
+    
+    <pageNumber>0</pageNumber>
+    
+    
+    
+    
+    
+    <results>
+        
+    </results>
+</response>

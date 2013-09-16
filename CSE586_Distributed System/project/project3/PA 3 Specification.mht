@@ -1,0 +1,852 @@
+From: "Saved by Windows Internet Explorer 9"
+Subject: PA 3 Specification
+Date: Thu, 14 Mar 2013 05:42:33 -0400
+MIME-Version: 1.0
+Content-Type: text/html;
+	charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+Content-Location: https://docs.google.com/document/d/15hf5STuYKqLlefp6_y_YkNeCp1AyrO9Z8ENybjaFRqE/pub
+X-MimeOLE: Produced By Microsoft MimeOLE V6.1.7601.17609
+
+=EF=BB=BF<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<HTML><HEAD><TITLE>PA 3 Specification</TITLE>
+<META content=3D"text/html; charset=3Dutf-8" http-equiv=3DContent-Type>
+<SCRIPT type=3Dtext/javascript>=0A=
+(function(){(function(){function =
+d(a){this.t=3D{};this.tick=3Dfunction(a,b,c){this.t[a]=3D[void =
+0!=3Dc?c:(new Date).getTime(),b]};this.tick("start",null,a)}var a=3Dnew =
+d;window.jstiming=3D{Timer:d,load:a};if(window.performance&&window.perfor=
+mance.timing){var =
+a=3Dwindow.performance.timing,b=3Dwindow.jstiming.load,c=3Da.navigationSt=
+art,a=3Da.responseStart;0<c&&a>=3Dc&&(b.tick("_wtsrt",void =
+0,c),b.tick("wtsrt_","_wtsrt",a),b.tick("tbsd_","wtsrt_"))}try{a=3Dnull,w=
+indow.chrome&&window.chrome.csi&&(a=3DMath.floor(window.chrome.csi().page=
+T),=0A=
+b&&0<c&&(b.tick("_tbnd",void =
+0,window.chrome.csi().startE),b.tick("tbnd_","_tbnd",c))),null=3D=3Da&&wi=
+ndow.gtbExternal&&(a=3Dwindow.gtbExternal.pageT()),null=3D=3Da&&window.ex=
+ternal&&(a=3Dwindow.external.pageT,b&&0<c&&(b.tick("_tbnd",void =
+0,window.external.startE),b.tick("tbnd_","_tbnd",c))),a&&(window.jstiming=
+.pt=3Da)}catch(e){}})();})()=0A=
+</SCRIPT>
+
+<SCRIPT type=3Dtext/javascript>var KX_timer =3D new =
+window.jstiming.Timer(); KX_timer.name =3D 'published';</SCRIPT>
+
+<STYLE type=3Dtext/css>BODY {
+	MARGIN: 0px; FONT-FAMILY: arial, sans, sans-serif
+}
+IFRAME {
+	BORDER-BOTTOM: 0px; BORDER-LEFT: 0px; WIDTH: 100%; HEIGHT: 100%; =
+BORDER-TOP: 0px; BORDER-RIGHT: 0px; frameborder: 0
+}
+#header {
+	PADDING-BOTTOM: 10px; PADDING-LEFT: 10px; PADDING-RIGHT: 10px; =
+BACKGROUND: #f0f0f0; PADDING-TOP: 10px
+}
+#footer {
+	PADDING-BOTTOM: 10px; PADDING-LEFT: 10px; PADDING-RIGHT: 10px; =
+BACKGROUND: #f0f0f0; PADDING-TOP: 10px
+}
+#header {
+	BORDER-BOTTOM: #ccc 1px solid
+}
+#footer {
+	BORDER-BOTTOM: #ccc 1px solid; FONT-SIZE: 13px; BORDER-TOP: #ccc 1px =
+solid
+}
+#contents {
+	MARGIN: 6px
+}
+.dash {
+	PADDING-BOTTOM: 0px; PADDING-LEFT: 6px; PADDING-RIGHT: 6px; =
+PADDING-TOP: 0px
+}
+</STYLE>
+
+<META name=3DGENERATOR content=3D"MSHTML 9.00.8112.16464"></HEAD>
+<BODY>
+<DIV id=3Dheader>PA 3 Specification</DIV>
+<DIV id=3Dcontents>
+<STYLE type=3Dtext/css>OL {
+	PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-LEFT: 0px; PADDING-RIGHT: =
+0px; PADDING-TOP: 0px
+}
+.c4 {
+	BORDER-BOTTOM: #000000 1pt solid; BORDER-LEFT: #000000 1pt solid; =
+PADDING-BOTTOM: 5pt; PADDING-LEFT: 5pt; WIDTH: 468pt; PADDING-RIGHT: =
+5pt; VERTICAL-ALIGN: top; BORDER-TOP: #000000 1pt solid; BORDER-RIGHT: =
+#000000 1pt solid; PADDING-TOP: 5pt
+}
+.c13 {
+	PADDING-BOTTOM: 0px; LIST-STYLE-TYPE: circle; MARGIN: 0px; =
+PADDING-LEFT: 0px; PADDING-RIGHT: 0px; PADDING-TOP: 0px
+}
+.c23 {
+	PADDING-BOTTOM: 72pt; BACKGROUND-COLOR: #ffffff; PADDING-LEFT: 72pt; =
+PADDING-RIGHT: 72pt; MAX-WIDTH: 468pt; PADDING-TOP: 72pt
+}
+.c6 {
+	PADDING-BOTTOM: 0px; LIST-STYLE-TYPE: lower-latin; MARGIN: 0px; =
+PADDING-LEFT: 0px; PADDING-RIGHT: 0px; PADDING-TOP: 0px
+}
+.c0 {
+	PADDING-LEFT: 0pt; DIRECTION: ltr; MARGIN-LEFT: 36pt
+}
+.c12 {
+	PADDING-BOTTOM: 0px; LIST-STYLE-TYPE: disc; MARGIN: 0px; PADDING-LEFT: =
+0px; PADDING-RIGHT: 0px; PADDING-TOP: 0px
+}
+.c9 {
+	PADDING-LEFT: 0pt; DIRECTION: ltr; MARGIN-LEFT: 108pt
+}
+.c8 {
+	PADDING-BOTTOM: 0px; LIST-STYLE-TYPE: decimal; MARGIN: 0px; =
+PADDING-LEFT: 0px; PADDING-RIGHT: 0px; PADDING-TOP: 0px
+}
+.c21 {
+	PADDING-BOTTOM: 0px; LIST-STYLE-TYPE: lower-roman; MARGIN: 0px; =
+PADDING-LEFT: 0px; PADDING-RIGHT: 0px; PADDING-TOP: 0px
+}
+.c10 {
+	DIRECTION: ltr; HEIGHT: 11pt
+}
+.c1 {
+	COLOR: #1155cc; TEXT-DECORATION: underline
+}
+.c7 {
+	DIRECTION: ltr; MARGIN-LEFT: 36pt
+}
+.c3 {
+	TEXT-ALIGN: center; DIRECTION: ltr
+}
+.c15 {
+	PADDING-LEFT: 0pt; MARGIN-LEFT: 72pt
+}
+.c19 {
+	COLOR: ; TEXT-DECORATION:=20
+}
+.c20 {
+	COLOR: #0000ff
+}
+.c22 {
+	MARGIN-LEFT: 72pt
+}
+.c14 {
+	FONT-WEIGHT: bold
+}
+.c2 {
+	FONT-STYLE: italic
+}
+.c5 {
+	COLOR: #ff0000
+}
+.c17 {
+	BORDER-COLLAPSE: collapse
+}
+.c11 {
+	DIRECTION: ltr
+}
+.c16 {
+	HEIGHT: 0pt
+}
+.c18 {
+	COLOR: #222222
+}
+.title {
+	TEXT-ALIGN: left; PADDING-BOTTOM: 6pt; LINE-HEIGHT: 1.15; FONT-FAMILY: =
+"Arial"; COLOR: #000000; FONT-SIZE: 36pt; FONT-WEIGHT: bold; =
+PADDING-TOP: 24pt
+}
+.subtitle {
+	TEXT-ALIGN: left; PADDING-BOTTOM: 4pt; LINE-HEIGHT: 1.15; FONT-STYLE: =
+italic; FONT-FAMILY: "Georgia"; COLOR: #666666; FONT-SIZE: 24pt; =
+PADDING-TOP: 18pt
+}
+LI {
+	FONT-FAMILY: "Arial"; COLOR: #000000; FONT-SIZE: 11pt
+}
+P {
+	MARGIN: 0px; FONT-FAMILY: "Arial"; COLOR: #000000; FONT-SIZE: 11pt
+}
+H1 {
+	TEXT-ALIGN: left; PADDING-BOTTOM: 6pt; LINE-HEIGHT: 1.15; FONT-FAMILY: =
+"Arial"; COLOR: #000000; FONT-SIZE: 18pt; FONT-WEIGHT: bold; =
+PADDING-TOP: 24pt
+}
+H2 {
+	TEXT-ALIGN: left; PADDING-BOTTOM: 4pt; LINE-HEIGHT: 1.15; FONT-FAMILY: =
+"Arial"; COLOR: #000000; FONT-SIZE: 14pt; FONT-WEIGHT: bold; =
+PADDING-TOP: 18pt
+}
+H3 {
+	TEXT-ALIGN: left; PADDING-BOTTOM: 4pt; LINE-HEIGHT: 1.15; FONT-FAMILY: =
+"Arial"; COLOR: #666666; FONT-SIZE: 12pt; FONT-WEIGHT: bold; =
+PADDING-TOP: 14pt
+}
+H4 {
+	TEXT-ALIGN: left; PADDING-BOTTOM: 2pt; LINE-HEIGHT: 1.15; FONT-STYLE: =
+italic; FONT-FAMILY: "Arial"; COLOR: #666666; FONT-SIZE: 11pt; =
+PADDING-TOP: 12pt
+}
+H5 {
+	TEXT-ALIGN: left; PADDING-BOTTOM: 2pt; LINE-HEIGHT: 1.15; FONT-FAMILY: =
+"Arial"; COLOR: #666666; FONT-SIZE: 10pt; FONT-WEIGHT: bold; =
+PADDING-TOP: 11pt
+}
+H6 {
+	TEXT-ALIGN: left; PADDING-BOTTOM: 2pt; LINE-HEIGHT: 1.15; FONT-STYLE: =
+italic; FONT-FAMILY: "Arial"; COLOR: #666666; FONT-SIZE: 10pt; =
+PADDING-TOP: 10pt
+}
+</STYLE>
+
+<H2 class=3Dc3><SPAN>CSE 486/586 Distributed Systems Programming =
+Assignment=20
+3</SPAN></H2>
+<H2 class=3Dc3><SPAN>Simple Key-Value Storage</SPAN></H2>
+<H3 class=3Dc11><SPAN>Introduction</SPAN></H3>
+<P class=3Dc11><SPAN>In this assignment, you will design a simple =
+distributed=20
+key-value storage based on Chord. Although the design is based on Chord, =
+it is a=20
+simplified version of Chord; you do not need to implement finger tables =
+and=20
+finger-based routing; you also do not need to handle node=20
+leaves/failures.Therefore, there are three things you need to implement: =
+1) ID=20
+space partitioning/re-partitioning, 2) Ring-based routing, and 3) Node=20
+joins.</SPAN></P>
+<P class=3Dc10><SPAN></SPAN></P>
+<P class=3Dc11><SPAN>Just like the previous assignment, your app should =
+have an=20
+activity and a content provider. However, the main activity should be =
+used for=20
+testing only and should not implement any DHT functionality. The content =
+
+provider should implement all DHT functionalities and support insert and =
+query=20
+operations. Thus, if you run multiple instances of your app, all content =
+
+provider instances should form a Chord ring and serve insert/query =
+requests in a=20
+distributed fashion according to the Chord protocol.</SPAN></P>
+<H3 class=3Dc11><SPAN>References</SPAN></H3>
+<P class=3Dc11><SPAN>Before we discuss the requirements of this =
+assignment, here=20
+are two references for the Chord design:</SPAN></P>
+<OL class=3Dc8>
+  <LI class=3Dc0><SPAN>Lecture slides on Chord: </SPAN><SPAN =
+class=3Dc1><A class=3Dc19=20
+  =
+href=3D"http://www.cse.buffalo.edu/~stevko/courses/cse486/spring12/lectur=
+es/dht.pptx">http://www.cse.buffalo.edu/~stevko/courses/cse486/spring12/l=
+ectures/dht.pptx</A></SPAN>
+  <LI class=3Dc0><SPAN>Chord paper: </SPAN><SPAN class=3Dc1><A =
+class=3Dc19=20
+  =
+href=3D"http://conferences.sigcomm.org/sigcomm/2001/p12-stoica.pdf">http:=
+//conferences.sigcomm.org/sigcomm/2001/p12-stoica.pdf</A></SPAN></LI></OL=
+>
+<P class=3Dc11><SPAN>The lecture slides give an overview, but do not =
+discuss Chord=20
+in detail, so it should be a good reference to get an overall idea. The =
+paper=20
+presents pseudo code for implementing Chord, so it should be a good =
+reference=20
+for actual implementation.</SPAN></P>
+<H3 class=3Dc11><A name=3Dh.rgc9caxb3eea></A><SPAN>Note</SPAN></H3>
+<P class=3Dc11><SPAN class=3D"c2 c5">It is important to remember that =
+this=20
+assignment does not require you to implement everything about Chord.=20
+</SPAN><SPAN>Mainly, there are three things you </SPAN><SPAN=20
+class=3D"c14 c2 c5">do not</SPAN><SPAN =
+class=3Dc14>&nbsp;</SPAN><SPAN>need to=20
+consider from the Chord paper.</SPAN></P>
+<OL class=3Dc8>
+  <LI class=3Dc0><SPAN>Fingers and finger-based routing (i.e., Section =
+4.3 &amp;=20
+  any discussion about fingers in Section 4.4)</SPAN>
+  <LI class=3Dc0><SPAN>Concurrent node joins (i.e., Section 5)</SPAN>
+  <LI class=3Dc0><SPAN>Node leaves/failures (i.e., Section =
+5)</SPAN></LI></OL>
+<P class=3Dc11><SPAN>We will discuss this more</SPAN><SPAN>&nbsp;in =
+=E2=80=9CStep 2:=20
+Writing a Content Provider=E2=80=9D below.</SPAN></P>
+<H3 class=3Dc11><A name=3Dh.itf53a7o9rus></A><SPAN>Step 0: Importing the =
+project=20
+template</SPAN></H3>
+<P class=3Dc11><SPAN>Just like the previous assignment, we have a =
+project template=20
+you can import to Eclipse.</SPAN></P>
+<OL class=3Dc8>
+  <LI class=3Dc0><SPAN>Download</SPAN><SPAN class=3Dc1><A class=3Dc19=20
+  =
+href=3D"http://www.cse.buffalo.edu/~stevko/courses/cse486/spring13/files/=
+SimpleDHT.zip">&nbsp;the=20
+  project template zip file</A></SPAN><SPAN>&nbsp;to a directory.</SPAN>
+  <LI class=3Dc0><SPAN>Import it to your Eclipse =
+workspace.</SPAN></LI></OL>
+<OL class=3Dc6>
+  <LI class=3D"c15 c11"><SPAN>Open Eclipse.</SPAN>
+  <LI class=3D"c15 c11"><SPAN>Go to =E2=80=9CFile=E2=80=9D -&gt; =
+=E2=80=9CImport=E2=80=9D</SPAN>
+  <LI class=3D"c15 c11"><SPAN>Select =E2=80=9CGeneral/Existing Projects =
+into Workspace=E2=80=9D=20
+  (</SPAN><SPAN class=3Dc5>Caution</SPAN><SPAN>: this is not =
+=E2=80=9CAndroid/Existing=20
+  Android Code into Workspace=E2=80=9D).</SPAN>
+  <LI class=3D"c15 c11"><SPAN>In the next screen (which should be =
+=E2=80=9CImport=20
+  Projects=E2=80=9D), do the following:</SPAN></LI></OL>
+<OL class=3Dc21>
+  <LI class=3Dc9><SPAN>Choose =E2=80=9CSelect archive file:=E2=80=9D and =
+select the project=20
+  template zip file that you downloaded.</SPAN>
+  <LI class=3Dc9><SPAN>Click =E2=80=9CFinish.=E2=80=9D</SPAN></LI></OL>
+<OL class=3Dc6 start=3D5>
+  <LI class=3D"c15 c11"><SPAN>At this point, the project template should =
+have been=20
+  imported to your workspace.</SPAN></LI></OL>
+<OL class=3Dc21>
+  <LI class=3Dc9><SPAN>You might get an error saying =E2=80=9CAndroid =
+requires compiler=20
+  compliance level...=E2=80=9D If so, right click on =
+=E2=80=9CSimpleDHT=E2=80=9D from the Package=20
+  Explorer, choose =E2=80=9CAndroid Tools=E2=80=9D -&gt; =E2=80=9CFix =
+Project Properties=E2=80=9D which will fix=20
+  the error.</SPAN>
+  <LI class=3Dc9><SPAN>You might also get an error about =
+android-support-v4.jar.=20
+  If so, right click on =E2=80=9CSimpleDHT=E2=80=9D from the Package =
+Explorer, choose=20
+  =E2=80=9CProperties=E2=80=9D -&gt; =E2=80=9CJava Build Path=E2=80=9D =
+-&gt; =E2=80=9CLibraries=E2=80=9D and either fix the=20
+  android-support-v4.jar=E2=80=99s path or replace it with your =
+SDK=E2=80=99s correct=20
+  android-support-v4.jar. (Courtesy of Justin and =
+Sileem).</SPAN></LI></OL>
+<OL class=3Dc6 start=3D6>
+  <LI class=3D"c15 c11"><SPAN>Try running it on an AVD and verify that =
+it=E2=80=99s=20
+  working.</SPAN></LI></OL>
+<OL class=3Dc8 start=3D3>
+  <LI class=3Dc0><SPAN>Use the project template for implementing all the =
+
+  components for this assignment.</SPAN>
+  <LI class=3Dc0><SPAN>The template has the package name of=20
+  =E2=80=9Cedu.buffalo.cse.cse486586.simpledht=E2=80=9C. Please do not =
+change this.</SPAN>
+  <LI class=3Dc0><SPAN>The template also defines a content provider =
+authority and=20
+  class. Please use it to implement your Chord functionalities.</SPAN>
+  <LI class=3Dc0><SPAN>We will use SHA-1 as our hash function to =
+generate keys.=20
+  The following code snippet takes a string and generates a SHA-1 hash =
+as a=20
+  hexadecimal string. Please use it to generate your keys. The template =
+already=20
+  has the code, so you just need to use it at appropriate places. Given =
+two=20
+  keys, you can use the standard lexicographical string comparison to =
+determine=20
+  which one is greater.</SPAN></LI></OL>
+<P class=3Dc10><SPAN></SPAN></P><A=20
+href=3D"https://docs.google.com/document/d/15hf5STuYKqLlefp6_y_YkNeCp1Ayr=
+O9Z8ENybjaFRqE/pub#"=20
+name=3D29d7dd3a95e5ff68d1bf754af5060a95c5a089bb></A><A=20
+href=3D"https://docs.google.com/document/d/15hf5STuYKqLlefp6_y_YkNeCp1Ayr=
+O9Z8ENybjaFRqE/pub#"=20
+name=3D0></A>
+<TABLE class=3Dc17 cellSpacing=3D0 cellPadding=3D0>
+  <TBODY>
+  <TR>
+    <TD class=3Dc4>
+      <P class=3Dc11><SPAN>import =
+java.security.MessageDigest;</SPAN></P>
+      <P class=3Dc11><SPAN>import=20
+      java.security.NoSuchAlgorithmException;</SPAN></P>
+      <P class=3Dc11><SPAN>import java.util.Formatter;</SPAN></P>
+      <P class=3Dc10><SPAN></SPAN></P>
+      <P class=3Dc11><SPAN>private String genHash(String input) throws=20
+      NoSuchAlgorithmException {</SPAN></P>
+      <P class=3Dc7><SPAN>MessageDigest sha1 =3D=20
+      MessageDigest.getInstance("SHA-1");</SPAN></P>
+      <P class=3Dc7><SPAN>byte[] sha1Hash =3D=20
+      sha1.digest(input.getBytes());</SPAN></P>
+      <P class=3Dc7><SPAN>Formatter formatter =3D new =
+Formatter();</SPAN></P>
+      <P class=3Dc7><SPAN>for (byte b : sha1Hash) {</SPAN></P>
+      <P class=3D"c11 c22"><SPAN>formatter.format("%02x", b);</SPAN></P>
+      <P class=3Dc7><SPAN>}</SPAN></P>
+      <P class=3Dc7><SPAN>return formatter.toString();</SPAN></P>
+      <P class=3Dc11><SPAN>}</SPAN></P></TD></TR></TBODY></TABLE>
+<H3 class=3Dc11><SPAN>Step 1: Writing the Main Activity</SPAN></H3>
+<P class=3Dc11><SPAN>Your app should have an activity used for =
+</SPAN><SPAN=20
+class=3D"c20 c2">testing.</SPAN><SPAN>&nbsp;It should have three =
+buttons, one=20
+button that displays =E2=80=9CTest=E2=80=9D, one button that displays =
+=E2=80=9CLDump=E2=80=9D and another button=20
+that displays =E2=80=9CGDump=E2=80=9D; these buttons are already =
+provided in the template. As=20
+with the previous assignment, =E2=80=9CTest=E2=80=9D button is already =
+implemented (it=E2=80=99s the=20
+same as =E2=80=9CPTest=E2=80=9D from the last assignment) and you can =
+use it for your testing=20
+purposes. Here are the requirements for the other two =
+buttons.</SPAN></P>
+<OL class=3Dc8>
+  <LI class=3Dc0><SPAN>LDump</SPAN></LI></OL>
+<OL class=3Dc6>
+  <LI class=3D"c15 c11"><SPAN>When touched, this button should dump and =
+display=20
+  all the &lt;key, value&gt; pairs </SPAN><SPAN class=3D"c2 c5">stored =
+in your=20
+  local partition of the node</SPAN><SPAN>. Since you need to implement =
+a=20
+  distributed key-value storage based on Chord, each instance stores =
+&lt;key,=20
+  value&gt; pairs that belong to one partition in the Chord ring. This =
+button=20
+  should display all local &lt;key, value&gt; pairs on the =
+screen.</SPAN>
+  <LI class=3D"c15 c11"><SPAN>The order of &lt;key, value&gt; pairs you =
+display=20
+  does not matter as long as it shows all locally stored &lt;key, =
+value&gt;=20
+  pairs.</SPAN></LI></OL>
+<OL class=3Dc8 start=3D2>
+  <LI class=3Dc0><SPAN>GDump</SPAN></LI></OL>
+<OL class=3Dc6>
+  <LI class=3D"c15 c11"><SPAN>When touched, this button should dump and =
+display=20
+  all the &lt;key, value&gt; pairs stored in your </SPAN><SPAN=20
+  class=3D"c14 c2 c5">whole</SPAN><SPAN>&nbsp;DHT. Thus, LDump button is =
+for local=20
+  dump, and this button (GDump) is for global dump of the entire =
+&lt;key,=20
+  value&gt; pairs.</SPAN></LI></OL>
+<OL class=3Dc8 start=3D3>
+  <LI class=3Dc0><SPAN>Your content provider (below) and your activity =
+should not=20
+  communicate in any way except through the insert/query interface. =
+Again, there=20
+  should be no out-of-band communication between your content provider =
+and your=20
+  activity; your activity should strictly use the content provider =
+interface to=20
+  communicate with it.</SPAN></LI></OL>
+<H3 class=3Dc11><SPAN>Step 2: Writing the Content Provider</SPAN></H3>
+<P class=3Dc11><SPAN>Along with the main activity, your app should have =
+a content=20
+provider. This content provider should implement all DHT =
+functionalities. For=20
+example, it should create server and client threads (if this is what you =
+decide=20
+to implement), open sockets, and respond to incoming requests; it should =
+also=20
+implement a simplified version of the Chord routing protocol; lastly, it =
+should=20
+also handle node joins. The following are the requirements for your =
+content=20
+provider:</SPAN></P>
+<OL class=3Dc8>
+  <LI class=3Dc0><SPAN>We will test your app with any number of =
+instances up to 3=20
+  instances.</SPAN>
+  <LI class=3Dc0><SPAN>The content provider should implement all DHT=20
+  functionalities. This includes all communication as well as mechanisms =
+to=20
+  handle insert/query requests and node joins.</SPAN>
+  <LI class=3Dc0><SPAN>Each content provider instance should have a node =
+id=20
+  derived from its emulator port. </SPAN><SPAN class=3D"c2 c5">This node =
+id should=20
+  be obtained by applying the above hash function (i.e., genHash()) to =
+the=20
+  emulator port.</SPAN><SPAN>&nbsp;For example, the node id of the =
+content=20
+  provider instance running on emulator-5554 should be, </SPAN><SPAN=20
+  class=3Dc2>node_id =3D genHash(=E2=80=9C5554=E2=80=9D)</SPAN><SPAN>. =
+This is necessary to find the=20
+  correct position of each node in the Chord ring.</SPAN>
+  <LI class=3Dc0><SPAN>At the minimum, your content provider should =
+implement=20
+  insert() and query(). The interface definition is the same as the =
+previous=20
+  assignment (see below), which allows a client app to insert arbitrary=20
+  &lt;=E2=80=9Dkey=E2=80=9D, =E2=80=9Cvalue=E2=80=9D&gt; pairs where =
+both the key and the value are strings.=20
+  </SPAN><SPAN class=3D"c2 c5">However, please keep in mind that this =
+=E2=80=9Ckey=E2=80=9D should=20
+  be hashed by the above genHash() before getting inserted to your DHT =
+in order=20
+  to find the correct position in the Chord ring.</SPAN>
+  <LI class=3Dc0><SPAN>This means that an app that uses your content =
+provider will=20
+  give arbitrary &lt;key, value&gt; pairs, e.g., &lt;=E2=80=9DI want =
+to=E2=80=9D, =E2=80=9Cstore=20
+  this=E2=80=9D&gt;; then your content provider should hash the key via =
+genHash(), e.g.,=20
+  genHash(=E2=80=9CI want to=E2=80=9D), get the correct position in the =
+Chord ring based on the=20
+  hash value, and store &lt;=E2=80=9DI want to=E2=80=9D, =E2=80=9Cstore =
+this=E2=80=9D&gt; in the appropriate=20
+  node.</SPAN>
+  <LI class=3Dc0><SPAN>Your content provider should implement ring-based =
+routing.=20
+  Following the design of Chord, your content provider should maintain=20
+  predecessor and successor pointers and forward each request to its =
+successor=20
+  until the request arrives at the correct node. Once the correct node =
+receives=20
+  the request, it should process it and return the result (directly or=20
+  recursively) to the original content provider instance that first =
+received the=20
+  request.</SPAN></LI></OL>
+<OL class=3Dc6>
+  <LI class=3D"c15 c11"><SPAN>Your content provider do not need to =
+maintain finger=20
+  tables and implement finger-based routing. This is not =
+required.</SPAN>
+  <LI class=3D"c15 c11"><SPAN>As with the previous assignment, we will =
+fix all the=20
+  port numbers (see below). This means that you can use the port numbers =
+(11108,=20
+  11112, &amp; 11116) as your successor and predecessor =
+pointers.</SPAN></LI></OL>
+<OL class=3Dc8 start=3D7>
+  <LI class=3Dc0><SPAN>Your content provider should handle new node =
+joins.=20
+  </SPAN><SPAN class=3Dc5>For this, you need to have the first emulator =
+instance=20
+  (i.e., emulator-5554) receive all new node join=20
+  requests.</SPAN><SPAN>&nbsp;Your implementation should not choose a =
+random=20
+  node to do that. Upon completing a new node join request, affected =
+nodes=20
+  should have updated their predecessor and successor pointers=20
+  correctly.</SPAN></LI></OL>
+<OL class=3Dc6>
+  <LI class=3D"c15 c11"><SPAN>Your content provider do not need to =
+handle=20
+  concurrent node joins. You can assume that a node join will only =
+happen once=20
+  the system completely processes the previous join.</SPAN>
+  <LI class=3D"c15 c11"><SPAN>Your content provider do not need to =
+handle=20
+  insert/query requests while a node is joining. You can assume that=20
+  insert/query requests will be issued only with a stable system.</SPAN>
+  <LI class=3D"c15 c11"><SPAN>Your content provider do not need to =
+handle node=20
+  leaves/failures. This is not required.</SPAN></LI></OL>
+<OL class=3Dc8 start=3D8>
+  <LI class=3Dc0><SPAN>We have fixed the ports &amp; =
+sockets.</SPAN></LI></OL>
+<OL class=3Dc6>
+  <LI class=3D"c15 c11"><SPAN>Your app should open one server socket =
+that listens=20
+  on 10000.</SPAN>
+  <LI class=3D"c15 c11"><SPAN>You need to use run_avd.py and =
+set_redir.py to set=20
+  up the testing environment.</SPAN>
+  <LI class=3D"c15 c11"><SPAN>The grading will use from 1 AVD to 3 AVDs. =
+The=20
+  redirection ports are 11108, 11112, and 11116.</SPAN>
+  <LI class=3D"c15 c11"><SPAN>You should just hard-code the above 3 =
+ports and use=20
+  them to set up connections.</SPAN>
+  <LI class=3D"c15 c11"><SPAN>Please use the code snippet provided in =
+the PA1=20
+  description on how to determine your local AVD.</SPAN></LI></OL>
+<OL class=3Dc21>
+  <LI class=3Dc9><SPAN>avd0: =E2=80=9C5554=E2=80=9D</SPAN>
+  <LI class=3Dc9><SPAN>avd1: =E2=80=9C5556=E2=80=9D</SPAN>
+  <LI class=3Dc9><SPAN>avd2: =E2=80=9C5558=E2=80=9D</SPAN></LI></OL>
+<OL class=3Dc8 start=3D9>
+  <LI class=3Dc0><SPAN>Any app (not just your app) should be able to =
+access (read=20
+  and write) your content provider. As with the previous assignment, =
+please do=20
+  not include any permission to </SPAN><SPAN>access your content =
+provider. You=20
+  can test this with </SPAN><SPAN class=3Dc1><A class=3Dc19=20
+  =
+href=3D"http://www.cse.buffalo.edu/~stevko/courses/cse486/spring13/files/=
+DHTTester.apk">DHTTester.apk</A></SPAN><SPAN>.</SPAN>
+  <LI class=3Dc0><SPAN>Your content provider=E2=80=99s URI should be:=20
+  =
+</SPAN><SPAN>=E2=80=9Ccontent://edu.buffalo.cse.cse486586.simpledht.provi=
+der=E2=80=9D, which=20
+  means that any app should be able to access your content provider =
+using that=20
+  URI. Your content provider does not need to match/support any other =
+URI=20
+  pattern (though for your dump buttons, you </SPAN><SPAN=20
+  class=3D"c2 c20">might</SPAN><SPAN>&nbsp;want to match something like=20
+  =
+=E2=80=9Ccontent://edu.buffalo.cse.cse486586.simpledht.provider/*=E2=80=9D=
+, but this is not=20
+  required and up to you).</SPAN>
+  <LI class=3Dc0><SPAN>Your provider should have two =
+columns.</SPAN></LI></OL>
+<OL class=3Dc6>
+  <LI class=3D"c15 c11"><SPAN>The first column should be named as =
+=E2=80=9Ckey=E2=80=9D (an all=20
+  lowercase string without the quotation marks). This column is used to =
+store=20
+  all keys.</SPAN>
+  <LI class=3D"c15 c11"><SPAN>The second column should be named as =
+=E2=80=9Cvalue=E2=80=9D (an all=20
+  lowercase string without the quotation marks). This column is used to =
+store=20
+  all values.</SPAN>
+  <LI class=3D"c15 c11"><SPAN>All keys and values that your provider =
+stores should=20
+  use the string data type.</SPAN></LI></OL>
+<OL class=3Dc8 start=3D12>
+  <LI class=3Dc0><SPAN>Since the column names are =E2=80=9Ckey=E2=80=9D =
+and =E2=80=9Cvalue=E2=80=9D, any app=20
+  should be able to insert a &lt;key, value&gt; pair as in the following =
+
+  example:</SPAN></LI></OL><A=20
+href=3D"https://docs.google.com/document/d/15hf5STuYKqLlefp6_y_YkNeCp1Ayr=
+O9Z8ENybjaFRqE/pub#"=20
+name=3Dd4f4936f677c3981933370403de13da43d9f6567></A><A=20
+href=3D"https://docs.google.com/document/d/15hf5STuYKqLlefp6_y_YkNeCp1Ayr=
+O9Z8ENybjaFRqE/pub#"=20
+name=3D1></A>
+<TABLE class=3Dc17 cellSpacing=3D0 cellPadding=3D0>
+  <TBODY>
+  <TR class=3Dc16>
+    <TD class=3Dc4>
+      <P class=3Dc7><SPAN>ContentValues keyValueToInsert =3D new=20
+      ContentValues();</SPAN></P>
+      <P class=3Dc10><SPAN></SPAN></P>
+      <P class=3Dc7><SPAN>// inserting =
+&lt;=E2=80=9Dkey-to-insert=E2=80=9D,=20
+      =E2=80=9Cvalue-to-insert=E2=80=9D&gt;</SPAN></P>
+      <P class=3Dc7><SPAN>keyValueToInsert.put(=E2=80=9Ckey=E2=80=9D, =
+=E2=80=9Ckey-to-insert=E2=80=9D);</SPAN></P>
+      <P class=3Dc7><SPAN>keyValueToInsert.put(=E2=80=9Cvalue=E2=80=9D,=20
+      =E2=80=9Cvalue-to-insert=E2=80=9D);</SPAN></P>
+      <P class=3Dc10><SPAN></SPAN></P>
+      <P class=3Dc7><SPAN>Uri newUri =3D =
+getContentResolver().insert(</SPAN></P>
+      <P class=3Dc7><SPAN>&nbsp; &nbsp;providerUri, &nbsp; &nbsp;// =
+assume we=20
+      already created a Uri object with our provider URI</SPAN></P>
+      <P class=3Dc7><SPAN>&nbsp; &nbsp;keyValueToInsert</SPAN></P>
+      <P class=3Dc7><SPAN>);</SPAN></P></TD></TR></TBODY></TABLE>
+<OL class=3Dc8 start=3D13>
+  <LI class=3Dc0><SPAN>Similarly, any app should be able to read a =
+&lt;key,=20
+  value&gt; pair from your provider with query(). Since your provider is =
+a=20
+  simple &lt;key, value&gt; table, we are not going to follow the =
+Android=20
+  convention; your provider should be able to answer queries as in the =
+following=20
+  example:</SPAN></LI></OL><A=20
+href=3D"https://docs.google.com/document/d/15hf5STuYKqLlefp6_y_YkNeCp1Ayr=
+O9Z8ENybjaFRqE/pub#"=20
+name=3D6e0c99d68472c9359a31f23cc00546ab2c01f912></A><A=20
+href=3D"https://docs.google.com/document/d/15hf5STuYKqLlefp6_y_YkNeCp1Ayr=
+O9Z8ENybjaFRqE/pub#"=20
+name=3D2></A>
+<TABLE class=3Dc17 cellSpacing=3D0 cellPadding=3D0>
+  <TBODY>
+  <TR>
+    <TD class=3Dc4>
+      <P class=3Dc7><SPAN>Cursor resultCursor =3D=20
+      getContentResolver().query(</SPAN></P>
+      <P class=3Dc7><SPAN>&nbsp; &nbsp;providerUri, &nbsp; &nbsp;// =
+assume we=20
+      already created a Uri object with our provider URI</SPAN></P>
+      <P class=3Dc7><SPAN>&nbsp; &nbsp;null, &nbsp; &nbsp; &nbsp; &nbsp; =
+&nbsp;=20
+      &nbsp; &nbsp; &nbsp;// no need to support the </SPAN><SPAN=20
+      class=3Dc2>projection </SPAN><SPAN>parameter</SPAN></P>
+      <P class=3Dc7><SPAN>&nbsp; &nbsp;=E2=80=9Ckey-to-read=E2=80=9D, =
+&nbsp; &nbsp;// we provide=20
+      the key directly as the </SPAN><SPAN=20
+      class=3Dc2>selection</SPAN><SPAN>&nbsp;parameter</SPAN></P>
+      <P class=3Dc7><SPAN>&nbsp; &nbsp;null, &nbsp; &nbsp; &nbsp; &nbsp; =
+&nbsp;=20
+      &nbsp; &nbsp; &nbsp;// no need to support the </SPAN><SPAN=20
+      class=3Dc2>selectionArgs</SPAN><SPAN>&nbsp;parameter</SPAN></P>
+      <P class=3Dc7><SPAN>&nbsp; &nbsp;null &nbsp; &nbsp; &nbsp; &nbsp; =
+&nbsp;=20
+      &nbsp; &nbsp; &nbsp; // no need to support the </SPAN><SPAN=20
+      class=3Dc2>sortOrder </SPAN><SPAN>parameter</SPAN></P>
+      <P class=3Dc7><SPAN>);</SPAN></P></TD></TR></TBODY></TABLE>
+<P class=3Dc10><SPAN class=3Dc14></SPAN></P>
+<P class=3Dc7><SPAN>Thus, your query() implementation should read the =
+</SPAN><SPAN=20
+class=3Dc2>selection</SPAN><SPAN>&nbsp;parameter and use it as the key =
+to retrieve=20
+from your table. In turn, the Cursor returned by your query() =
+implementation=20
+should include only one row with two columns using your =
+provider=E2=80=99s column names,=20
+i.e., =E2=80=9Ckey=E2=80=9D and =E2=80=9Cvalue=E2=80=9D. You probably =
+want to use android.database.MatrixCursor=20
+instead of implementing your own Cursor.</SPAN></P>
+<OL class=3Dc8 start=3D14>
+  <LI class=3Dc0><SPAN class=3Dc5>Note that your content provider should =
+only store=20
+  the &lt;key, value&gt; pairs local to its own =
+partition.</SPAN></LI></OL>
+<H3 class=3Dc11><SPAN>Design Document</SPAN></H3>
+<P class=3Dc11><SPAN>You need to write a design document of up to 2 =
+pages (12 pt=20
+font in .pdf). This should include:</SPAN></P>
+<OL class=3Dc12>
+  <LI class=3Dc0><SPAN>What components have you written?</SPAN>
+  <LI class=3Dc0><SPAN>What does each component do? Please include =
+figures if=20
+  necessary when describing each component.</SPAN>
+  <LI class=3Dc0><SPAN>How do you update predecessor and successor =
+pointers?=20
+  Please include an English description as well as =
+pseudo-code.</SPAN></LI></OL>
+<H3 class=3Dc11><SPAN>Submission</SPAN></H3>
+<P class=3Dc11><SPAN>We use the CSE submit script. You need to use =
+either=20
+=E2=80=9C</SPAN><SPAN class=3Dc18>submit_cse486=E2=80=9D or =
+=E2=80=9Csubmit_cse586=E2=80=9D, depending on your=20
+registration status.</SPAN><SPAN>&nbsp;If you haven=E2=80=99t used it, =
+the instructions=20
+on how to use it is here:</SPAN><SPAN><A class=3Dc19=20
+href=3D"https://wiki.cse.buffalo.edu/services/content/submit-script">&nbs=
+p;</A></SPAN><SPAN=20
+class=3Dc1><A class=3Dc19=20
+href=3D"https://wiki.cse.buffalo.edu/services/content/submit-script">http=
+s://wiki.cse.buffalo.edu/services/content/submit-script</A></SPAN></P>
+<P class=3Dc10><SPAN class=3Dc1><A class=3Dc19=20
+href=3D"https://wiki.cse.buffalo.edu/services/content/submit-script"></A>=
+</SPAN></P>
+<P class=3Dc11><SPAN>One again, you need to submit three </SPAN><SPAN=20
+class=3Dc20>separate</SPAN><SPAN>&nbsp;files described below. =
+</SPAN><SPAN=20
+class=3D"c14 c5">You must follow everything below exactly. Otherwise, =
+you will get=20
+no point on this assignment.</SPAN></P>
+<OL class=3Dc12>
+  <LI class=3Dc0><SPAN>Your app=E2=80=99s .apk: The name should be =
+SimpleDHT.apk.</SPAN>
+  <LI class=3Dc0><SPAN>Your design document in .pdf: The name should be=20
+  SimpleDHT.pdf. Please do not submit a .docx or .txt file.</SPAN>
+  <LI class=3Dc0><SPAN>Your entire Eclipse project source code tree =
+zipped up in=20
+  .zip: The name should be SimpleDHT.zip. To do this, please go to your =
+Eclipse=20
+  workspace directory, find your app, and zip it. Please do not use any =
+other=20
+  compression tool other than zip, i.e., no 7-Zip, no RAR, etc. Please =
+make sure=20
+  to zip the top-level directory that contains all the source, i.e., =
+unzipping=20
+  should create one =E2=80=9CSimpleDHT=E2=80=9D directory that contains =
+all the source=20
+  files.</SPAN></LI></OL>
+<H3 class=3Dc11><SPAN>Deadline: </SPAN><SPAN class=3Dc5>3/29/13 (Friday) =
+
+2:59pm</SPAN></H3>
+<P class=3Dc11><SPAN>This is right before class @ 3pm. The deadline is =
+firm; if=20
+your timestamp is 3pm, it is a late submission.</SPAN></P>
+<H3 class=3Dc11><SPAN>Grading</SPAN></H3>
+<P class=3Dc11><SPAN>This assignment is 15% of your final grade. The =
+breakdown for=20
+this assignment is:</SPAN></P>
+<OL class=3Dc12>
+  <LI class=3Dc0><SPAN>10%: your app</SPAN></LI></OL>
+<OL class=3Dc13>
+  <LI class=3D"c15 c11"><SPAN>1% if the LDump button works correctly =
+(apart from=20
+  the underlying insert/query over the DHT)</SPAN>
+  <LI class=3D"c11 c15"><SPAN>1% if the GDump button works correctly =
+(apart from=20
+  the underlying insert/query over the DHT).</SPAN>
+  <LI class=3D"c15 c11"><SPAN>5% if insert and query operations work =
+correctly=20
+  (with a static/stable membership)</SPAN>
+  <LI class=3D"c15 c11"><SPAN>3% if node join works =
+correctly</SPAN></LI></OL>
+<OL class=3Dc12 start=3D2>
+  <LI class=3Dc0><SPAN>5%: your design document</SPAN></LI></OL>
+<OL class=3Dc13>
+  <LI class=3D"c15 c11"><SPAN>3% for the correct and clear description =
+of your=20
+  predecessor/successor update procedure</SPAN>
+  <LI class=3D"c15 c11"><SPAN>2% for the overall clarity of the rest of =
+the=20
+  description</SPAN></LI></OL></DIV>
+<DIV id=3Dfooter><SPAN>Published by <A title=3D"Learn more about Google =
+Drive"=20
+href=3D"https://docs.google.com/" target=3D_blank>Google =
+Drive</A></SPAN><SPAN=20
+class=3Ddash>=E2=80=93</SPAN><A=20
+href=3D"https://docs.google.com/abuse?id=3D15hf5STuYKqLlefp6_y_YkNeCp1Ayr=
+O9Z8ENybjaFRqE">Report=20
+Abuse</A><SPAN class=3Ddash>=E2=80=93</SPAN><SPAN>Updated automatically =
+every 5=20
+minutes</SPAN></DIV>
+<SCRIPT type=3Dtext/javascript>=0A=
+(function(){var =
+e=3D!1;if(window.jstiming){window.jstiming.a=3D{};window.jstiming.b=3D1;v=
+ar k=3Dfunction(b,a,d){var c=3Db.t[a],g=3Db.t.start;if(c&&(g||d))return =
+c=3Db.t[a][0],void 0!=3Dd?g=3Dd:g=3Dg[0],c-g},p=3Dfunction(b,a,d){var =
+c=3D"";window.jstiming.pt&&(c+=3D"&srt=3D"+window.jstiming.pt,delete =
+window.jstiming.pt);try{window.external&&window.external.tran?c+=3D"&tran=
+=3D"+window.external.tran:window.gtbExternal&&window.gtbExternal.tran?c+=3D=
+"&tran=3D"+window.gtbExternal.tran():window.chrome&&window.chrome.csi&&(c=
++=3D"&tran=3D"+window.chrome.csi().tran)}catch(g){}var f=3D=0A=
+window.chrome;if(f&&(f=3Df.loadTimes)){f().wasFetchedViaSpdy&&(c+=3D"&p=3D=
+s");if(f().wasNpnNegotiated){var =
+c=3Dc+"&npn=3D1",l=3Df().npnNegotiatedProtocol;l&&(c+=3D"&npnv=3D"+(encod=
+eURIComponent||escape)(l))}f().wasAlternateProtocolAvailable&&(c+=3D"&apa=
+=3D1")}var m=3Db.t,t=3Dm.start,f=3D[],l=3D[],h;for(h in =
+m)if("start"!=3Dh&&0!=3Dh.indexOf("_")){var =
+n=3Dm[h][1];n?m[n]&&l.push(h+"."+k(b,h,m[n][0])):t&&f.push(h+"."+k(b,h))}=
+delete m.start;if(a)for(var q in =
+a)c+=3D"&"+q+"=3D"+a[q];(a=3Dd)||(a=3D"https:"=3D=3Ddocument.location.pro=
+tocol?"https://csi.gstatic.com/csi":=0A=
+"http://csi.gstatic.com/csi");return[a,"?v=3D3","&s=3D"+(window.jstiming.=
+sn||"_s")+"&action=3D",b.name,l.length?"&it=3D"+l.join(","):"","",c,"&rt=3D=
+",f.join(",")].join("")};window.jstiming.getReportUri=3Dp;var =
+r=3Dfunction(b,a,d){b=3Dp(b,a,d);if(!b)return"";a=3Dnew Image;var =
+c=3Dwindow.jstiming.b++;window.jstiming.a[c]=3Da;a.onload=3Da.onerror=3Df=
+unction(){window.jstiming&&delete =
+window.jstiming.a[c]};a.src=3Db;a=3Dnull;return =
+b};window.jstiming.report=3Dfunction(b,a,d){if("prerender"=3D=3Ddocument.=
+webkitVisibilityState){var c=3De,g=3D=0A=
+function(){if(!c){a?a.prerender=3D"1":a=3D{prerender:"1"};var =
+f;"prerender"=3D=3Ddocument.webkitVisibilityState?f=3De:(r(b,a,d),f=3D!0)=
+;f&&(c=3D!0,document.removeEventListener("webkitvisibilitychange",g,e))}}=
+;document.addEventListener("webkitvisibilitychange",g,e);return""}return =
+r(b,a,d)};window.jstiming.reportDone=3Dfunction(b){if(window.jstiming.b<=3D=
+(b||1))return e;for(var a in window.jstiming.a)return e;return!0};var =
+s=3Dfunction(b,a,d,c){return =
+0<d?(c?b.tick(a,c,d):b.tick(a,"",d),!0):e};window.jstiming.getNavTiming=3D=0A=
+function(b){if(window.performance&&window.performance.timing){var =
+a=3Dwindow.performance.timing;s(b,"_dns",a.domainLookupStart)&&s(b,"dns_"=
+,a.domainLookupEnd,"_dns");s(b,"_con",a.connectStart)&&s(b,"con_",a.conne=
+ctEnd,"_con");s(b,"_req",a.requestStart)&&s(b,"req_",a.responseStart,"_re=
+q");s(b,"_rcv",a.responseStart)&&s(b,"rcv_",a.responseEnd,"_rcv");if(s(b,=
+"_ns",a.navigationStart)){s(b,"ntsrt_",a.responseStart,"_ns");s(b,"nsfs_"=
+,a.fetchStart,"_ns");var =
+d=3Dwindow.external&&window.external.startE;!d&&(window.chrome&&=0A=
+window.chrome.csi)&&(d=3DMath.floor(window.chrome.csi().startE));d&&(s(b,=
+"_se",d),s(b,"sens_",a.navigationStart,"_se"));s(b,"ntplt0_",a.loadEventS=
+tart,"_ns");s(b,"ntplt1_",a.loadEventEnd,"_ns")}}}};})()=0A=
+</SCRIPT>
+
+<SCRIPT type=3Dtext/javascript>KX_timer.tick('tl'); if =
+(document.location.protocol =3D=3D 'https:') =
+{window.jstiming.report(KX_timer, undefined , =
+'https://gg.google.com/csi');} else =
+{window.jstiming.report(KX_timer);}</SCRIPT>
+</BODY></HTML>

@@ -1,0 +1,771 @@
+From: "Saved by Windows Internet Explorer 10"
+Subject: CSE 486/586 Distributed Systems
+Date: Mon, 16 Sep 2013 17:08:33 -0400
+MIME-Version: 1.0
+Content-Type: text/html;
+	charset="iso-8859-1"
+Content-Transfer-Encoding: quoted-printable
+Content-Location: http://www.cse.buffalo.edu/~stevko/courses/cse486/spring13/schedule.html
+X-MimeOLE: Produced By Microsoft MimeOLE V6.1.7601.17609
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<HTML><HEAD><META content=3D"IE=3D5.0000" =
+http-equiv=3D"X-UA-Compatible">
+
+<META http-equiv=3D"content-type" content=3D"text/html; =
+charset=3DISO-8859-1">  =20
+<TITLE>CSE 486/586 Distributed Systems</TITLE>=20
+<META name=3D"GENERATOR" content=3D"MSHTML 10.00.9200.16686"></HEAD>=20
+<BODY>
+<TABLE cellspacing=3D"10" cellpadding=3D"10">
+  <TBODY>
+  <TR style=3D"color: white; background-color: rgb(4, 26, 155);">
+    <TD style=3D"width: 135px;">
+      <H2>CSE 486/586<BR>Distributed<BR>Systems</H2>
+      <H3>Spring 2013</H3></TD></TR>
+  <TR style=3D"vertical-align: top;">
+    <TD style=3D"background-color: rgb(102, 102, 102);"><A =
+style=3D"color: white;"=20
+      =
+href=3D"http://www.cse.buffalo.edu/~stevko/courses/cse486/spring13/index.=
+html">Course=20
+      Info</A>         <BR><A style=3D"color: white;" =
+href=3D"http://www.cse.buffalo.edu/~stevko/courses/cse486/spring13/schedu=
+le.html">Schedule</A>=20
+              <BR><A style=3D"color: white;" =
+href=3D"http://www.cse.buffalo.edu/~stevko/courses/cse486/spring13/pas.ht=
+ml">PAs</A>=20
+              <BR><A style=3D"color: white;" =
+href=3D"http://www.cse.buffalo.edu/~stevko/courses/cse486/spring13/practi=
+ce_problems.html">Practice=20
+               Problems</A>         <BR><A style=3D"color: white;" =
+href=3D"http://www.cse.buffalo.edu/~stevko/courses/cse486/spring13/syllab=
+us.html">Syllabus</A>=20
+            </TD>
+    <TD style=3D"vertical-align: top;">
+      <H3>Tentative Schedule</H3>        The schedule is tentative and =
+subject=20
+      to change.  The lecture slides        heavily contain the material =
+
+      developed and copyrighted by Prof.        Indranil Gupta at =
+Illinois. The=20
+      material was originally developed for        courses =
+CS425/CSE424/ECE428=20
+      at Illinois.         <BR><BR>
+      <TABLE style=3D"text-align: center;" border=3D"1" =
+cellspacing=3D"1" cellpadding=3D"5">
+        <TBODY>
+        <TR>
+          <TD><B>Date</B><BR></TD>
+          <TD><B>Topic(s)</B><BR></TD>
+          <TD><B>Reading(s)</B><BR></TD>
+          <TD><B>Recitation</B><BR></TD>
+          <TD><B>Assignment(s)</B><BR></TD></TR>
+        <TR>
+          <TD>                Mon 1/14               </TD>
+          <TD>                Introduction                 <BR>          =
+     =20
+            [<A =
+href=3D"http://www.cse.buffalo.edu/~stevko/courses/cse486/spring13/lectur=
+es/01-intro.pptx">pptx</A>]=20
+                           [<A =
+href=3D"http://www.cse.buffalo.edu/~stevko/courses/cse486/spring13/lectur=
+es/01-intro.pdf">pdf</A>]=20
+                          </TD>
+          <TD></TD>
+          <TD></TD>
+          <TD></TD></TR>
+        <TR>
+          <TD>                Wed 1/16               </TD>
+          <TD>                The Internet in 2 Hours --- 1              =
+  =20
+            <BR>                [<A =
+href=3D"http://www.cse.buffalo.edu/~stevko/courses/cse486/spring13/lectur=
+es/02-internet1.pptx">pptx</A>]=20
+                           [<A =
+href=3D"http://www.cse.buffalo.edu/~stevko/courses/cse486/spring13/lectur=
+es/02-internet1.pdf">pdf</A>]=20
+                          </TD>
+          <TD>                Parts of Sections 3.1 and 3.2              =
+  =20
+            <BR>                (Optional)                 <A =
+href=3D"http://ccr.sigcomm.org/archive/1995/jan95/ccr-9501-clark.pdf">The=
+=20
+            Design Philosophy of the DARPA Internet Protocols</A>        =
+      =20
+          </TD>
+          <TD></TD>
+          <TD></TD></TR>
+        <TR>
+          <TD>                Fri 1/18               </TD>
+          <TD>                The Internet in 2 Hours --- 2              =
+  =20
+            <BR>                [<A =
+href=3D"http://www.cse.buffalo.edu/~stevko/courses/cse486/spring13/lectur=
+es/03-internet2.pptx">pptx</A>]=20
+                           [<A =
+href=3D"http://www.cse.buffalo.edu/~stevko/courses/cse486/spring13/lectur=
+es/03-internet2.pdf">pdf</A>]=20
+                          </TD>
+          <TD>                Parts of Sections 3.3 and 3.4              =
+  =20
+            <BR>                (Optional)                 <A =
+href=3D"http://www.internetsociety.org/internet/internet-51/history-inter=
+net/brief-history-internet">Brief=20
+                             History of the Internet</A>                 =
+<BR>   =20
+                        (Optional)                 <A =
+href=3D"http://dl.acm.org/citation.cfm?id=3D357402">End-to-End=20
+                             Arguments in System Design</A>              =
+ </TD>
+          <TD></TD>
+          <TD><A href=3D"http://goo.gl/rZRKm">PA 1</A> Out               =
+</TD></TR>
+        <TR>
+          <TD>Mon 1/21</TD>
+          <TD>                No Lecture (Martin Luther King Day)        =
+     =20
+           </TD>
+          <TD></TD>
+          <TD></TD>
+          <TD></TD></TR>
+        <TR>
+          <TD>Wed 1/23</TD>
+          <TD>                Android Programming --- 1               =
+</TD>
+          <TD>                Sections 4.1 and 4.2                 <BR>  =
+     =20
+                    UNIX Socket API: <A=20
+            href=3D"http://beej.us/guide/bgnet/">Beej's Guide to Network =
+
+            Programming</A>                 <BR>                Java =
+Socket API:=20
+            <A=20
+            =
+href=3D"http://docs.oracle.com/javase/tutorial/networking/sockets/">All=20
+            About Sockets</A>                 <BR>                =
+Android Guide:=20
+            <A =
+href=3D"http://developer.android.com/guide/components/fundamentals.html">=
+API=20
+            Guides</A> &amp; <A =
+href=3D"http://developer.android.com/training/index.html">Training</A>=20
+                          </TD>
+          <TD></TD>
+          <TD></TD></TR>
+        <TR>
+          <TD>Fri 1/25</TD>
+          <TD>                Android Programming --- 2               =
+</TD>
+          <TD></TD>
+          <TD></TD>
+          <TD></TD></TR>
+        <TR>
+          <TD>Mon 1/28</TD>
+          <TD>                Android Programming --- 3               =
+</TD>
+          <TD></TD>
+          <TD>                Setting Up Amazon EC2               </TD>
+          <TD></TD></TR>
+        <TR>
+          <TD>Wed 1/30</TD>
+          <TD>                Failure Detection                 <BR>     =
+     =20
+                 [<A =
+href=3D"http://www.cse.buffalo.edu/~stevko/courses/cse486/spring13/lectur=
+es/07-failure_detectors.pptx">pptx</A>]=20
+                           [<A =
+href=3D"http://www.cse.buffalo.edu/~stevko/courses/cse486/spring13/lectur=
+es/07-failure_detectors.pdf">pdf</A>]=20
+                          </TD>
+          <TD>                Sections 2.4.2 and 15.1               =
+</TD>
+          <TD></TD>
+          <TD></TD></TR>
+        <TR>
+          <TD>Fri 2/1</TD>
+          <TD>Time and Synchronization                 <BR>              =
+  [<A=20
+            =
+href=3D"http://www.cse.buffalo.edu/~stevko/courses/cse486/spring13/lectur=
+es/08-time.pptx">pptx</A>]=20
+                           [<A =
+href=3D"http://www.cse.buffalo.edu/~stevko/courses/cse486/spring13/lectur=
+es/08-time.pdf">pdf</A>]=20
+                          </TD>
+          <TD>                Sections 14.1 - 14.3               </TD>
+          <TD>                Setting Up Amazon EC2               </TD>
+          <TD>                PA 1 Due                 <BR><A =
+href=3D"http://goo.gl/ax4Iz">PA=20
+            2</A> Out               </TD></TR>
+        <TR>
+          <TD>Mon 2/4</TD>
+          <TD>                Logical Time                 <BR>          =
+     =20
+            [<A =
+href=3D"http://www.cse.buffalo.edu/~stevko/courses/cse486/spring13/lectur=
+es/09-logical_time.pptx">pptx</A>]=20
+                           [<A =
+href=3D"http://www.cse.buffalo.edu/~stevko/courses/cse486/spring13/lectur=
+es/09-logical_time.pdf">pdf</A>]=20
+                          </TD>
+          <TD>                Section 14.4                 <BR>          =
+     =20
+            (Optional)                 <A =
+href=3D"http://research.microsoft.com/en-us/um/people/lamport/pubs/time-c=
+locks.pdf">Time,=20
+                             Clocks, and the Ordering of Events in a =
+Distributed=20
+            System</A>                 <BR></TD>
+          <TD>                PA 1 Review               </TD>
+          <TD></TD></TR>
+        <TR>
+          <TD>Wed 2/6</TD>
+          <TD>                Global States                 <BR>         =
+     =20
+             [<A =
+href=3D"http://www.cse.buffalo.edu/~stevko/courses/cse486/spring13/lectur=
+es/10-global_states.pptx">pptx</A>]=20
+                           [<A =
+href=3D"http://www.cse.buffalo.edu/~stevko/courses/cse486/spring13/lectur=
+es/10-global_states.pdf">pdf</A>]=20
+                          </TD>
+          <TD>                Section 14.4                 <BR>          =
+     =20
+            (Optional)                 <A =
+href=3D"http://dl.acm.org/citation.cfm?id=3D214456">Distributed=20
+                             Snapshots: Determining Global States of =
+Distributed=20
+                             Systems</A>               </TD>
+          <TD></TD>
+          <TD></TD></TR>
+        <TR>
+          <TD>Fri 2/8</TD>
+          <TD>                Reliable Multicast --- 1                 =
+<BR>   =20
+                        [<A =
+href=3D"http://www.cse.buffalo.edu/~stevko/courses/cse486/spring13/lectur=
+es/11-multicast1.pptx">pptx</A>]=20
+                           [<A =
+href=3D"http://www.cse.buffalo.edu/~stevko/courses/cse486/spring13/lectur=
+es/11-multicast1.pdf">pdf</A>]=20
+                          </TD>
+          <TD>                Section 15.4               </TD>
+          <TD>                PA 1 Review               </TD>
+          <TD></TD></TR>
+        <TR>
+          <TD>Mon 2/11</TD>
+          <TD>                Reliable Multicast --- 2                 =
+<BR>   =20
+                        [<A =
+href=3D"http://www.cse.buffalo.edu/~stevko/courses/cse486/spring13/lectur=
+es/12-multicast2.pptx">pptx</A>]=20
+                           [<A =
+href=3D"http://www.cse.buffalo.edu/~stevko/courses/cse486/spring13/lectur=
+es/12-multicast2.pdf">pdf</A>]=20
+                          </TD>
+          <TD></TD>
+          <TD>                Writing Content Providers                 =
+<BR>  =20
+                         [<A =
+href=3D"http://www.cse.buffalo.edu/~stevko/courses/cse486/spring13/recita=
+tions/content_providers.pptx">pptx</A>]=20
+                           [<A =
+href=3D"http://www.cse.buffalo.edu/~stevko/courses/cse486/spring13/recita=
+tions/content_providers.pdf">pdf</A>]=20
+                          </TD>
+          <TD></TD></TR>
+        <TR>
+          <TD>Wed 2/13</TD>
+          <TD>                DNS                 <BR>                =
+[<A=20
+            =
+href=3D"http://www.cse.buffalo.edu/~stevko/courses/cse486/spring13/lectur=
+es/13-dns.pptx">pptx</A>]=20
+                           [<A =
+href=3D"http://www.cse.buffalo.edu/~stevko/courses/cse486/spring13/lectur=
+es/13-dns.pdf">pdf</A>]=20
+                          </TD>
+          <TD>                Sections 13.1 &amp; 13.2               =
+</TD>
+          <TD></TD>
+          <TD></TD></TR>
+        <TR>
+          <TD>Fri 2/15</TD>
+          <TD>                Peer-to-Peer Systems                 <BR>  =
+     =20
+                    [<A =
+href=3D"http://www.cse.buffalo.edu/~stevko/courses/cse486/spring13/lectur=
+es/14-p2p.pptx">pptx</A>]=20
+                           [<A =
+href=3D"http://www.cse.buffalo.edu/~stevko/courses/cse486/spring13/lectur=
+es/14-p2p.pdf">pdf</A>]=20
+                          </TD>
+          <TD>                Sections 10.1-10.3 &amp; 10.5.3            =
+  =20
+</TD>
+          <TD>                Writing Content Providers               =
+</TD>
+          <TD></TD></TR>
+        <TR>
+          <TD>Mon 2/18</TD>
+          <TD>                Distributed Hash Tables                 =
+<BR>    =20
+                       [<A =
+href=3D"http://www.cse.buffalo.edu/~stevko/courses/cse486/spring13/lectur=
+es/15-dht.pptx">pptx</A>]=20
+                           [<A =
+href=3D"http://www.cse.buffalo.edu/~stevko/courses/cse486/spring13/lectur=
+es/15-dht.pdf">pdf</A>]=20
+                          </TD>
+          <TD><A =
+href=3D"http://conferences.sigcomm.org/sigcomm/2001/p12-stoica.pdf">Chord=
+:=20
+                             A Scalable Peer-to-Peer Lookup Service for =
+Internet=20
+                             Applications</A>               </TD>
+          <TD>                Ordering Algorithms               </TD>
+          <TD></TD></TR>
+        <TR>
+          <TD>Wed 2/20</TD>
+          <TD>                Remote Procedure Call                 <BR> =
+     =20
+                     [<A =
+href=3D"http://www.cse.buffalo.edu/~stevko/courses/cse486/spring13/lectur=
+es/16-rpc.pptx">pptx</A>]=20
+                           [<A =
+href=3D"http://www.cse.buffalo.edu/~stevko/courses/cse486/spring13/lectur=
+es/16-rpc.pdf">pdf</A>]=20
+                          </TD>
+          <TD>                Sections 5.1 - 5.3 &amp; 21.4              =
+ </TD>
+          <TD></TD>
+          <TD></TD></TR>
+        <TR>
+          <TD>Fri 2/22</TD>
+          <TD>                Consensus                 <BR>             =
+  =20
+            [<A =
+href=3D"http://www.cse.buffalo.edu/~stevko/courses/cse486/spring13/lectur=
+es/17-consensus.pptx">pptx</A>]=20
+                           [<A =
+href=3D"http://www.cse.buffalo.edu/~stevko/courses/cse486/spring13/lectur=
+es/17-consensus.pdf">pdf</A>]=20
+                          </TD>
+          <TD><A =
+href=3D"http://dl.acm.org/citation.cfm?id=3D214121">Impossibility=20
+                           of Distributed Consensus with One Faulty =
+Process</A> =20
+                           <BR>                Sections 15.5.2 &amp; =
+15.5.4     =20
+                     </TD>
+          <TD>                Ordering Algorithms               </TD>
+          <TD></TD></TR>
+        <TR>
+          <TD>Mon 2/25</TD>
+          <TD>                Mutual Exclusion                 <BR>      =
+     =20
+                [<A =
+href=3D"http://www.cse.buffalo.edu/~stevko/courses/cse486/spring13/lectur=
+es/18-mutex.pptx">pptx</A>]=20
+                           [<A =
+href=3D"http://www.cse.buffalo.edu/~stevko/courses/cse486/spring13/lectur=
+es/18-mutex.pdf">pdf</A>]=20
+                          </TD>
+          <TD>                Section 15.2               </TD>
+          <TD>                Practice Problems Q&amp;A               =
+</TD>
+          <TD></TD></TR>
+        <TR>
+          <TD>Wed 2/27</TD>
+          <TD>                Leader Election                 <BR>       =
+     =20
+               [<A =
+href=3D"http://www.cse.buffalo.edu/~stevko/courses/cse486/spring13/lectur=
+es/19-election.pptx">pptx</A>]=20
+                           [<A =
+href=3D"http://www.cse.buffalo.edu/~stevko/courses/cse486/spring13/lectur=
+es/19-election.pdf">pdf</A>]=20
+                          </TD>
+          <TD>                Section 15.3               </TD>
+          <TD></TD>
+          <TD></TD></TR>
+        <TR>
+          <TD>Fri 3/1</TD>
+          <TD>                Mid-Semester Overview                 <BR> =
+     =20
+                     [<A =
+href=3D"http://www.cse.buffalo.edu/~stevko/courses/cse486/spring13/lectur=
+es/20-mid_semester.pptx">pptx</A>]=20
+                           [<A =
+href=3D"http://www.cse.buffalo.edu/~stevko/courses/cse486/spring13/lectur=
+es/20-mid_semester.pdf">pdf</A>]=20
+                          </TD>
+          <TD></TD>
+          <TD>                Practice Problems Q&amp;A               =
+</TD>
+          <TD>                PA 2 Due               </TD></TR>
+        <TR>
+          <TD>Mon 3/4</TD>
+          <TD>                Concurrency Control --- 1                 =
+<BR>  =20
+                         [<A =
+href=3D"http://www.cse.buffalo.edu/~stevko/courses/cse486/spring13/lectur=
+es/21-concurrency1.pptx">pptx</A>]=20
+                           [<A =
+href=3D"http://www.cse.buffalo.edu/~stevko/courses/cse486/spring13/lectur=
+es/21-concurrency1.pdf">pdf</A>]=20
+                          </TD>
+          <TD>                Sections 16.1 - 16.4               </TD>
+          <TD>                No Recitations               </TD>
+          <TD><A href=3D"http://goo.gl/pIRYI">PA 3</A> Out               =
+</TD></TR>
+        <TR>
+          <TD>Wed 3/6</TD>
+          <TD>                Midterm               </TD>
+          <TD></TD>
+          <TD></TD>
+          <TD><A =
+href=3D"http://www.cse.buffalo.edu/~stevko/courses/cse486/spring13/files/=
+midterm-sol-13.pdf">Midterm=20
+            Solutions</A>               </TD></TR>
+        <TR>
+          <TD>Fri 3/8</TD>
+          <TD>                No Class               </TD>
+          <TD></TD>
+          <TD>                No Recitations               </TD>
+          <TD></TD></TR>
+        <TR>
+          <TD>Mon 3/11 - Fri 3/15</TD>
+          <TD>                Spring Break               </TD>
+          <TD></TD>
+          <TD></TD>
+          <TD></TD></TR>
+        <TR>
+          <TD>Mon 3/18</TD>
+          <TD>                Concurrency Control --- 2                 =
+<BR>  =20
+                         [<A =
+href=3D"http://www.cse.buffalo.edu/~stevko/courses/cse486/spring13/lectur=
+es/22-concurrency2.pptx">pptx</A>]=20
+                           [<A =
+href=3D"http://www.cse.buffalo.edu/~stevko/courses/cse486/spring13/lectur=
+es/22-concurrency2.pdf">pdf</A>]=20
+                          </TD>
+          <TD>                Sections 16.2 - 16.4               </TD>
+          <TD>                PA 2 Review               </TD>
+          <TD></TD></TR>
+        <TR>
+          <TD>Wed 3/20</TD>
+          <TD>                Concurrency Control --- 3                 =
+<BR>  =20
+                         [<A =
+href=3D"http://www.cse.buffalo.edu/~stevko/courses/cse486/spring13/lectur=
+es/23-concurrency3.pptx">pptx</A>]=20
+                           [<A =
+href=3D"http://www.cse.buffalo.edu/~stevko/courses/cse486/spring13/lectur=
+es/23-concurrency3.pdf">pdf</A>]=20
+                          </TD>
+          <TD>                Section 16.4 &amp; 17.1 - 17.3             =
+  </TD>
+          <TD></TD>
+          <TD></TD></TR>
+        <TR>
+          <TD>Fri 3/22</TD>
+          <TD>                View Synchronous Group Communication       =
+     =20
+                <BR>                [<A =
+href=3D"http://www.cse.buffalo.edu/~stevko/courses/cse486/spring13/lectur=
+es/24-view_synchronous.pptx">pptx</A>]=20
+                           [<A =
+href=3D"http://www.cse.buffalo.edu/~stevko/courses/cse486/spring13/lectur=
+es/24-view_synchronous.pdf">pdf</A>]=20
+                          </TD>
+          <TD>                Sections 18.1 - 18.3               </TD>
+          <TD>                PA 2 Review               </TD>
+          <TD></TD></TR>
+        <TR>
+          <TD>Mon 3/25</TD>
+          <TD>                Consistency --- 1                 <BR>     =
+     =20
+                 [<A =
+href=3D"http://www.cse.buffalo.edu/~stevko/courses/cse486/spring13/lectur=
+es/25-consistency1.pptx">pptx</A>]=20
+                           [<A =
+href=3D"http://www.cse.buffalo.edu/~stevko/courses/cse486/spring13/lectur=
+es/25-consistency1.pdf">pdf</A>]=20
+                          </TD>
+          <TD>                Section 18.5               </TD>
+          <TD></TD>
+          <TD></TD></TR>
+        <TR>
+          <TD>Wed 3/27</TD>
+          <TD>                Consistency --- 2                 <BR>     =
+     =20
+                 [<A =
+href=3D"http://www.cse.buffalo.edu/~stevko/courses/cse486/spring13/lectur=
+es/26-consistency2.pptx">pptx</A>]=20
+                           [<A =
+href=3D"http://www.cse.buffalo.edu/~stevko/courses/cse486/spring13/lectur=
+es/26-consistency2.pdf">pdf</A>]=20
+                          </TD>
+          <TD></TD>
+          <TD></TD>
+          <TD></TD></TR>
+        <TR>
+          <TD>Fri 3/29</TD>
+          <TD>                Consistency --- 3                 <BR>     =
+     =20
+                 [<A =
+href=3D"http://www.cse.buffalo.edu/~stevko/courses/cse486/spring13/lectur=
+es/27-consistency3.pptx">pptx</A>]=20
+                           [<A =
+href=3D"http://www.cse.buffalo.edu/~stevko/courses/cse486/spring13/lectur=
+es/27-consistency3.pdf">pdf</A>]=20
+                          </TD>
+          <TD></TD>
+          <TD></TD>
+          <TD>                PA 3 Due                 <BR><A =
+href=3D"http://goo.gl/Pgg8a">PA=20
+            4</A> Out               </TD></TR>
+        <TR>
+          <TD>Mon 4/1</TD>
+          <TD>                Gossiping                 <BR>             =
+  =20
+            [<A =
+href=3D"http://www.cse.buffalo.edu/~stevko/courses/cse486/spring13/lectur=
+es/28-gossiping.pptx">pptx</A>]=20
+                           [<A =
+href=3D"http://www.cse.buffalo.edu/~stevko/courses/cse486/spring13/lectur=
+es/28-gossiping.pdf">pdf</A>]=20
+                          </TD>
+          <TD>                Section 18.4               </TD>
+          <TD></TD>
+          <TD></TD></TR>
+        <TR>
+          <TD>Wed 4/3</TD>
+          <TD>                Case Study: Amazon Dynamo                 =
+<BR>  =20
+                         [<A =
+href=3D"http://www.cse.buffalo.edu/~stevko/courses/cse486/spring13/lectur=
+es/29-dynamo.pptx">pptx</A>]=20
+                           [<A =
+href=3D"http://www.cse.buffalo.edu/~stevko/courses/cse486/spring13/lectur=
+es/29-dynamo.pdf">pdf</A>]=20
+                          </TD>
+          <TD><A =
+href=3D"http://www.allthingsdistributed.com/files/amazon-dynamo-sosp2007.=
+pdf">Dynamo:=20
+                             Amazon's Highly Available Key-Value =
+Store</A>      =20
+                      <BR>                (Optional)                 <A =
+href=3D"http://queue.acm.org/detail.cfm?id=3D1466448">Eventually=20
+                           Consistent</A>               </TD>
+          <TD></TD>
+          <TD></TD></TR>
+        <TR>
+          <TD>Fri 4/5</TD>
+          <TD>                Transactions on Replicated Data            =
+    =20
+            <BR>                [<A =
+href=3D"http://www.cse.buffalo.edu/~stevko/courses/cse486/spring13/lectur=
+es/30-replicated_transactions.pptx">pptx</A>]=20
+                           [<A =
+href=3D"http://www.cse.buffalo.edu/~stevko/courses/cse486/spring13/lectur=
+es/30-replicated_transactions.pdf">pdf</A>]=20
+                          </TD>
+          <TD></TD>
+          <TD></TD>
+          <TD></TD></TR>
+        <TR>
+          <TD>Mon 4/8</TD>
+          <TD>                Distributed File Systems                 =
+<BR>   =20
+                        [<A =
+href=3D"http://www.cse.buffalo.edu/~stevko/courses/cse486/spring13/lectur=
+es/31-dfs.pptx">pptx</A>]=20
+                           [<A =
+href=3D"http://www.cse.buffalo.edu/~stevko/courses/cse486/spring13/lectur=
+es/31-dfs.pdf">pdf</A>]=20
+                          </TD>
+          <TD><A =
+href=3D"http://www.cs.cmu.edu/~fawnproj/papers/fawn-sosp2009.pdf">FAWN:=20
+                             A Fast Array of Wimpy Nodes</A>             =
+  </TD>
+          <TD></TD>
+          <TD></TD></TR>
+        <TR>
+          <TD>Wed 4/10</TD>
+          <TD>                Paxos --- 1                 <BR>           =
+    =20
+            [<A =
+href=3D"http://www.cse.buffalo.edu/~stevko/courses/cse486/spring13/lectur=
+es/32-paxos1.pptx">pptx</A>]=20
+                           [<A =
+href=3D"http://www.cse.buffalo.edu/~stevko/courses/cse486/spring13/lectur=
+es/32-paxos1.pdf">pdf</A>]=20
+                          </TD>
+          <TD>                Section 21.5.2                 <BR><A =
+href=3D"http://research.microsoft.com/en-us/um/people/lamport/pubs/paxos-=
+simple.pdf">Paxos=20
+                             Made Simple</A>                 <BR><A =
+href=3D"http://research.microsoft.com/en-us/um/people/lamport/pubs/lampor=
+t-paxos.pdf">The=20
+                             Part-Time Parliament</A>                 =
+<BR>      =20
+                     (Optional) <A =
+href=3D"http://www.cse.buffalo.edu/~stevko/courses/cse486/spring13/files/=
+robbert-paxos.pdf">Paxos=20
+            Made Moderately                  Complex</A>                 =
+<BR>   =20
+                        (Optional) <A =
+href=3D"http://www.scs.stanford.edu/~dm/home/papers/paxos.pdf">Paxos=20
+                             Made Practical</A>               </TD>
+          <TD></TD>
+          <TD></TD></TR>
+        <TR>
+          <TD>Fri 4/12</TD>
+          <TD>                Paxos --- 2                 <BR>           =
+    =20
+            [<A =
+href=3D"http://www.cse.buffalo.edu/~stevko/courses/cse486/spring13/lectur=
+es/33-paxos2.pptx">pptx</A>]=20
+                           [<A =
+href=3D"http://www.cse.buffalo.edu/~stevko/courses/cse486/spring13/lectur=
+es/33-paxos2.pdf">pdf</A>]=20
+                          </TD>
+          <TD></TD>
+          <TD></TD>
+          <TD></TD></TR>
+        <TR>
+          <TD>Mon 4/15</TD>
+          <TD>                Case Study: Google Chubby                 =
+<BR>  =20
+                         [<A =
+href=3D"http://www.cse.buffalo.edu/~stevko/courses/cse486/spring13/lectur=
+es/34-chubby.pptx">pptx</A>]=20
+                           [<A =
+href=3D"http://www.cse.buffalo.edu/~stevko/courses/cse486/spring13/lectur=
+es/34-chubby.pdf">pdf</A>]=20
+                          </TD>
+          <TD><A=20
+            =
+href=3D"http://research.google.com/archive/chubby-osdi06.pdf">The     =20
+                      Chubby Lock Service for Loosely-Coupled =
+Distributed=20
+            Systems</A>               </TD>
+          <TD></TD>
+          <TD></TD></TR>
+        <TR>
+          <TD>Wed 4/17</TD>
+          <TD>                Security --- 1                 <BR>        =
+     =20
+              [<A =
+href=3D"http://www.cse.buffalo.edu/~stevko/courses/cse486/spring13/lectur=
+es/35-security1.pptx">pptx</A>]=20
+                           [<A =
+href=3D"http://www.cse.buffalo.edu/~stevko/courses/cse486/spring13/lectur=
+es/35-security1.pdf">pdf</A>]=20
+                          </TD>
+          <TD>                Sections 11.1 - 11.3               </TD>
+          <TD></TD>
+          <TD></TD></TR>
+        <TR>
+          <TD>Fri 4/19</TD>
+          <TD>                MapReduce                  <BR>            =
+   =20
+            [<A href=3D"http://presvo.com/afb48af#/step-1">link</A>]     =
+         =20
+          </TD>
+          <TD></TD>
+          <TD></TD>
+          <TD></TD></TR>
+        <TR>
+          <TD>Mon 4/22</TD>
+          <TD>                Security --- 2                 <BR>        =
+     =20
+              [<A =
+href=3D"http://www.cse.buffalo.edu/~stevko/courses/cse486/spring13/lectur=
+es/37-security2.pptx">pptx</A>]=20
+                           [<A =
+href=3D"http://www.cse.buffalo.edu/~stevko/courses/cse486/spring13/lectur=
+es/37-security2.pdf">pdf</A>]=20
+                          </TD>
+          <TD>                Section 11.6               </TD>
+          <TD></TD>
+          <TD></TD></TR>
+        <TR>
+          <TD>Wed 4/24</TD>
+          <TD>                Byzantine Fault Tolerance --- 1            =
+    =20
+            <BR>                [<A =
+href=3D"http://www.cse.buffalo.edu/~stevko/courses/cse486/spring13/lectur=
+es/38-bft1.pptx">pptx</A>]=20
+                           [<A =
+href=3D"http://www.cse.buffalo.edu/~stevko/courses/cse486/spring13/lectur=
+es/38-bft1.pdf">pdf</A>]=20
+                          </TD>
+          <TD>                Relevant Discussions in Section 15.5       =
+     =20
+                <BR><A =
+href=3D"http://www.cse.buffalo.edu/~stevko/courses/cse486/spring13/files/=
+lsp82.pdf">The=20
+            Byzantine Generals Problem</A>                 <BR><A =
+href=3D"http://pmg.csail.mit.edu/papers/osdi99.pdf">Practical=20
+                             Byzantine Fault Tolerance</A>               =
+</TD>
+          <TD></TD>
+          <TD></TD></TR>
+        <TR>
+          <TD>Fri 4/26</TD>
+          <TD>                Byzantine Fault Tolerance --- 2            =
+    =20
+            <BR>                [<A =
+href=3D"http://www.cse.buffalo.edu/~stevko/courses/cse486/spring13/lectur=
+es/39-bft2.pptx">pptx</A>]=20
+                           [<A =
+href=3D"http://www.cse.buffalo.edu/~stevko/courses/cse486/spring13/lectur=
+es/39-bft2.pdf">pdf</A>]=20
+                          </TD>
+          <TD></TD>
+          <TD></TD>
+          <TD></TD></TR><!--=0A=
+            <tr>=0A=
+              <td>Fri 4/27</td>=0A=
+              <td>=0A=
+                Case Study: TOR Anonymity Network=0A=
+                <br>=0A=
+                [<a href=3D"./lectures/tor.pptx">pptx</a>]=0A=
+              </td>=0A=
+              <td>=0A=
+              </td>=0A=
+              <td>=0A=
+              </td>=0A=
+              <td>=0A=
+              </td>=0A=
+            </tr>=0A=
+            -->=20
+                   =20
+        <TR>
+          <TD>Mon 4/29</TD>
+          <TD>                Wrap-up                 <BR>               =
+ [<A=20
+            =
+href=3D"http://www.cse.buffalo.edu/~stevko/courses/cse486/spring13/lectur=
+es/40-wrapup.pptx">pptx</A>]=20
+                           [<A =
+href=3D"http://www.cse.buffalo.edu/~stevko/courses/cse486/spring13/lectur=
+es/40-wrapup.pdf">pdf</A>]=20
+                          </TD>
+          <TD></TD>
+          <TD></TD>
+          <TD></TD></TR>
+        <TR>
+          <TD>Mon 5/6</TD>
+          <TD>                Final Exam               </TD>
+          <TD>                Time: 3:30PM - 6:30PM                 <BR> =
+     =20
+                     Location: Davis 101               </TD>
+          <TD></TD>
+          =
+<TD></TD></TR></TBODY></TABLE></TD></TR></TBODY></TABLE></BODY></HTML>

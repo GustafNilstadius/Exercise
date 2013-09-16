@@ -1,0 +1,829 @@
+From: "Saved by Windows Internet Explorer 9"
+Subject: PA 4 Specification
+Date: Tue, 9 Apr 2013 21:01:04 -0400
+MIME-Version: 1.0
+Content-Type: text/html;
+	charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+Content-Location: https://docs.google.com/document/d/1L7qJExo6JX7PKq49jXt0k64vHCsNV-fu-9o2pjakOZs/pub
+X-MimeOLE: Produced By Microsoft MimeOLE V6.1.7601.17609
+
+=EF=BB=BF<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<HTML><HEAD><TITLE>PA 4 Specification</TITLE>
+<META content=3D"text/html; charset=3Dutf-8" http-equiv=3DContent-Type>
+<SCRIPT type=3Dtext/javascript>=0A=
+(function(){(function(){function =
+d(a){this.t=3D{};this.tick=3Dfunction(a,b,c){this.t[a]=3D[void =
+0!=3Dc?c:(new Date).getTime(),b]};this.tick("start",null,a)}var a=3Dnew =
+d;window.jstiming=3D{Timer:d,load:a};if(window.performance&&window.perfor=
+mance.timing){var =
+a=3Dwindow.performance.timing,b=3Dwindow.jstiming.load,c=3Da.navigationSt=
+art,a=3Da.responseStart;0<c&&a>=3Dc&&(b.tick("_wtsrt",void =
+0,c),b.tick("wtsrt_","_wtsrt",a),b.tick("tbsd_","wtsrt_"))}try{a=3Dnull,w=
+indow.chrome&&window.chrome.csi&&(a=3DMath.floor(window.chrome.csi().page=
+T),=0A=
+b&&0<c&&(b.tick("_tbnd",void =
+0,window.chrome.csi().startE),b.tick("tbnd_","_tbnd",c))),null=3D=3Da&&wi=
+ndow.gtbExternal&&(a=3Dwindow.gtbExternal.pageT()),null=3D=3Da&&window.ex=
+ternal&&(a=3Dwindow.external.pageT,b&&0<c&&(b.tick("_tbnd",void =
+0,window.external.startE),b.tick("tbnd_","_tbnd",c))),a&&(window.jstiming=
+.pt=3Da)}catch(e){}})();})()=0A=
+</SCRIPT>
+
+<SCRIPT type=3Dtext/javascript>var KX_timer =3D new =
+window.jstiming.Timer(); KX_timer.name =3D 'published';</SCRIPT>
+
+<STYLE type=3Dtext/css>BODY {
+	MARGIN: 0px; FONT-FAMILY: arial, sans, sans-serif
+}
+IFRAME {
+	BORDER-BOTTOM: 0px; BORDER-LEFT: 0px; WIDTH: 100%; HEIGHT: 100%; =
+BORDER-TOP: 0px; BORDER-RIGHT: 0px; frameborder: 0
+}
+#header {
+	PADDING-BOTTOM: 10px; PADDING-LEFT: 10px; PADDING-RIGHT: 10px; =
+BACKGROUND: #f0f0f0; PADDING-TOP: 10px
+}
+#footer {
+	PADDING-BOTTOM: 10px; PADDING-LEFT: 10px; PADDING-RIGHT: 10px; =
+BACKGROUND: #f0f0f0; PADDING-TOP: 10px
+}
+#header {
+	BORDER-BOTTOM: #ccc 1px solid
+}
+#footer {
+	BORDER-BOTTOM: #ccc 1px solid; FONT-SIZE: 13px; BORDER-TOP: #ccc 1px =
+solid
+}
+#contents {
+	MARGIN: 6px
+}
+.dash {
+	PADDING-BOTTOM: 0px; PADDING-LEFT: 6px; PADDING-RIGHT: 6px; =
+PADDING-TOP: 0px
+}
+</STYLE>
+
+<META name=3DGENERATOR content=3D"MSHTML 9.00.8112.16470"></HEAD>
+<BODY>
+<DIV id=3Dheader>PA 4 Specification</DIV>
+<DIV id=3Dcontents>
+<STYLE type=3Dtext/css>OL {
+	PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-LEFT: 0px; PADDING-RIGHT: =
+0px; PADDING-TOP: 0px
+}
+.c0 {
+	PADDING-BOTTOM: 0px; LIST-STYLE-TYPE: lower-latin; MARGIN: 0px; =
+PADDING-LEFT: 0px; PADDING-RIGHT: 0px; PADDING-TOP: 0px
+}
+.c7 {
+	PADDING-BOTTOM: 0px; LIST-STYLE-TYPE: lower-roman; MARGIN: 0px; =
+PADDING-LEFT: 0px; PADDING-RIGHT: 0px; PADDING-TOP: 0px
+}
+.c3 {
+	PADDING-LEFT: 0pt; DIRECTION: ltr; MARGIN-LEFT: 72pt
+}
+.c1 {
+	PADDING-LEFT: 0pt; DIRECTION: ltr; MARGIN-LEFT: 108pt
+}
+.c17 {
+	PADDING-BOTTOM: 0px; LIST-STYLE-TYPE: disc; MARGIN: 0px; PADDING-LEFT: =
+0px; PADDING-RIGHT: 0px; PADDING-TOP: 0px
+}
+.c4 {
+	PADDING-LEFT: 0pt; DIRECTION: ltr; MARGIN-LEFT: 36pt
+}
+.c8 {
+	PADDING-BOTTOM: 0px; LIST-STYLE-TYPE: decimal; MARGIN: 0px; =
+PADDING-LEFT: 0px; PADDING-RIGHT: 0px; PADDING-TOP: 0px
+}
+.c20 {
+	PADDING-BOTTOM: 0px; LIST-STYLE-TYPE: circle; MARGIN: 0px; =
+PADDING-LEFT: 0px; PADDING-RIGHT: 0px; PADDING-TOP: 0px
+}
+.c21 {
+	PADDING-BOTTOM: 72pt; BACKGROUND-COLOR: #ffffff; PADDING-LEFT: 72pt; =
+PADDING-RIGHT: 72pt; MAX-WIDTH: 468pt; PADDING-TOP: 72pt
+}
+.c12 {
+	FONT-STYLE: italic; COLOR: #0000ff
+}
+.c2 {
+	FONT-STYLE: italic; COLOR: #ff0000
+}
+.c6 {
+	COLOR: #000099; TEXT-DECORATION: underline
+}
+.c11 {
+	PADDING-LEFT: 0pt; MARGIN-LEFT: 144pt
+}
+.c15 {
+	COLOR: ; TEXT-DECORATION:=20
+}
+.c9 {
+	COLOR: #1155cc; TEXT-DECORATION: underline
+}
+.c16 {
+	COLOR: #ff0000
+}
+.c5 {
+	FONT-WEIGHT: bold
+}
+.c14 {
+	TEXT-ALIGN: center
+}
+.c22 {
+	COLOR: #222222
+}
+.c10 {
+	DIRECTION: ltr
+}
+.c13 {
+	FONT-STYLE: italic
+}
+.c18 {
+	COLOR: #0000ff
+}
+.c19 {
+	HEIGHT: 11pt
+}
+.title {
+	TEXT-ALIGN: left; PADDING-BOTTOM: 6pt; LINE-HEIGHT: 1.15; FONT-FAMILY: =
+"Arial"; COLOR: #000000; FONT-SIZE: 36pt; FONT-WEIGHT: bold; =
+PADDING-TOP: 24pt
+}
+.subtitle {
+	TEXT-ALIGN: left; PADDING-BOTTOM: 4pt; LINE-HEIGHT: 1.15; FONT-STYLE: =
+italic; FONT-FAMILY: "Georgia"; COLOR: #666666; FONT-SIZE: 24pt; =
+PADDING-TOP: 18pt
+}
+LI {
+	FONT-FAMILY: "Arial"; COLOR: #000000; FONT-SIZE: 11pt
+}
+P {
+	MARGIN: 0px; FONT-FAMILY: "Arial"; COLOR: #000000; FONT-SIZE: 11pt
+}
+H1 {
+	TEXT-ALIGN: left; PADDING-BOTTOM: 6pt; LINE-HEIGHT: 1.15; FONT-FAMILY: =
+"Arial"; COLOR: #000000; FONT-SIZE: 18pt; FONT-WEIGHT: bold; =
+PADDING-TOP: 24pt
+}
+H2 {
+	TEXT-ALIGN: left; PADDING-BOTTOM: 4pt; LINE-HEIGHT: 1.15; FONT-FAMILY: =
+"Arial"; COLOR: #000000; FONT-SIZE: 14pt; FONT-WEIGHT: bold; =
+PADDING-TOP: 18pt
+}
+H3 {
+	TEXT-ALIGN: left; PADDING-BOTTOM: 4pt; LINE-HEIGHT: 1.15; FONT-FAMILY: =
+"Arial"; COLOR: #666666; FONT-SIZE: 12pt; FONT-WEIGHT: bold; =
+PADDING-TOP: 14pt
+}
+H4 {
+	TEXT-ALIGN: left; PADDING-BOTTOM: 2pt; LINE-HEIGHT: 1.15; FONT-STYLE: =
+italic; FONT-FAMILY: "Arial"; COLOR: #666666; FONT-SIZE: 11pt; =
+PADDING-TOP: 12pt
+}
+H5 {
+	TEXT-ALIGN: left; PADDING-BOTTOM: 2pt; LINE-HEIGHT: 1.15; FONT-FAMILY: =
+"Arial"; COLOR: #666666; FONT-SIZE: 10pt; FONT-WEIGHT: bold; =
+PADDING-TOP: 11pt
+}
+H6 {
+	TEXT-ALIGN: left; PADDING-BOTTOM: 2pt; LINE-HEIGHT: 1.15; FONT-STYLE: =
+italic; FONT-FAMILY: "Arial"; COLOR: #666666; FONT-SIZE: 10pt; =
+PADDING-TOP: 10pt
+}
+</STYLE>
+
+<H2 class=3D"c14 c10"><SPAN>CSE 486/586 Distributed Systems Programming =
+Assignment=20
+4</SPAN></H2>
+<H2 class=3D"c10 c14"><SPAN>Replicated Key-Value Storage</SPAN></H2>
+<H3 class=3Dc10><SPAN>Introduction</SPAN></H3>
+<P class=3Dc10><SPAN>At this point, most of you are probably ready to =
+understand=20
+and implement a Dynamo-style key-value storage; this assignment is about =
+
+implementing a simplified version of Dynamo. (And you might argue that =
+it=E2=80=99s not=20
+Dynamo any more ;-) There are three main pieces you need to implement: =
+1)=20
+Partitioning, 2) Replication, and 3) Failure handling.</SPAN></P>
+<P class=3D"c10 c19"><SPAN></SPAN></P>
+<P class=3Dc10><SPAN>This document assumes that you are already familiar =
+with=20
+Dynamo. If you are not, that is your first step. There are many =
+similarities=20
+between this assignment and the previous assignment for the most basic=20
+functionalities, and you are free to reuse your code from the previous=20
+assignment.</SPAN></P>
+<H3 class=3Dc10><SPAN>References</SPAN></H3>
+<P class=3Dc10><SPAN>Before we discuss the requirements of this =
+assignment, here=20
+are two references for the Dynamo design:</SPAN></P>
+<OL class=3Dc8>
+  <LI class=3Dc4><SPAN>Lecture slides on Dynamo: </SPAN><SPAN =
+class=3Dc9><A=20
+  class=3Dc15=20
+  =
+href=3D"http://www.cse.buffalo.edu/~stevko/courses/cse486/spring13/lectur=
+es/29-dynamo.pptx">http://www.cse.buffalo.edu/~stevko/courses/cse486/spri=
+ng13/lectures/29-dynamo.pptx</A></SPAN>
+  <LI class=3Dc4><SPAN>Dynamo paper: </SPAN><SPAN class=3Dc9><A =
+class=3Dc15=20
+  =
+href=3D"http://www.allthingsdistributed.com/files/amazon-dynamo-sosp2007.=
+pdf">http://www.allthingsdistributed.com/files/amazon-dynamo-sosp2007.pdf=
+</A></SPAN></LI></OL>
+<P class=3Dc10><SPAN>The lecture slides give an overview, but do not =
+discuss=20
+Dynamo in detail, so it should be a good reference to get an overall =
+idea. The=20
+paper presents the detail, so it should be a good reference for actual=20
+implementation.</SPAN></P>
+<H3 class=3Dc10><A name=3Dh.rgc9caxb3eea></A><SPAN>Note</SPAN></H3>
+<P class=3Dc10><SPAN class=3Dc2>It is important to remember that this =
+assignment=20
+does not require you to implement everything about Dynamo. =
+</SPAN><SPAN>Mainly,=20
+the following are the things you </SPAN><SPAN class=3D"c2 c5">do =
+not</SPAN><SPAN=20
+class=3Dc5>&nbsp;</SPAN><SPAN>need to consider from the Dynamo =
+paper.</SPAN></P>
+<OL class=3Dc8>
+  <LI class=3Dc4><SPAN>Virtual nodes (mainly Section 4.2, but any =
+discussion about=20
+  virtual nodes in the paper in general): We do not use virtual nodes =
+when=20
+  creating partitions. Just like the previous assignment, all nodes are=20
+  physical.</SPAN>
+  <LI class=3Dc4><SPAN>Partitioned network (any discussion about it in =
+the paper):=20
+  We do not deal with network partitions in this assignment (although we =
+do=20
+  consider individual failures).</SPAN>
+  <LI class=3Dc4><SPAN>Data versioning (Section 4.4): We do not need to =
+consider=20
+  the full data versioning described in the paper; but we do need to =
+have a=20
+  version number associated with each object in order to handle =
+failures. See=20
+  =E2=80=9CStep 2=E2=80=9D for more details.</SPAN>
+  <LI class=3Dc4><SPAN>Hinted handoff (Section 4.6): We do not consider =
+hinted=20
+  handoff.</SPAN>
+  <LI class=3Dc4><SPAN>Adding/removing nodes (Section 4.9): We assume =
+that the=20
+  global membership is static; individual failures may occur, but only=20
+  temporarily.</SPAN></LI></OL>
+<P class=3Dc10><SPAN>We will discuss this more</SPAN><SPAN>&nbsp;in =
+=E2=80=9CStep 2:=20
+Writing a Content Provider=E2=80=9D below.</SPAN></P>
+<H3 class=3Dc10><A name=3Dh.vjy7zcn4t58b></A><SPAN>Step 0: Importing the =
+project=20
+template</SPAN></H3>
+<P class=3Dc10><SPAN>Just like the previous assignment, we have a =
+project template=20
+you can import to Eclipse.</SPAN></P>
+<P class=3D"c10 c19"><SPAN></SPAN></P>
+<OL class=3Dc8>
+  <LI class=3Dc4><SPAN>Download</SPAN><SPAN class=3Dc9><A class=3Dc15=20
+  =
+href=3D"http://www.cse.buffalo.edu/~stevko/courses/cse486/spring13/files/=
+SimpleDynamo.zip">&nbsp;the=20
+  project template zip file</A></SPAN><SPAN>&nbsp;to a directory.</SPAN>
+  <LI class=3Dc4><SPAN>Import it to your Eclipse =
+workspace.</SPAN></LI></OL>
+<OL class=3Dc0>
+  <LI class=3Dc3><SPAN>Open Eclipse.</SPAN>
+  <LI class=3Dc3><SPAN>Go to =E2=80=9CFile=E2=80=9D -&gt; =
+=E2=80=9CImport=E2=80=9D</SPAN>
+  <LI class=3Dc3><SPAN>Select =E2=80=9CGeneral/Existing Projects into =
+Workspace=E2=80=9D=20
+  (</SPAN><SPAN class=3Dc16>Caution</SPAN><SPAN>: this is not =
+=E2=80=9CAndroid/Existing=20
+  Android Code into Workspace=E2=80=9D).</SPAN>
+  <LI class=3Dc3><SPAN>In the next screen (which should be =
+=E2=80=9CImport Projects=E2=80=9D), do=20
+  the following:</SPAN></LI></OL>
+<OL class=3Dc7>
+  <LI class=3Dc1><SPAN>Choose =E2=80=9CSelect archive file:=E2=80=9D and =
+select the project=20
+  template zip file that you downloaded.</SPAN>
+  <LI class=3Dc1><SPAN>Click =E2=80=9CFinish.=E2=80=9D</SPAN></LI></OL>
+<OL class=3Dc0 start=3D5>
+  <LI class=3Dc3><SPAN>At this point, the project template should have =
+been=20
+  imported to your workspace.</SPAN></LI></OL>
+<OL class=3Dc7>
+  <LI class=3Dc1><SPAN>You might get an error saying =E2=80=9CAndroid =
+requires compiler=20
+  compliance level...=E2=80=9D If so, right click on =
+=E2=80=9CSimpleDynamo=E2=80=9D from the Package=20
+  Explorer, choose =E2=80=9CAndroid Tools=E2=80=9D -&gt; =E2=80=9CFix =
+Project Properties=E2=80=9D which will fix=20
+  the error.</SPAN>
+  <LI class=3Dc1><SPAN>You might also get an error about =
+android-support-v4.jar.=20
+  If so, right click on =E2=80=9CSimpleDynamo=E2=80=9D from the Package =
+Explorer, choose=20
+  =E2=80=9CProperties=E2=80=9D -&gt; =E2=80=9CJava Build Path=E2=80=9D =
+-&gt; =E2=80=9CLibraries=E2=80=9D and either fix the=20
+  android-support-v4.jar=E2=80=99s path or replace it with your =
+SDK=E2=80=99s correct=20
+  android-support-v4.jar. (Courtesy of Justin and =
+Sileem).</SPAN></LI></OL>
+<OL class=3Dc0 start=3D6>
+  <LI class=3Dc3><SPAN>Try running it on an AVD and verify that =
+it=E2=80=99s=20
+  working.</SPAN></LI></OL>
+<OL class=3Dc8 start=3D3>
+  <LI class=3Dc4><SPAN>Use the project template for implementing all the =
+
+  components for this assignment.</SPAN>
+  <LI class=3Dc4><SPAN>The template has the package name of=20
+  =E2=80=9Cedu.buffalo.cse.cse486586.simpledynamo=E2=80=9C. Please do =
+not change this.</SPAN>
+  <LI class=3Dc4><SPAN>The template also defines a content provider =
+authority and=20
+  class. Please use it to implement your Dynamo functionalities.</SPAN>
+  <LI class=3Dc4><SPAN>We will use SHA-1 as our hash function to =
+generate keys=20
+  just as last time.</SPAN></LI></OL>
+<H3 class=3Dc10><SPAN>Step 1: Writing the Main Activity</SPAN></H3>
+<P class=3Dc10><SPAN>Your app should have an activity used for =
+</SPAN><SPAN=20
+class=3Dc12>testing.</SPAN><SPAN>&nbsp;It should have five buttons, =
+three buttons=20
+that displays =E2=80=9CPut1=E2=80=9D, =E2=80=9CPut2=E2=80=9D, and =
+=E2=80=9CPut3=E2=80=9D, one button that displays =E2=80=9CGet=E2=80=9D, =
+and=20
+the last button that displays =E2=80=9CLDump.=E2=80=9D All the buttons =
+are already provided in=20
+the template. Here are the requirements for the buttons.</SPAN></P>
+<OL class=3Dc8>
+  <LI class=3Dc4><SPAN>Put* buttons</SPAN></LI></OL>
+<OL class=3Dc0>
+  <LI class=3Dc3><SPAN>All Put* buttons should operate the same way =
+except that=20
+  they insert different values with the same set of keys.</SPAN>
+  <LI class=3Dc3><SPAN>When touched, it should insert </SPAN><SPAN =
+class=3Dc18>20=20
+  &lt;key, value&gt; pairs</SPAN><SPAN>&nbsp;into your storage by using =
+your=20
+  content provider=E2=80=99s insert().</SPAN>
+  <LI class=3Dc3><SPAN>Each operation should be preceded by a 1-second=20
+  delay.</SPAN>
+  <LI class=3Dc3><SPAN>Each touch of the button </SPAN><SPAN =
+class=3Dc18>resets the=20
+  sequence number to 0</SPAN><SPAN>.</SPAN>
+  <LI class=3Dc3><SPAN>The format of the &lt;key, value&gt; pairs is the =
+
+  following:</SPAN></LI></OL>
+<OL class=3Dc7>
+  <LI class=3Dc1><SPAN>Key: the sequence number represented as a string =
+starting=20
+  from 0 (i.e., =E2=80=9C0=E2=80=9D, =E2=80=9C1=E2=80=9D, =
+=E2=80=9C2=E2=80=9D, =E2=80=A6, =E2=80=9C19=E2=80=9D.)</SPAN>
+  <LI class=3Dc1><SPAN>Value: string for each button concatenated by =
+each sequence=20
+  number.</SPAN></LI></OL>
+<OL class=3Dc8>
+  <LI class=3D"c11 c10"><SPAN>For the button =E2=80=9CPut1=E2=80=9D, the =
+values should be =E2=80=9CPut10=E2=80=9D,=20
+  =E2=80=9CPut11=E2=80=9D, =E2=80=9CPut12=E2=80=9D, etc.</SPAN>
+  <LI class=3D"c10 c11"><SPAN>For the button =E2=80=9CPut2=E2=80=9D, the =
+values should be =E2=80=9CPut20=E2=80=9D,=20
+  =E2=80=9CPut21=E2=80=9D, =E2=80=9CPut22=E2=80=9D, etc.</SPAN>
+  <LI class=3D"c11 c10"><SPAN>For the button =E2=80=9CPut3=E2=80=9D, the =
+values should be =E2=80=9CPut30=E2=80=9D,=20
+  =E2=80=9CPut31=E2=80=9D, =E2=80=9CPut32=E2=80=9D, =
+etc.</SPAN></LI></OL>
+<OL class=3Dc8 start=3D2>
+  <LI class=3Dc4><SPAN>Get</SPAN></LI></OL>
+<OL class=3Dc0 start=3D6>
+  <LI class=3Dc3><SPAN>This button should retrieve twenty keys, =
+=E2=80=9C0=E2=80=9D, =E2=80=9C1=E2=80=9D, =E2=80=A6, =
+=E2=80=9C19=E2=80=9D=20
+  and their corresponding values using your content provider=E2=80=99s =
+query()=20
+  interface. Again, each query should be preceded by a 1-second =
+delay.</SPAN>
+  <LI class=3Dc3><SPAN>Each retrieval should display the &lt;key, =
+value&gt; pair=20
+  retrieved on the screen. The format of the display is =
+=E2=80=9C&lt;key, value&gt;=E2=80=9D as=20
+  a string.</SPAN></LI></OL>
+<OL class=3Dc8 start=3D3>
+  <LI class=3Dc4><SPAN>LDump</SPAN></LI></OL>
+<OL class=3Dc0>
+  <LI class=3Dc3><SPAN>When clicked, this button should dump all the =
+&lt;key,=20
+  value&gt; pairs </SPAN><SPAN class=3Dc13>stored in your local=20
+  storage</SPAN><SPAN>. Since you need to implement a distributed =
+key-value=20
+  storage based on Dynamo, each instance stores &lt;key, value&gt; pairs =
+that=20
+  belong to one partition as well as replicas from other partitions. =
+This button=20
+  should display all local &lt;key, value&gt; pairs on the =
+screen.</SPAN>
+  <LI class=3Dc3><SPAN>The order of &lt;key, value&gt; pairs you display =
+does not=20
+  matter as long as it shows all locally stored &lt;key, value&gt; =
+pairs.</SPAN>
+  <LI class=3Dc3><SPAN>Note that each local storage in this assignment =
+should=20
+  contain replicas as well. Obviously, the LDump button should also =
+display=20
+  these replicas when clicked.</SPAN></LI></OL>
+<H3 class=3Dc10><SPAN>Step 2: Writing the Content Provider</SPAN></H3>
+<P class=3Dc10><SPAN>Along with the main activity, your app should have =
+a content=20
+provider. Just like the previous assignment, this content provider =
+should=20
+implement all storage functionalities. For example, it should create =
+server and=20
+client threads (if this is what you decide to implement), open sockets, =
+and=20
+respond to incoming requests. The following are the requirements for =
+your=20
+content provider:</SPAN></P>
+<OL class=3Dc8>
+  <LI class=3Dc4><SPAN class=3D"c5 c13">Membership</SPAN></LI></OL>
+<OL class=3Dc0>
+  <LI class=3Dc3><SPAN class=3Dc12>Just as the original Dynamo, every =
+node should=20
+  know every other node.</SPAN><SPAN>&nbsp;This means that each node =
+knows all=20
+  other nodes in the system and also knows exactly which partition =
+belongs to=20
+  which node; any node can forward a request to the correct node without =
+using a=20
+  ring-based routing.</SPAN>
+  <LI class=3Dc3><SPAN>Unlike the original Dynamo, you can assume that =
+there are=20
+  </SPAN><SPAN class=3Dc12>always 3 nodes in the system</SPAN><SPAN>. =
+There is no=20
+  need to implement adding/removing nodes from the system.</SPAN>
+  <LI class=3Dc3><SPAN>However, there can be </SPAN><SPAN class=3Dc2>at =
+most 1 node=20
+  failure at any given time</SPAN><SPAN>. We will discuss this in detail =
+
+  later.</SPAN>
+  <LI class=3Dc3><SPAN>Each content provider instance should have a node =
+id=20
+  derived from its emulator port. </SPAN><SPAN class=3Dc2>This node id =
+should be=20
+  obtained by applying the above hash function (i.e., genHash()) to the =
+emulator=20
+  port.</SPAN><SPAN>&nbsp;For example, the node id of the content =
+provider=20
+  instance running on emulator-5554 should be, </SPAN><SPAN =
+class=3Dc13>node_id =3D=20
+  genHash(=E2=80=9C5554=E2=80=9D)</SPAN><SPAN>. This is necessary to =
+find the correct position=20
+  of each node in the Dynamo ring.</SPAN></LI></OL>
+<OL class=3Dc8 start=3D2>
+  <LI class=3Dc4><SPAN class=3D"c5 c13">Request routing</SPAN></LI></OL>
+<OL class=3Dc0>
+  <LI class=3Dc3><SPAN>Unlike Chord, each Dynamo node knows all other =
+nodes in the=20
+  system and also knows exactly which partition belongs to which =
+node.</SPAN>
+  <LI class=3Dc3><SPAN>Under no failures, all requests should be =
+directly=20
+  forwarded to the coordinator, and the coordinator should be in charge =
+of=20
+  serving read/write operations.</SPAN></LI></OL>
+<OL class=3Dc8 start=3D3>
+  <LI class=3Dc4><SPAN class=3D"c5 c13">Quorum =
+replication</SPAN></LI></OL>
+<OL class=3Dc0>
+  <LI class=3Dc3><SPAN class=3Dc12>The replication degree N should be=20
+  3.</SPAN><SPAN>&nbsp;This means that given a key, the key=E2=80=99s =
+coordinator as=20
+  well as the 2 successor nodes in the Dynamo ring should store the =
+key.</SPAN>
+  <LI class=3Dc3><SPAN class=3Dc12>Both the reader quorum size R and the =
+writer=20
+  quorum size W should be 2.</SPAN>
+  <LI class=3Dc3><SPAN>T</SPAN><SPAN>he coordinator for a get/put =
+request should=20
+  </SPAN><SPAN class=3Dc2>always contact other two =
+nodes</SPAN><SPAN>&nbsp;and get=20
+  the votes. For each request, the coordinator should return to the =
+requester=20
+  whether the request was successful or not. If the coordinator fails to =
+obtain=20
+  the minimum number of votes, it should return an error.</SPAN>
+  <LI class=3Dc3><SPAN>For write operations, all objects should be =
+</SPAN><SPAN=20
+  class=3Dc16>versioned</SPAN><SPAN>&nbsp;in order to distinguish stale =
+copies=20
+  from the most recent copy.</SPAN>
+  <LI class=3Dc3><SPAN>For read operations, if the readers in the reader =
+quorum=20
+  have different versions of the same object, the coordinator should =
+pick the=20
+  most recent version and return it.</SPAN></LI></OL>
+<OL class=3Dc8 start=3D4>
+  <LI class=3Dc4><SPAN class=3D"c5 c13">Failure =
+handling</SPAN></LI></OL>
+<OL class=3Dc0>
+  <LI class=3Dc3><SPAN class=3D"c2 c5">Warning: this part is the main =
+difficulty of=20
+  this assignment.</SPAN><SPAN class=3Dc2>&nbsp;</SPAN><SPAN>Handling =
+failures=20
+  should be done very carefully because there can be many corner cases =
+to=20
+  consider and cover.</SPAN>
+  <LI class=3Dc3><SPAN class=3Dc12>At any point of time, there can be at =
+most one=20
+  node failure.</SPAN><SPAN>&nbsp;We will emulate a failure only by =
+force=20
+  closing an app instance. We will </SPAN><SPAN=20
+  class=3D"c2 c5">not</SPAN><SPAN>&nbsp;emulate a failure by killing an =
+entire=20
+  emulator instance. You can force close an app by going to =
+=E2=80=9CSettings=E2=80=9D -&gt;=20
+  =E2=80=9CApplications=E2=80=9D, then select the app. There=E2=80=99s a =
+=E2=80=9Cforce close=E2=80=9D button.</SPAN>
+  <LI class=3Dc3><SPAN class=3Dc2>You can assume that a node fails only =
+when there=20
+  is no outstanding request. </SPAN><SPAN>Although this is an =
+unrealistic=20
+  assumption, it greatly simplifies the complexity of your =
+implementation.=20
+  Handling a node failure when there=E2=80=99s an outstanding read/write =
+request is=20
+  significantly harder.</SPAN>
+  <LI class=3Dc3><SPAN class=3Dc2>All failures are =
+temporary;</SPAN><SPAN>&nbsp;you=20
+  need to assume that a failed node will recover soon. </SPAN><SPAN=20
+  class=3Dc12>When a node recovers, it should copy all the object writes =
+it missed=20
+  during the failure. </SPAN><SPAN>This can be done by asking the right =
+nodes=20
+  and copy from them. Again, you can assume that there is no outstanding =
+request=20
+  during a node recovery.</SPAN>
+  <LI class=3Dc3><SPAN class=3Dc2>Please focus on correctness rather =
+than=20
+  performance.</SPAN><SPAN>&nbsp;Once you handle failures correctly, if =
+you=20
+  still have time, you can improve your performance.</SPAN>
+  <LI class=3Dc3><SPAN class=3Dc12>There is no need to implement a =
+failure=20
+  detector;</SPAN><SPAN>&nbsp;just as the original Dynamo, each request =
+should=20
+  be used to detect a node failure.</SPAN>
+  <LI class=3Dc3><SPAN class=3Dc12>For this purpose, you can use a =
+timeout for a=20
+  socket read;</SPAN><SPAN>&nbsp;you can pick a reasonable timeout =
+value, e.g.,=20
+  100 ms, and if a node does not respond within the timeout, you can =
+consider it=20
+  a failure.</SPAN>
+  <LI class=3Dc3><SPAN class=3D"c2 c5">Do not rely on socket creation or =
+connect=20
+  status to determine if a node has failed.</SPAN><SPAN>&nbsp;Due to the =
+Android=20
+  emulator networking setup, it is not safe to rely on socket creation =
+or=20
+  connect status to judge node failures. Please use an explicit method =
+to test=20
+  whether an app instance is running or not, e.g., using a socket read =
+timeout=20
+  as described above.</SPAN>
+  <LI class=3Dc3><SPAN>Just as the original Dynamo, when a coordinator =
+for a=20
+  request fails and it does not respond to the request, </SPAN><SPAN=20
+  class=3Dc12>its successor should be contacted next for the =
+request</SPAN><SPAN=20
+  class=3Dc2>.</SPAN>
+  <LI class=3Dc3><SPAN>There is no need to implement hinted handoff; =
+during a=20
+  write request, if there is a failed node, </SPAN><SPAN =
+class=3Dc12>your=20
+  implementation should simply skip the failed node for the write=20
+  operation.</SPAN></LI></OL>
+<OL class=3Dc8 start=3D5>
+  <LI class=3Dc4><SPAN class=3D"c5 c13">Your content provider=E2=80=99s =
+URI should be=20
+  =
+</SPAN><SPAN>=E2=80=9Ccontent://edu.buffalo.cse.cse486_586.simpledynamo.p=
+rovider=E2=80=9D,=20
+  which means that any app should be able to access your content =
+provider using=20
+  that URI. This is already defined in the template, so please =
+don=E2=80=99t change=20
+  this. Your content provider does not need to match/support any other =
+URI=20
+  pattern (though for your =E2=80=9CLDump=E2=80=9D button, you =
+</SPAN><SPAN=20
+  class=3Dc12>might</SPAN><SPAN>&nbsp;want to match something like=20
+  =
+=E2=80=9Ccontent://edu.buffalo.cse.cse486_586.simpledynamo.provider/*=E2=80=
+=9D, but this is=20
+  not required and up to you).</SPAN>
+  <LI class=3Dc4><SPAN class=3D"c5 c13">We have fixed the ports &amp;=20
+  sockets.</SPAN></LI></OL>
+<OL class=3Dc0>
+  <LI class=3Dc3><SPAN>Your app should open one server socket that =
+listens on=20
+  10000.</SPAN>
+  <LI class=3Dc3><SPAN>You need to use run_avd.py and set_redir.py to =
+set up the=20
+  testing environment.</SPAN>
+  <LI class=3Dc3><SPAN>The grading will use 3 AVDs. The redirection =
+ports are=20
+  11108, 11112, and 11116.</SPAN>
+  <LI class=3Dc3><SPAN>You should just hard-code the above 3 ports and =
+use them to=20
+  set up connections.</SPAN>
+  <LI class=3Dc3><SPAN>Please use the code snippet provided in the PA1 =
+description=20
+  on how to determine your local AVD.</SPAN></LI></OL>
+<OL class=3Dc7>
+  <LI class=3Dc1><SPAN>avd0: =E2=80=9C5554=E2=80=9D</SPAN>
+  <LI class=3Dc1><SPAN>avd1: =E2=80=9C5556=E2=80=9D</SPAN>
+  <LI class=3Dc1><SPAN>avd2: =E2=80=9C5558=E2=80=9D</SPAN></LI></OL>
+<OL class=3Dc8 start=3D7>
+  <LI class=3Dc4><SPAN>Any app (not just your app) should be able to =
+access (read=20
+  and write) your content provider. As with the previous assignment, =
+please do=20
+  not include any permission to access your content provider. You can =
+test this=20
+  with</SPAN><SPAN class=3Dc9><A class=3Dc15=20
+  =
+href=3D"http://www.google.com/url?q=3Dhttp%3A%2F%2Fwww.cse.buffalo.edu%2F=
+~stevko%2Fcourses%2Fcse486%2Fspring13%2Ffiles%2FDynamoTester.apk&amp;sa=3D=
+D&amp;sntz=3D1&amp;usg=3DAFQjCNHGMYPYHNPErb6Y686p_VlA4ygu8A">&nbsp;Dynamo=
+Tester.apk</A></SPAN><SPAN>.</SPAN>
+  <LI class=3Dc4><SPAN class=3Dc16>Note that your content provider =
+should only store=20
+  the &lt;key, value&gt; pairs that belong to its own partition =
+including=20
+  replicated &lt;key, value&gt; =
+pairs.</SPAN><SPAN>&nbsp;</SPAN></LI></OL>
+<H3 class=3Dc10><SPAN>Design Document</SPAN></H3>
+<P class=3Dc10><SPAN>You need to write a design document of up to 2 =
+pages (12 pt=20
+font in .pdf). This should include:</SPAN></P>
+<OL class=3Dc8>
+  <LI class=3Dc4><SPAN>What components you designed and what they =
+do</SPAN>
+  <LI class=3Dc4><SPAN class=3Dc2>A discussion of what consistency model =
+your=20
+  implementation achieves under the assumptions of this=20
+  assignment.</SPAN><SPAN>&nbsp;The way you handle failures and how your =
+system=20
+  behaves under failures greatly affects what consistency you can =
+provide.=20
+  Please carefully write this part and discuss what consistency model =
+your=20
+  implementation can achieve.</SPAN></LI></OL>
+<H3 class=3Dc10><SPAN>Submission</SPAN></H3>
+<P class=3Dc10><SPAN>We use the CSE submit script. You need to use =
+either=20
+=E2=80=9C</SPAN><SPAN class=3Dc22>submit_cse486=E2=80=9D or =
+=E2=80=9Csubmit_cse586=E2=80=9D, depending on your=20
+registration status.</SPAN><SPAN>&nbsp;If you haven=E2=80=99t used it, =
+the instructions=20
+on how to use it is here:</SPAN><SPAN><A class=3Dc15=20
+href=3D"https://wiki.cse.buffalo.edu/services/content/submit-script">&nbs=
+p;</A></SPAN><SPAN=20
+class=3Dc6><A class=3Dc15=20
+href=3D"https://wiki.cse.buffalo.edu/services/content/submit-script">http=
+s://wiki.cse.buffalo.edu/services/content/submit-script</A></SPAN></P>
+<P class=3D"c10 c19"><SPAN class=3Dc6><A class=3Dc15=20
+href=3D"https://wiki.cse.buffalo.edu/services/content/submit-script"></A>=
+</SPAN></P>
+<P class=3Dc10><SPAN>One again, you need to submit three </SPAN><SPAN=20
+class=3Dc18>separate</SPAN><SPAN>&nbsp;files described below. =
+</SPAN><SPAN=20
+class=3D"c16 c5">You must follow everything below exactly. Otherwise, =
+you will get=20
+no point on this assignment.</SPAN></P>
+<OL class=3Dc17>
+  <LI class=3Dc4><SPAN>Your app=E2=80=99s .apk: The name should be=20
+SimpleDynamo.apk.</SPAN>
+  <LI class=3Dc4><SPAN>Your design document in .pdf: The name should be=20
+  SimpleDynamo.pdf. Please do not submit a .docx or .txt file.</SPAN>
+  <LI class=3Dc4><SPAN>Your entire Eclipse project source code tree =
+zipped up in=20
+  .zip: The name should be SimpleDynamo.zip. To do this, please go to =
+your=20
+  Eclipse workspace directory, find your app, and zip it. Please do not =
+use any=20
+  other compression tool other than zip, i.e., no 7-Zip, no RAR, etc. =
+Please=20
+  make sure to zip the top-level directory that contains all the source, =
+i.e.,=20
+  unzipping should create one =E2=80=9CSimpleDynamo=E2=80=9D directory =
+that contains all the=20
+  source files.</SPAN></LI></OL>
+<H3 class=3Dc10><SPAN>Deadline: </SPAN><SPAN class=3Dc16>4/26/13 =
+(Friday)=20
+2:59pm</SPAN></H3>
+<P class=3Dc10><SPAN>This is right before class @ 3pm. The deadline is =
+firm; if=20
+your timestamp is 3pm, it is a late submission.</SPAN></P>
+<H3 class=3Dc10><SPAN>Grading</SPAN></H3>
+<P class=3Dc10><SPAN>This assignment is 15% of your final grade. The =
+breakdown for=20
+this assignment is:</SPAN></P>
+<OL class=3Dc17>
+  <LI class=3Dc4><SPAN>10%: your app</SPAN></LI></OL>
+<OL class=3Dc20>
+  <LI class=3Dc3><SPAN>1% if the put, get, and dump buttons work =
+correctly (apart=20
+  from the underlying storage implementation)</SPAN>
+  <LI class=3Dc3><SPAN>3% if insert/query/replication works correctly =
+under no=20
+  failures</SPAN>
+  <LI class=3Dc3><SPAN>3% if insert/query/replication works correctly =
+under one=20
+  failure</SPAN>
+  <LI class=3Dc3><SPAN>3% if node recovery works =
+correctly</SPAN></LI></OL>
+<OL class=3Dc17 start=3D2>
+  <LI class=3Dc4><SPAN>5%: your design document</SPAN></LI></OL>
+<OL class=3Dc20>
+  <LI class=3Dc3><SPAN>2% for the correct and clear description of your =
+failure=20
+  handling</SPAN>
+  <LI class=3Dc3><SPAN>2% for the correct and clear description of the =
+consistency=20
+  model your group tries to achieve and why</SPAN>
+  <LI class=3Dc3><SPAN>1% for the overall clarity of the rest of the=20
+  description</SPAN></LI></OL></DIV>
+<DIV id=3Dfooter><SPAN>=E7=94=B1 <A title=3D"Learn more about Google =
+Drive"=20
+href=3D"https://docs.google.com/" target=3D_blank>Google =
+=E4=BA=91=E7=AB=AF=E7=A1=AC=E7=9B=98</A>=E5=8F=91=E5=B8=83</SPAN><SPAN=20
+class=3Ddash>=E2=80=93</SPAN><A=20
+href=3D"https://docs.google.com/abuse?id=3D1L7qJExo6JX7PKq49jXt0k64vHCsNV=
+-fu-9o2pjakOZs">=E4=B8=BE=E6=8A=A5=E6=BB=A5=E7=94=A8=E8=A1=8C=E4=B8=BA</A=
+><SPAN=20
+class=3Ddash>=E2=80=93</SPAN><SPAN>=E6=AF=8F 5 =
+=E5=88=86=E9=92=9F=E8=BF=9B=E8=A1=8C=E8=87=AA=E5=8A=A8=E6=9B=B4=E6=96=B0<=
+/SPAN></DIV>
+<SCRIPT type=3Dtext/javascript>=0A=
+(function(){var =
+e=3D!1;if(window.jstiming){window.jstiming.a=3D{};window.jstiming.b=3D1;v=
+ar k=3Dfunction(b,a,d){var c=3Db.t[a],g=3Db.t.start;if(c&&(g||d))return =
+c=3Db.t[a][0],void 0!=3Dd?g=3Dd:g=3Dg[0],c-g},p=3Dfunction(b,a,d){var =
+c=3D"";window.jstiming.pt&&(c+=3D"&srt=3D"+window.jstiming.pt,delete =
+window.jstiming.pt);try{window.external&&window.external.tran?c+=3D"&tran=
+=3D"+window.external.tran:window.gtbExternal&&window.gtbExternal.tran?c+=3D=
+"&tran=3D"+window.gtbExternal.tran():window.chrome&&window.chrome.csi&&(c=
++=3D"&tran=3D"+window.chrome.csi().tran)}catch(g){}var f=3D=0A=
+window.chrome;if(f&&(f=3Df.loadTimes)){f().wasFetchedViaSpdy&&(c+=3D"&p=3D=
+s");if(f().wasNpnNegotiated){var =
+c=3Dc+"&npn=3D1",l=3Df().npnNegotiatedProtocol;l&&(c+=3D"&npnv=3D"+(encod=
+eURIComponent||escape)(l))}f().wasAlternateProtocolAvailable&&(c+=3D"&apa=
+=3D1")}var m=3Db.t,t=3Dm.start,f=3D[],l=3D[],h;for(h in =
+m)if("start"!=3Dh&&0!=3Dh.indexOf("_")){var =
+n=3Dm[h][1];n?m[n]&&l.push(h+"."+k(b,h,m[n][0])):t&&f.push(h+"."+k(b,h))}=
+delete m.start;if(a)for(var q in =
+a)c+=3D"&"+q+"=3D"+a[q];(a=3Dd)||(a=3D"https:"=3D=3Ddocument.location.pro=
+tocol?"https://csi.gstatic.com/csi":=0A=
+"http://csi.gstatic.com/csi");return[a,"?v=3D3","&s=3D"+(window.jstiming.=
+sn||"_s")+"&action=3D",b.name,l.length?"&it=3D"+l.join(","):"","",c,"&rt=3D=
+",f.join(",")].join("")};window.jstiming.getReportUri=3Dp;var =
+r=3Dfunction(b,a,d){b=3Dp(b,a,d);if(!b)return"";a=3Dnew Image;var =
+c=3Dwindow.jstiming.b++;window.jstiming.a[c]=3Da;a.onload=3Da.onerror=3Df=
+unction(){window.jstiming&&delete =
+window.jstiming.a[c]};a.src=3Db;a=3Dnull;return =
+b};window.jstiming.report=3Dfunction(b,a,d){if("prerender"=3D=3Ddocument.=
+webkitVisibilityState){var c=3De,g=3D=0A=
+function(){if(!c){a?a.prerender=3D"1":a=3D{prerender:"1"};var =
+f;"prerender"=3D=3Ddocument.webkitVisibilityState?f=3De:(r(b,a,d),f=3D!0)=
+;f&&(c=3D!0,document.removeEventListener("webkitvisibilitychange",g,e))}}=
+;document.addEventListener("webkitvisibilitychange",g,e);return""}return =
+r(b,a,d)};window.jstiming.reportDone=3Dfunction(b){if(window.jstiming.b<=3D=
+(b||1))return e;for(var a in window.jstiming.a)return e;return!0};var =
+s=3Dfunction(b,a,d,c){return =
+0<d?(c?b.tick(a,c,d):b.tick(a,"",d),!0):e};window.jstiming.getNavTiming=3D=0A=
+function(b){if(window.performance&&window.performance.timing){var =
+a=3Dwindow.performance.timing;s(b,"_dns",a.domainLookupStart)&&s(b,"dns_"=
+,a.domainLookupEnd,"_dns");s(b,"_con",a.connectStart)&&s(b,"con_",a.conne=
+ctEnd,"_con");s(b,"_req",a.requestStart)&&s(b,"req_",a.responseStart,"_re=
+q");s(b,"_rcv",a.responseStart)&&s(b,"rcv_",a.responseEnd,"_rcv");if(s(b,=
+"_ns",a.navigationStart)){s(b,"ntsrt_",a.responseStart,"_ns");s(b,"nsfs_"=
+,a.fetchStart,"_ns");var =
+d=3Dwindow.external&&window.external.startE;!d&&(window.chrome&&=0A=
+window.chrome.csi)&&(d=3DMath.floor(window.chrome.csi().startE));d&&(s(b,=
+"_se",d),s(b,"sens_",a.navigationStart,"_se"));s(b,"ntplt0_",a.loadEventS=
+tart,"_ns");s(b,"ntplt1_",a.loadEventEnd,"_ns")}}}};})()=0A=
+</SCRIPT>
+
+<SCRIPT type=3Dtext/javascript>KX_timer.tick('tl'); if =
+(document.location.protocol =3D=3D 'https:') =
+{window.jstiming.report(KX_timer, undefined , =
+'https://gg.google.com/csi');} else =
+{window.jstiming.report(KX_timer);}</SCRIPT>
+</BODY></HTML>

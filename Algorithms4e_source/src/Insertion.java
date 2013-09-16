@@ -130,5 +130,7 @@ public class Insertion {
         Insertion.sort(a);
         show(a);
     }
+
+
 }
 
